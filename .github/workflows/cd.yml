@@ -17,6 +17,9 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: |
+          date=$(date '+%Y%m%d')
+          echo "- \fancyfoot[L]{v1.0.0-rc+$date}" >> metadata.yml
+      - run: |
           sudo apt-get install \
             texlive-latex-base \
             texlive-fonts-recommended \
