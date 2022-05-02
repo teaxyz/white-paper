@@ -26,7 +26,7 @@ author:
 header-includes:
 - \usepackage{fancyhdr}
 - \pagestyle{fancy}
-- \fancyfoot[LE,RO]{© 2022 tea inc.}
+- \fancyfoot[LE,RO]{© 2022 tea.inc.}
 references:
 - id: sources
   url: https://github.com/teaxyz/white-paper
