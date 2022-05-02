@@ -22,9 +22,9 @@ In this paper, we propose tea — a decentralized system for fairly remunerating
 
 ![Simplified view of the tea steeping rewards system.](img/figure-1.svg)
 
-[^1]: Source: https://nvd.nist.gov/vuln/detail/CVE-2021-44228
-[^2]: Source:  https://www.reuters.com/article/usa-cyber-vulnerability-idCNL1N2SY2PA
-[^3]: Source: https://twitter.com/yazicivo/status/1469349956880408583
+[^1]: Source: @nist
+[^2]: Source: @reuters
+[^3]: Source: @twitter
 
 
 # Components
@@ -40,7 +40,7 @@ Additionally, we believe that material information must be available via the pac
 
 We predict that tea’s combination of tools, information, and rewards will stimulate the growth of open-source software and foster innovation.
 
-[^4]: See: https://www.w3.org/TR/did-core/
+[^4]: See: @w3
 
 ## The Decentralized Registry
 
@@ -55,12 +55,12 @@ Most tools that we call package managers cannot guarantee that these packages bu
 
 A decentralized registry augmented by a reputation system and supported by economic incentives designed to expose bad actors and reward good actors may provide the guarantees developer communities have been looking for.
 
-[^5]: Source: https://www.theregister.com/2016/03/23/npm_left_pad_chaos/
-[^6]: Source: https://fossa.com/blog/npm-packages-colors-faker-corrupted/
-[^7]: Source: https://www.lunasec.io/docs/blog/node-ipc-protestware/
-[^8]: Source: https://github.com/dominictarr/event-stream/issues/116
-[^9]: Source: https://www.zdnet.com/article/open-source-software-how-many-bugs-are-hidden-there-on-purpose/
-[^10]: Source: https://threatpost.com/backdoor-found-in-utility-for-linux/147581/
+[^5]: Source: @theregister
+[^6]: Source: @fossa
+[^7]: Source: @lunasec
+[^8]: Source: @github
+[^9]: Source: @zdnet
+[^10]: Source: @threatpost
 
 
 ## The Storage System
@@ -69,8 +69,8 @@ Open-source packages deliver a broad range of functionality, some of which may b
 
 Encryption’s broad applications have made it a perfect use case for open-source software and a great example that any solution that stores packages must be tamper-proof and censorship-resistant. tea is a decentralized protocol that does not intend to filter or sanction packages based on their functionality. While the tea governance may elect to remove proven malicious packages (see the governance section for more information), it is critical for the tea system to connect with multiple storage systems, including decentralized storage systems that demonstrate that a package is unaltered and correctly replicated. Package maintainers may choose the storage system best suited for their need to store and distribute their packages securely.
 
-[^11]: Source: https://www.fbi.gov/news/stories/phantom-secure-takedown-031618
-[^12]: Source: https://www.europol.europa.eu/media-press/newsroom/news/800-criminals-arrested-in-biggest-ever-law-enforcement-operation-against-encrypted-communication
+[^11]: Source: @fbi
+[^12]: Source: @europol
 
 # Network Participants
 
@@ -86,7 +86,7 @@ It is essential to provide developer communities with the right tools to determi
 
 We propose introducing incentives via the tea token described in the tea token section for the open-source communities to report their findings constructively, so package maintainers can address them before they are exploited.
 
-[^13]: Source: https://medium.com/intrinsic-blog/compromised-npm-package-event-stream-d47d08605502
+[^13]: Source: @medium
 
 ## Package Users
 
@@ -113,7 +113,7 @@ tea tasters, typically, are experienced software developers willing to dedicate 
 
 Like package supporters, tea tasters can influence a package and package maintainer’s reputation; however, their impact is more significant given their role in validating a package’s security, functionality, and quality. tea tasters will also need to build their reputation to support their claims. The quality of their work and the economic value they put at risk as they steep their reviews combined with other external data sources will build each tea taster’s reputation, bringing more value to their work. See the package reputation section for more details on the mechanisms used to influence a package and package maintainer’s reputation.
 
-[^14]: See: https://semver.org/
+[^14]: See: @semver
 
 # Protocol Overview
 
@@ -125,9 +125,9 @@ We must provide developers with tools to access and contribute to this reputatio
 
 Our goal is to reward both Web 2.0 and web3 developers. The intricacies and specifics of each stack make it so that tracking installations and uninstallations of packages could easily fall victim to one or more bad actors. That includes “buying” installations to artificially inflate numbers. An even worse scenario would be introducing fundamental changes to the nature of open-source software by creating unnecessary friction with license keys or other deployment tracking mechanisms. To provide the broadest coverage, we believe that rewards mustn’t rely on tracking installations or uninstallations but rather on incentive mechanisms that encourage the submission of quality packages and the reporting of nefarious or high-risk packages. Lastly, many packages rely on common dependencies. For example, lodash has 151,209 dependents[^15] while chalk has 78,854 dependents[^16] or log4js has 3,343 dependents[^17]. As more packages are created using the same dependencies, how do we ensure that incentives are distributed fairly and equitably? How do we ensure that the most utilized dependencies are rewarded without starving new or emerging packages and developers? How do we ensure that the incentive system does not end-up steering developers away from niche languages to centralize them where incentives are better? But also, as developers, how do we identify packages with most dependents to build alternatives - leaner, more efficient, better-coded versions of these packages? At tea, we believe that lack of incentive has impeded the evolution of open-source software. Supported by the right economic incentives and rewards, more developers will be in a position to build, improve and augment open–source software for the betterment of the world. Only then will the tea token be able to represent the total value of open-source software.
 
-[^15]: Source: https://www.npmjs.com/package/lodash
-[^16]: Source: https://www.npmjs.com/package/chalk
-[^17]: Source: https://www.npmjs.com/package/log4js
+[^15]: Source: @npmjsLodash
+[^16]: Source: @npmjsChalk
+[^17]: Source: @npmjsLogFourjs
 
 ## Package Submission
 
@@ -168,7 +168,7 @@ Package maintainers must contribute to their package’s reputation and trustwor
 
 Similar to the production of blocks on a proof-of-stake blockchain, where non-producing nodes can validate the work of others and, when necessary, highlight a violation of the rules of the network, which leads to a penalization of the bad actor through slashing (destruction of a portion of their stake), we propose a system whereby third-parties (aka tea tasters) would be able to review packages produced by package maintainers and be economically incentivized to behave in the best interest of the open-source software community and its users as well as recognize good behavior and penalize bad behavior. This system must be both Sybil resistant and prevent large token holders from materially influencing the protocol or the reputation of specific packages. We believe that this approach would be congruent with open-source and therefore provide a more fertile substrate to foster adoption and trust and ultimately facilitate the growth of tea.
 
-[^18]: Source: https://arxiv.org/abs/1207.2617
+[^18]: Source: @arxiv
 
 ## Package Review by Third Parties
 
@@ -286,7 +286,7 @@ We propose introducing a slashing mechanism to establish a more material downsid
 
 To prevent community members from randomly voting “against” highly steeped packages so that they receive the majority of the penalty, all tea tokens steeped “against” will not be rewarded with inflation and may be subject to a decay mechanism, thus reducing their value over time.
 
-[^19]: Source: https://research.web3.foundation/en/latest/polkadot/overview/2-token-economics.html
+[^19]: Source: @web3
 
 
 # Governance
@@ -349,23 +349,3 @@ $\parskip=0pt plus 1pt$
 | Steeping | The action of locking tea tokens to support your claim and receive rewards (or penalties) based on the consensus on the validity of your claim. |
 
 # References
-
-1. https://nvd.nist.gov/vuln/detail/CVE-2021-44228
-2. https://www.reuters.com/article/usa-cyber-vulnerability-idCNL1N2SY2PA
-3. https://twitter.com/yazicivo/status/1469349956880408583
-4. https://www.w3.org/TR/did-core/
-5. https://www.theregister.com/2016/03/23/npm_left_pad_chaos/
-6. https://fossa.com/blog/npm-packages-colors-faker-corrupted/
-7. https://www.lunasec.io/docs/blog/node-ipc-protestware/
-8. https://github.com/dominictarr/event-stream/issues/116
-9. https://www.zdnet.com/article/open-source-software-how-many-bugs-are-hidden-there-on-purpose/
-10. https://threatpost.com/backdoor-found-in-utility-for-linux/147581/
-11. https://www.fbi.gov/news/stories/phantom-secure-takedown-031618
-12. https://www.europol.europa.eu/media-press/newsroom/news/2. 800-criminals-arrested-in-biggest-ever-law-enforcement-operation-against-encrypted-communication
-13. https://medium.com/intrinsic-blog/compromised-npm-package-event-stream-d47d08605502
-14. https://semver.org/
-15. https://www.npmjs.com/package/lodash
-16. https://www.npmjs.com/package/chalk
-17. https://www.npmjs.com/package/log4js
-18. ​https://arxiv.org/abs/1207.2617
-19. https://research.web3.foundation/en/latest/polkadot/overview/2-token-economics.html

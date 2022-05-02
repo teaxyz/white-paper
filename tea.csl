@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" version="1.0" default-locale="en-US">
+  <info>
+    <title>World Wide Web - Tea variant</title>
+    <title-short>World Wide Web - Tea</title-short>
+    <category citation-format="note" />
+    <category field="generic-base" />
+    <updated>2022-05-02T021:57:32+00:00</updated>
+    <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
+  </info>
+  <citation>
+    <layout>
+      <text variable="url" />
+    </layout>
+  </citation>
+  <bibliography>
+    <layout>
+      <text variable="citation-number" suffix=". " />
+      <text variable="url" />
+    </layout>
+  </bibliography>
+</style>
