@@ -1,7 +1,12 @@
+name: cd
 on:
   push:
     branches:
       - main
+    paths:
+      - white-paper.md
+      - metadata.yml
+      - img/*
   pull_request:
     paths:
       - white-paper.md

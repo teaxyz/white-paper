@@ -1,0 +1,17 @@
+on:
+  workflow_run:
+    workflows: [cd]
+    types: [completed]
+
+jobs:
+  artifacts-url-comments:
+    runs-on: windows-2019  # required by action
+    steps:
+      - uses: tonyhallett/artifacts-url-comments@main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          prefix: "pandoc produced"
+          suffix: "this field is strangely mandatory"
+          format: "name"
+          addTo: "pull"
