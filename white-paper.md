@@ -14,9 +14,7 @@ Enterprises often wrap business models around open-source, generating revenue di
 
 Sadly, Log4J is far from the only example. JSCore is downloaded 30 million times per week. It’s the base of every NodeJS application, yet it is also barely funded. Recently several bitcoin core developers resigned, citing, among other reasons, a lack of financial compensation for their decision.
 
-There have been multiple attempts at providing incentive structures. The most common are sponsorship and bounty systems. Sponsorship makes it possible for consumers of open-source to donate to the projects they favor. However, open-source is a tower of bricks where lower layers are long forgotten but still maintained by dedicated engineers and relied upon by even more developers. Only projects at the top of the tower
-
-are typically known and receive sponsorship. This biased selection leads to essential bricks that hold up the tower attracting no donations and favorites receiving more than they need. Bounties allow consumers of projects to propose payment for developers to build specific features, thus only remunerating projects for doing things not necessarily in their best interest. And again, only rewarding favorites.
+There have been multiple attempts at providing incentive structures. The most common are sponsorship and bounty systems. Sponsorship makes it possible for consumers of open-source to donate to the projects they favor. However, open-source is a tower of bricks where lower layers are long forgotten but still maintained by dedicated engineers and relied upon by even more developers. Only projects at the top of the tower are typically known and receive sponsorship. This biased selection leads to essential bricks that hold up the tower attracting no donations and favorites receiving more than they need. Bounties allow consumers of projects to propose payment for developers to build specific features, thus only remunerating projects for doing things not necessarily in their best interest. And again, only rewarding favorites.
 
 In this paper, we propose tea — a decentralized system for fairly remunerating open-source developers based on their contributions to the entire ecosystem and enacted through the tea incentive algorithm applied across all entries in the tea registry.
 
@@ -36,6 +34,7 @@ A software developer building an application needs four things: a browser, a ter
 The package manager knows what open-source software an application depends on to function, from the top of the tower to its base. Every component and version essential to the application is known and recorded. It knows that the top of the tower carefully selects its dependencies and that careful selection continues down. The package manager is uniquely placed in the developer tool stack to enable automated and precise value distribution based on actual real-world usage.
 
 We propose an immutable decentralized registry designed to distribute value based on an algorithm that determines each entry’s contribution to the system’s utility and health. Value can enter the graph at apex points—apps and essential libraries—and be distributed to the dependencies of those apex points and their dependencies recursively since the registry knows the entire open-source graph.
+
 Additionally, we believe that material information must be available via the package manager for developers to assess whether they can trust a package and its author. This information may be based on reputation, community kudos, data retrieved from decentralized identity (DID[^4]) systems, other package managers, or incentive mechanisms that potentially rely on network participants putting economic value at risk.
 
 We predict that tea’s combination of tools, information, and rewards will stimulate the growth of open-source software and foster innovation.
@@ -205,9 +204,10 @@ An important part of reputation building relies on the frequency and quantity of
 
 # tea Token
 
-## Securing the network
+## Securing the Network
 
 While many blockchains may appear as effective and secure infrastructure solutions to support tea’s objectives, we believe that careful consideration must be given to the technology stack upon which the tea system is built.
+
 Scalability, cost-effectiveness, ESG, and third-party extensibility are important design considerations that a tea sovereign proof of stake system could better serve. In proof of stake, node operators and network participants stake economic value in the form of the chain’s native token to increase the system’s security. Node operators and network participants receive rewards for the successful production of blocks that comply with the rules of the network and include accurate transaction information. Inactivity (aka node down) or malicious/incorrect activity are penalized by destroying a fraction of the staked tokens through slashing.
 
 A proof of stake system powered by the tea token will allow tea token holders to contribute to the system’s security by *staking* tea and support open-source developers by steeping tea. Economic factors may prevent some developers from staking or steeping tea; as such, staking and steeping will be available for as little as a leaf, the smallest denomination of tea. A leaf represents one one-hundred-millionth ($10^{-8}$) of a tea.
@@ -217,25 +217,27 @@ Both applications of the tea token serve vital functions in the support and grow
 ## Incentives and Penalties
 
 As discussed earlier, there can be strong incentives for bad actors to compromise open-source software. The majority of the Internet’s critical infrastructure is running on open-source, and the race to find exploits and other vulnerabilities is on. At tea, we believe that package maintainers are not the ones that should be blamed (although they often are).
+
 tea protocol incentives fix this through a fair and equitable incentive distribution. A package like lodash with over 151k dependents is a pillar of open-source development, and its maintainer deserves to be rewarded proportionally. However, a reward system built solely on the number of dependents would prevent innovators from disrupting these monopolies unless they are sufficiently funded by third parties or have already accumulated enough resources to self-fund. This approach would likely lead to a shrinking number of contributors, thus creating the polar opposite of what tea is about.
+
 tea’s goal is to represent the value of open-source software and, in doing so, foster its growth by empowering its participants with the resources they need to pursue their passion unencumbered. The tea incentive distribution system needs to carefully consider the steeping ratio of each package and adjust each package’s incentive accordingly. To reduce the risk of a small number of packages used as dependencies across many applications collecting the majority of steeping rewards, we will leverage the research produced by the web3 Foundation[^19] for the Polkadot proof-of-stake-based rewards mechanism. We may alter the implementation and its variables based on the results of practical experiments.
 
-As a package steep approaches a governance-defined optimum steeping ratio, its steeping rewards ratio will decrease progressively. When a package exceeds its optimum steeping ratio, the steeping rewards ratio will decrease sharply to de-incentivize package supporters and tea tasters from further steeping these packages. Given their higher steeping ratio, this design could allow lesser steeped packages to become more attractive to both package supporters and tea tasters. This approach may also incentivize experienced developers to build alternatives to highly-steeped packages, thus creating an opportunity for the tea community to balance supporting existing software and promoting innovation. The steeping ratio will be calculated using the circulating supply in its initial design. The tea community may alter this design to improve the system’s scalability further. Let  be the steeping ratio across all packages. It represents the total number of tea tokens steeped by package maintainers, package users, package supporters and sponsors, and tea tasters divided by the total tea token supply. Given how many open-source packages are available today and their expected growth, $\upsilon$, will always be a very small value between $0$ and $1$.
+As a package steep approaches a governance-defined optimum steeping ratio, its steeping rewards ratio will decrease progressively. When a package exceeds its optimum steeping ratio, the steeping rewards ratio will decrease sharply to de-incentivize package supporters and tea tasters from further steeping these packages. Given their higher steeping ratio, this design could allow lesser steeped packages to become more attractive to both package supporters and tea tasters. This approach may also incentivize experienced developers to build alternatives to highly-steeped packages, thus creating an opportunity for the tea community to balance supporting existing software and promoting innovation. The steeping ratio will be calculated using the circulating supply in its initial design. The tea community may alter this design to improve the system’s scalability further. Let $\chi$ be the steeping ratio across all packages. It represents the total number of tea tokens steeped by package maintainers, package users, package supporters and sponsors, and tea tasters divided by the total tea token supply. Given how many open-source packages are available today and their expected growth, $\chi$, will always be a very small value between $0$ and $1$.
 
-Let $\upsilon$ be the staking ratio. It represents the total number of tea tokens staked by any network participant to secure the network.
+Let $\psi$ be the staking ratio. It represents the total number of tea tokens staked by any network participant to secure the network.
 
 Let $\chi_{ideal}$ be the steeping ratio we would like each package to attain for a fair distribution of rewards across all packages and their dependencies. The value of $\chi_{ideal}$ must be updated as new packages are added to the decentralized registry, and dependencies are created. To determine the best value for $\chi_{ideal}$, we will use a popularity bell curve updated at the start of each reward cycle.
 
-Let $\tau = \tau(\chi)$  be the annual steeping interest rate distributed to all tea community members who steep tea tokens to support open-source developers. In other words, $\tau(\chi)$ corresponds to the steeping reward received over a year by a community member that steeps tea tokens for the entire year.
+Let $\tau = \tau(\chi)$ be the annual steeping interest rate distributed to all tea community members who steep tea tokens to support open-source developers. In other words, $\tau(\chi)$ corresponds to the steeping reward received over a year by a community member that steeps tea tokens for the entire year.
 
-Let $\gamma = \gamma(\upsilon)$ be the annual staking interest rate distributed to all node operators and network participants who stake tea tokens to secure the network. In other words, $\gamma(\upsilon)$ corresponds to the staking reward received over a year by a community member that stakes tea tokens for the entire year.
+Let $\gamma = \gamma(\psi)$ be the annual staking interest rate distributed to all node operators and network participants who stake tea tokens to secure the network. In other words, $\gamma(\psi)$ corresponds to the staking reward received over a year by a community member that stakes tea tokens for the entire year.
 
 Let $\delta$ be the annual inflation directed at the network treasury. $\delta$ may vary as external factors affect the token supply.
 
-We consider the annual steeping reward rate as a function of $\chi$ and the annual staking reward rate as a function of $\upsilon$.
+We consider the annual steeping reward rate as a function of $\chi$ and the annual staking reward rate as a function of $\psi$.
 
 * $\tau(\chi)$ corresponds to the incentive for people to steep a package. As $\chi$ increases, fewer rewards $\tau(\chi)$ are needed.
-* $\gamma(\upsilon)$ corresponds to the incentive for people to stake the network. As $\upsilon$ increases, fewer rewards $\gamma(\upsilon)$ are needed to secure the network.
+* $\gamma(\psi)$ corresponds to the incentive for people to stake the network. As $\upsilon$ increases, fewer rewards $\gamma(\psi)$ are needed to secure the network.
 
 The annual inflation $I$ will be equivalent to $(\tau + \gamma + \delta)$ and calculated as follows:
 
@@ -256,28 +258,28 @@ $\chi = \chi_{ideal}$
 rewards
 $\tau_{ideal}(\chi)$
 should be maximal at that value.
-Let $\tau_{ideal} = \tau(\chi_{ideal}$
-be the reward rate delivered bu the network at the ideal scenario where
+Let $\tau_{ideal} = \tau(\chi_{ideal})$
+be the reward rate delivered by the network at the ideal scenario where
 $\chi = \chi_{ideal}$.
 
 Let $\tau_{0}$ be the limit of  $\tau_{\textsc{all}}(\chi)$ as $\chi$ goes to zero when no members of the tea community steep any packages. The value of $\tau_{0}$ should be close to zero but not zero to incentivize early adopters. As suggested by the web3 Foundation’s research, we propose that:
 
-* the inflation function grows linearly between $\tau = 0$ and $\tau = \tau_{ideal}$, and
-* a decay exponentially between $\tau = \tau_{ideal}$ and $\tau = 1$.
+* the inflation function grows linearly between $\chi = 0$ and $\chi = \chi_{ideal}$, and
+* a decay exponentially between $\chi = \chi_{ideal}$ and $\chi = 1$.
 
-We chose a similar exponential decrease for $\tau_{\textsc{all}}$ because it implies an exponential decrease of $\tau(\chi)$, and we want rewards to fall sharply beyond $\tau_{ideal}$ to prevent a single package from receiving all the rewards.
+We chose a similar exponential decrease for $\tau_{\textsc{all}}$ because it implies an exponential decrease of $\tau(\chi)$, and we want rewards to fall sharply beyond $\chi_{ideal}$ to prevent a single package from receiving all the rewards.
 
-The decay is defined so that the inflation rate decreases by at most 50% when  $\tau$ shifts $d$ units to the right of $\tau_{ideal}$ – i.e.
+The decay is defined so that the inflation rate decreases by at most 50% when  $\chi$ shifts $d$ units to the right of $\chi_{ideal}$ – i.e.
 $\tau_{\textsc{all}}(\chi_{ideal} + d) \geq \tau_{\textsc{all}} \cdot 0.5$.
 
 We propose the following interest rate and inflation rate functions, which depend on the parameters $\chi_{ideal}$, $\tau_{ideal}$, $\tau_{0}$ and $d$.
 
 $$
-\tau_{\textsc{all}}(\chi) = \tau_{0} + (\tau_{\textsc{all}}(\chi_{ideal}) - \tau_{0})\frac{\chi}{\chi_{ideal}} for 0 < \chi \leq \chi_{ideal}
+\tau_{\textsc{all}}(\chi) = \tau_{0} + (\tau_{\textsc{all}}(\chi_{ideal}) - \tau_{0})\frac{\chi}{\chi_{ideal}}  for  0 < \chi \leq \chi_{ideal}
 $$
 
 $$
-\tau_{\textsc{all}}(\chi) = \tau_{0} + (\tau_{\textsc{all}}(\chi_{ideal}) - \tau_{0}) \cdot 2^{(\chi_{ideal}/d)} for \chi_{ideal} < \chi \leq 1
+\tau_{\textsc{all}}(\chi) = \tau_{0} + (\tau_{\textsc{all}}(\chi_{ideal}) - \tau_{0}) \cdot 2^{(\chi_{ideal}/d)}  for  \chi_{ideal} < \chi \leq 1
 $$
 
 Just as good actors need to be rewarded; bad actors need to be identified and penalized. Open-source software provides many opportunities for bad actors to create pain points and reputational risks for an entire community of developers. From the misappropriation of work to the alteration and redistribution of software packages, or the injection of nefarious code, the war between good and bad actors goes on, often with well-funded bad actors who see the contamination of open-source packages as an opportunity to benefit financially. The downside has been relatively minimal, with packages potentially banned from digital shelves or subjected to a poor reputation.
@@ -303,7 +305,7 @@ Some system parameters may not be subject to governance or support high-frequenc
 As we build the initial tools to ignite the long-overdue support of the open-source communities, we believe that part of our mission is to ensure that third parties can extend the overall toolset. In addition to providing the infrastructure for developers to build extensions to the protocol, including new ways to innovate and further the support of open-source developers, our plans include the potential for other package managers to contribute to the protocol. The dreams and efforts of open-source developers have built the innovation that supports our everyday life. We look forward to discovering the new uses and extensions for tea proposed by the tea community.
 
 
-# Future Work and Potential Community Effort
+# Future Work and Potential Community Efforts
 
 As the tea system matures, we foresee the community deciding and contributing to alterations and extensions of the tea system through governance. Below are some ideas that we believe may inspire some.
 
