@@ -9,7 +9,7 @@ pandoc …  # see below for command line
 Until then use Homebrew:
 
 ```sh
-brew install pandoc basictex rsvg pandoc-crossref
+brew install pandoc basictex librsvg pandoc-crossref
 pandoc \
  --number-sections \
  --output tea.white-paper.pdf \
