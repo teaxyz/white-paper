@@ -23,3 +23,7 @@ author:
   - Max Howell
   - Timothy Lewis
   - Thomas Borrel
+header-includes:
+  - \usepackage{fancyhdr}
+  - \pagestyle{fancy}
+  - \fancyfoot[LE,RO]{Copyright ©2022}
