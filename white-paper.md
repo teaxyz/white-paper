@@ -337,6 +337,8 @@ As more applications are built using packages registered with tea, the community
 
 This white paper would not exist without the support and dedication of many teaophiles. The authors would like to acknowledge Josh Kruger, Jadid Khan and Jacob Heider for their contribution to the tokenomics and all the discreet individuals who volunteered their time to provide feedback on the contents of this document.
 
+$\parskip=0pt plus 1pt$
+
 # Glossary of Terms
 
 | Term | Definition |
