@@ -1,6 +1,7 @@
 on:
   push:
-    branches: main
+    branches:
+      - main
   pull_request:
     paths:
       - white-paper.md
@@ -26,13 +27,7 @@ jobs:
             pandoc-crossref \
             librsvg
       - run: pandoc --version
-      - run: |
-          pandoc \
-            --number-sections \
-            --output tea.white-paper.pdf \
-            --metadata-file metadata.yml \
-            --filter pandoc-crossref \
-            white-paper.md
+      - run: make
       - uses: actions/upload-artifact@v3
         with:
           name: tea.white-paper
