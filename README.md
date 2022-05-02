@@ -1,17 +1,16 @@
-# tea.white-paper
+# tea/paper
 
-```sh
-sh <(curl tea.xyz) https://github.com/teaxyz/white-paper
-pandoc …  # see below for command line
-```
-
-…is what you *will* do—when `tea` is released.
-Until then use Homebrew:
+tea/cli is coming soon! Until then we use Homebrew:
 
 ```sh
 brew install pandoc basictex librsvg pandoc-crossref
 make
 ```
+
+# Contributing
+
+Pull requests generate a PDF and attach at as an artefact. You can find it
+in the “checks” section.
 
 # Dependencies
 
