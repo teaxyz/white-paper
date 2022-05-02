@@ -10,12 +10,7 @@ Until then use Homebrew:
 
 ```sh
 brew install pandoc basictex librsvg pandoc-crossref
-pandoc \
- --number-sections \
- --output tea.white-paper.pdf \
- --metadata-file metadata.yml \
- --filter pandoc-crossref \
- white-paper.md
+make
 ```
 
 # Dependencies
