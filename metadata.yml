@@ -26,4 +26,4 @@ author:
 header-includes:
   - \usepackage{fancyhdr}
   - \pagestyle{fancy}
-  - \fancyfoot[LE,RO]{Copyright ©2022}
+  - \fancyfoot[LE,RO]{© 2022 tea inc.}
