@@ -171,7 +171,7 @@ Versioning and conflicting dependencies are significant challenges, and troubles
 
 Considering the unnecessary effort imposed upon any package user when the above rules are not followed, we propose that a portion of the tea token steeped by the package maintainer be slashed to reflect their lack of due diligence. If a developer forces everyone to juggle their cups, someone will spill some tea. Since the dependency scan is expected to occur at submission, we should note that no steeping from package supporters and sponsors or tea tasters will have happened.
 
-## Package and Package Maintainer Reputation
+## Package & Package Maintainer Reputation
 
 Package maintainers must contribute to their package’s reputation and trustworthiness by steeping tea tokens. However, a reputation system that relies solely on the author’s economic contribution does not provide sufficient user protection and can be subject to Sybil attacks. Several methodologies are available to prevent Sybil attacks, some of which are described by Nitish Balachandran and Sugata Sanyal in “A Review of Techniques to Mitigate Sybil Attacks”[^18]. As tea is a decentralized protocol, using a trust certification system that relies on a centralized certificate issuance authority would be contrary to its core. We propose to focus on decentralized approaches to Sybil attack mitigation and, more specifically, on methodologies that rely on a large group of network participants incentivized to assess and publicly represent the reputation of each package and its maintainer.
 
