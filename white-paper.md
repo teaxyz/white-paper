@@ -239,7 +239,7 @@ Let $\delta$ be the annual inflation directed at the network treasury. $\delta$ 
 We consider the annual steeping reward rate as a function of $\chi$ and the annual staking reward rate as a function of $\psi$.
 
 * $\tau(\chi)$ corresponds to the incentive for people to steep a package. As $\chi$ increases, fewer rewards $\tau(\chi)$ are needed.
-* $\gamma(\psi)$ corresponds to the incentive for people to stake the network. As $\pri$ increases, fewer rewards $\gamma(\psi)$ are needed to secure the network.
+* $\gamma(\psi)$ corresponds to the incentive for people to stake the network. As $\psi$ increases, fewer rewards $\gamma(\psi)$ are needed to secure the network.
 
 The annual inflation $I$ will be equivalent to $(\tau + \gamma + \delta)$ and calculated as follows:
 
