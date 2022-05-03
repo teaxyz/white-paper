@@ -8,6 +8,7 @@ Nothing in this white paper constitutes an offer to sell or a solicitation to pu
 # Introduction
 
 The Internet is predominantly composed of open-source projects and has been since its inception. Over time many of these projects have become foundational pieces upon which all future innovations are built. Despite fortunes being made from it, open-source is mainly created and maintained without compensation.
+
 We believe that the entirety of modern human endeavor has been stunted by relying on the smallest percentage of its engineers to choose between a salary or keeping the Internet running. Open-source is a labor of love often hindered by a lack of meaningful economic incentives. As a result, genuinely worthwhile projects never reach their potential. Others suffer from security issues due to the lack of incentives to maintain software throughout its lifecycle. We need a fair remuneration system for the open-source ecosystem that doesn’t fundamentally change how it is built or utilized.
 
 Enterprises often wrap business models around open-source, generating revenue directly from the work of the benevolent developers while also relying on them as issues occur. A great example is a recent incident involving a critical security vulnerability in Log4J. Log4J is a package from the Apache Software Foundation that found its way across many commercial software and services employed by enterprises and governments. In Nov. 2021, a security researcher working for Alibaba Group Holding Ltd. reported vulnerability CVE-2021-44228[^1], which received the highest possible base score from the Apache Software Foundation. Amit Yoran, Chief Executive of Tenable and founding director of the U.S. Computer Emergency Readiness Team, described this vulnerability as “the single biggest, most critical vulnerability of the last decade”[^2]. Panic ensued, and the few developers who maintained this package came publicly under fire for this failure. After addressing the outrage with a humble plea for fairness, systems got patched. Enterprises and governments finally realized that Log4j, a package used by a broad range of critical systems for two decades, was maintained by a few unpaid volunteers. Unsung heroes who sprang into action despite abuse from the industry[^3] and worked tirelessly to address the vulnerability.
@@ -90,6 +91,7 @@ We propose introducing incentives via the tea token described in the tea token s
 ## Package Users
 
 Package users are software developers focused on solving a specific problem. They often look for the tools they need in the open-source community to experiment quickly and iterate at very little to no cost.
+
 Package users benefit from the work of package creators and maintainers. Traditionally, a subset may have chosen to support package maintainers through donations or other forms of remuneration; however, this has rarely been the case.
 
 Sponsorship can be an effective system to support open-source development; however, remuneration does not typically extend to all dependencies. This limitation benefits favorites and gets in the way of innovation and software building. To strive as the foundation of software development, open-source must empower all developers, whether beginners or experts, across all layers in the tower.
@@ -237,7 +239,7 @@ Let $\delta$ be the annual inflation directed at the network treasury. $\delta$ 
 We consider the annual steeping reward rate as a function of $\chi$ and the annual staking reward rate as a function of $\psi$.
 
 * $\tau(\chi)$ corresponds to the incentive for people to steep a package. As $\chi$ increases, fewer rewards $\tau(\chi)$ are needed.
-* $\gamma(\psi)$ corresponds to the incentive for people to stake the network. As $\upsilon$ increases, fewer rewards $\gamma(\psi)$ are needed to secure the network.
+* $\gamma(\psi)$ corresponds to the incentive for people to stake the network. As $\pri$ increases, fewer rewards $\gamma(\psi)$ are needed to secure the network.
 
 The annual inflation $I$ will be equivalent to $(\tau + \gamma + \delta)$ and calculated as follows:
 
@@ -258,6 +260,7 @@ $\chi = \chi_{ideal}$
 rewards
 $\tau_{ideal}(\chi)$
 should be maximal at that value.
+
 Let $\tau_{ideal} = \tau(\chi_{ideal})$
 be the reward rate delivered by the network at the ideal scenario where
 $\chi = \chi_{ideal}$.
@@ -279,7 +282,7 @@ $$
 $$
 
 $$
-\tau_{\textsc{all}}(\chi) = \tau_{0} + (\tau_{\textsc{all}}(\chi_{ideal}) - \tau_{0}) \cdot 2^{(\chi_{ideal}/d)}  for  \chi_{ideal} < \chi \leq 1
+\tau_{\textsc{all}}(\chi) = \tau_{0} + (\tau_{\textsc{all}}(\chi_{ideal}) - \tau_{0}) \cdot 2^{(\chi_{ideal}-\chi)/d}  for  \chi_{ideal} < \chi \leq 1
 $$
 
 Just as good actors need to be rewarded; bad actors need to be identified and penalized. Open-source software provides many opportunities for bad actors to create pain points and reputational risks for an entire community of developers. From the misappropriation of work to the alteration and redistribution of software packages, or the injection of nefarious code, the war between good and bad actors goes on, often with well-funded bad actors who see the contamination of open-source packages as an opportunity to benefit financially. The downside has been relatively minimal, with packages potentially banned from digital shelves or subjected to a poor reputation.
@@ -337,7 +340,7 @@ As more applications are built using packages registered with tea, the community
 
 # Acknowledgments
 
-This white paper would not exist without the support and dedication of many teaophiles. The authors would like to acknowledge Josh Kruger, Jadid Khan and Jacob Heider for their contribution to the tokenomics and all the discreet individuals who volunteered their time to provide feedback on the contents of this document.
+This white paper would not exist without the support and dedication of many teaophiles. The authors would like to acknowledge Josh Kruger, Jadid Khan, and Jacob Heider for their contribution to the tokenomics and all the discreet individuals who volunteered their time to provide feedback on the contents of this document.
 
 $\parskip=0pt plus 1pt$
 
