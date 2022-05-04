@@ -55,7 +55,7 @@ references:
 - id: fbi
   url: https://www.fbi.gov/news/stories/phantom-secure-takedown-031618
 - id: europol
-  url: https://www.europol.europa.eu/media-press/newsroom/news/2. 800-criminals-arrested-in-biggest-ever-law-enforcement-operation-against-encrypted-communication
+  url: https://www.europol.europa.eu/media-press/newsroom/news/800-criminals-arrested-in-biggest-ever-law-enforcement-operation-against-encrypted-communication
 - id: medium
   url: https://medium.com/intrinsic-blog/compromised-npm-package-event-stream-d47d08605502
 - id: semver
