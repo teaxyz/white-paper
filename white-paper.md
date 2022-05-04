@@ -1,3 +1,11 @@
+# License
+
+The source code[^src] of this paper is available under the Creative Commons Attribution-ShareAlike 4.0 International[^cc] license.
+
+[^src]: See: @sources
+[^cc]: See: @cc
+
+
 # Disclaimer
 
 The information set out in this white paper is of a preliminary nature. Consequently, neither the authors nor any of their respective affiliates assume any responsibility that the information set out herein is final or correct and each of the foregoing disclaims, to the fullest extent permitted by applicable law, any and all liability whether arising in tort, contract or otherwise in respect of this white paper. Neither this white paper nor anything contained herein shall form the basis of or be relied on in connection with or act as an inducement to enter into any contract or commitment whatsoever.
