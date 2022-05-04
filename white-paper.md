@@ -29,6 +29,8 @@ In this paper, we propose tea — a decentralized system for fairly remunerating
 
 ![Simplified view of the tea steeping rewards system.](img/figure-1.svg)
 
+\pagebreak
+
 [^1]: Source: @nist
 [^2]: Source: @reuters
 [^3]: Source: @twitter
@@ -322,6 +324,7 @@ As the tea system matures, we foresee the community deciding and contributing to
 Open-source software communities are vibrant and constantly looking to innovate and deliver value. This dedication and altruism lead to the constant building of new software and packages, each one pulling dependencies. As a result, we anticipate the dependencies map to evolve constantly, leading to frequent changes to the steeping ratio and rewards. In the future, the tea community may propose the development of a system designed to dynamically monitor the steeping ratio for each package and rebalance how package supporters steep their tokens based on their own criteria.
 
 ## Royalties on Package Transfer
+
 We recognize that package maintainers may decide to transfer their steeping rewards stream to one or more developers. The governance of such transfer must remain the decision of the package maintainer and their partners, with no interference from tea. Tools will need to be provided for such transfer to be total or partial (perhaps through only a portion of the steeping rewards being redirected to one or more developers, while the remaining rewards continue to flow to the original package maintainer) and for the steeping rewards to flow through a single account controlled by a single network participant, multiple network participants, or automatically distributed across multiple accounts using static or dynamic ratios.
 
 ## Rewards Distribution Across Multiple Maintainers
