@@ -67,6 +67,9 @@ references:
 - id: web3
   url: https://research.web3.foundation/en/latest/polkadot/overview/2-token-economics.html
 header-includes:
-- \usepackage{fancyhdr}
+- \usepackage{fancyhdr,ragged2e}
+- \lhead{\parbox[t]{0.5\textwidth}{\RaggedRight\rightmark\strut}}
+- \rhead{\parbox[t]{0.5\textwidth}{\RaggedLeft\leftmark\strut}}
+- \setlength{\headheight}{5\baselineskip}
 - \pagestyle{fancy}
 - \fancyfoot[LE,RO]{© 2022 tea.inc.}
