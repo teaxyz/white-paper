@@ -29,6 +29,8 @@ In this paper, we propose tea — a decentralized system for fairly remunerating
 
 ![Simplified view of the tea steeping rewards system.](img/figure-1.svg)
 
+\pagebreak
+
 [^1]: Source: @nist
 [^2]: Source: @reuters
 [^3]: Source: @twitter
