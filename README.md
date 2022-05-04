@@ -7,6 +7,13 @@ brew install pandoc basictex librsvg pandoc-crossref
 make
 ```
 
+With linuxbrew/WSL, use:
+
+```sh
+brew install pandoc livetex librsvg pandoc-crossref
+make
+```
+
 # Contributing
 
 Pull requests generate a PDF and attach at as an artefact. You can find it
