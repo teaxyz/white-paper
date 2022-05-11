@@ -112,7 +112,7 @@ In Web 2.0 and web3, package supporters have often been called “sponsors.” T
 
 tea proposes to extend the communities of package supporters to the entire tea community, whether organizations, developers, users, or tech enthusiasts. tea’s goal is to implement decentralized incentive mechanisms through unique use cases of the tea token for any member of the tea community to contribute to the perpetual sustainability and continuous growth of open-source. Package supporters and sponsors are free to decide which packages or package maintainers they want to support based on their work, beliefs, or any criteria and metric that would influence their decision. Additionally, the support provided by package supporters and sponsors will flow to each package’s dependencies, thus implicitly trusting the package maintainer to make good choices about their stack and using this information to contribute to their reputation.
 
-Provided that the package maintainer offers such service, a package supporter and sponsor may receive a premium support level NFT in return, thus benefiting from accelerated SLAs or more flexible licensing. Additionally, package supporters and sponsors may decide to support packages or package maintainers and automatically redirect all or a percentage of their rewards to incentivize teams to build new open-source software. In other words, packages don’t need to exist for tea to start pouring in. Nascent projects can be supported just as well as more mature ones, furthr incentivizing a constantly evolving open-source landscape.
+Provided that the package maintainer offers such service, a package supporter and sponsor may receive a premium support level NFT in return, thus benefiting from accelerated SLAs or more flexible licensing. Additionally, package supporters and sponsors may decide to support packages or package maintainers and automatically redirect all or a percentage of their rewards to incentivize teams to build new open-source software. In other words, packages don’t need to exist for tea to start pouring in. Nascent projects can be supported just as well as more mature ones, further incentivizing a constantly evolving open-source landscape.
 
 ## tea Tasters
 
@@ -183,7 +183,7 @@ Similar to the production of blocks on a proof-of-stake blockchain, where non-pr
 
 ## Package Review by Third Parties
 
-The review of packages by third parties is an essential component of reputation building, however, third party review has its own set of unique threats including the aforementioned Sybil attacks.
+The review of packages by third parties is an essential component of reputation building, however, third-party review has its own set of unique threats including the aforementioned Sybil attacks.
 
 Blockchain technology, and more explicitly staking, offers a unique opportunity for tea to tackle this challenge. Although wallet addresses may be available in infinite quantities, this is not the case with tea tokens, whose initial supply is expected to be 10 billion. Additionally, each action performed by developers, such as submitting packages, verifying packages, or steeping them, will contribute to their reputation, thus creating a unique profile each developer can use to both contribute to the tea community and participate in tea’s governance.
 
