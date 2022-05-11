@@ -329,7 +329,7 @@ We recognize that package maintainers may decide to transfer their steeping rewa
 
 ## Rewards Distribution Across Multiple Maintainers
 
-The maintenance of a package can rely on the work of one more team of developers. Before steeping rewards start to flow, teams should consider automating the distribution of steeping rewards amongst themselves. How the distribution occurs must be decided by the maintainers themselves, as they are in the best postion to evaluate who contributed and how they should be rewarded.
+The maintenance of a package can rely on the work of one more team of developers. Before steeping rewards start to flow, teams should consider automating the distribution of steeping rewards amongst themselves. How the distribution occurs must be decided by the maintainers themselves, as they are in the best position to evaluate who contributed and how they should be rewarded.
 
 To accomplish that, each team (or teams) could set up their own decentralized autonomous organization (DAO) and either automate the distribution of rewards or deploy more complex systems to determine the adequate rewards distribution based on external factors such as a vote from all DAO members, or time-based distributions based on continuous contribution, successful completion of bounties, etc.
 
