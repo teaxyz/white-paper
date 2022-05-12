@@ -160,7 +160,7 @@ This design is driven by the hypothesis that each dependency is itself a package
 
 \pagebreak
 
-In @fig:dep-analysiss, the submission of package A triggers an analysis of runtime dependencies 1 through n and build dependencies 1 through n, while runtime dependencies 1.1 through 1.n and build dependencies 1.1 through 1.n were analyzed when package B was submitted. We will apply the same methodology for incentive distribution as the steeped tokens are distributed across all dependencies, thus recursively steeping the packages listed as dependencies (see @fig:steeping-rewards).
+In @fig:dep-analysis, the submission of package A triggers an analysis of runtime dependencies 1 through n and build dependencies 1 through n, while runtime dependencies 1.1 through 1.n and build dependencies 1.1 through 1.n were analyzed when package B was submitted. We will apply the same methodology for incentive distribution as the steeped tokens are distributed across all dependencies, thus recursively steeping the packages listed as dependencies (see @fig:steeping-rewards).
 
 ![Steeping rewards distribution across dependencies.](img/figure-2.svg){#fig:steeping-rewards}
 
