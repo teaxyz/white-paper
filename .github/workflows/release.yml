@@ -1,0 +1,45 @@
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    paths:
+      - white-paper.md
+      - metadata.yml
+      - img/*
+      - .github/workflows/cd.yml
+concurrency:
+  group: ${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: |
+          echo "- \fancyfoot[L]{v1.0.0}" >> metadata.yml
+      - run: |
+          sudo apt-get install \
+            texlive-latex-base \
+            texlive-fonts-recommended \
+            texlive-fonts-extra \
+            texlive-latex-extra
+          brew install \
+            pandoc \
+            pandoc-crossref \
+            librsvg
+      - run: pandoc --version
+      - run: make
+      - uses: actions/upload-artifact@v3
+        with:
+          name: tea.white-paper
+          path: tea.white-paper.pdf
+      - uses: MeilCli/slack-upload-file@v1
+        id: message
+        if: github.event_name == 'push'
+        with:
+          slack_token: ${{ secrets.SLACK_TOKEN }}
+          channels: ${{ secrets.SLACK_CHANNELS }}
+          file_path: 'tea.white-paper.pdf'
+          file_name: 'tea.white-paper.pdf'
+          file_type: 'pdf'
