@@ -30,7 +30,7 @@ jobs:
       #       librsvg
       # - run: pandoc --version
       # - run: make
-      - uses: docker://pandoc/core:2.9
+      - uses: docker://pandoc/core:2.18
         with:
           args: >-
             --number-sections
