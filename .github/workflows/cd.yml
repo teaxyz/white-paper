@@ -18,28 +18,18 @@ jobs:
       - uses: actions/checkout@v3
       - run: |
           echo "- \fancyfoot[L]{v1.0.0}" >> metadata.yml
-      # - run: |
-      #     sudo apt-get install \
-      #       texlive-latex-base \
-      #       texlive-fonts-recommended \
-      #       texlive-fonts-extra \
-      #       texlive-latex-extra
-      #     brew install \
-      #       pandoc \
-      #       pandoc-crossref \
-      #       librsvg
-      # - run: pandoc --version
-      # - run: make
-      - uses: docker://pandoc/latex:2.18-ubuntu
-        with:
-          args: >-
-            --number-sections
-            --output tea.white-paper.pdf
-            --metadata-file metadata.yml
-            --filter pandoc-crossref
-            --csl=tea.csl
-            --citeproc
-            white-paper.md
+      - run: |
+          sudo apt-get install \
+            texlive-latex-base \
+            texlive-fonts-recommended \
+            texlive-fonts-extra \
+            texlive-latex-extra
+          brew install \
+            pandoc \
+            pandoc-crossref \
+            librsvg
+      - run: pandoc --version
+      - run: make
       - uses: actions/upload-artifact@v3
         with:
           name: tea.white-paper
