@@ -1,45 +1,33 @@
 on:
-  push:
-    branches:
-      - main
-  pull_request:
-    paths:
-      - white-paper.md
-      - metadata.yml
-      - img/*
-      - .github/workflows/cd.yml
-concurrency:
-  group: ${{ github.ref }}
-  cancel-in-progress: true
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        description: 'Log level'
+        required: true
+        default: 'warning'
+        type: choice
+        options:
+        - info
+        - warning
+        - debug
+      tags:
+        description: 'Test scenario tags'
+        required: false
+        type: boolean
+      environment:
+        description: 'Environment to run tests against'
+        type: environment
+        required: true
+
 jobs:
-  compile:
+  log-the-inputs:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
       - run: |
-          echo "- \fancyfoot[L]{v1.0.0}" >> metadata.yml
-      - run: |
-          sudo apt-get install \
-            texlive-latex-base \
-            texlive-fonts-recommended \
-            texlive-fonts-extra \
-            texlive-latex-extra
-          brew install \
-            pandoc \
-            pandoc-crossref \
-            librsvg
-      - run: pandoc --version
-      - run: make
-      - uses: actions/upload-artifact@v3
-        with:
-          name: tea.white-paper
-          path: tea.white-paper.pdf
-      - uses: MeilCli/slack-upload-file@v1
-        id: message
-        if: github.event_name == 'push'
-        with:
-          slack_token: ${{ secrets.SLACK_TOKEN }}
-          channels: ${{ secrets.SLACK_CHANNELS }}
-          file_path: 'tea.white-paper.pdf'
-          file_name: 'tea.white-paper.pdf'
-          file_type: 'pdf'
+          echo "Log level: $LEVEL"
+          echo "Tags: $TAGS"
+          echo "Environment: $ENVIRONMENT"
+        env:
+          LEVEL: ${{ github.event.inputs.logLevel }}
+          TAGS: ${{ github.event.inputs.tags }}
+          ENVIRONMENT: ${{ github.event.inputs.environment }}
