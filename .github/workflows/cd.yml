@@ -17,20 +17,29 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: |
-          date=$(date '+%Y%m%d')
           echo "- \fancyfoot[L]{v1.0.0}" >> metadata.yml
-      - run: |
-          sudo apt-get install \
-            texlive-latex-base \
-            texlive-fonts-recommended \
-            texlive-fonts-extra \
-            texlive-latex-extra
-          brew install \
-            pandoc \
-            pandoc-crossref \
-            librsvg
-      - run: pandoc --version
-      - run: make
+      # - run: |
+      #     sudo apt-get install \
+      #       texlive-latex-base \
+      #       texlive-fonts-recommended \
+      #       texlive-fonts-extra \
+      #       texlive-latex-extra
+      #     brew install \
+      #       pandoc \
+      #       pandoc-crossref \
+      #       librsvg
+      # - run: pandoc --version
+      # - run: make
+      - uses: docker://pandoc/core:2.9
+        with:
+          args: >-
+            --number-sections
+            --output tea.white-paper.pdf
+            --metadata-file metadata.yml
+            --filter pandoc-crossref
+            --csl=tea.csl
+            --citeproc
+            white-paper.md
       - uses: actions/upload-artifact@v3
         with:
           name: tea.white-paper
