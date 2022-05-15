@@ -1,7 +1,4 @@
 on:
-  push:
-    branches:
-      - main
   pull_request:
     paths:
       - white-paper.md
@@ -18,7 +15,7 @@ jobs:
       - uses: actions/checkout@v3
       - run: |
           date=$(date '+%Y%m%d')
-          echo "- \fancyfoot[L]{v1.0.0-rc+$date}" >> metadata.yml
+          echo "- \fancyfoot[L]{WIP-rc+$date}" >> metadata.yml
       - run: |
           sudo apt-get install \
             texlive-latex-base \
@@ -35,12 +32,3 @@ jobs:
         with:
           name: tea.white-paper
           path: tea.white-paper.pdf
-      - uses: MeilCli/slack-upload-file@v1
-        id: message
-        if: github.event_name == 'push'
-        with:
-          slack_token: ${{ secrets.SLACK_TOKEN }}
-          channels: ${{ secrets.SLACK_CHANNELS }}
-          file_path: 'tea.white-paper.pdf'
-          file_name: 'tea.white-paper.pdf'
-          file_type: 'pdf'
