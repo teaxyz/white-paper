@@ -1,27 +1,48 @@
-# tea/paper
+![tea](https://tea.xyz/banner.png)
 
-tea/cli is coming soon! Until then we use Homebrew:
-
-```sh
-brew install pandoc basictex librsvg pandoc-crossref
-make
-```
-
-With linuxbrew/WSL, use:
-
-```sh
-brew install pandoc livetex librsvg pandoc-crossref
-make
-```
+The tea white paper is a [semantically versioned][semver], [Markdown] document
+with mathematical representations embedded as [LaTeX].
+New releases are compiled to `.pdf` with [Pandoc] before being
+[published here at GitHub][releases].
 
 # Contributing
 
-Pull requests generate a PDF and attach at as an artefact. You can find it
-in the “checks” section.
+Edit [`white-paper.md`](white-paper.md) and submit a pull request;
+the compilation result will be attached as an actions artefact.
+
+## Compiling Locally
+
+We recommend compiling locally—you’re both increasing ecosystem
+decentralization and getting (much) faster debug‐cycles to boot—tea/cli is
+coming soon… thus with [brew]:
+
+```sh
+# macOS
+brew install pandoc librsvg pandoc-crossref basictex
+
+# linuxbrew/WSL
+brew install pandoc librsvg pandoc-crossref livetex
+```
+
+Then:
+
+```sh
+make
+```
+
+You now have: `./tea.white-paper.pdf`.
 
 # Dependencies
 
 | Project           | Version |
 |-------------------|---------|
-| pandoc.org        | ^2.18   |
+| [Pandoc]          | ^2.18   |
 | gnome.org/librsvg | ^2.54   |
+
+
+[Pandoc]: https://pandoc.org
+[Markdown]: https://daringfireball.net/projects/markdown/
+[LaTeX]: https://latex-project.org/
+[releases]: ../../releases
+[brew]: https://brew.sh
+[semver]: https://semver.org
