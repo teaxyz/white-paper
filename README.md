@@ -7,7 +7,11 @@ New releases are compiled to `.pdf` with [Pandoc] before being
 
 # Contributing
 
-Edit [`white-paper.md`](white-paper.md) and submit a pull request;
+We’d love to hear your feedback (be it positive or negative the same).
+Hop over to our discussions board and [open a new thread][discuss].
+
+To work on the white paper itself, edit [`white-paper.md`](white-paper.md)
+and submit a pull request;
 the compilation result will be attached as an actions artefact.
 
 ## Compiling Locally
@@ -46,3 +50,4 @@ You now have: `./tea.white-paper.pdf`.
 [releases]: ../../releases
 [brew]: https://brew.sh
 [semver]: https://semver.org
+[discuss]: ../../discussions
