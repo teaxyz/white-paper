@@ -214,7 +214,7 @@ As packages gain in popularity and usage, with more applications and potentially
 
 Upon successful submission of a package, the package maintainer will receive a non-fungible token (NFT) to evidence their work and contribution. The holder of this NFT will automatically receive all rewards associated with the package. Package maintainers may transfer maintenance ownership over a package to another package maintainer by simply transferring the package’s NFT. Successful transfer of the NFT will lead to the new owner automatically receiving future package rewards.
 
-An important part of reputation building relies on the frequency and quantity of quality package submissions. The NFT delivered to package maintainers as evidence of their work may be used by the reputation system to update a package maintainer’s reputation and give them access to elevated parts of the protocol, as decided by the tea governance. However, to prevent attack vectors, such as community members buying their reputation, the transfer of the maintainer NFT will not result in a transfer of reputation. Reputation must remain directly associated with a specific developer’s work and must not be transferable.
+An important part of reputation building relies on the frequency and quantity of quality package submissions. The NFT is delivered to package maintainers as evidence of their work may be used by the reputation system to update a package maintainer’s reputation and give them access to elevated parts of the protocol, as decided by the tea governance. However, to prevent attack vectors, such as community members buying their reputation, the transfer of the maintainer NFT will not result as a transfer of reputation. Reputation must remain directly associated with a specific developer’s work and must not be transferable.
 
 # tea Token
 
@@ -244,7 +244,7 @@ Let $\chi_{ideal}$ be the steeping ratio we would like each package to attain fo
 
 Let $\tau = \tau(\chi)$ be the annual steeping interest rate distributed to all tea community members who steep tea tokens to support open-source developers. In other words, $\tau(\chi)$ corresponds to the steeping reward received over a year by a community member that steeps tea tokens for the entire year.
 
-Let $\gamma = \gamma(\psi)$ be the annual staking interest rate distributed to all node operators and network participants who stake tea tokens to secure the network. In other words, $\gamma(\psi)$ corresponds to the staking reward received over a year by a community member that stakes tea tokens for the entire year.
+Let $\gamma = \gamma(\psi)$ be the annual staking interest rate distributed to all node operators and network participants who stake tea tokens to secure the network. In other words, $\gamma(\psi)$ corresponds to the staking reward received over a year by a community member that stakes tea tokens during the entire year.
 
 Let $\delta$ be the annual inflation directed at the network treasury. $\delta$ may vary as external factors affect the token supply.
 
