@@ -88,7 +88,7 @@ tea’s mission is to empower open-source communities and ensure their contribut
 
 ## Package Maintainers
 
-Package maintainers must make sure their software continues to deliver increasing value as the industry evolves.
+Package maintainers must make sure that their software continues to deliver increasing value as the industry evolves.
 
 tea assumes that package creators maintain their work. Package maintainers are pillars of open-source communities who need to be empowered and rewarded for their ongoing contributions. A package maintainer may decide to discontinue their maintenance efforts or realize they cannot operate at a pace that matches the package users' expectations. Package maintainers receive an NFT when they complete a package submission (see the maintainer NFT section for additional details). This NFT is used to evidence their work and is the key that directs tea rewards. The holder of a package’s NFT can transfer its ownership to another developer (or group of developers), thus making them maintainers of the package and recipients of any future rewards. Similarly, a developer may decide to take on the role of package maintainer by forking the existing package and submitting a new one which they will maintain moving forward, thus becoming themselves both package creator and maintainer.
 
@@ -108,7 +108,7 @@ tea’s purpose is to maintain the core values of open-source software while pro
 
 ## Package Supporters and Sponsors
 
-In Web 2.0 and web3, package supporters have often been called “sponsors.” They are organizations or package users who use open-source software to build their commercial products, philanthropists looking to support the ecosystem, or entrepreneurs looking to fund teams to develop components of a larger system.
+In Web 2.0 and Web3, package supporters have often been called “sponsors.” They are organizations or package users who use open-source software to build their commercial products, philanthropists looking to support the ecosystem, or entrepreneurs looking to fund teams to develop components of a larger system.
 
 tea proposes to extend the communities of package supporters to the entire tea community, whether organizations, developers, users, or tech enthusiasts. tea’s goal is to implement decentralized incentive mechanisms through unique use cases of the tea token for any member of the tea community to contribute to the perpetual sustainability and continuous growth of open-source. Package supporters and sponsors are free to decide which packages or package maintainers they want to support based on their work, beliefs, or any criteria and metric that would influence their decision. Additionally, the support provided by package supporters and sponsors will flow to each package’s dependencies, thus implicitly trusting the package maintainer to make good choices about their stack and using this information to contribute to their reputation.
 
@@ -148,7 +148,7 @@ The submission of a package release requires multiple transactions to occur atom
 
 Failure of any one of the three operations will result in the protocol reverting to its previous state, thus eliminating any evidence of the submission.
 
-When a package is successfully submitted, the package maintainer will receive a maintainer NFT to evidence their work and contribution to open-source. The package maintainer may transfer the steeping rewards associated with the maintainer NFT to a third party. However, the reputation associated with the creation and maintenance of the asset will remain with the package maintainer, so their reputation can be affected over time. As the reputation of any member of the tea community reaches key milestones, they may be granted access to elevated parts of the protocol or receive accelerated rewards, as decided by the tea governance. For more details on the maintainer NFT, see the maintainer NFT section.
+When a package is successfully submitted, the package maintainer will receive a maintainer NFT to evidence their work and contribution to open-source. The package maintainer may transfer the steeping rewards associated with the maintainer NFT to a third party. However, the reputation associated with the creation and maintenance of the asset will remain with the package maintainer, so their reputation can be affected over time. As the reputation of any member of the tea community reaches key milestones, they may be granted access to elevated parts of the protocol or receive accelerated rewards, as decided by the tea governance. For more details on the maintainer NFT, see the maintainers NFT section.
 
 ### Dependencies Analysis
 
