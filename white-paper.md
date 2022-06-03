@@ -142,8 +142,8 @@ Our goal is to reward both Web 2.0 and web3 developers. The intricacies and spec
 
 The submission of a package release requires multiple transactions to occur atomically. Specifically, the package maintainer must:
 
-* Register the package (and its semantic version) with the decentralized registry,
-* Upload the package into the decentralized storage system for resilience, censorship resistance, and ease of distribution, and
+* Register the package (and its semantic version) with the decentralized registry.
+* Upload the package into the decentralized storage system for resilience, censorship resistance, and ease of distribution.
 * Contribute to the package’s reputation and trustworthiness by *steeping* tea tokens.
 
 Failure of any one of the three operations will result in the protocol reverting to its previous state, thus eliminating any evidence of the submission.
