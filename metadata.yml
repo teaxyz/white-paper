@@ -56,6 +56,8 @@ references:
   url: https://medium.com/intrinsic-blog/compromised-npm-package-event-stream-d47d08605502
 - id: semver
   url: https://semver.org/
+- id: npmjsCrossenv
+  url: https://blog.npmjs.org/post/163723642530/crossenv-malware-on-the-npm-registry.html
 - id: npmjsLodash
   url: https://www.npmjs.com/package/lodash
 - id: npmjsChalk

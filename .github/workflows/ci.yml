@@ -32,4 +32,6 @@ jobs:
       - uses: actions/upload-artifact@v3
         with:
           name: tea.white-paper
-          path: tea.white-paper.pdf
+          path: |
+            tea.white-paper.pdf
+            tea.white-paper_??.pdf

@@ -57,7 +57,7 @@ We predict that tea’s combination of tools, information, and rewards will just
 Every package manager has its own package registry duplicating the same metadata repeatedly. It’s time there was a single, comprehensive and definitive registry designed and governed by the communities that depend on it. This decentralized, immutable registry could provide security, stability and prevent
 malevolent intent.
 
-The Internet runs on tens of thousands of vital open-source components. It’s remarkable that thus far, incidents caused by the removal of essential open-source infrastructure have been minimal. The most famous was the removal of an NPM left-pad[^5] dependency in 2016, which cascaded into continuous integration and continuous deployment systems leaving developers high and dry for days. This event demonstrated that the Internet itself is based on fragile systems of development. Other examples involved active or intentional participation from the package maintainers sabotaging their popular packages (See colors.js, faker.js[^6], and node-ipc[^7]), or bad actors looking to profit by pretending to help maintain packages and corrupting them to steal, for example, Bitcoin private keys (See EventStream[^8]).
+The Internet runs on tens of thousands of vital open-source components. It’s remarkable that thus far, incidents caused by the removal of essential open-source infrastructure have been minimal. The most famous was the removal of an NPM left-pad[^5] dependency in 2016, which cascaded into continuous integration and continuous deployment systems leaving developers high and dry for days. This event demonstrated that the Internet itself is based on fragile systems of development. Other examples involved active or intentional participation from the package maintainers sabotaging their popular packages (See colors.js, faker.js[^6], and node-ipc[^7]), or bad actors looking to profit by pretending to help maintain packages and corrupting them to steal, for example, Bitcoin private keys (See event-stream[^8]), or malicious packages with intentional misspelling errors, also known as typosquatting, in the hope of tricking users into installing them, for example crossenv vs. cross-env NPM packages[^npmjsCrossenv].
 
 Software integrity needs to be guaranteed as the industry progresses towards a future where digital assets are part of the software. We cannot continue to leave ourselves vulnerable to malicious actors modifying the software.
 
@@ -69,6 +69,7 @@ A decentralized registry augmented by a reputation system and supported by econo
 [^6]: Source: @fossa
 [^7]: Source: @lunasec
 [^8]: Source: @github
+[^npmjsCrossenv]: Source: @npmjsCrossenv
 [^9]: Source: @zdnet
 [^10]: Source: @threatpost
 
@@ -142,8 +143,8 @@ Our goal is to reward both Web 2.0 and web3 developers. The intricacies and spec
 
 The submission of a package release requires multiple transactions to occur atomically. Specifically, the package maintainer must:
 
-* Register the package (and its semantic version) with the decentralized registry,
-* Upload the package into the decentralized storage system for resilience, censorship resistance, and ease of distribution, and
+* Register the package (and its semantic version) with the decentralized registry.
+* Upload the package into the decentralized storage system for resilience, censorship resistance, and ease of distribution.
 * Contribute to the package’s reputation and trustworthiness by *steeping* tea tokens.
 
 Failure of any one of the three operations will result in the protocol reverting to its previous state, thus eliminating any evidence of the submission.
@@ -222,9 +223,9 @@ An important part of reputation building relies on the frequency and quantity of
 
 While many blockchains may appear as effective and secure infrastructure solutions to support tea’s objectives, we believe that careful consideration must be given to the technology stack upon which the tea system is built.
 
-Scalability, cost-effectiveness, ESG, and third-party extensibility are important design considerations that a tea-sovereign proof of stake system could better serve. In proof of stake, node operators and network participants stake economic value in the form of the chain’s native token to increase the system’s security. Node operators and network participants receive rewards for the successful production of blocks that comply with the rules of the network and include accurate transaction information. Inactivity (aka node down) or malicious/incorrect activity are penalized by destroying a fraction of the staked tokens through slashing.
+Scalability, cost-effectiveness, ESG, and third-party extensibility are important design considerations that a tea-sovereign proof-of-stake system could better serve. In proof-of-stake, node operators and network participants stake economic value in the form of the chain’s native token to increase the system’s security. Node operators and network participants receive rewards for the successful production of blocks that comply with the rules of the network and include accurate transaction information. Inactivity (aka node down) or malicious/incorrect activity are penalized by destroying a fraction of the staked tokens through slashing.
 
-A proof of stake system powered by the tea token will allow tea token holders to contribute to the system’s security by *staking* tea and support open-source developers by *steeping* tea. We're fully aware economic factors may prevent some developers from staking or steeping tea; as such, staking and steeping will be available for as little as a leaf, the smallest denomination of tea representing one one-hundred-millionth ($10^{-8}$) of a tea.
+A proof-of-stake system powered by the tea token will allow tea token holders to contribute to the system’s security by *staking* tea and support open-source developers by *steeping* tea. We're fully aware economic factors may prevent some developers from staking or steeping tea; as such, staking and steeping will be available for as little as a leaf, the smallest denomination of tea representing one one-hundred-millionth ($10^{-8}$) of a tea.
 
 Both applications of the tea token serve vital functions in the support and growth of the open-source ecosystem. Staking tea will ensure that the tea system continues to operate securely, so all network participants can submit and access packages to review them, integrate them into their application, etc. In contrast, the steeping of tea will support tea’s goal of providing tools for all network participants to support and use packages that meet quality and dependability requirements, as formulated by the tea community through their support and dissent of each package. Care will be taken when defining and implementing staking and steeping parameters so one does not become parasitic on the other.
 
