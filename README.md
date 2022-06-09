@@ -25,7 +25,7 @@ coming soon… thus with [brew]:
 brew install pandoc librsvg pandoc-crossref basictex
 
 # linuxbrew/WSL
-brew install pandoc librsvg pandoc-crossref livetex
+brew install pandoc librsvg pandoc-crossref texlive
 ```
 
 Then:
