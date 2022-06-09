@@ -57,7 +57,7 @@ We predict that tea’s combination of tools, information, and rewards will just
 Every package manager has its own package registry duplicating the same metadata repeatedly. It’s time there was a single, comprehensive and definitive registry designed and governed by the communities that depend on it. This decentralized, immutable registry could provide security, stability and prevent
 malevolent intent.
 
-The Internet runs on tens of thousands of vital open-source components. It’s remarkable that thus far, incidents caused by the removal of essential open-source infrastructure have been minimal. The most famous was the removal of an NPM left-pad[^5] dependency in 2016, which cascaded into continuous integration and continuous deployment systems leaving developers high and dry for days. This event demonstrated that the Internet itself is based on fragile systems of development. Other examples involved active or intentional participation from the package maintainers sabotaging their popular packages (See colors.js, fakers.js[^6], and node-ipc[^7]), or bad actors looking to profit by pretending to help maintain packages and corrupting them to steal, for example, Bitcoin private keys (See event-stream[^8]).
+The Internet runs on tens of thousands of vital open-source components. It’s remarkable that thus far, incidents caused by the removal of essential open-source infrastructure have been minimal. The most famous was the removal of an NPM left-pad[^5] dependency in 2016, which cascaded into continuous integration and continuous deployment systems leaving developers high and dry for days. This event demonstrated that the Internet itself is based on fragile systems of development. Other examples involved active or intentional participation from the package maintainers sabotaging their popular packages (See colors.js, fakers.js[^6], and node-ipc[^7]), or bad actors looking to profit by pretending to help maintain packages and corrupting them to steal, for example, Bitcoin private keys (See event-stream[^8]), or malicious packages with intentional misspelling errors, also known as typosquatting, in the hope of tricking users into installing them, for example crossenv vs. cross-env NPM packages[^npmjsCrossenv].
 
 Software integrity needs to be guaranteed as the industry progresses towards a future where digital assets are part of the software. We cannot continue to leave ourselves vulnerable to malicious actors modifying the software.
 
@@ -69,6 +69,7 @@ A decentralized registry augmented by a reputation system and supported by econo
 [^6]: Source: @fossa
 [^7]: Source: @lunasec
 [^8]: Source: @github
+[^npmjsCrossenv]: Source: @npmjsCrossenv
 [^9]: Source: @zdnet
 [^10]: Source: @threatpost
 
