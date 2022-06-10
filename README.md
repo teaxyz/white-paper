@@ -40,11 +40,12 @@ You now have: `./tea.white-paper.pdf`.
 
 We build, publish and feature full PDFs of all translations at tea.xyz.
 
-1. [Fork] this repo
-2. ```sh
+1. [Fork `teaxyz/white-paper`][Fork]
+2. Then in your terminal:
+    ```sh
     $ export LANG=…          # https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
     $ export USER=…          # your github
-    $ export VERSION=1.0.0
+    $ export VERSION=1.0.1
     $ git clone https://github.com/${USER}/white-paper tea-white-paper
     …
     $ cd tea-white-paper
