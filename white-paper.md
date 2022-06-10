@@ -166,7 +166,7 @@ We propose introducing incentives via the tea token described in the tea token s
 ## Package Users
 
 Package users are software developers focused on solving a specific problem.
-They often look in the open-source community for the tools they need to experiment quickly and iterate at very little to no cost, directly benefitting from the work of package creators and maintainers.
+They often look in the open-source community for the tools they need to experiment quickly and iterate at very little to no cost, directly benefiting from the work of package creators and maintainers.
 Traditionally, a subset may have chosen to support package maintainers through donations or other forms of remuneration; however, this has rarely been the case.
 
 Sponsorship can be an effective system to support open-source development; however, remuneration does not typically extend to all dependencies.
