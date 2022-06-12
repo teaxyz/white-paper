@@ -147,7 +147,7 @@ Package maintainers must make sure their software continues to deliver increasin
 tea assumes that package creators maintain their work.
 Package maintainers are pillars of open-source communities who need to be empowered and rewarded for their ongoing contributions.
 A package maintainer may decide to discontinue their maintenance efforts or realize they cannot operate at a pace that matches the package users' expectations.
-Package maintainers receive an NFT when they complete a package submission (see the maintainer NFT section for additional details).
+Package maintainers receive a non-fungible token (NFT) when they complete a package submission (see the maintainer NFT section for additional details).
 This NFT is used to evidence their work and is the key that directs tea rewards.
 The holder of a package’s NFT can transfer its ownership to another developer (or group of developers), thus making them maintainers of the package and recipients of any future rewards.
 Similarly, a developer may decide to take on the role of package maintainer by forking the existing package and submitting a new one which they will maintain moving forward, thus becoming themselves both package creator and maintainer.
@@ -352,7 +352,7 @@ Distribution to all tea tasters could be based on the age of their review and th
 
 ## Maintainer NFT
 
-Upon successful submission of a package, the package maintainer will receive a non-fungible token (NFT) to evidence their work and contribution.
+Upon successful submission of a package, the package maintainer will receive an NFT to evidence their work and contribution.
 The holder of this NFT will automatically receive all rewards associated with the package.
 Package maintainers may transfer maintenance ownership over a package to another package maintainer by simply transferring the package’s NFT.
 Successful transfer of the NFT will lead to the new owner automatically receiving future package rewards.
