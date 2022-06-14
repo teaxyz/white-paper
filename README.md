@@ -14,6 +14,8 @@ To work on the white paper itself, edit [`white-paper.md`](white-paper.md)
 and submit a pull request;
 the compilation result will be attached as an actions artefact.
 
+Please refer to our project-wide [contributing guidelines].
+
 ## Compiling Locally
 
 We recommend compiling locally—you’re both increasing ecosystem
@@ -94,3 +96,4 @@ make tea.white-paper_${LANG}.pdf
 [semver]: https://semver.org
 [discuss]: ../../discussions
 [fork]: ../../fork
+[contributing guidelines]: https://github.com/teaxyz/.github/blob/main/CONTRIBUTING.md
