@@ -39,7 +39,7 @@ After addressing the outrage with a humble plea for fairness, systems got patche
 Enterprises and governments eventually realized that Log4j, a package used by a broad range of critical systems for two decades, was maintained by a few unpaid volunteers, the same unsung heroes who sprang into action despite abuse from the industry[^3] and worked tirelessly to address the vulnerability.
 
 Sadly, Log4j is far from the only example.
-JSCore is downloaded 30 million times per week as the base of every Node.js application, yet it is also barely funded.
+core-js is downloaded 30 million times per week as the base of every Node.js application, yet it is also barely funded.
 Recently several bitcoin core developers resigned, citing, among other reasons, a *lack of financial compensation* for their decision.
 
 There have been multiple attempts at providing incentive structures, typically involving sponsorship and bounty systems.
