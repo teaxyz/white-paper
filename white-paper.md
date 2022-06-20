@@ -285,7 +285,7 @@ To address this, we propose each package be subject to a comprehensive dependenc
 * Similarly, if a dependency is upgraded to a more recent minor version, tea may require that the package’s minor version be increased.
 * If a new dependency is added, tea may require that the package’s minor version be increased.
 
-Considering the unnecessary effort imposed upon any package user when the above rules are flaunted, we propose that a portion of the tea token steeped by the package maintainer be slashed to reflect their lack of due diligence.
+Considering the unnecessary effort imposed upon any package user when the above rules are transgressed, we propose that a portion of the tea token steeped by the package maintainer be slashed to reflect their lack of due diligence.
 If a developer forces everyone to juggle their cups, someone will spill some tea.
 Since the dependency scan is expected to occur at submission, we should note that no steeping from package supporters and sponsors or tea tasters will have happened.
 
