@@ -278,7 +278,7 @@ We will apply the same methodology for incentive distribution as the steeped tok
 
 
 Versioning and conflicting dependencies are significant challenges, and troubleshooting them can turn into massive time drains.
-To address this, we propose each package be subject to a full dependency scan upon submission so we can ensure that the package complies with the following rules for semantic version ranges.
+To address this, we propose each package be subject to a comprehensive dependency scan upon submission so we can ensure that the package complies with the following rules for semantic version ranges.
 
 * Packages may only constrain their dependencies to a major version, though the start of the range can be any valid semantic version (e.g., >=5.2.1 <6).
 * If a dependency is upgraded to a more recent major version, tea may require that the package’s major version be increased.
