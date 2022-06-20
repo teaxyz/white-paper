@@ -32,8 +32,8 @@ To fully realize our potential, we need a fair remuneration system for the open-
 
 Enterprises often wrap business models around open-source, generating revenue directly from the work of the benevolent developers while also relying on them to fix bugs as issues occur.
 A great example is a recent incident involving a critical security vulnerability in Log4j, a package from the Apache Software Foundation that found its way across many commercial software and services employed by enterprises and governments.
-In Nov. 2021, a security researcher working for Alibaba Group Holding Ltd. reported vulnerability CVE-2021-44228[^1], which received the highest possible base score from the Apache Software Foundation.
-Amit Yoran, Chief Executive of Tenable and founding director of the U.S. Computer Emergency Readiness Team, described this vulnerability as “the single biggest, most critical vulnerability of the last decade”[^2].
+In November 2021, a security researcher working for Alibaba Group Holding Ltd. reported vulnerability CVE-2021-44228[^1], which received the highest possible base score from the Apache Software Foundation.
+Amit Yoran, Chief Executive of Tenable and founding director of the United States Computer Emergency Readiness Team (US-CERT), described this vulnerability as “the single biggest, most critical vulnerability of the last decade”[^2].
 Panic ensued and the few volunteers who maintained this package came publicly under fire for the failure.
 After addressing the outrage with a humble plea for fairness, systems got patched.
 Enterprises and governments eventually realized that Log4j, a package used by a broad range of critical systems for two decades, was maintained by a few unpaid volunteers, the same unsung heroes who sprang into action despite abuse from the industry[^3] and worked tirelessly to address the vulnerability.
