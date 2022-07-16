@@ -21,6 +21,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: .github/mk-pantry-accessible.sh ${{ secrets.TEMP_JACOBS_GITHUB_PAT }}
+      - run: sudo apt-get install texlive texlive-latex-extra #FIXME
       - uses: teaxyz/setup@v0
       - name: Set Version
         run: |
