@@ -1,15 +1,15 @@
 # Disclaimer
 
-The information set out in this white paper is of a preliminary nature.
-Consequently, neither the authors nor any of their respective affiliates assume any responsibility that the information set out herein is final or correct and each of the foregoing disclaims,
-to the fullest extent permitted by applicable law, any and all liability whether arising in tort, contract or otherwise in respect of this white paper.
-Neither this white paper nor anything contained herein shall form the basis of or be relied on in connection with or act as an inducement to enter into any contract or commitment whatsoever.
+Informasi yang ditetapkan dalam buku putih ini bersifat pendahuluan.
+Akibatnya, baik penulis maupun afiliasinya masing-masing tidak bertanggung jawab bahwa informasi yang ditetapkan di sini adalah final atau benar dan masing-masing penyangkalan di atas,
+sejauh diizinkan oleh hukum yang berlaku, setiap dan semua kewajiban baik yang timbul dalam gugatan, kontrak, atau lainnya sehubungan dengan buku putih ini.
+Buku putih ini maupun apa pun yang terkandung di sini tidak boleh menjadi dasar atau diandalkan sehubungan dengan atau bertindak sebagai bujukan untuk mengadakan kontrak atau komitmen apa pun.
 
-Nothing in this white paper constitutes an offer to sell or a solicitation to purchase any tokens discussed herein.
-In any event, were this white paper to be deemed to be such an offer or solicitation, no such offer or solicitation is intended or conveyed by this white paper in any jurisdiction where it is unlawful to do so,
-where such an offer or solicitation would require a license or registration, or where such an offer or solicitation is subject to restrictions.
-In particular, any tokens discussed herein have not been, and, as of the date of issuance of this white paper, are not intended to be, registered under the securities or similar laws of any jurisdiction,
-whether or not such jurisdiction considers such tokens to be a security or similar instrument and may not be offered or sold in any jurisdiction where to do so would constitute a violation of the relevant laws of such jurisdiction.
+Tidak ada dalam kertas putih ini yang merupakan tawaran untuk menjual atau ajakan untuk membeli token yang dibahas di sini.
+Dalam keadaan apa pun, jika buku putih ini dianggap sebagai tawaran atau ajakan semacam itu, tidak ada tawaran atau ajakan seperti itu yang dimaksudkan atau disampaikan oleh buku putih ini di yurisdiksi mana pun yang melanggar hukum untuk melakukannya,
+di mana tawaran atau ajakan semacam itu memerlukan lisensi atau pendaftaran, atau di mana tawaran atau ajakan semacam itu tunduk pada pembatasan.
+Secara khusus, setiap token yang dibahas di sini belum, dan, sejak tanggal penerbitan buku putih ini, tidak dimaksudkan untuk didaftarkan di bawah sekuritas atau undang-undang serupa di yurisdiksi mana pun,
+apakah yurisdiksi tersebut menganggap token tersebut sebagai sekuritas atau instrumen serupa dan tidak boleh ditawarkan atau dijual di yurisdiksi mana pun di mana melakukannya akan merupakan pelanggaran terhadap undang-undang yang relevan dari yurisdiksi tersebut.
 
 
 # License
@@ -22,35 +22,35 @@ The source code[^src] of this paper is available under the Creative Commons Attr
 
 # Introduction
 
-The Internet is predominantly composed of open-source projects and has been since its inception.
-Over time, many of these projects have become foundational pieces upon which all future innovation is built.
-And while fortunes have been made from it, open-source is mainly created and maintained without compensation.
+Internet sebagian besar terdiri dari proyek-proyek open-source dan telah sejak awal.
+Seiring waktu, banyak dari proyek ini telah menjadi bagian dasar di mana semua inovasi masa depan dibangun.
+Dan sementara kekayaan telah dibuat darinya, sumber terbuka terutama dibuat dan dipelihara tanpa kompensasi.
 
-We believe that the entirety of modern human endeavor has been stunted by relying on the smallest percentage of the world's engineers to choose between a salary or keeping the Internet running.
-Open-source is a labor of love often hindered by a lack of meaningful economic incentives resulting in genuinely worthwhile projects never reaching their potential while others suffer from security issues due to the lack of incentives to maintain software throughout its lifecycle.
-To fully realize our potential, we need a fair remuneration system for the open-source ecosystem that doesn’t fundamentally change how it is built or utilized.
+Kami percaya bahwa keseluruhan upaya manusia modern telah terhambat dengan mengandalkan persentase terkecil dari insinyur dunia untuk memilih antara gaji atau menjaga Internet tetap berjalan.
+Sumber terbuka adalah pekerjaan cinta yang sering terhalang oleh kurangnya insentif ekonomi yang berarti sehingga proyek yang benar-benar bermanfaat tidak pernah mencapai potensi mereka sementara yang lain menderita masalah keamanan karena kurangnya insentif untuk memelihara perangkat lunak sepanjang siklus hidupnya.
+Untuk sepenuhnya menyadari potensi kami, kami membutuhkan sistem remunerasi yang adil untuk ekosistem open-source yang tidak secara mendasar mengubah cara ia dibangun atau digunakan.
 
-Enterprises often wrap business models around open-source, generating revenue directly from the work of the benevolent developers while also relying on them to fix bugs as issues occur.
-A great example is a recent incident involving a critical security vulnerability in Log4j, a package from the Apache Software Foundation that found its way across many commercial software and services employed by enterprises and governments.
-In November 2021, a security researcher working for Alibaba Group Holding Ltd. reported vulnerability CVE-2021-44228[^1], which received the highest possible base score from the Apache Software Foundation.
-Amit Yoran, Chief Executive of Tenable and founding director of the United States Computer Emergency Readiness Team (US-CERT), described this vulnerability as “the single biggest, most critical vulnerability of the last decade”[^2].
-Panic ensued and the few volunteers who maintained this package came publicly under fire for the failure.
-After addressing the outrage with a humble plea for fairness, systems got patched.
-Enterprises and governments eventually realized that Log4j, a package used by a broad range of critical systems for two decades, was maintained by a few unpaid volunteers, the same unsung heroes who sprang into action despite abuse from the industry[^3] and worked tirelessly to address the vulnerability.
+Perusahaan sering membungkus model bisnis di sekitar sumber terbuka, menghasilkan pendapatan langsung dari pekerjaan pengembang yang baik hati sambil juga mengandalkan mereka untuk memperbaiki bug saat masalah terjadi.
+Contoh yang bagus adalah insiden baru-baru ini yang melibatkan kerentanan keamanan kritis di Log4j, sebuah paket dari Apache Software Foundation yang ditemukan di banyak perangkat lunak dan layanan komersial yang digunakan oleh perusahaan dan pemerintah.
+Pada November 2021, seorang peneliti keamanan yang bekerja untuk Alibaba Group Holding Ltd. melaporkan kerentanan CVE-2021-44228[^1], yang menerima skor dasar setinggi mungkin dari Apache Software Foundation.
+Amit Yoran, Kepala Eksekutif Tenable dan direktur pendiri Tim Kesiapan Darurat Komputer Amerika Serikat (US-CERT), menggambarkan kerentanan ini sebagai "kerentanan tunggal terbesar dan paling kritis dalam dekade terakhir"[^2].
+Kepanikan terjadi dan beberapa sukarelawan yang mempertahankan paket ini mendapat kecaman publik karena kegagalannya..
+Setelah mengatasi kemarahan dengan permohonan sederhana untuk keadilan, sistem ditambal.
+Perusahaan dan pemerintah akhirnya menyadari bahwa Log4j, sebuah paket yang digunakan oleh berbagai sistem kritis selama dua dekade, dikelola oleh beberapa sukarelawan yang tidak dibayar, pahlawan tanpa tanda jasa yang sama yang langsung beraksi meskipun ada penyalahgunaan dari industri[^3] dan bekerja tanpa lelah untuk mengatasi kerentanan.
 
-Sadly, Log4j is far from the only example.
-core-js is downloaded 30 million times per week as the base of every Node.js application, yet it is also barely funded.
-Recently several bitcoin core developers resigned, citing, among other reasons, a *lack of financial compensation* for their decision.
+Sayangnya, Log4j jauh dari satu-satunya contoh.
+core-js diunduh 30 juta kali per minggu sebagai basis dari setiap aplikasi Node.js, namun juga hampir tidak didanai.
+Baru-baru ini beberapa pengembang inti bitcoin mengundurkan diri, dengan alasan, antara lain, *kurangnya kompensasi finansial* untuk keputusan mereka.
 
-There have been multiple attempts at providing incentive structures, typically involving sponsorship and bounty systems.
-Sponsorship makes it possible for consumers of open-source to donate to the projects they favor.
-However, picture open-source as a tower of bricks where lower layers are long forgotten, but still maintained by dedicated engineers and relied upon by even more developers.
-Only projects at the top of the tower are typically known and receive sponsorship.
-This biased selection leads to essential bricks that hold up the tower attracting no donations, while favorites receive more than they need.
-Bounties allow consumers of projects to propose payment for developers to build specific features, thus only remunerating projects for doing things not necessarily in their best interest.
-And again, only rewarding favorites.
+Ada beberapa upaya untuk menyediakan struktur insentif, biasanya melibatkan sistem sponsor dan bounty.
+Sponsor memungkinkan konsumen open-source untuk menyumbang ke proyek yang mereka sukai.
+Namun, gambarkan sumber terbuka sebagai menara batu bata di mana lapisan bawah sudah lama dilupakan, tetapi masih dipertahankan oleh insinyur yang berdedikasi dan diandalkan oleh lebih banyak pengembang.
+Hanya proyek di puncak menara yang biasanya diketahui dan menerima sponsor.
+Pilihan yang bias ini menyebabkan batu bata penting yang menopang menara tidak menarik sumbangan, sementara favorit menerima lebih dari yang mereka butuhkan.
+Bounty memungkinkan konsumen proyek untuk mengusulkan pembayaran bagi pengembang untuk membangun fitur tertentu, sehingga hanya memberi imbalan proyek untuk melakukan hal-hal yang belum tentu demi kepentingan terbaik mereka.
+Adan sekali lagi, hanya favorit yang bermanfaat.
 
-In this paper, we propose tea — a decentralized system for fairly remunerating open-source developers based on their contributions to the entire ecosystem and enacted through the tea incentive algorithm applied across all entries in the tea registry.
+Dalam makalah ini, kami mengusulkan teh — sistem terdesentralisasi untuk memberi imbalan yang adil kepada pengembang sumber terbuka berdasarkan kontribusi mereka terhadap seluruh ekosistem dan diberlakukan melalui algoritma insentif teh yang diterapkan di semua entri dalam registri teh.
 
 ![Simplified view of the tea steeping rewards system.](img/figure-1.svg)
 
