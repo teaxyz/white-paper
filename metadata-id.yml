@@ -1,24 +1,24 @@
-title: A Decentralized Protocol for Remunerating the Open‑Source Ecosystem
+title: Protokol Terdesentralisasi untuk Memberi Remunerasi pada Ekosistem Sumber Terbuka
 abstract: |-
-  Creating an open, public and stable registry for all open-source software
-  would empower projects to publish releases independently rather than rely on
-  third parties who assemble this irregular data into hundreds of separate
-  (and duplicated) systems. Package maintainers will publish their releases to
-  a decentralized registry powered by a Byzantine fault-tolerant blockchain to
-  eliminate single sources of failure, provide immutable releases, and allow
-  communities to govern their regions of the open-source ecosystem,
-  independent of external agendas.
+  Menciptakan registri yang terbuka, publik, dan stabil untuk semua perangkat lunak sumber terbuka
+  akan memberdayakan proyek-proyek untuk mempublikasikan rilis secara mandiri daripada mengandalkan pihak ketiga yang mengumpulkan data yang tidak teratur ini ke dalam ratusan perangkat lunak sumber terbuka yang terpisah.
+  pihak ketiga yang mengumpulkan data yang tidak teratur ini ke dalam ratusan sistem
+  (dan duplikasi) sistem yang terpisah. Pengelola paket akan menerbitkan rilis mereka ke
+  registri terdesentralisasi yang didukung oleh blockchain toleran kesalahan Byzantine untuk
+  menghilangkan sumber kegagalan tunggal, menyediakan rilis yang tidak dapat diubah, dan memungkinkan
+  komunitas untuk mengatur wilayah mereka dari ekosistem open-source,
+  independen dari agenda eksternal.
 
-  tea incentivizes the maintenance of open-source by allowing network
-  participants to stake value against the packages they depend on and want to
-  secure. The tea protocol’s graph provides immutable package registration,
-  dependency requirements, package authenticity, and usage oracles to inform
-  the tea remuneration algorithm. Systematic inflation is distributed to all
-  packages based on that algorithm. If security or development issues are
-  found, developers can make claims supported by evidence against the package,
-  and slashing may occur. Members of the open-source community can review
-  packages for quality issues, and the protocol can respond to these reviews
-  by enacting proportional slashing events.
+  teh memberi insentif untuk pemeliharaan open-source dengan mengizinkan jaringan
+  peserta untuk mempertaruhkan nilai terhadap paket yang mereka andalkan dan inginkan
+  mereka andalkan dan ingin mereka amankan. Grafik protokol tea menyediakan pendaftaran paket yang tidak dapat diubah,
+  persyaratan ketergantungan, keaslian paket, dan oracle penggunaan untuk menginformasikan
+  algoritma remunerasi teh. Inflasi sistematis didistribusikan ke semua
+  paket berdasarkan algoritma itu. Jika masalah keamanan atau pengembangan
+  ditemukan, pengembang dapat membuat klaim yang didukung oleh bukti terhadap paket,
+  dan pemotongan dapat terjadi. Anggota komunitas sumber terbuka dapat meninjau
+  paket untuk masalah kualitas, dan protokol dapat menanggapi ulasan ini
+  dengan memberlakukan peristiwa pemotongan yang proporsional.
 author:
 - Max Howell
 - Timothy Lewis
@@ -68,10 +68,9 @@ references:
   url: https://arxiv.org/abs/1207.2617/
 - id: web3
   url: https://research.web3.foundation/en/latest/polkadot/overview/2-token-economics.html
+lang: id 
+dir: ltr # language direction; 
 header-includes:
-- \usepackage{fancyhdr,ragged2e}
-- \lhead{\parbox[t]{0.5\textwidth}{\RaggedRight\rightmark\strut}}
-- \rhead{\parbox[t]{0.5\textwidth}{\RaggedLeft\leftmark\strut}}
-- \setlength{\headheight}{5\baselineskip}
-- \pagestyle{fancy}
-- \fancyfoot[LE,RO]{© 2022 tea.inc.}
+- \fancyfoot[L]{${1}+${id}} # expand these variables!
+translator:
+- Hendi Supriyadi
