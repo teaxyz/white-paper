@@ -462,10 +462,10 @@ Seperti yang disarankan oleh penelitian web3 Foundation, kami mengusulkan bahwa:
 * fungsi inflasi tumbuh secara linear antara $\chi = 0$ dan $\chi = \chi_{ideal}$, dan
 * fungsi inflasi akan meluruh secara eksponensial antara $\chi = \chi_{ideal}$ dan $\chi = 1$.
 
-Kami memilih penurunan eksponensial yang serupa untuk $\tau_{{\textsc{all}}(\chi)$ karena hal ini mengimplikasikan penurunan eksponensial $\tau(\chi)$, dan kami ingin reward turun tajam melebihi $\chi_{ideal}$ untuk mencegah satu paket menerima semua reward.
+Kami memilih penurunan eksponensial yang serupa untuk $\tau_{\textsc{all}}(\chi)$ karena hal ini mengimplikasikan penurunan eksponensial $\tau(\chi)$, dan kami ingin reward turun tajam melebihi $\chi_{ideal}$ untuk mencegah satu paket menerima semua reward.
 
-Peluruhan didefinisikan sehingga tingkat inflasi menurun paling banyak 50% ketika $\chi$ bergeser $d$ unit ke kanan $\chi_{ideal}$ - yaitu
-$\tau_{\textsc{all}}(\chi_{ideal} + d) \geq \tau_{\textsc{all}} \cdot 0,5$.
+Peluruhan didefinisikan sehingga tingkat inflasi menurun paling banyak 50% ketika $\chi$ bergeser $d$ unit ke kanan $\chi_{ideal}$ – i.e.
+$\tau_{\textsc{all}}(\chi_{ideal} + d) \geq \tau_{\textsc{all}} \cdot 0.5$.
 
 Kami mengusulkan fungsi suku bunga dan tingkat inflasi berikut, yang bergantung pada parameter $\chi_{ideal}$, $\tau_{ideal}$, $\tau_{0}$ dan $d$.
 
