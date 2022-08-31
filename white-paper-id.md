@@ -577,7 +577,7 @@ $\parskip=0pt plus 1pt$
 |------|------------|
 | Daun | Denominasi terkecil dari token teh. Sebuah daun setara dengan satu per seratus juta ($10^{-8}$) teh. |
 | Memangkas | Tindakan menghukum steeper atau staker sebagai respons terhadap perilaku yang bertentangan dengan aturan jaringan. |
-| Staking | Tindakan mengunci token teh untuk mengamankan jaringan bukti kepemilikan yang menjadi dasar sistem teh dibangun. |
+| Pertaruhan | Tindakan mengunci token teh untuk mengamankan jaringan bukti kepemilikan yang menjadi dasar sistem teh dibangun. |
 | Mengepul | Tindakan mengunci token teh untuk mendukung klaim Anda dan menerima hadiah (atau penalti) berdasarkan konsensus tentang validitas klaim Anda. |
 
 
