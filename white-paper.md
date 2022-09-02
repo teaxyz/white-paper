@@ -401,21 +401,21 @@ Reputation must remain directly associated with a specific developer’s work an
  Mengingat berapa banyak paket open-source yang tersedia saat ini dan perkiraan pertumbuhannya, $\chi$ akan selalu bernilai sangat kecil antara $0$ dan $1$.
 
  
-Let $\psi$ be the staking ratio.
-It represents the total number of tea tokens staked by any network participant to secure the network.
+Biarkan $\psi$ menjadi rasio taruhan.
+ Ini mewakili jumlah total token teh yang dipertaruhkan oleh setiap peserta jaringan untuk mengamankan jaringan.
 
-Let $\chi_{ideal}$ be the steeping ratio we would like each package to attain for a fair distribution of rewards across all packages and their dependencies.
-The value of $\chi_{ideal}$ must be updated as new packages are added to the decentralized registry, and dependencies are created.
-To determine the best value for $\chi_{ideal}$, we will use a popularity bell curve updated at the start of each reward cycle.
+ Biarkan $\chi_{ideal}$ menjadi rasio seduhan yang kami ingin capai setiap paket untuk distribusi hadiah yang adil di semua paket dan dependensinya.
+ Nilai $\chi_{ideal}$ harus diperbarui saat paket baru ditambahkan ke registri terdesentralisasi, dan dependensi dibuat.
+ Untuk menentukan nilai terbaik untuk $\chi_{ideal}$, kami akan menggunakan kurva lonceng popularitas yang diperbarui di awal setiap siklus hadiah.
 
-Let $\tau = \tau(\chi)$ be the annual steeping interest rate distributed to all tea community members who steep tea tokens to support open-source developers.
-In other words, $\tau(\chi)$ corresponds to the steeping reward received over a year by a community member that steeps tea tokens for the entire year.
+Biarkan $\tau = \tau(\chi)$ menjadi tingkat bunga seduhan tahunan yang didistribusikan ke semua anggota komunitas teh yang merendam token teh untuk mendukung pengembang sumber terbuka.
+ Dengan kata lain, $\tau(\chi)$ sesuai dengan hadiah seduhan yang diterima lebih dari setahun oleh anggota komunitas yang menyeduh token teh sepanjang tahun.
 
-Let $\gamma = \gamma(\psi)$ be the annual staking interest rate distributed to all node operators and network participants who stake tea tokens to secure the network.
-In other words, $\gamma(\psi)$ corresponds to the staking reward received over a year by a community member that stakes tea tokens for the entire year.
+ Biarkan $\gamma = \gamma(\psi)$ menjadi tingkat bunga taruhan tahunan yang didistribusikan ke semua operator node dan peserta jaringan yang mempertaruhkan token teh untuk mengamankan jaringan.
+ Dengan kata lain, $\gamma(\psi)$ sesuai dengan hadiah taruhan yang diterima lebih dari setahun oleh anggota komunitas yang mempertaruhkan token teh sepanjang tahun.
 
-Let $\delta$ be the annual inflation directed at the network treasury.
-$\delta$ may vary as external factors affect the token supply.
+ Biarkan $\delta$ menjadi inflasi tahunan yang diarahkan pada perbendaharaan jaringan.
+ $\delta$ dapat bervariasi karena faktor eksternal mempengaruhi pasokan token.
 
 We consider the annual steeping reward rate as a function of $\chi$ and the annual staking reward rate as a function of $\psi$.
 
@@ -444,18 +444,17 @@ $\chi = \chi_{ideal}$
 $\tau_{ideal}(\chi)$
 should be maximal at that value.
 
-Let $\tau_{ideal} = \tau(\chi_{ideal})$
-be the reward rate delivered by the network at the ideal scenario where
-$\chi = \chi_{ideal}$.
+Misalkan $\tau_{ideal} = \tau(\chi_{ideal})$
+ menjadi tingkat hadiah yang diberikan oleh jaringan pada skenario ideal di mana
+ $\chi = \chi_{ideal}$.
 
-Let $\tau_{0}$ be the limit of  $\tau_{\textsc{all}}(\chi)$ as $\chi$ goes to zero when no members of the tea community steep any packages.
-The value of $\tau_{0}$ should be close to zero but not zero to incentivize early adopters.
-As suggested by the web3 Foundation’s research, we propose that:
+ Biarkan $\tau_{0}$ menjadi batas $\tau_{\textsc{all}}(\chi)$ karena $\chi$ menjadi nol ketika tidak ada anggota komunitas teh yang mengambil paket apa pun.
+ Nilai $\tau_{0}$ harus mendekati nol tetapi tidak nol untuk mendorong pengadopsi awal.
+ Seperti yang disarankan oleh penelitian Yayasan web3, kami mengusulkan bahwa:
+* fungsi inflasi tumbuh secara linier antara $\chi = 0$ dan $\chi = \chi_{ideal}$, dan
+ * itu meluruh secara eksponensial antara $\chi = \chi_{ideal}$ dan $\chi = 1$.
 
-* the inflation function grows linearly between $\chi = 0$ and $\chi = \chi_{ideal}$, and
-* it decay exponentially between $\chi = \chi_{ideal}$ and $\chi = 1$.
-
-We chose a similar exponential decrease for $\tau_{\textsc{all}}(\chi)$ because it implies an exponential decrease of $\tau(\chi)$, and we want rewards to fall sharply beyond $\chi_{ideal}$ to prevent a single package from receiving all the rewards.
+Kami memilih penurunan eksponensial serupa untuk $\tau_{\textsc{all}}(\chi)$ karena ini menyiratkan penurunan eksponensial $\tau(\chi)$, dan kami ingin imbalan turun tajam melampaui $\chi_{  ideal}$ untuk mencegah satu paket menerima semua hadiah.
 
 The decay is defined so that the inflation rate decreases by at most 50% when  $\chi$ shifts $d$ units to the right of $\chi_{ideal}$ – i.e.
 $\tau_{\textsc{all}}(\chi_{ideal} + d) \geq \tau_{\textsc{all}} \cdot 0.5$.
