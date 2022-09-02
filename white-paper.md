@@ -1,18 +1,17 @@
-# Disclaimer
+# Penafian
 
-The information set out in this white paper is of a preliminary nature.
-Consequently, neither the authors nor any of their respective affiliates assume any responsibility that the information set out herein is final or correct and each of the foregoing disclaims,
-to the fullest extent permitted by applicable law, any and all liability whether arising in tort, contract or otherwise in respect of this white paper.
-Neither this white paper nor anything contained herein shall form the basis of or be relied on in connection with or act as an inducement to enter into any contract or commitment whatsoever.
+Informasi yang ditetapkan dalam buku putih ini bersifat pendahuluan.
+Akibatnya, baik penulis maupun afiliasinya masing-masing tidak bertanggung jawab bahwa informasi yang ditetapkan di sini adalah final atau benar dan masing-masing penyangkalan di atas,
+sejauh diizinkan oleh hukum yang berlaku, setiap dan semua kewajiban baik yang timbul dalam gugatan, kontrak, atau lainnya sehubungan dengan buku putih ini.
+Buku putih ini maupun apa pun yang terkandung di sini tidak boleh menjadi dasar atau diandalkan sehubungan dengan atau bertindak sebagai bujukan untuk mengadakan kontrak atau komitmen apa pun.
 
-Nothing in this white paper constitutes an offer to sell or a solicitation to purchase any tokens discussed herein.
-In any event, were this white paper to be deemed to be such an offer or solicitation, no such offer or solicitation is intended or conveyed by this white paper in any jurisdiction where it is unlawful to do so,
-where such an offer or solicitation would require a license or registration, or where such an offer or solicitation is subject to restrictions.
-In particular, any tokens discussed herein have not been, and, as of the date of issuance of this white paper, are not intended to be, registered under the securities or similar laws of any jurisdiction,
-whether or not such jurisdiction considers such tokens to be a security or similar instrument and may not be offered or sold in any jurisdiction where to do so would constitute a violation of the relevant laws of such jurisdiction.
+Tidak ada dalam kertas putih ini yang merupakan tawaran untuk menjual atau ajakan untuk membeli token yang dibahas di sini.
+Dalam keadaan apa pun, jika buku putih ini dianggap sebagai tawaran atau ajakan semacam itu, tidak ada tawaran atau ajakan seperti itu yang dimaksudkan atau disampaikan oleh buku putih ini di yurisdiksi mana pun yang melanggar hukum untuk melakukannya,
+di mana tawaran atau ajakan semacam itu memerlukan lisensi atau pendaftaran, atau di mana tawaran atau ajakan semacam itu tunduk pada pembatasan.
+Secara khusus, setiap token yang dibahas di sini belum, dan, sejak tanggal penerbitan buku putih ini, tidak dimaksudkan untuk didaftarkan di bawah sekuritas atau undang-undang serupa di yurisdiksi mana pun,
+apakah yurisdiksi tersebut menganggap token tersebut sebagai sekuritas atau instrumen serupa dan tidak boleh ditawarkan atau dijual di yurisdiksi mana pun di mana melakukannya akan merupakan pelanggaran terhadap undang-undang yang relevan dari yurisdiksi tersebut.
 
-
-# License
+# Lisensi
 
 The source code[^src] of this paper is available under the Creative Commons Attribution-ShareAlike 4.0 International[^cc] license.
 
