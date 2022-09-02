@@ -19,7 +19,7 @@ Kode sumber[^src] makalah ini tersedia di bawah lisensi Creative Commons Attribu
 [^cc]: See: @cc
 
 
-# Introduction
+# Pengantar
 
 Internet sebagian besar terdiri dari proyek-proyek open-source dan telah sejak awal.
 Seiring waktu, banyak dari proyek ini telah menjadi bagian dasar di mana semua inovasi masa depan dibangun.
@@ -77,29 +77,30 @@ Kami memperkirakan bahwa kombinasi alat, informasi, dan penghargaan teh akan sec
 
 [^4]: See: @w3
 
-## The Decentralized Registry
+## Registri Terdesentralisasi
 
-Every package manager has its own package registry duplicating the same metadata repeatedly.
-It’s time there was a single, comprehensive and definitive registry designed and governed by the communities that depend on it.
-This decentralized, immutable registry could provide security, stability and prevent
-malevolent intent.
+ Setiap manajer paket memiliki registri paketnya sendiri yang menduplikasi metadata yang sama berulang kali.
+ Sudah saatnya ada registri tunggal, komprehensif dan definitif yang dirancang dan diatur oleh komunitas yang bergantung padanya.
+ Registri yang terdesentralisasi dan tidak dapat diubah ini dapat memberikan keamanan, stabilitas, dan pencegahan
+ niat jahat.
 
-The Internet runs on tens of thousands of vital open-source components.
-It’s remarkable that thus far, incidents caused by the removal of essential open-source infrastructure have been minimal.
-The most famous was the removal of an NPM left-pad[^5] dependency in 2016, which cascaded into continuous integration and continuous deployment systems leaving developers high and dry for days.
-This event demonstrated that the Internet itself is based on fragile systems of development.
-Other examples involved active or intentional participation from the package maintainers sabotaging their popular packages (See colors.js, faker.js[^6], and node-ipc[^7]),
-or bad actors looking to profit by pretending to help maintain packages and corrupting them to steal, for example, Bitcoin private keys (See event-stream[^8]),
-or malicious packages with intentional misspelling errors, also known as typosquatting,
-in the hope of tricking users into installing them, for example crossenv vs. cross-env NPM packages[^npmjsCrossenv].
+ Internet berjalan pada puluhan ribu komponen sumber terbuka yang vital.
+ Sungguh luar biasa bahwa sejauh ini, insiden yang disebabkan oleh penghapusan infrastruktur sumber terbuka yang penting sangat minim.
+ Yang paling terkenal adalah penghapusan ketergantungan NPM left-pad[^5] pada tahun 2016, yang mengalir ke dalam integrasi berkelanjutan dan sistem penerapan berkelanjutan yang membuat pengembang tinggi dan kering selama berhari-hari.
+ Peristiwa ini menunjukkan bahwa Internet itu sendiri didasarkan pada sistem pembangunan yang rapuh.
+ Contoh lain melibatkan partisipasi aktif atau disengaja dari pengelola paket yang menyabotase paket populer mereka (Lihat colors.js, faker.js[^6], dan node-ipc[^7]),
+ atau aktor jahat yang mencari untung dengan berpura-pura membantu memelihara paket dan merusaknya untuk mencuri, misalnya, kunci pribadi Bitcoin (Lihat aliran peristiwa[^8]),
+ atau paket berbahaya dengan kesalahan ejaan yang disengaja, juga dikenal sebagai salah ketik,
+ dengan harapan mengelabui pengguna agar menginstalnya, misalnya paket NPM crossenv vs. cross-env[^npmjsCrossenv].
 
-Software integrity needs to be guaranteed as the industry progresses towards a future where digital assets are part of the software.
-We cannot continue to leave ourselves vulnerable to malicious actors modifying the software.
+ Integritas perangkat lunak perlu dijamin seiring kemajuan industri menuju masa depan di mana aset digital merupakan bagian dari perangkat lunak.
+ Kami tidak dapat terus membiarkan diri kami rentan terhadap pelaku jahat yang memodifikasi perangkat lunak.
 
-Most tools that we call package managers cannot guarantee that these packages built into the apps and dApps are the unaltered open-source code published by their original authors.
-Microsoft’s GitHub has found that 17% of vulnerabilities in software were planted for malicious purposes[^9], with some remaining undetected for extended periods (See Webmin 1.890[^10]).
+ Sebagian besar alat yang kami sebut manajer paket tidak dapat menjamin bahwa paket yang ada di dalam aplikasi dan dApps ini adalah kode sumber terbuka yang tidak diubah yang diterbitkan oleh penulis aslinya.
+ GitHub Microsoft telah menemukan bahwa 17% kerentanan dalam perangkat lunak ditanam untuk tujuan jahat[^9], dengan beberapa sisanya tidak terdeteksi untuk waktu yang lama (Lihat Webmin 1.890[^10]).
 
-A decentralized registry augmented by a reputation system and supported by economic incentives designed to expose bad actors and reward good actors may provide the guarantees developer communities have been looking for.
+ Registri terdesentralisasi ditambah dengan sistem reputasi dan didukung oleh insentif ekonomi yang dirancang untuk mengekspos pelaku buruk dan memberi penghargaan kepada pelaku yang baik dapat memberikan jaminan yang telah dicari oleh komunitas pengembang.
+
 
 [^5]: Source: @theregister
 [^6]: Source: @fossa
@@ -110,49 +111,49 @@ A decentralized registry augmented by a reputation system and supported by econo
 [^10]: Source: @threatpost
 
 
-## The Storage System
+## Sistem Penyimpanan
 
-Open-source packages deliver a broad range of functionality, some of which may be restricted or unwanted.
-Encryption is an excellent example of that.
-A critical use case for encryption is the support of individuals’ privacy across the globe.
-Encryption, however, can also be used for nefarious purposes (see Phantom Secure, dismantled by law enforcement agencies in March 2018[^11]) or may be compromised to support law enforcement activities (See Operation Ironside (AFP), Operation Greenlight (Europol),
-and Operation Trojan Shield (FBI)[^12] where the FBI operated an “encrypted” communication platform, AN0M, and convinced criminals to use their “encrypted” phones for secure communication).
+ Paket sumber terbuka memberikan berbagai fungsionalitas, beberapa di antaranya mungkin dibatasi atau tidak diinginkan.
+ Enkripsi adalah contoh yang sangat baik untuk itu.
+ Kasus penggunaan penting untuk enkripsi adalah dukungan privasi individu di seluruh dunia.
+ Enkripsi, bagaimanapun, juga dapat digunakan untuk tujuan jahat (lihat Phantom Secure, dibongkar oleh lembaga penegak hukum pada Maret 2018[^11]) atau dapat dikompromikan untuk mendukung kegiatan penegakan hukum (Lihat Operasi Ironside (AFP), Operasi Greenlight (Europol  ),
+ dan Operation Trojan Shield (FBI)[^12] di mana FBI mengoperasikan platform komunikasi "terenkripsi", AN0M, dan meyakinkan para penjahat untuk menggunakan ponsel "terenkripsi" mereka untuk komunikasi yang aman).
 
-Encryption’s broad applications have made it a perfect use case for open-source software and a great example that any solution that stores packages must be tamper-proof and censorship-resistant.
-tea is a decentralized protocol that does not intend to filter or sanction packages based on their functionality.
-While the tea governance may elect to remove proven malicious packages (see the governance section for more information), it is critical for the tea system to connect with multiple storage systems, including decentralized ones that demonstrate that a package is unaltered and correctly replicated.
-Package maintainers may choose the storage system best suited for their need to store and distribute their packages securely.
+ Aplikasi luas Enkripsi telah menjadikannya kasus penggunaan yang sempurna untuk perangkat lunak sumber terbuka dan contoh yang bagus bahwa solusi apa pun yang menyimpan paket harus tahan terhadap kerusakan dan sensor.
+ tea adalah protokol terdesentralisasi yang tidak bermaksud memfilter atau menyetujui paket berdasarkan fungsinya.
+ Sementara tata kelola teh dapat memilih untuk menghapus paket berbahaya yang terbukti (lihat bagian tata kelola untuk informasi lebih lanjut), sangat penting bagi sistem teh untuk terhubung dengan beberapa sistem penyimpanan, termasuk yang terdesentralisasi yang menunjukkan bahwa sebuah paket tidak diubah dan direplikasi dengan benar.
+ Pengelola paket dapat memilih sistem penyimpanan yang paling sesuai dengan kebutuhan mereka untuk menyimpan dan mendistribusikan paket mereka dengan aman.
 
 [^11]: Source: @fbi
 [^12]: Source: @europol
 
-# Network Participants
+# Peserta Jaringan
 
-tea’s mission is to empower open-source communities and ensure their contributors are supported as they create the tools that build the Internet.
-In this white paper, we distinguish participants through their contributions.
-Some may contribute code or verify contributed code.
-Others may provide economic value to support developers and their reputation.
+ misi tea adalah untuk memberdayakan komunitas sumber terbuka dan memastikan kontributor mereka didukung saat mereka membuat alat yang membangun Internet.
+ Dalam buku putih ini, kami membedakan peserta melalui kontribusi mereka.
+ Beberapa mungkin menyumbangkan kode atau memverifikasi kode yang disumbangkan.
+ Orang lain mungkin memberikan nilai ekonomi untuk mendukung pengembang dan reputasi mereka.
 
-## Package Maintainers
+## Pengelola Paket
 
-Package maintainers must make sure their software continues to deliver increasing value as the industry evolves.
+ Pengelola paket harus memastikan perangkat lunak mereka terus memberikan peningkatan nilai seiring perkembangan industri.
 
-tea assumes that package creators maintain their work.
-Package maintainers are pillars of open-source communities who need to be empowered and rewarded for their ongoing contributions.
-A package maintainer may decide to discontinue their maintenance efforts or realize they cannot operate at a pace that matches the package users' expectations.
-Package maintainers receive a non-fungible token (NFT) when they complete a package submission (see the maintainer NFT section for additional details).
-This NFT is used to evidence their work and is the key that directs tea rewards.
-The holder of a package’s NFT can transfer its ownership to another developer (or group of developers), thus making them maintainers of the package and recipients of any future rewards.
-Similarly, a developer may decide to take on the role of package maintainer by forking the existing package and submitting a new one which they will maintain moving forward, thus becoming themselves both package creator and maintainer.
+ teh mengasumsikan bahwa pembuat paket mempertahankan pekerjaan mereka.
+ Pengelola paket adalah pilar komunitas sumber terbuka yang perlu diberdayakan dan diberi penghargaan atas kontribusi berkelanjutan mereka.
+ Pengelola paket dapat memutuskan untuk menghentikan upaya pemeliharaan mereka atau menyadari bahwa mereka tidak dapat beroperasi pada kecepatan yang sesuai dengan harapan pengguna paket.
+ Pengelola paket menerima token non-fungible (NFT) saat mereka menyelesaikan pengiriman paket (lihat bagian NFT pengelola untuk detail tambahan).
+ NFT ini digunakan untuk membuktikan pekerjaan mereka dan merupakan kunci yang mengarahkan penghargaan teh.
+ Pemegang NFT paket dapat mentransfer kepemilikannya ke pengembang lain (atau grup pengembang), sehingga menjadikan mereka pengelola paket dan penerima hadiah di masa mendatang.
+ Demikian pula, seorang pengembang dapat memutuskan untuk mengambil peran sebagai pengelola paket dengan melakukan forking pada paket yang ada dan mengirimkan yang baru yang akan mereka pertahankan ke depan, sehingga menjadi pembuat dan pengelola paket itu sendiri.
 
-It is essential to provide developer communities with the right tools to determine which packages are being maintained and their past and present maintainers’ reputation and quality of work.
-We’ve too often seen open-source work being tampered with and the efforts of many ruined by bad actors.
-Although the work of these bad actors is largely discovered and remediated, it is often not until significant damage has been incurred through financial or data loss.
-Take for example the EventStream npm package[^13] that was downloaded over 1.5 million times per week and relied upon by over 1,500 packages when a hacker managed to penetrate the open-source project,
-gain the trust of its original author and modify EventStream to depend on a malicious package that would exfiltrate bitcoin wallet credentials to a third-party server\.
-Although tools may help detect some of these attacks, they cannot always be relied upon, which creates an entire community dependent upon each other’s diligence and willingness to share their findings.
+ Sangat penting untuk menyediakan komunitas pengembang dengan alat yang tepat untuk menentukan paket mana yang dipertahankan dan reputasi serta kualitas pekerjaan pengelola masa lalu dan sekarang.
+ Kami terlalu sering melihat pekerjaan open-source dirusak dan upaya banyak orang dirusak oleh aktor jahat.
+ Meskipun pekerjaan aktor jahat ini sebagian besar ditemukan dan diperbaiki, seringkali tidak sampai kerusakan signifikan telah terjadi melalui kehilangan keuangan atau data.
+ Ambil contoh paket EventStream npm[^13] yang diunduh lebih dari 1,5 juta kali per minggu dan diandalkan oleh lebih dari 1.500 paket ketika seorang peretas berhasil menembus proyek sumber terbuka,
+ dapatkan kepercayaan dari pembuat aslinya dan ubah EventStream agar bergantung pada paket berbahaya yang akan mengekstrak kredensial dompet bitcoin ke server pihak ketiga\.
+ Meskipun alat dapat membantu mendeteksi beberapa serangan ini, mereka tidak selalu dapat diandalkan, yang membuat seluruh komunitas bergantung pada ketekunan dan kesediaan satu sama lain untuk berbagi temuan mereka.
 
-We propose introducing incentives via the tea token described in the tea token section, encouraging open-source communities to report their findings constructively, so package maintainers can address them before they are exploited.
+ Kami mengusulkan untuk memperkenalkan insentif melalui token teh yang dijelaskan di bagian token teh, mendorong komunitas sumber terbuka untuk melaporkan temuan mereka secara konstruktif, sehingga pengelola paket dapat mengatasinya sebelum dieksploitasi.
 
 [^13]: Source: @medium
 
