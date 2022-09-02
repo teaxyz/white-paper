@@ -13,7 +13,7 @@ apakah yurisdiksi tersebut menganggap token tersebut sebagai sekuritas atau inst
 
 # Lisensi
 
-The source code[^src] of this paper is available under the Creative Commons Attribution-ShareAlike 4.0 International[^cc] license.
+Kode sumber[^src] makalah ini tersedia di bawah lisensi Creative Commons Attribution-ShareAlike 4.0 International[^cc] license.
 
 [^src]: See: @sources
 [^cc]: See: @cc
@@ -21,21 +21,21 @@ The source code[^src] of this paper is available under the Creative Commons Attr
 
 # Introduction
 
-The Internet is predominantly composed of open-source projects and has been since its inception.
-Over time, many of these projects have become foundational pieces upon which all future innovation is built.
-And while fortunes have been made from it, open-source is mainly created and maintained without compensation.
+Internet sebagian besar terdiri dari proyek-proyek open-source dan telah sejak awal.
+Seiring waktu, banyak dari proyek ini telah menjadi bagian dasar di mana semua inovasi masa depan dibangun.
+Dan sementara kekayaan telah dibuat darinya, sumber terbuka terutama dibuat dan dipelihara tanpa kompensasi.
 
-We believe that the entirety of modern human endeavor has been stunted by relying on the smallest percentage of the world's engineers to choose between a salary or keeping the Internet running.
-Open-source is a labor of love often hindered by a lack of meaningful economic incentives resulting in genuinely worthwhile projects never reaching their potential while others suffer from security issues due to the lack of incentives to maintain software throughout its lifecycle.
-To fully realize our potential, we need a fair remuneration system for the open-source ecosystem that doesn’t fundamentally change how it is built or utilized.
+Kami percaya bahwa keseluruhan upaya manusia modern telah terhambat dengan mengandalkan persentase terkecil dari insinyur dunia untuk memilih antara gaji atau menjaga Internet tetap berjalan.
+Sumber terbuka adalah pekerjaan cinta yang sering terhalang oleh kurangnya insentif ekonomi yang berarti sehingga proyek yang benar-benar bermanfaat tidak pernah mencapai potensi mereka sementara yang lain menderita masalah keamanan karena kurangnya insentif untuk memelihara perangkat lunak sepanjang siklus hidupnya.
+Untuk sepenuhnya menyadari potensi kami, kami membutuhkan sistem remunerasi yang adil untuk ekosistem open-source yang tidak secara mendasar mengubah cara ia dibangun atau digunakan.
 
-Enterprises often wrap business models around open-source, generating revenue directly from the work of the benevolent developers while also relying on them to fix bugs as issues occur.
-A great example is a recent incident involving a critical security vulnerability in Log4j, a package from the Apache Software Foundation that found its way across many commercial software and services employed by enterprises and governments.
-In November 2021, a security researcher working for Alibaba Group Holding Ltd. reported vulnerability CVE-2021-44228[^1], which received the highest possible base score from the Apache Software Foundation.
-Amit Yoran, Chief Executive of Tenable and founding director of the United States Computer Emergency Readiness Team (US-CERT), described this vulnerability as “the single biggest, most critical vulnerability of the last decade”[^2].
-Panic ensued and the few volunteers who maintained this package came publicly under fire for the failure.
-After addressing the outrage with a humble plea for fairness, systems got patched.
-Enterprises and governments eventually realized that Log4j, a package used by a broad range of critical systems for two decades, was maintained by a few unpaid volunteers, the same unsung heroes who sprang into action despite abuse from the industry[^3] and worked tirelessly to address the vulnerability.
+Perusahaan sering membungkus model bisnis di sekitar sumber terbuka, menghasilkan pendapatan langsung dari pekerjaan pengembang yang baik hati sambil juga mengandalkan mereka untuk memperbaiki bug saat masalah terjadi.
+Contoh yang bagus adalah insiden baru-baru ini yang melibatkan kerentanan keamanan kritis di Log4j, sebuah paket dari Apache Software Foundation yang ditemukan di banyak perangkat lunak dan layanan komersial yang digunakan oleh perusahaan dan pemerintah.
+Pada November 2021, seorang peneliti keamanan yang bekerja untuk Alibaba Group Holding Ltd. melaporkan kerentanan CVE-2021-44228[^1], yang menerima skor dasar setinggi mungkin dari Apache Software Foundation.
+Amit Yoran, Kepala Eksekutif Tenable dan direktur pendiri Tim Kesiapan Darurat Komputer Amerika Serikat (US-CERT), menggambarkan kerentanan ini sebagai "kerentanan tunggal terbesar dan paling kritis dalam dekade terakhir"[^2].
+Kepanikan terjadi dan beberapa sukarelawan yang mempertahankan paket ini mendapat kecaman publik karena kegagalannya.
+Setelah mengatasi kemarahan dengan permohonan sederhana untuk keadilan, sistem ditambal.
+Perusahaan dan pemerintah akhirnya menyadari bahwa Log4j, sebuah paket yang digunakan oleh berbagai sistem kritis selama dua dekade, dikelola oleh beberapa sukarelawan yang tidak dibayar, pahlawan tanpa tanda jasa yang sama yang langsung beraksi meskipun ada penyalahgunaan dari industri[^3] dan bekerja tanpa lelah  untuk mengatasi kerentanan.
 
 Sadly, Log4j is far from the only example.
 core-js is downloaded 30 million times per week as the base of every Node.js application, yet it is also barely funded.
