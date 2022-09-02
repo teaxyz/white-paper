@@ -18,7 +18,6 @@ Kode sumber[^src] makalah ini tersedia di bawah lisensi Creative Commons Attribu
 [^src]: See: @sources
 [^cc]: See: @cc
 
-
 # Pengantar
 
 Internet sebagian besar terdiri dari proyek-proyek open-source dan telah sejak awal.
@@ -138,7 +137,7 @@ Kami memperkirakan bahwa kombinasi alat, informasi, dan penghargaan teh akan sec
 
  Pengelola paket harus memastikan perangkat lunak mereka terus memberikan peningkatan nilai seiring perkembangan industri.
 
- teh mengasumsikan bahwa pembuat paket mempertahankan pekerjaan mereka.
+ tea mengasumsikan bahwa pembuat paket mempertahankan pekerjaan mereka.
  Pengelola paket adalah pilar komunitas sumber terbuka yang perlu diberdayakan dan diberi penghargaan atas kontribusi berkelanjutan mereka.
  Pengelola paket dapat memutuskan untuk menghentikan upaya pemeliharaan mereka atau menyadari bahwa mereka tidak dapat beroperasi pada kecepatan yang sesuai dengan harapan pengguna paket.
  Pengelola paket menerima token non-fungible (NFT) saat mereka menyelesaikan pengiriman paket (lihat bagian NFT pengelola untuk detail tambahan).
