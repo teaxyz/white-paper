@@ -1,0 +1,82 @@
+title: Ein dezentrales Protokoll zur Vergütung des Open-Source-Ökosystems
+abstract: |-
+  Erstellen einer offenen, öffentlichen und stabilen Registrierung für alle Open-Source-Software
+  würde Projekte in die Lage versetzen, Releases unabhängig zu veröffentlichen, anstatt sich darauf zu verlassen
+  Dritte, die diese unregelmäßigen Daten zu Hunderten von separaten zusammenfügen
+  (und duplizierte) Systeme. Paketbetreuer veröffentlichen ihre Veröffentlichungen unter
+  eine dezentrale Registrierung, die von einer byzantinischen fehlertoleranten Blockchain betrieben wird
+  Eliminieren Sie einzelne Fehlerquellen, stellen Sie unveränderliche Freigaben bereit und ermöglichen Sie
+  Gemeinschaften, um ihre Regionen des Open-Source-Ökosystems zu verwalten,
+  unabhängig von externen Agenden.
+
+  Tea fördert die Wartung von Open Source, indem es das Netzwerk zulässt
+  Teilnehmer können den Wert gegen die Pakete einsetzen, von denen sie abhängig sind und die sie möchten
+  sicher. Das Diagramm des Teeprotokolls bietet eine unveränderliche Paketregistrierung,
+  Abhängigkeitsanforderungen, Paketauthentizität und Nutzungsorakel zu informieren
+  der Tee-Vergütungsalgorithmus. Systematische Inflation wird an alle verteilt
+  Pakete, die auf diesem Algorithmus basieren. Wenn Sicherheits- oder Entwicklungsprobleme bestehen
+  gefunden, können Entwickler Ansprüche gegen das Paket geltend machen, die durch Beweise gestützt werden,
+  und es kann zu Schnittverletzungen kommen. Mitglieder der Open-Source-Community können sie überprüfen
+  Pakete für Qualitätsprobleme, und das Protokoll kann auf diese Überprüfungen reagieren
+  durch Erlass von proportionalen Slashing-Events.
+author:
+- Max Howell
+- Timothy Lewis
+- Thomas Borrel
+references:
+- id: sources
+  url: https://github.com/teaxyz/white-paper
+- id: cc
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+- id: nist
+  url: https://nvd.nist.gov/vuln/detail/CVE-2021-44228
+- id: reuters
+  url: https://www.reuters.com/article/usa-cyber-vulnerability-idCNL1N2SY2PA
+- id: twitter
+  url: https://twitter.com/yazicivo/status/1469349956880408583
+- id: w3
+  url: https://www.w3.org/TR/did-core/
+- id: theregister
+  url: https://www.theregister.com/2016/03/23/npm_left_pad_chaos/
+- id: fossa
+  url: https://fossa.com/blog/npm-packages-colors-faker-corrupted/
+- id: lunasec
+  url: https://www.lunasec.io/docs/blog/node-ipc-protestware/
+- id: github
+  url: https://github.com/dominictarr/event-stream/issues/116
+- id: zdnet
+  url: https://www.zdnet.com/article/open-source-software-how-many-bugs-are-hidden-there-on-purpose/
+- id: threatpost
+  url: https://threatpost.com/backdoor-found-in-utility-for-linux/147581/
+- id: fbi
+  url: https://www.fbi.gov/news/stories/phantom-secure-takedown-031618
+- id: europol
+  url: https://www.europol.europa.eu/media-press/newsroom/news/800-criminals-arrested-in-biggest-ever-law-enforcement-operation-against-encrypted-communication
+- id: medium
+  url: https://medium.com/intrinsic-blog/compromised-npm-package-event-stream-d47d08605502
+- id: semver
+  url: https://semver.org/
+- id: npmjsCrossenv
+  url: https://blog.npmjs.org/post/163723642530/crossenv-malware-on-the-npm-registry.html
+- id: npmjsLodash
+  url: https://www.npmjs.com/package/lodash
+- id: npmjsChalk
+  url: https://www.npmjs.com/package/chalk
+- id: npmjsLogFourjs
+  url: https://www.npmjs.com/package/log4js/
+- id: arxiv
+  url: https://arxiv.org/abs/1207.2617/
+- id: web3
+  url: https://research.web3.foundation/en/latest/polkadot/overview/2-token-economics.html
+header-includes:
+- \usepackage{fancyhdr,ragged2e}
+- \lhead{\parbox[t]{0.5\textwidth}{\RaggedRight\rightmark\strut}}
+- \rhead{\parbox[t]{0.5\textwidth}{\RaggedLeft\leftmark\strut}}
+- \setlength{\headheight}{5\baselineskip}
+- \pagestyle{fancy}
+- \fancyfoot[LE,RO]{© 2022 tea.inc.}
+- \fancyfoot[L]{v1.0.3+de}   # expand these variables!
+lang: de       # https://pandoc.org/MANUAL.html#language-variables
+dir: ltr      # language direction; ltr:left-to-right or rtl:right-to-left
+translator:
+  - Marc Seitz
