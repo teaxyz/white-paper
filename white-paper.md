@@ -157,192 +157,191 @@ Kami memperkirakan bahwa kombinasi alat, informasi, dan penghargaan teh akan sec
 
 [^13]: Source: @medium
 
-## Package Users
+## Pengguna Paket
 
-Package users are software developers focused on solving a specific problem.
-They often look in the open-source community for the tools they need to experiment quickly and iterate at very little to no cost, directly benefiting from the work of package creators and maintainers.
-Traditionally, a subset may have chosen to support package maintainers through donations or other forms of remuneration; however, this has rarely been the case.
+ Pengguna paket adalah pengembang perangkat lunak yang berfokus pada pemecahan masalah tertentu.
+ Mereka sering mencari di komunitas sumber terbuka untuk alat yang mereka butuhkan untuk bereksperimen dengan cepat dan beralih dengan sangat sedikit atau tanpa biaya, yang secara langsung mendapat manfaat dari pekerjaan pembuat dan pengelola paket.
+ Secara tradisional, subset mungkin telah memilih untuk mendukung pengelola paket melalui donasi atau bentuk remunerasi lainnya;  namun, hal ini jarang terjadi.
 
-Sponsorship can be an effective system to support open-source development; however, remuneration does not typically extend to all dependencies.
-This limitation benefits favorites and gets in the way of innovation and software building.
-To strive as the foundation of software development, open-source must empower all developers, whether beginners or experts, across all layers in the tower.
+ Sponsor dapat menjadi sistem yang efektif untuk mendukung pengembangan sumber terbuka;  namun, remunerasi biasanya tidak mencakup semua dependensi.
+ Keterbatasan ini menguntungkan favorit dan menghalangi inovasi dan pembuatan perangkat lunak.
+ Untuk berjuang sebagai dasar pengembangan perangkat lunak, sumber terbuka harus memberdayakan semua pengembang, baik pemula atau ahli, di semua lapisan di menara.
 
-tea’s purpose is to maintain the core values of open-source software while providing a decentralized system to remunerate package maintainers for their work.
-To deliver on this mission, tea intends to develop — and incentivize others to develop — mechanisms for package users to support package maintainers through unique use cases of the tea token, as described in the tea token and future work and potential community effort sections.
+ tujuan teh adalah untuk mempertahankan nilai-nilai inti dari perangkat lunak sumber terbuka sambil menyediakan sistem terdesentralisasi untuk memberi imbalan kepada pengelola paket untuk pekerjaan mereka.
+ Untuk mewujudkan misi ini, teh bermaksud untuk mengembangkan — dan memberi insentif kepada orang lain untuk mengembangkan — mekanisme bagi pengguna paket untuk mendukung pengelola paket melalui kasus penggunaan token teh yang unik, seperti yang dijelaskan dalam token teh dan pekerjaan masa depan dan bagian upaya komunitas potensial.
 
-## Package Supporters and Sponsors
+ ## Paket Pendukung dan Sponsor
 
-In Web 2.0 and web3, package supporters have often been called “sponsors.” They are organizations or package users who use open-source software to build their commercial products, philanthropists looking to support the ecosystem, or entrepreneurs looking to fund teams to develop components of a larger system.
+ Di Web 2.0 dan web3, pendukung paket sering disebut "sponsor".  Mereka adalah organisasi atau pengguna paket yang menggunakan perangkat lunak sumber terbuka untuk membangun produk komersial mereka, dermawan yang ingin mendukung ekosistem, atau pengusaha yang ingin mendanai tim untuk mengembangkan komponen sistem yang lebih besar.
 
-tea proposes to extend the communities of package supporters to the entire tea community, whether organizations, developers, users, or tech enthusiasts.
-tea’s goal is to implement decentralized incentive mechanisms through unique use cases of the tea token for any member of the tea community to contribute to the perpetual sustainability and continuous growth of open-source.
-Package supporters and sponsors are free to decide which packages or package maintainers they want to support based on their work, beliefs, or any criteria and metric that would influence their decision.
-Additionally, the support provided by package supporters and sponsors will flow to each package’s dependencies, thus implicitly trusting the package maintainer to make good choices about their stack and using this information to contribute to their reputation.
+ tea mengusulkan untuk memperluas komunitas pendukung paket ke seluruh komunitas teh, baik organisasi, pengembang, pengguna, atau penggemar teknologi.
+ tujuan teh adalah untuk menerapkan mekanisme insentif terdesentralisasi melalui kasus penggunaan unik dari token teh untuk setiap anggota komunitas teh untuk berkontribusi pada keberlanjutan abadi dan pertumbuhan sumber terbuka yang berkelanjutan.
+ Pendukung dan sponsor paket bebas memutuskan paket atau pengelola paket mana yang ingin mereka dukung berdasarkan pekerjaan, keyakinan, atau kriteria dan metrik apa pun yang akan memengaruhi keputusan mereka.
+ Selain itu, dukungan yang diberikan oleh pendukung dan sponsor paket akan mengalir ke dependensi setiap paket, sehingga secara implisit memercayai pengelola paket untuk membuat pilihan yang baik tentang tumpukan mereka dan menggunakan informasi ini untuk berkontribusi pada reputasi mereka.
 
-Provided that the package maintainer offers such service, a package supporter and sponsor may receive a premium support level NFT in return, thus benefiting from accelerated SLAs or more flexible licensing.
-Additionally, package supporters and sponsors may decide to support packages or package maintainers and automatically redirect all or a percentage of their rewards to incentivize teams to build new open-source software.
-In other words, packages don’t need to exist for tea to start pouring in.
-Nascent projects can be supported just as well as more mature ones, further incentivizing a constantly evolving open-source landscape.
+ Asalkan pengelola paket menawarkan layanan tersebut, pendukung dan sponsor paket dapat menerima NFT tingkat dukungan premium sebagai imbalannya, sehingga mendapat manfaat dari SLA yang dipercepat atau lisensi yang lebih fleksibel.
+ Selain itu, pendukung dan sponsor paket dapat memutuskan untuk mendukung paket atau pengelola paket dan secara otomatis mengalihkan semua atau sebagian dari hadiah mereka untuk memberi insentif kepada tim untuk membangun perangkat lunak sumber terbuka baru.
+ Dengan kata lain, paket tidak perlu ada agar teh mulai mengalir.
+ Proyek yang baru lahir dapat didukung sama seperti proyek yang lebih matang, yang selanjutnya mendorong lanskap sumber terbuka yang terus berkembang.
 
-## tea Tasters
+ ## pencicip teh
 
-As new packages or new versions of existing packages are released, the validity of the work needs to be provably demonstrated.
-This information is critical for package users to decide whether or not to trust both the package and its maintainers.
-With the tea protocol, this function is provided by the tea tasters.
+ Saat paket baru atau versi baru dari paket yang ada dirilis, validitas pekerjaan perlu dibuktikan.
+ Informasi ini sangat penting bagi pengguna paket untuk memutuskan apakah akan mempercayai paket dan pengelolanya atau tidak.
+ Dengan protokol teh, fungsi ini disediakan oleh pencicip teh.
 
-tea tasters, typically, are experienced software developers willing to dedicate some of their time to check the claims associated with a package (functionality, security, semantic versioning[^14], license accuracy, etc.)
-and stake both their reputation and economic value to demonstrate the outcome of their research and analysis and support their reviews.
-tea tasters receive rewards for their diligence and efforts.
-At tea, we call  “steeping your tea” the action of locking tea tokens to support your reviews and receive rewards (or penalties) based on the consensus on the validity of your reviews.
+ pencicip teh, biasanya, adalah pengembang perangkat lunak berpengalaman yang bersedia mendedikasikan sebagian waktu mereka untuk memeriksa klaim yang terkait dengan sebuah paket (fungsionalitas, keamanan, versi semantik[^14], akurasi lisensi, dll.)
+ dan mempertaruhkan reputasi dan nilai ekonomi mereka untuk menunjukkan hasil penelitian dan analisis mereka dan mendukung ulasan mereka.
+ pencicip teh menerima penghargaan atas ketekunan dan upaya mereka.
+ Di teh, kami menyebut "menyeduh teh Anda" tindakan mengunci token teh untuk mendukung ulasan Anda dan menerima hadiah (atau penalti) berdasarkan konsensus tentang validitas ulasan Anda.
 
-Like package supporters, tea tasters can influence a package and package maintainer’s reputation; however, their impact is more significant given their role in validating a package’s security, functionality, and quality.
-tea tasters will also need to build their reputation to support their claims.
-The quality of their work and the economic value they put at risk as they steep their reviews combined with other external data sources will build each tea taster’s reputation, bringing more value to their work.
-See the package reputation section for more details on the mechanisms used to influence a package and package maintainer’s reputation.
+ Seperti pendukung paket, pencicip teh dapat memengaruhi reputasi pengelola paket dan kemasan;  namun, dampaknya lebih signifikan mengingat peran mereka dalam memvalidasi keamanan, fungsionalitas, dan kualitas paket.
+ pencicip teh juga perlu membangun reputasi mereka untuk mendukung klaim mereka.
+ Kualitas pekerjaan mereka dan nilai ekonomi yang mereka pertaruhkan saat ulasan mereka curam dikombinasikan dengan sumber data eksternal lainnya akan membangun reputasi masing-masing pencicip teh, membawa nilai lebih pada pekerjaan mereka.
+ Lihat bagian reputasi paket untuk detail selengkapnya tentang mekanisme yang digunakan untuk memengaruhi reputasi pengelola paket dan paket.
 
 [^14]: See: @semver
 
-# Protocol Overview
+# Ikhtisar Protokol
 
-The design of a protocol to reward open-source contributions is mired with challenges.
-Open-source software is by definition open to all and can, as a result, be subjected to misattribution, appropriation, or malicious tampering.
-However, the open-source community has consistently demonstrated its willingness to highlight good actors and expose bad actors.
-Historically, the energy spent reviewing and commenting on other developers’ contributions has been strictly voluntary, despite how time-consuming and crucial reporting and defending findings may be.
+ Desain protokol untuk menghargai kontribusi sumber terbuka penuh dengan tantangan.
+ Perangkat lunak sumber terbuka menurut definisinya terbuka untuk semua dan dapat, sebagai akibatnya, menjadi sasaran kesalahan atribusi, apropriasi, atau gangguan berbahaya.
+ Namun, komunitas open-source secara konsisten menunjukkan kesediaannya untuk menyoroti aktor yang baik dan mengekspos aktor yang buruk.
+ Secara historis, energi yang dihabiskan untuk meninjau dan mengomentari kontribusi pengembang lain sepenuhnya bersifat sukarela, meskipun pelaporan dan mempertahankan temuan mungkin memakan waktu dan sangat penting.
 
-We intend to create a trustless distribution platform for applications secured by reputation and financial incentives, as we believe adequate rewards for open-source contributions cannot succeed without both a reputation system and the ability for members of the community to communicate their findings and support (or dissent) for a package or the work of a developer.
+ Kami bermaksud membuat platform distribusi tanpa kepercayaan untuk aplikasi yang dijamin dengan reputasi dan insentif keuangan, karena kami yakin imbalan yang memadai untuk kontribusi sumber terbuka tidak akan berhasil tanpa sistem reputasi dan kemampuan anggota komunitas untuk mengomunikasikan temuan dan dukungan mereka (atau  perbedaan pendapat) untuk paket atau karya pengembang.
 
-We must provide developers with tools to access and contribute to this reputation system.
-Tools that include simple visual and programmable access to the version and reputation of all dependencies within their packages.
-A clear understanding of which community members support each package and how many tea tokens they are steeping will contribute to the reputation of each package, just as how much a package maintainer is steeping their work communicates how much they stand behind their work.
-These combined data points will help inform a reputation system for all community members and facilitate choice.
-As the EventStream package hack was not conducted through the package itself, but via one of its dependencies, visibility across all layers of dependencies will be vital to building this trustless system.
-However, considerations such as computation and transaction (“gas”) costs will need to take priority as the system is designed and built.
+ Kami harus menyediakan alat bagi pengembang untuk mengakses dan berkontribusi pada sistem reputasi ini.
+ Alat yang menyertakan akses visual dan programmable sederhana ke versi dan reputasi semua dependensi dalam paketnya.
+ Pemahaman yang jelas tentang anggota komunitas mana yang mendukung setiap paket dan berapa banyak token teh yang mereka minum akan berkontribusi pada reputasi setiap paket, sama seperti seberapa banyak pengelola paket menyeduh pekerjaan mereka mengomunikasikan seberapa besar mereka berdiri di belakang pekerjaan mereka.
+ Titik data gabungan ini akan membantu menginformasikan sistem reputasi untuk semua anggota komunitas dan memfasilitasi pilihan.
+ Karena peretasan paket EventStream tidak dilakukan melalui paket itu sendiri, tetapi melalui salah satu dependensinya, visibilitas di semua lapisan dependensi akan sangat penting untuk membangun sistem tanpa kepercayaan ini.
+ Namun, pertimbangan seperti biaya komputasi dan transaksi (“gas”) perlu diprioritaskan saat sistem dirancang dan dibangun.
 
-Our goal is to reward both Web 2.0 and web3 developers.
-The intricacies and specifics of each stack make it so that tracking installations and uninstallations of packages could easily fall victim to one or more bad actors.
-That includes “buying” installations to artificially inflate numbers.
-An even worse scenario would be introducing fundamental changes to the nature of open-source software by creating unnecessary friction with license keys or other deployment tracking mechanisms.
-To provide the broadest coverage, we believe that rewards mustn’t rely on a simplistic notion of tracking installations or uninstallations, but rather on incentive mechanisms that encourage the submission of quality packages and the reporting of nefarious or high-risk packages.
-Lastly, many packages rely on common dependencies.
-For example, Lodash has 151,209 dependents[^15] while chalk has 78,854 dependents[^16] or Log4js has 3,343 dependents[^17].
-As more packages are created using the same dependencies, how do we ensure that incentives are distributed fairly and equitably?
-How do we ensure that the most utilized dependencies are rewarded without starving new or emerging packages and developers?
-How do we ensure that the incentive system does not end-up steering developers away from niche languages to centralize them where incentives are better?
-But also, as developers, how do we identify packages with the most dependents to build alternatives - leaner, more efficient, better-coded versions of these packages?
-At tea, we believe that the lack of incentive has impeded the evolution of open-source software.
-Supported by the right economic incentives and rewards, more developers will be in a position to build, improve and augment open–source software for the betterment of the world.
-Only then will the tea token be able to represent the total value of open-source software.
+ Tujuan kami adalah untuk memberi penghargaan kepada pengembang Web 2.0 dan web3.
+ Kerumitan dan spesifikasi setiap tumpukan membuatnya sehingga pelacakan instalasi dan penghapusan instalasi paket dapat dengan mudah menjadi korban satu atau lebih aktor jahat.
+ Itu termasuk "membeli" instalasi untuk meningkatkan angka secara artifisial.
+ Skenario yang lebih buruk akan memperkenalkan perubahan mendasar pada sifat perangkat lunak sumber terbuka dengan menciptakan gesekan yang tidak perlu dengan kunci lisensi atau mekanisme pelacakan penyebaran lainnya.
+ Untuk memberikan cakupan terluas, kami percaya bahwa penghargaan tidak boleh bergantung pada gagasan sederhana tentang pelacakan instalasi atau penghapusan instalasi, tetapi lebih pada mekanisme insentif yang mendorong pengiriman paket berkualitas dan pelaporan paket jahat atau berisiko tinggi.
+ Terakhir, banyak paket bergantung pada dependensi umum.
+ Misalnya, Lodash memiliki 151.209 tanggungan[^15] sedangkan kapur memiliki 78.854 tanggungan[^16] atau Log4js memiliki 3.343 tanggungan[^17].
+ Karena lebih banyak paket dibuat menggunakan dependensi yang sama, bagaimana kita memastikan bahwa insentif didistribusikan secara adil dan merata?
+ Bagaimana kami memastikan bahwa dependensi yang paling banyak digunakan dihargai tanpa membuat paket dan pengembang baru atau yang baru muncul kelaparan?
+ Bagaimana kita memastikan bahwa sistem insentif tidak berakhir dengan mengarahkan pengembang dari bahasa khusus untuk memusatkan mereka di tempat yang insentifnya lebih baik?
+ Tetapi juga, sebagai pengembang, bagaimana kita mengidentifikasi paket dengan tanggungan paling banyak untuk membangun alternatif - versi paket ini yang lebih ramping, lebih efisien, dan memiliki kode yang lebih baik?
+ Saat minum teh, kami percaya bahwa kurangnya insentif telah menghambat evolusi perangkat lunak sumber terbuka.
+ Didukung oleh insentif dan penghargaan ekonomi yang tepat, lebih banyak pengembang akan berada dalam posisi untuk membangun, meningkatkan, dan menambah perangkat lunak sumber terbuka untuk kemajuan dunia.
+ Hanya dengan begitu token teh dapat mewakili nilai total perangkat lunak sumber terbuka.
 
 [^15]: Source: @npmjsLodash
 [^16]: Source: @npmjsChalk
 [^17]: Source: @npmjsLogFourjs
 
-## Package Submission
+## Pengiriman Paket
 
-The submission of a package release requires multiple transactions to occur atomically.
-Specifically, the package maintainer must:
+ Pengajuan rilis paket membutuhkan beberapa transaksi terjadi secara atom.
+ Secara khusus, pengelola paket harus:
 
-* Register the package (and its semantic version) with the decentralized registry.
-* Upload the package into the decentralized storage system for resilience, censorship resistance, and ease of distribution.
-* Contribute to the package’s reputation and trustworthiness by *steeping* tea tokens.
+ * Daftarkan paket (dan versi semantiknya) dengan registri terdesentralisasi.
+ * Unggah paket ke dalam sistem penyimpanan terdesentralisasi untuk ketahanan, ketahanan sensor, dan kemudahan distribusi.
+ * Berkontribusi pada reputasi dan kepercayaan paket dengan *menyeduh* token teh.
 
-Failure of any one of the three operations will result in the protocol reverting to its previous state, thus eliminating any evidence of the submission.
+ Kegagalan salah satu dari tiga operasi akan mengakibatkan protokol kembali ke keadaan sebelumnya, sehingga menghilangkan bukti penyerahan.
 
-When a package is successfully submitted, the package maintainer will receive a maintainer NFT to evidence their work and contribution to open-source.
-The package maintainer may transfer the steeping rewards associated with the maintainer NFT to a third party.
-However, the reputation associated with the creation and maintenance of the asset will remain with the package maintainer, so their reputation can be affected over time.
-As the reputation of any member of the tea community reaches key milestones, they may be granted access to elevated parts of the protocol or receive accelerated rewards, as decided by the tea governance.
-For more details on the maintainer NFT, see the maintainer NFT section.
+ Ketika sebuah paket berhasil dikirimkan, pengelola paket akan menerima NFT pengelola untuk membuktikan pekerjaan dan kontribusi mereka pada sumber terbuka.
+ Pengelola paket dapat mentransfer hadiah seduhan yang terkait dengan NFT pengelola ke pihak ketiga.
+ Namun, reputasi yang terkait dengan pembuatan dan pemeliharaan aset akan tetap ada pada pengelola paket, sehingga reputasinya dapat terpengaruh seiring waktu.
+ Ketika reputasi setiap anggota komunitas teh mencapai tonggak penting, mereka dapat diberikan akses ke bagian protokol yang lebih tinggi atau menerima hadiah yang dipercepat, sebagaimana diputuskan oleh tata kelola teh.
+ Untuk detail lebih lanjut tentang NFT pengelola, lihat bagian NFT pengelola.
 
-### Dependencies Analysis
+ ### Analisis Ketergantungan
 
-Package dependencies can run deep, as each package often has both dependents and dependencies.
-To provide a simple methodology that rewards all developers who have contributed to open-source software while keeping the creation of the dependencies tree quick and computationally efficient, we propose to verify only first-level dependencies upon submission of a package.
+ Ketergantungan paket dapat berjalan dalam, karena setiap paket sering kali memiliki dependensi dan dependensi.
+ Untuk menyediakan metodologi sederhana yang memberi penghargaan kepada semua pengembang yang telah berkontribusi pada perangkat lunak sumber terbuka sambil menjaga pembuatan pohon dependensi cepat dan efisien secara komputasi, kami mengusulkan untuk memverifikasi hanya dependensi tingkat pertama setelah pengiriman paket.
 
-This design is driven by the hypothesis that each dependency is itself a package that was independently submitted to the tea tree.
-In doing so, each of its dependencies can be mapped, and if its dependencies have dependencies themselves, those will be mapped at the time the dependency package is submitted.
+ Desain ini didorong oleh hipotesis bahwa setiap ketergantungan itu sendiri merupakan paket yang secara independen diserahkan ke pohon teh.
+ Dengan demikian, setiap dependensinya dapat dipetakan, dan jika dependensinya memiliki dependensi sendiri, dependensi tersebut akan dipetakan pada saat paket dependensi dikirimkan.
 
 ![Dependencies analysis diagram.](img/figure-3.svg){#fig:dep-analysis}
 
-
-In @fig:dep-analysis, the submission of package A triggers an analysis of runtime dependencies 1 through n and build dependencies 1 through n, while runtime dependencies 1.1 through 1.n and build dependencies 1.1 through 1.n were analyzed when package B was submitted.
-We will apply the same methodology for incentive distribution as the steeped tokens are distributed across all dependencies, thus recursively steeping the packages listed as dependencies (see @fig:steeping-rewards).
+Dalam @fig:dep-analysis, pengiriman paket A memicu analisis dependensi runtime 1 hingga n dan dependensi build 1 hingga n, sedangkan dependensi runtime 1.1 hingga 1.n dan dependensi build 1.1 hingga 1.n dianalisis saat paket B  telah diserahkan.
+ Kami akan menerapkan metodologi yang sama untuk distribusi insentif karena token yang direndam didistribusikan di semua dependensi, sehingga secara rekursif menyeduh paket yang terdaftar sebagai dependensi (lihat @fig:steeping-rewards).
 
 ![Steeping rewards distribution across dependencies.](img/figure-2.svg){#fig:steeping-rewards}
 
 
-Versioning and conflicting dependencies are significant challenges, and troubleshooting them can turn into massive time drains.
-To address this, we propose each package be subject to a comprehensive dependency scan upon submission so we can ensure that the package complies with the following rules for semantic version ranges.
+Pembuatan versi dan dependensi yang saling bertentangan adalah tantangan yang signifikan, dan pemecahan masalah dapat berubah menjadi pengurasan waktu yang sangat besar.
+ Untuk mengatasi hal ini, kami mengusulkan agar setiap paket tunduk pada pemindaian ketergantungan yang komprehensif setelah pengiriman sehingga kami dapat memastikan bahwa paket tersebut mematuhi aturan berikut untuk rentang versi semantik.
 
-* Packages may only constrain their dependencies to a major version, though the start of the range can be any valid semantic version (e.g., >=5.2.1 <6).
-* If a dependency is upgraded to a more recent major version, tea may require that the package’s major version be increased.
-* Similarly, if a dependency is upgraded to a more recent minor version, tea may require that the package’s minor version be increased.
-* If a new dependency is added, tea may require that the package’s minor version be increased.
+ * Paket hanya dapat membatasi dependensinya ke versi utama, meskipun awal rentang dapat berupa versi semantik yang valid (mis., >=5.2.1 <6).
+ * Jika ketergantungan ditingkatkan ke versi utama yang lebih baru, teh mungkin mengharuskan versi utama paket ditingkatkan.
+ * Demikian pula, jika ketergantungan ditingkatkan ke versi minor yang lebih baru, teh mungkin mengharuskan versi minor paket ditingkatkan.
+ * Jika ketergantungan baru ditambahkan, teh mungkin mengharuskan versi minor paket ditingkatkan.
 
-Considering the unnecessary effort imposed upon any package user when the above rules are transgressed, we propose that a portion of the tea token steeped by the package maintainer be slashed to reflect their lack of due diligence.
-If a developer forces everyone to juggle their cups, someone will spill some tea.
-Since the dependency scan is expected to occur at submission, we should note that no steeping from package supporters and sponsors or tea tasters will have happened.
+ Mempertimbangkan upaya yang tidak perlu yang dikenakan pada setiap pengguna paket ketika aturan di atas dilanggar, kami mengusulkan agar sebagian dari token teh yang direndam oleh pengelola paket dipotong untuk mencerminkan kurangnya uji tuntas mereka.
+ Jika pengembang memaksa semua orang untuk menyulap cangkir mereka, seseorang akan menumpahkan teh.
+ Karena pemindaian ketergantungan diharapkan terjadi saat penyerahan, kami harus mencatat bahwa tidak ada seduhan dari pendukung paket dan sponsor atau pencicip teh yang akan terjadi.
 
-## Package & Package Maintainer Reputation
+ ## Reputasi Pengelola Paket & Paket
 
-Package maintainers must contribute to their package’s reputation and trustworthiness by steeping tea tokens.
-However, a reputation system that relies solely on the author’s economic contribution does not provide sufficient user protection and can be subject to Sybil attacks, where a single individual creates multiple representations of themselves to leave a large volume of positive reviews on their work,
-tricking users into believing their work was reviewed and approved by many.
+ Pengelola paket harus berkontribusi pada reputasi dan kepercayaan paket mereka dengan menyeduh token teh.
+ Namun, sistem reputasi yang hanya mengandalkan kontribusi ekonomi penulis tidak memberikan perlindungan pengguna yang memadai dan dapat menjadi sasaran serangan Sybil, di mana satu individu membuat beberapa representasi diri mereka sendiri untuk meninggalkan sejumlah besar ulasan positif pada pekerjaan mereka,
+ menipu pengguna agar percaya bahwa pekerjaan mereka telah ditinjau dan disetujui oleh banyak orang.
 
-Several methodologies are available to prevent Sybil attacks, some of which are described by Nitish Balachandran and Sugata Sanyal in “A Review of Techniques to Mitigate Sybil Attacks”[^18].
-As tea is a decentralized protocol, using a trust certification system that relies on a centralized certificate issuance authority would be contrary to its core.
-We propose to focus on decentralized approaches to Sybil attack mitigation and, more specifically, on methodologies that rely on a large group of network participants incentivized to assess and publicly represent the reputation of each package and its maintainer.
+ Beberapa metodologi tersedia untuk mencegah serangan Sybil, beberapa di antaranya dijelaskan oleh Nitish Balachandran dan Sugata Sanyal dalam “A Review of Techniques to Mitigate Sybil Attacks”[^18].
+ Karena teh adalah protokol terdesentralisasi, menggunakan sistem sertifikasi kepercayaan yang bergantung pada otoritas penerbitan sertifikat terpusat akan bertentangan dengan intinya.
+ Kami mengusulkan untuk fokus pada pendekatan desentralisasi untuk mitigasi serangan Sybil dan, lebih khusus lagi, pada metodologi yang mengandalkan sekelompok besar peserta jaringan yang diberi insentif untuk menilai dan secara publik mewakili reputasi setiap paket dan pengelolanya.
 
-Similar to the production of blocks on a proof-of-stake blockchain, where non-producing nodes can validate the work of others and, when necessary, highlight a violation of the rules of the network, which leads to a penalization of the bad actor through slashing (destruction of a portion of their stake),
-we propose a system whereby third-parties (aka tea tasters) would be able to review packages produced by package maintainers and be economically incentivized to behave in the best interest of the open-source software community and its users as well as recognize good behavior and penalize bad behavior.
-This system must be both Sybil resistant and prevent large token holders from materially influencing the protocol or the reputation of specific packages.
-We believe this approach to be more aligned with open-source, providing a more fertile substrate to foster adoption and trust, and ultimately facilitate the growth of tea.
+ Mirip dengan produksi blok pada blockchain proof-of-stake, di mana node yang tidak memproduksi dapat memvalidasi pekerjaan orang lain dan, bila perlu, menyoroti pelanggaran aturan jaringan, yang mengarah pada hukuman aktor jahat  melalui tebasan (penghancuran sebagian dari pasak mereka),
+ kami mengusulkan sistem di mana pihak ketiga (alias pencicip teh) akan dapat meninjau paket yang diproduksi oleh pengelola paket dan diberi insentif secara ekonomi untuk berperilaku demi kepentingan terbaik komunitas perangkat lunak sumber terbuka dan penggunanya serta mengenali perilaku yang baik dan  menghukum perilaku buruk.
+ Sistem ini harus tahan terhadap Sybil dan mencegah pemegang token besar secara material mempengaruhi protokol atau reputasi paket tertentu.
+ Kami percaya pendekatan ini lebih selaras dengan open-source, menyediakan substrat yang lebih subur untuk mendorong adopsi dan kepercayaan, dan pada akhirnya memfasilitasi pertumbuhan teh.
 
 [^18]: Source: @arxiv
 
-## Package Review by Third Parties
+## Review Paket oleh Pihak Ketiga
 
-The review of packages by third parties is an essential component of reputation building, however, third-party review has its own set of unique threats including the aforementioned Sybil attacks.
+ Tinjauan paket oleh pihak ketiga merupakan komponen penting dalam membangun reputasi, namun tinjauan pihak ketiga memiliki serangkaian ancaman uniknya sendiri termasuk serangan Sybil yang disebutkan di atas.
 
-Blockchain technology, and more explicitly staking, offers a unique opportunity for tea to tackle this challenge.
-Although wallet addresses may be available in infinite quantities, this is not the case with tea tokens, whose initial supply is expected to be 10 billion.
-Additionally, each action performed by developers, such as submitting packages, verifying packages, or steeping them, will contribute to their reputation, thus creating a unique profile each developer can use to both contribute to the tea community and participate in tea’s governance.
+ Teknologi Blockchain, dan secara lebih eksplisit mempertaruhkan, menawarkan peluang unik bagi teh untuk mengatasi tantangan ini.
+ Meskipun alamat dompet mungkin tersedia dalam jumlah tak terbatas, ini tidak terjadi dengan token teh, yang pasokan awalnya diperkirakan 10 miliar.
+ Selain itu, setiap tindakan yang dilakukan oleh pengembang, seperti mengirimkan paket, memverifikasi paket, atau menyeduhnya, akan berkontribusi pada reputasi mereka, sehingga menciptakan profil unik yang dapat digunakan setiap pengembang untuk berkontribusi pada komunitas teh dan berpartisipasi dalam tata kelola teh.
 
-By requiring third-party reviewers to steep tea tokens and incur the risk of losing a portion of their steeped tokens should they turn out to behave against the interest of the network or be a bad actor, third parties can provide additional credence to a package and receive a reward, in the form of tea tokens.
+ Dengan mengharuskan peninjau pihak ketiga untuk menyeduh token teh dan menanggung risiko kehilangan sebagian dari token mereka jika mereka ternyata berperilaku bertentangan dengan kepentingan jaringan atau menjadi aktor yang buruk, pihak ketiga dapat memberikan kepercayaan tambahan untuk sebuah paket dan  menerima hadiah, berupa token teh.
 
-We also propose extending the reputation system to the third parties who perform the independent verification of packages - the tea tasters.
-The completion of a positive review will require two operations to occur atomically:
+ Kami juga mengusulkan perluasan sistem reputasi kepada pihak ketiga yang melakukan verifikasi independen paket - pencicip teh.
+ Penyelesaian tinjauan positif akan membutuhkan dua operasi untuk terjadi secara atom:
 
-* The submission of the code review, signed by the tea taster and publicly accessible to all members of the community, along with
-* The act of steeping “for” the package (vs. “against” the package), to substantiate their review.
+ * Pengajuan tinjauan kode, ditandatangani oleh pengecap teh dan dapat diakses publik oleh semua anggota komunitas, bersama dengan
+ * Tindakan seduhan "untuk" paket (vs. "melawan" paket), untuk mendukung ulasan mereka.
 
-The completion of a negative review that includes one or more critical vulnerabilities will require the tea tasters first to contact the package maintainer using a messaging protocol to notify them of the vulnerability and allow them to address the issue in a timely fashion.
-Upon expiry of the governance-defined period allocated to the package maintainer to address their vulnerability or as the corrected package becomes available, the same messaging protocol will be used to notify all users and testers of this package (including dependents) that a vulnerability has been identified,
-and hopefully addressed, so they know to update their application or dependencies.
-To disincentivize wasting developers’ time, communication between the tea tasters and package maintainers will require the tea tasters to steep tea tokens.
+ Penyelesaian tinjauan negatif yang mencakup satu atau lebih kerentanan kritis akan mengharuskan para pembuat teh terlebih dahulu untuk menghubungi pengelola paket menggunakan protokol pesan untuk memberi tahu mereka tentang kerentanan dan memungkinkan mereka untuk mengatasi masalah secara tepat waktu.
+ Setelah berakhirnya periode yang ditentukan tata kelola yang dialokasikan ke pengelola paket untuk mengatasi kerentanan mereka atau saat paket yang diperbaiki tersedia, protokol pesan yang sama akan digunakan untuk memberi tahu semua pengguna dan penguji paket ini (termasuk tanggungan) bahwa kerentanan telah  diidentifikasi,
+ dan mudah-mudahan diatasi, sehingga mereka tahu untuk memperbarui aplikasi atau dependensi mereka.
+ Untuk mengurangi pemborosan waktu pengembang, komunikasi antara pencicip teh dan pengelola paket akan membutuhkan pencicip teh untuk merendam token teh.
 
-Upon completing both operations, the tea tasters will receive an NFT as evidence of their work on the specific package and package version.
-The accumulation of NFTs combined with the steeping ratio of each of the packages reviewed and information extracted from external systems will inform a tea taster’s reputation.
-As their reputation reaches key milestones, tea tasters may earn access to elevated parts of the protocol or accelerated rewards, as decided by the tea governance.
+ Setelah menyelesaikan kedua operasi, pencicip teh akan menerima NFT sebagai bukti pekerjaan mereka pada paket dan versi paket tertentu.
+ Akumulasi NFT dikombinasikan dengan rasio seduhan dari masing-masing paket yang ditinjau dan informasi yang diambil dari sistem eksternal akan menginformasikan reputasi pengecap teh.
+ Saat reputasi mereka mencapai tonggak penting, pencicip teh dapat memperoleh akses ke bagian protokol yang lebih tinggi atau hadiah yang dipercepat, seperti yang diputuskan oleh tata kelola teh.
 
-## Outdated or Corrupt Packages
+## Paket Kedaluwarsa atau Rusak
 
-tea’s mission is to reward contributors and participants in the open-source communities; however, rewards must be commensurate with the efforts deployed by package maintainers and tea tasters.
-Under-maintained, outdated, or corrupted packages are clear indications of package maintainers not living up to the community’s expectations or not delivering on the trust and support impressed upon them through the steeping of packages.
-Another manifestation of outdated packages may be the continued use of a legacy language or legacy version of multi-version languages.
-Packages remaining outdated or corrupt for too long indicate that tea tasters need to review package maintainers’ work regularly and consistently.
+ misi teh adalah untuk memberi penghargaan kepada kontributor dan peserta di komunitas sumber terbuka;  namun, penghargaan harus sepadan dengan upaya yang dilakukan oleh pengelola paket dan pencicip teh.
+ Paket yang kurang terawat, usang, atau rusak adalah indikasi yang jelas dari pengelola paket yang tidak memenuhi harapan komunitas atau tidak memberikan kepercayaan dan dukungan yang diberikan kepada mereka melalui seduhan paket.
+ Manifestasi lain dari paket-paket usang mungkin adalah penggunaan berkelanjutan dari bahasa lama atau versi lama dari bahasa multi-versi.
+ Paket yang ketinggalan zaman atau rusak terlalu lama menunjukkan bahwa para pencicip teh perlu meninjau pekerjaan pengelola paket secara teratur dan konsisten.
 
-tea tasters are critical members of the open-source communities in that their reviews and associated claims can steer package users towards or away from packages.
-To ensure that reviews can be trusted on an ongoing basis, we propose a mechanism whereby outdated or corrupted packages may see a portion of their steeped tokens sent to the tea tasters who were first to recognize the lack of maintenance of any package.
+ pencicip teh adalah anggota penting dari komunitas sumber terbuka karena ulasan mereka dan klaim terkait dapat mengarahkan pengguna paket ke atau menjauh dari paket.
+ Untuk memastikan bahwa ulasan dapat dipercaya secara berkelanjutan, kami mengusulkan mekanisme di mana paket yang sudah usang atau rusak dapat melihat sebagian dari token mereka yang direndam dikirim ke pencicip teh yang pertama kali mengenali kurangnya pemeliharaan paket apa pun.
 
-Any negative review which outlines a flaw such as a zero-day vulnerability or the use of an outdated dependency and remains open past a grace period defined by governance should be considered a failure on the part of the package maintainer.
-They have not completed the task they were entrusted with and rewarded for.
-The same can be said for package supporters and sponsors who staked their reputation on the work of delinquent package maintainers and received rewards for it, but failed to identify the lack of maintenance or elected to continue to support the package regardless.
+ Tinjauan negatif apa pun yang menguraikan cacat seperti kerentanan zero-day atau penggunaan ketergantungan yang sudah ketinggalan zaman dan tetap terbuka melewati masa tenggang yang ditentukan oleh tata kelola harus dianggap sebagai kegagalan dari pihak pengelola paket.
+ Mereka belum menyelesaikan tugas yang dipercayakan dan dihargai.
+ Hal yang sama dapat dikatakan untuk pendukung paket dan sponsor yang mempertaruhkan reputasi mereka pada pekerjaan pengelola paket yang menunggak dan menerima hadiah untuk itu, tetapi gagal mengidentifikasi kurangnya pemeliharaan atau memilih untuk terus mendukung paket tersebut.
 
-As packages gain in popularity and usage, with more applications and potentially mission-critical systems depending on them, we must incentivize developers to discreetly report flaws to the package maintainer and package maintainers to address such flaws before they can be exploited.
-Consequently, we propose that any outdated or corrupted package which is subject to one or more evidenced negative reviews and remains in such state past the governance-defined grace period see a portion of its steeped tokens be slashed regardless of their origin (package maintainer, package supporters, and sponsors or prior tea tasters),
-while another portion is sent to the tea tasters who submitted the negative reviews.
-Distribution to all tea tasters could be based on the age of their review and the number of tea tokens they steeped for their review.
+ Seiring popularitas dan penggunaan paket, dengan lebih banyak aplikasi dan sistem yang berpotensi menjadi misi-kritis bergantung pada mereka, kita harus memberi insentif kepada pengembang untuk secara diam-diam melaporkan kekurangan kepada pengelola paket dan pengelola paket untuk mengatasi kekurangan tersebut sebelum dapat dieksploitasi.
+ Oleh karena itu, kami mengusulkan agar setiap paket usang atau rusak yang tunduk pada satu atau lebih ulasan negatif yang terbukti dan tetap dalam keadaan seperti itu setelah masa tenggang yang ditentukan oleh tata kelola, melihat sebagian dari token yang direndamnya dipotong terlepas dari asalnya (pengelola paket, paket  pendukung, dan sponsor atau pencicip teh sebelumnya),
+ sementara porsi lain dikirim ke para pencicip teh yang memberikan ulasan negatif.
+ Distribusi ke semua pencicip teh dapat didasarkan pada usia ulasan mereka dan jumlah token teh yang mereka seduh untuk ulasan mereka.
 
 ## Maintainer NFT
 
@@ -358,49 +357,50 @@ Reputation must remain directly associated with a specific developer’s work an
 
 # tea Token
 
-## Securing the Network
+## Mengamankan Jaringan
 
-While many blockchains may appear as effective and secure infrastructure solutions to support tea’s objectives, we believe that careful consideration must be given to the technology stack upon which the tea system is built.
+ Sementara banyak blockchain mungkin muncul sebagai solusi infrastruktur yang efektif dan aman untuk mendukung tujuan teh, kami percaya bahwa pertimbangan yang cermat harus diberikan pada tumpukan teknologi di mana sistem teh dibangun.
 
-Scalability, cost-effectiveness, ESG, and third-party extensibility are important design considerations that a tea-sovereign proof-of-stake system could better serve.
-In proof-of-stake, node operators and network participants stake economic value in the form of the chain’s native token to increase the system’s security.
-Node operators and network participants receive rewards for the successful production of blocks that comply with the rules of the network and include accurate transaction information.
-Inactivity (aka node down) or malicious/incorrect activity are penalized by destroying a fraction of the staked tokens through slashing.
+ Skalabilitas, efektivitas biaya, ESG, dan ekstensibilitas pihak ketiga adalah pertimbangan desain penting yang dapat dilayani dengan lebih baik oleh sistem bukti kepemilikan teh yang berdaulat.
+ Dalam proof-of-stake, operator node dan peserta jaringan mempertaruhkan nilai ekonomi dalam bentuk token asli rantai untuk meningkatkan keamanan sistem.
+ Operator node dan peserta jaringan menerima hadiah untuk keberhasilan produksi blok yang mematuhi aturan jaringan dan menyertakan informasi transaksi yang akurat.
+ Ketidakaktifan (alias node down) atau aktivitas jahat/salah dihukum dengan menghancurkan sebagian kecil dari token yang dipertaruhkan melalui pemotongan.
 
-A proof-of-stake system powered by the tea token will allow tea token holders to contribute to the system’s security by *staking* tea and support open-source developers by *steeping* tea.
-We're fully aware economic factors may prevent some developers from staking or steeping tea; as such, staking and steeping will be available for as little as a leaf, the smallest denomination of tea representing one one-hundred-millionth ($10^{-8}$) of a tea.
+ Sistem proof-of-stake yang didukung oleh token teh akan memungkinkan pemegang token teh untuk berkontribusi pada keamanan sistem dengan *mempertaruhkan* teh dan mendukung pengembang sumber terbuka dengan *menyeduh* teh.
+ Kami sepenuhnya menyadari faktor ekonomi dapat mencegah beberapa pengembang mengintai atau menyeduh teh;  dengan demikian, staking dan seduhan akan tersedia hanya dengan sehelai daun, denominasi teh terkecil yang mewakili seperseratus juta ($10^{-8}$) teh.
 
-Both applications of the tea token serve vital functions in the support and growth of the open-source ecosystem.
-Staking tea will ensure that the tea system continues to operate securely, so all network participants can submit and access packages to review them, integrate them into their application, etc.
-In contrast, the steeping of tea will support tea’s goal of providing tools for all network participants to support and use packages that meet quality and dependability requirements, as formulated by the tea community through their support and dissent of each package.
-Care will be taken when defining and implementing staking and steeping parameters so one does not become parasitic on the other.
+ Kedua aplikasi token teh melayani fungsi vital dalam mendukung dan pertumbuhan ekosistem open-source.
+ Staking tea akan memastikan bahwa sistem teh terus beroperasi dengan aman, sehingga semua peserta jaringan dapat mengirimkan dan mengakses paket untuk meninjaunya, mengintegrasikannya ke dalam aplikasi mereka, dll.
+ Sebaliknya, seduhan teh akan mendukung tujuan teh untuk menyediakan alat bagi semua peserta jaringan untuk mendukung dan menggunakan paket yang memenuhi persyaratan kualitas dan keandalan, sebagaimana dirumuskan oleh komunitas teh melalui dukungan dan perbedaan pendapat mereka terhadap setiap paket.
+ Kehati-hatian akan diambil saat mendefinisikan dan menerapkan parameter staking dan seduhan sehingga yang satu tidak menjadi parasit pada yang lain.
 
-## Incentives and Penalties
+ ## Insentif dan Penalti
 
-As discussed earlier, there can be strong incentives for bad actors to compromise open-source software.
-The majority of the Internet’s critical infrastructure is running on open-source, and the race to find exploits and other vulnerabilities is on.
-At tea, we believe that package maintainers are not the ones that should be blamed (although they often are).
+ Seperti yang telah dibahas sebelumnya, mungkin ada insentif kuat bagi aktor jahat untuk berkompromi dengan perangkat lunak sumber terbuka.
+ Sebagian besar infrastruktur penting Internet berjalan pada sumber terbuka, dan perlombaan untuk menemukan eksploitasi dan kerentanan lainnya sedang berlangsung.
+ Di teh, kami percaya bahwa pengelola paket bukanlah pihak yang harus disalahkan (walaupun sering).
 
-tea protocol incentives fix this through a fair and equitable incentive distribution.
-A package like Lodash with over 151k dependents is a pillar of open-source development, and its maintainer deserves to be rewarded proportionally.
-However, a reward system built solely on the number of dependents would prevent innovators from disrupting these monopolies unless they are sufficiently funded by third parties or have already accumulated enough resources to self-fund.
-This approach would likely lead to a shrinking number of contributors, resulting in the polar opposite of what tea is about.
+ insentif protokol teh memperbaikinya melalui distribusi insentif yang adil dan merata.
+ Paket seperti Lodash dengan lebih dari 151k tanggungan adalah pilar pengembangan sumber terbuka, dan pengelolanya layak untuk dihargai secara proporsional.
+ Namun, sistem penghargaan yang dibangun hanya berdasarkan jumlah tanggungan akan mencegah inovator mengganggu monopoli ini kecuali jika mereka didanai secara memadai oleh pihak ketiga atau telah mengumpulkan sumber daya yang cukup untuk mendanai sendiri.
+ Pendekatan ini kemungkinan akan menyebabkan berkurangnya jumlah kontributor, yang menghasilkan kebalikan dari teh.
 
-tea’s goal is to represent the value of open-source software and, in doing so, foster its growth by empowering its participants with the resources they need to pursue their passion unencumbered.
-The tea incentive distribution system needs to carefully consider the steeping ratio of each package and adjust each package’s incentive accordingly.
-To reduce the risk of a small number of packages used as dependencies across many applications collecting the majority of steeping rewards, we will leverage the research produced by the web3 Foundation[^19] for the Polkadot proof-of-stake-based rewards mechanism.
-We may further adjust the implementation and its variables based on the results of practical experiments.
+ tujuan teh adalah untuk mewakili nilai perangkat lunak sumber terbuka dan, dengan melakukan itu, mendorong pertumbuhannya dengan memberdayakan para pesertanya dengan sumber daya yang mereka butuhkan untuk mengejar hasrat mereka tanpa beban.
+ Sistem distribusi insentif teh perlu secara hati-hati mempertimbangkan rasio seduhan setiap paket dan menyesuaikan insentif setiap paket.
+ Untuk mengurangi risiko sejumlah kecil paket yang digunakan sebagai dependensi di banyak aplikasi yang mengumpulkan sebagian besar hadiah seduhan, kami akan memanfaatkan penelitian yang dihasilkan oleh Web3 Foundation[^19] untuk mekanisme hadiah berbasis bukti kepemilikan Polkadot.
+ Kami selanjutnya dapat menyesuaikan implementasi dan variabelnya berdasarkan hasil eksperimen praktis.
 
-As a package steep approaches a governance-defined optimum steeping ratio, its steeping rewards ratio will decrease progressively.
-When a package exceeds its optimum steeping ratio, the steeping rewards ratio will decrease sharply to de-incentivize package supporters and tea tasters from further steeping highly steeped packages.
-This design could allow lesser steeped packages to become more attractive to both package supporters and tea tasters.
-It may also incentivize experienced developers to build alternatives to highly-steeped packages, creating an opportunity for the tea community to balance supporting existing software and promoting innovation.
-The steeping ratio will be calculated using the circulating supply in its initial design.
-The tea community may alter this design to improve the system’s scalability further.
-Let $\chi$ be the steeping ratio across all packages.
-It represents the total number of tea tokens steeped by package maintainers, package users, package supporters and sponsors, and tea tasters divided by the total tea token supply.
-Given how many open-source packages are available today and their expected growth, $\chi$ will always be a very small value between $0$ and $1$.
+ Saat paket curam mendekati rasio seduhan optimal yang ditentukan oleh tata kelola, rasio imbalan seduhannya akan menurun secara progresif.
+ Ketika sebuah paket melebihi rasio seduhan optimalnya, rasio hadiah seduhan akan menurun tajam untuk menghilangkan insentif pendukung paket dan pencicip teh dari paket seduhan lebih lanjut.
+ Desain ini dapat memungkinkan paket yang lebih sedikit direndam menjadi lebih menarik bagi pendukung paket dan pencicip teh.
+ Ini juga dapat memberi insentif kepada pengembang berpengalaman untuk membangun alternatif untuk paket yang sangat kaya, menciptakan peluang bagi komunitas teh untuk menyeimbangkan dukungan perangkat lunak yang ada dan mempromosikan inovasi.
+ Rasio seduhan akan dihitung menggunakan suplai sirkulasi dalam desain awalnya.
+ Komunitas teh dapat mengubah desain ini untuk meningkatkan skalabilitas sistem lebih lanjut.
+ Biarkan $\chi$ menjadi rasio seduhan di semua paket.
+ Ini mewakili jumlah total token teh yang direndam oleh pengelola paket, pengguna paket, pendukung dan sponsor paket, dan pencicip teh dibagi dengan total pasokan token teh.
+ Mengingat berapa banyak paket open-source yang tersedia saat ini dan perkiraan pertumbuhannya, $\chi$ akan selalu bernilai sangat kecil antara $0$ dan $1$.
 
+ 
 Let $\psi$ be the staking ratio.
 It represents the total number of tea tokens staked by any network participant to secure the network.
 
