@@ -343,19 +343,17 @@ Pembuatan versi dan dependensi yang saling bertentangan adalah tantangan yang si
  sementara porsi lain dikirim ke para pencicip teh yang memberikan ulasan negatif.
  Distribusi ke semua pencicip teh dapat didasarkan pada usia ulasan mereka dan jumlah token teh yang mereka seduh untuk ulasan mereka.
 
-## Maintainer NFT
+## Pemelihara NFT
 
-Upon successful submission of a package, the package maintainer will receive an NFT to evidence their work and contribution.
-The holder of this NFT will automatically receive all rewards associated with the package.
-Package maintainers may transfer maintenance ownership over a package to another package maintainer by simply transferring the package’s NFT.
-Successful transfer of the NFT will lead to the new owner automatically receiving future package rewards.
+ Setelah pengiriman paket berhasil, pengelola paket akan menerima NFT sebagai bukti kerja dan kontribusi mereka.
+ Pemegang NFT ini akan secara otomatis menerima semua hadiah yang terkait dengan paket.
+ Pengelola paket dapat mentransfer kepemilikan pemeliharaan atas sebuah paket ke pengelola paket lain hanya dengan mentransfer NFT paket.
+ Transfer NFT yang berhasil akan menyebabkan pemilik baru secara otomatis menerima hadiah paket di masa mendatang.
 
-An important part of reputation building relies on the frequency and quantity of quality package submissions.
-The NFT delivered to package maintainers as evidence of their work may be used by the reputation system to update a package maintainer’s reputation and give them access to elevated parts of the protocol, as decided by the tea governance.
-However, to prevent attack vectors, such as community members buying their reputation, the transfer of the maintainer NFT will not result in a transfer of reputation.
-Reputation must remain directly associated with a specific developer’s work and must not be transferable.
-
-# tea Token
+ Bagian penting dari membangun reputasi bergantung pada frekuensi dan kuantitas pengiriman paket yang berkualitas.
+ NFT yang dikirimkan ke pengelola paket sebagai bukti kerja mereka dapat digunakan oleh sistem reputasi untuk memperbarui reputasi pengelola paket dan memberi mereka akses ke bagian protokol yang lebih tinggi, sebagaimana diputuskan oleh tata kelola teh.
+ Namun, untuk mencegah vektor serangan, seperti anggota komunitas membeli reputasi mereka, transfer pengelola NFT tidak akan menghasilkan transfer reputasi.
+ Reputasi harus tetap terkait langsung dengan pekerjaan pengembang tertentu dan tidak boleh dipindahtangankan.
 
 ## Mengamankan Jaringan
 
