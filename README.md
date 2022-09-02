@@ -57,7 +57,7 @@ We build, publish and feature full PDFs of all translations at tea.xyz.
     header-includes:
       - \fancyfoot[L]{v${VERSION}+${LANG}}   # expand these variables!
     translator:
-      - Your Fullname
+      - Zaqi Cemerlang
     ```
 5. Translate `./i18n/${LANG}/white-paper.md`
 6. ```sh
