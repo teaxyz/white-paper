@@ -37,21 +37,16 @@ Kepanikan terjadi dan beberapa sukarelawan yang mempertahankan paket ini mendapa
 Setelah mengatasi kemarahan dengan permohonan sederhana untuk keadilan, sistem ditambal.
 Perusahaan dan pemerintah akhirnya menyadari bahwa Log4j, sebuah paket yang digunakan oleh berbagai sistem kritis selama dua dekade, dikelola oleh beberapa sukarelawan yang tidak dibayar, pahlawan tanpa tanda jasa yang sama yang langsung beraksi meskipun ada penyalahgunaan dari industri[^3] dan bekerja tanpa lelah  untuk mengatasi kerentanan.
 
-Sadly, Log4j is far from the only example.
-core-js is downloaded 30 million times per week as the base of every Node.js application, yet it is also barely funded.
-Recently several bitcoin core developers resigned, citing, among other reasons, a *lack of financial compensation* for their decision.
+Perusahaan sering membungkus model bisnis di sekitar sumber terbuka, menghasilkan pendapatan langsung dari pekerjaan pengembang yang baik hati sambil juga mengandalkan mereka untuk memperbaiki bug saat masalah terjadi.
+Contoh yang bagus adalah insiden baru-baru ini yang melibatkan kerentanan keamanan kritis di Log4j, sebuah paket dari Apache Software Foundation yang ditemukan di banyak perangkat lunak dan layanan komersial yang digunakan oleh perusahaan dan pemerintah.
+Pada November 2021, seorang peneliti keamanan yang bekerja untuk Alibaba Group Holding Ltd. melaporkan kerentanan CVE-2021-44228[^1], yang menerima skor dasar setinggi mungkin dari Apache Software Foundation.
+Amit Yoran, Kepala Eksekutif Tenable dan direktur pendiri Tim Kesiapan Darurat Komputer Amerika Serikat (US-CERT), menggambarkan kerentanan ini sebagai "kerentanan tunggal terbesar dan paling kritis dalam dekade terakhir"[^2].
+Kepanikan terjadi dan beberapa sukarelawan yang mempertahankan paket ini mendapat kecaman publik karena kegagalannya.
+Setelah mengatasi kemarahan dengan permohonan sederhana untuk keadilan, sistem ditambal.
 
-There have been multiple attempts at providing incentive structures, typically involving sponsorship and bounty systems.
-Sponsorship makes it possible for consumers of open-source to donate to the projects they favor.
-However, picture open-source as a tower of bricks where lower layers are long forgotten, but still maintained by dedicated engineers and relied upon by even more developers.
-Only projects at the top of the tower are typically known and receive sponsorship.
-This biased selection leads to essential bricks that hold up the tower attracting no donations, while favorites receive more than they need.
-Bounties allow consumers of projects to propose payment for developers to build specific features, thus only remunerating projects for doing things not necessarily in their best interest.
-And again, only rewarding favorites.
+Perusahaan dan pemerintah akhirnya menyadari bahwa Log4j, sebuah paket yang digunakan oleh berbagai sistem kritis selama dua dekade, dikelola oleh beberapa sukarelawan yang tidak dibayar, pahlawan tanpa tanda jasa yang sama yang langsung beraksi meskipun ada penyalahgunaan dari industri[^3] dan bekerja tanpa lelah  untuk mengatasi kerentanan.
 
-In this paper, we propose tea — a decentralized system for fairly remunerating open-source developers based on their contributions to the entire ecosystem and enacted through the tea incentive algorithm applied across all entries in the tea registry.
-
-![Simplified view of the tea steeping rewards system.](img/figure-1.svg)
+![Simplified pemandangan sistem hadiah seduhan teh.](img/figure-1.svg)
 
 $\parskip=0pt plus 1pt$
 
@@ -60,26 +55,25 @@ $\parskip=0pt plus 1pt$
 [^3]: Source: @twitter
 
 
-# Components
+# Komponen
+Pengembang perangkat lunak yang membangun aplikasi membutuhkan empat hal: browser, terminal, editor, dan manajer paket.
+Dari keempatnya, manajer paket adalah yang mengontrol perkakas dan kerangka kerja yang dibutuhkan pengembang untuk membangun produk mereka.
+Lapisan ini adalah tempat kami melihat potensi untuk mengubah cara sumber terbuka digaji.
 
-A software developer building an application needs four things: a browser, a terminal, an editor, and a package manager.
-Of these four, the package manager is what controls the tooling and frameworks a developer needs to construct their product.
-This layer is where we see the potential to change how open-source is remunerated.
+## Manajer Paket
 
-## The Package Manager
+Manajer paket mengetahui perangkat lunak sumber terbuka apa yang bergantung pada aplikasi untuk berfungsi, dari atas menara hingga dasarnya.
+Setiap komponen dan versi yang penting untuk aplikasi diketahui dan direkam.
+Ia tahu bahwa bagian atas menara dengan hati-hati memilih ketergantungannya dan bahwa pemilihan yang cermat berlanjut ke bawah.
+Manajer paket ditempatkan secara unik di tumpukan alat pengembang untuk memungkinkan distribusi nilai otomatis dan tepat berdasarkan penggunaan dunia nyata yang sebenarnya.
 
-The package manager knows what open-source software an application depends on to function, from the top of the tower to its base.
-Every component and version essential to the application is known and recorded.
-It knows that the top of the tower carefully selects its dependencies and that careful selection continues down.
-The package manager is uniquely placed in the developer tool stack to enable automated and precise value distribution based on actual real-world usage.
+Kami mengusulkan registri terdesentralisasi yang tidak dapat diubah yang dirancang untuk mendistribusikan nilai berdasarkan algoritme yang menentukan kontribusi setiap entri terhadap utilitas dan kesehatan sistem.
+Nilai dapat memasuki grafik pada titik puncak—aplikasi dan pustaka penting—dan didistribusikan ke dependensi titik puncak tersebut dan dependensinya secara rekursif karena registri mengetahui seluruh grafik sumber terbuka.
 
-We propose an immutable decentralized registry designed to distribute value based on an algorithm that determines each entry’s contribution to the system’s utility and health.
-Value can enter the graph at apex points—apps and essential libraries—and be distributed to the dependencies of those apex points and their dependencies recursively since the registry knows the entire open-source graph.
+Selain itu, kami percaya bahwa informasi material harus tersedia melalui manajer paket agar pengembang dapat menilai apakah mereka dapat mempercayai sebuah paket dan pembuatnya.
+Informasi ini mungkin didasarkan pada reputasi, pujian komunitas, data yang diambil dari sistem identitas terdesentralisasi (DID[^4]), manajer paket lain, atau mekanisme insentif yang berpotensi mengandalkan peserta jaringan yang membahayakan nilai ekonomi.
 
-Additionally, we believe that material information must be available via the package manager for developers to assess whether they can trust a package and its author.
-This information may be based on reputation, community kudos, data retrieved from decentralized identity (DID[^4]) systems, other package managers, or incentive mechanisms that potentially rely on network participants putting economic value at risk.
-
-We predict that tea’s combination of tools, information, and rewards will justly incentivize developers, helping stimulate the growth of open-source software and fostering innovation.
+Kami memperkirakan bahwa kombinasi alat, informasi, dan penghargaan teh akan secara adil memberi insentif kepada pengembang, membantu merangsang pertumbuhan perangkat lunak sumber terbuka dan mendorong inovasi.
 
 [^4]: See: @w3
 
