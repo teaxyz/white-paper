@@ -184,7 +184,7 @@ Kami memperkirakan bahwa kombinasi alat, informasi, dan penghargaan teh akan sec
  Dengan kata lain, paket tidak perlu ada agar teh mulai mengalir.
  Proyek yang baru lahir dapat didukung sama seperti proyek yang lebih matang, yang selanjutnya mendorong lanskap sumber terbuka yang terus berkembang.
 
- ## pencicip teh
+ ## pencicip tea
 
  Saat paket baru atau versi baru dari paket yang ada dirilis, validitas pekerjaan perlu dibuktikan.
  Informasi ini sangat penting bagi pengguna paket untuk memutuskan apakah akan mempercayai paket dan pengelolanya atau tidak.
@@ -528,7 +528,7 @@ Sama seperti aktor yang baik perlu dihargai;  aktor jahat perlu diidentifikasi d
  Untuk mencapai itu, setiap tim (atau tim) dapat membentuk organisasi otonom terdesentralisasi (DAO) mereka sendiri dan mengotomatiskan distribusi penghargaan atau menerapkan sistem yang lebih kompleks untuk menentukan distribusi penghargaan yang memadai berdasarkan faktor eksternal seperti pemungutan suara dari semua DAO  anggota,
  atau distribusi berbasis waktu berdasarkan kontribusi berkelanjutan, penyelesaian bounty yang berhasil, dll.
 
-## Menangani Paket “Garpu”
+## Menangani Paket “Fork”
 
  Kami percaya bahwa garpu sangat penting dan sebagian besar kurang dimanfaatkan.
  Forks dapat menjadi alat yang efektif untuk mengembangkan paket yang bersaing dalam fungsionalitas, kinerja, keamanan, dan bahkan perhatian.
@@ -561,9 +561,9 @@ $\parskip=0pt plus 1pt$
 
  |  istilah |  Definisi |
  |------|------------|
- |  Daun |  Denominasi terkecil dari token teh.  Sehelai daun sama dengan seperseratus juta ($10^{-8}$) teh.  |
+ |  Daun |  Denominasi terkecil dari token tea.  Sehelai daun sama dengan seperseratus juta ($10^{-8}$) tea.  |
  |  Memotong |  Tindakan menghukum yang lebih curam atau yang mempertaruhkan sebagai tanggapan atas perilaku yang bertentangan dengan aturan jaringan.  |
- |  Mempertaruhkan |  Tindakan mengunci token teh untuk mengamankan jaringan bukti kepemilikan tempat sistem teh dibangun.  |
+ |  Mempertaruhkan |  Tindakan mengunci token teh untuk mengamankan jaringan bukti kepemilikan tempat sistem tea dibangun.  |
  |  Curam |  Tindakan mengunci token teh untuk mendukung klaim Anda dan menerima hadiah (atau penalti) berdasarkan konsensus tentang validitas klaim Anda.  |
 
 
