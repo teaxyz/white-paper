@@ -417,32 +417,31 @@ Biarkan $\tau = \tau(\chi)$ menjadi tingkat bunga seduhan tahunan yang didistrib
  Biarkan $\delta$ menjadi inflasi tahunan yang diarahkan pada perbendaharaan jaringan.
  $\delta$ dapat bervariasi karena faktor eksternal mempengaruhi pasokan token.
 
-We consider the annual steeping reward rate as a function of $\chi$ and the annual staking reward rate as a function of $\psi$.
+Kami menganggap tingkat hadiah seduhan tahunan sebagai fungsi dari $\chi$ dan tingkat hadiah taruhan tahunan sebagai fungsi dari $\psi$.
 
-* $\tau(\chi)$ corresponds to the incentive for people to steep a package.
-As $\chi$ increases, fewer rewards $\tau(\chi)$ are needed.
-* $\gamma(\psi)$ corresponds to the incentive for people to stake the network.
-As $\psi$ increases, fewer rewards $\gamma(\psi)$ are needed to secure the network.
+ * $\tau(\chi)$ sesuai dengan insentif bagi orang-orang untuk mengambil paket.
+ Saat $\chi$ meningkat, lebih sedikit hadiah $\tau(\chi)$ yang dibutuhkan.
+ * $\gamma(\psi)$ sesuai dengan insentif bagi orang-orang untuk mempertaruhkan jaringan.
+ Saat $\psi$ meningkat, lebih sedikit hadiah $\gamma(\psi)$ diperlukan untuk mengamankan jaringan.
 
-The annual inflation $I$ will be equivalent to $(\tau + \gamma + \delta)$ and calculated as follows:
-
+ Inflasi tahunan $I$ akan setara dengan $(\tau + \gamma + \delta)$ dan dihitung sebagai berikut:
 $$
 I = \frac{\textrm{token supply at the end of the year} - \textrm{token supply at the beginning of the year}}{\textrm{token supply at the beginning of the year}} = (\tau + \gamma + \delta)
 $$
 
-The contribution to inflation of $\tau_{\textsc{all}}$ (incentive distributed to all package steepers) and $\gamma_{\textsc{all}}$ (incentive distributed across all contributors to the network security) should be weighed to ensure that the system incentivizes the optimal steeping/staking ratio.
+Kontribusi terhadap inflasi $\tau_{\textsc{all}}$ (insentif yang didistribusikan ke semua paket yang lebih curam) dan $\gamma_{\textsc{all}}$ (insentif yang didistribusikan ke semua kontributor untuk keamanan jaringan) harus dipertimbangkan  untuk memastikan bahwa sistem mendorong rasio seduhan/staking yang optimal.
 
-As we focus on the incentives distributed across all package steepers, we determine that
-$\tau_{\textsc{all}}$
-is a function of the steeping ratio $\chi$ and therefore
-$\tau_{\textsc{all}}(\chi) = \chi \cdot \tau(\chi)$.
-From our previous analysis, we can see that
-$\tau_{\textsc{all}}(\chi_{ideal}) = \chi_{ideal} \cdot \tau_{ideal}$.
-Since the goal is to reach a state where
-$\chi = \chi_{ideal}$
-, rewards
-$\tau_{ideal}(\chi)$
-should be maximal at that value.
+ Saat kami fokus pada insentif yang didistribusikan di semua paket yang lebih curam, kami menentukan bahwa
+ $\tau_{\textsc{all}}$
+ adalah fungsi dari rasio seduhan $\chi$ dan oleh karena itu
+ $\tau_{\textsc{all}}(\chi) = \chi \cdot \tau(\chi)$.
+ Dari analisis kami sebelumnya, kami dapat melihat bahwa
+ $\tau_{\textsc{semua}}(\chi_{ideal}) = \chi_{ideal} \cdot \tau_{ideal}$.
+ Karena tujuannya adalah untuk mencapai keadaan di mana
+ $\chi = \chi_{ideal}$
+ , hadiah
+ $\tau_{ideal}(\chi)$
+ harus maksimal pada nilai tersebut.
 
 Misalkan $\tau_{ideal} = \tau(\chi_{ideal})$
  menjadi tingkat hadiah yang diberikan oleh jaringan pada skenario ideal di mana
@@ -456,14 +455,10 @@ Misalkan $\tau_{ideal} = \tau(\chi_{ideal})$
 
 Kami memilih penurunan eksponensial serupa untuk $\tau_{\textsc{all}}(\chi)$ karena ini menyiratkan penurunan eksponensial $\tau(\chi)$, dan kami ingin imbalan turun tajam melampaui $\chi_{  ideal}$ untuk mencegah satu paket menerima semua hadiah.
 
-The decay is defined so that the inflation rate decreases by at most 50% when  $\chi$ shifts $d$ units to the right of $\chi_{ideal}$ – i.e.
-$\tau_{\textsc{all}}(\chi_{ideal} + d) \geq \tau_{\textsc{all}} \cdot 0.5$.
+Peluruhan didefinisikan sehingga tingkat inflasi berkurang paling banyak 50% ketika $\chi$ menggeser unit $d$ ke kanan $\chi_{ideal}$ – yaitu.
+ $\tau_{\textsc{semua}}(\chi_{ideal} + d) \geq \tau_{\textsc{semua}} \cdot 0.5$.
 
-We propose the following interest rate and inflation rate functions, which depend on the parameters $\chi_{ideal}$, $\tau_{ideal}$, $\tau_{0}$ and $d$.
-\begin{align*}
-&\tau_{\textsc{all}}(\chi) = \tau_{0} + (\tau_{\textsc{all}}(\chi_{ideal}) - \tau_{0})\frac{\chi}{\chi_{ideal}}\enspace\textrm{for}\;0 < \chi \leq \chi_{ideal} \\
-&\tau_{\textsc{all}}(\chi) = \tau_{0} + (\tau_{\textsc{all}}(\chi_{ideal}) - \tau_{0}) \cdot 2^{(\chi_{ideal}-\chi)/d}\enspace\textrm{for}\;\chi_{ideal} < \chi \leq 1
-\end{align*}
+ Kami mengusulkan fungsi tingkat bunga dan tingkat inflasi berikut, yang bergantung pada parameter $\chi_{ideal}$, $\tau_{ideal}$, $\tau_{0}$ dan $d$.
 
 Sama seperti aktor yang baik perlu dihargai;  aktor jahat perlu diidentifikasi dan dihukum.
  Perangkat lunak open-source memberikan banyak peluang bagi pelaku jahat untuk menciptakan masalah dan risiko reputasi bagi seluruh komunitas pengembang.
@@ -555,21 +550,21 @@ Sama seperti aktor yang baik perlu dihargai;  aktor jahat perlu diidentifikasi d
  Perhatikan bahwa semua informasi yang digunakan untuk memengaruhi distribusi hadiah di seluruh paket dan dependensi dalam sistem teh harus terbukti andal.
 
 
-# Acknowledgments
+# Ucapan Terima Kasih
 
-This white paper would not exist without the support and dedication of many teaophiles.
-The authors would like to acknowledge Josh Kruger, Jadid Khan, and Jacob Heider for their contribution to the tokenomics and the many discreet individuals who volunteered their time to provide feedback on the contents of this document.
+ Buku putih ini tidak akan ada tanpa dukungan dan dedikasi dari banyak teaophiles.
+ Para penulis ingin mengucapkan terima kasih kepada Josh Kruger, Jadid Khan, dan Jacob Heider atas kontribusi mereka pada tokennomics dan banyak individu bijaksana yang secara sukarela meluangkan waktu mereka untuk memberikan umpan balik tentang isi dokumen ini.
 
 $\parskip=0pt plus 1pt$
 
-# Glossary of Terms
+# Daftar Istilah
 
-| Term | Definition |
-|------|------------|
-| Leaf | The smallest denomination of the tea token. A leaf corresponds to one one-hundred-millionth ($10^{-8}$) of a tea. |
-| Slashing | The action of penalizing steepers or stakers in response to behavior contrary to the network rules. |
-| Staking | The action of locking tea tokens to secure the proof-of-stake network upon which the tea system is built. |
-| Steeping | The action of locking tea tokens to support your claim and receive rewards (or penalties) based on the consensus on the validity of your claim. |
+ |  istilah |  Definisi |
+ |------|------------|
+ |  Daun |  Denominasi terkecil dari token teh.  Sehelai daun sama dengan seperseratus juta ($10^{-8}$) teh.  |
+ |  Memotong |  Tindakan menghukum yang lebih curam atau yang mempertaruhkan sebagai tanggapan atas perilaku yang bertentangan dengan aturan jaringan.  |
+ |  Mempertaruhkan |  Tindakan mengunci token teh untuk mengamankan jaringan bukti kepemilikan tempat sistem teh dibangun.  |
+ |  Curam |  Tindakan mengunci token teh untuk mendukung klaim Anda dan menerima hadiah (atau penalti) berdasarkan konsensus tentang validitas klaim Anda.  |
 
 
-# References
+ # Referensi
