@@ -1,24 +1,15 @@
-title: A Decentralized Protocol for Remunerating the Open‑Source Ecosystem
+title: 用于奖励开源生态系统的去中心化协议
 abstract: |-
-  Creating an open, public and stable registry for all open-source software
-  would empower projects to publish releases independently rather than rely on
-  third parties who assemble this irregular data into hundreds of separate
-  (and duplicated) systems. Package maintainers will publish their releases to
-  a decentralized registry powered by a Byzantine fault-tolerant blockchain to
-  eliminate single sources of failure, provide immutable releases, and allow
-  communities to govern their regions of the open-source ecosystem,
-  independent of external agendas.
+ 为所有开源软件创建一个开放、公共和稳定的注册表将使项目能够独立发布版本，而不是
+ 依赖于将这些不规则数据组装到数百个独立（和重复）系统中的第三方。Package维护者将
+ 他们的作品发布到由拜占庭容错区块链驱动的去中心化注册表，以消除单一故障源，提供
+ 稳定的发布，并允许社区来管理其开源生态系统的区域，而不受外部议程的影响。
 
-  tea incentivizes the maintenance of open-source by allowing network
-  participants to stake value against the packages they depend on and want to
-  secure. The tea protocol’s graph provides immutable package registration,
-  dependency requirements, package authenticity, and usage oracles to inform
-  the tea remuneration algorithm. Systematic inflation is distributed to all
-  packages based on that algorithm. If security or development issues are
-  found, developers can make claims supported by evidence against the package,
-  and slashing may occur. Members of the open-source community can review
-  packages for quality issues, and the protocol can respond to these reviews
-  by enacting proportional slashing events.
+  Tea 通过允许网络参与者将他们依赖并希望保护的软件 Package进行质押来作为激励开源
+  的维护。 Tea 协议的图表提供了不可变的 Package注册、依赖要求、 Package真实性和
+  使用预言机，以告知Tea 报酬算法。系统膨胀基于该算法分配给所有 Package。如果发现
+  安全或开发问题，开发人员可以提出有证据支持的索赔，并可能进行惩罚。开源社区的成员
+  可以审查 Package的质量问题，协议可以通过制定比例削减事件来回应这些审查。
 author:
 - Max Howell
 - Timothy Lewis
@@ -68,10 +59,9 @@ references:
   url: https://arxiv.org/abs/1207.2617/
 - id: web3
   url: https://research.web3.foundation/en/latest/polkadot/overview/2-token-economics.html
+  lang: zh
+  dir: ltr 
 header-includes:
-- \usepackage{fancyhdr,ragged2e}
-- \lhead{\parbox[t]{0.5\textwidth}{\RaggedRight\rightmark\strut}}
-- \rhead{\parbox[t]{0.5\textwidth}{\RaggedLeft\leftmark\strut}}
-- \setlength{\headheight}{5\baselineskip}
-- \pagestyle{fancy}
-- \fancyfoot[LE,RO]{© 2022 tea.inc.}
+- \fancyfoot[L]{${VERSION 1}+${zh}}
+translator:
+- LoveCity0088
