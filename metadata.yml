@@ -1,28 +1,28 @@
-title: A Decentralized Protocol for Remunerating the Open‑Source Ecosystem
+title: Децентралізований протокол для винагороди екосистеми з відкритим вихідним кодом
 abstract: |-
-  Creating an open, public and stable registry for all open-source software
-  would empower projects to publish releases independently rather than rely on
-  third parties who assemble this irregular data into hundreds of separate
-  (and duplicated) systems. Package maintainers will publish their releases to
-  a decentralized registry powered by a Byzantine fault-tolerant blockchain to
-  eliminate single sources of failure, provide immutable releases, and allow
-  communities to govern their regions of the open-source ecosystem,
-  independent of external agendas.
+  Створення відкритого, публічного та стабільного реєстру для всього програмного забезпечення з відкритим кодом
+  дасть можливість проектам публікувати випуски незалежно, а не покладатися на них
+  треті сторони, які збирають ці нерегулярні дані в сотні окремих
+  (і дубльовані) системи. Супроводжувачі пакетів публікуватимуть свої випуски на
+  децентралізований реєстр на базі візантійського відмовостійкого блокчейну
+  усунути окремі джерела збоїв, забезпечити незмінні випуски та дозволити
+  спільноти для управління своїми регіонами екосистеми з відкритим кодом,
+  незалежно від зовнішнього порядку денного.
 
-  tea incentivizes the maintenance of open-source by allowing network
-  participants to stake value against the packages they depend on and want to
-  secure. The tea protocol’s graph provides immutable package registration,
-  dependency requirements, package authenticity, and usage oracles to inform
-  the tea remuneration algorithm. Systematic inflation is distributed to all
-  packages based on that algorithm. If security or development issues are
-  found, developers can make claims supported by evidence against the package,
-  and slashing may occur. Members of the open-source community can review
-  packages for quality issues, and the protocol can respond to these reviews
-  by enacting proportional slashing events.
+  чай стимулює підтримку відкритого коду, дозволяючи мережі
+  учасники можуть зробити ставку на пакети, від яких вони залежать і яких хочуть
+  безпечний. Граф чайного протоколу забезпечує незмінну реєстрацію пакетів,
+  вимоги до залежностей, автентичність пакетів і оракули використання для інформування
+  алгоритм винагороди за чай. Систематична інфляція поширюється на всіх
+  пакети на основі цього алгоритму. Якщо є проблеми з безпекою чи розвитком
+  знайдено, розробники можуть висувати заяви, підтверджені доказами проти пакета,
+  і може статися розріз. Члени спільноти з відкритим кодом можуть переглядати
+  пакети для проблем з якістю, і протокол може відповідати на ці огляди
+  шляхом введення пропорційних скорочень.
 author:
-- Max Howell
-- Timothy Lewis
-- Thomas Borrel
+- Макс Хауелл
+- Тімоті Льюїс
+- Томас Боррель
 references:
 - id: sources
   url: https://github.com/teaxyz/white-paper
@@ -75,3 +75,7 @@ header-includes:
 - \setlength{\headheight}{5\baselineskip}
 - \pagestyle{fancy}
 - \fancyfoot[LE,RO]{© 2022 tea.inc.}
+lang: uk
+dir: ltr
+translator:
+- Рябченко Андрій
