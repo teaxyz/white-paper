@@ -1,57 +1,56 @@
-# Disclaimer
+# Haftungsausschluss
 
-The information set out in this white paper is of a preliminary nature.
-Consequently, neither the authors nor any of their respective affiliates assume any responsibility that the information set out herein is final or correct and each of the foregoing disclaims,
-to the fullest extent permitted by applicable law, any and all liability whether arising in tort, contract or otherwise in respect of this white paper.
-Neither this white paper nor anything contained herein shall form the basis of or be relied on in connection with or act as an inducement to enter into any contract or commitment whatsoever.
+Die in diesem White Paper enthaltenen Informationen sind vorläufiger Natur.
+Daher übernehmen weder die Autoren noch ihre jeweiligen Partner die Verantwortung dafür, dass die hierin enthaltenen Informationen endgültig oder korrekt sind, und jeder der Vorgenannten lehnt ab,
+im größtmöglichen Umfang, den das geltende Recht zulässt, jegliche Haftung aus unerlaubter Handlung, Vertrag oder anderweitig in Bezug auf dieses White Paper.
+Weder dieses White Paper noch irgendetwas in diesem White Paper darf als Grundlage für einen Vertrag oder eine Verpflichtung dienen oder als Anreiz zum Abschluss eines Vertrags oder einer Verpflichtung, gleich welcher Art.
 
-Nothing in this white paper constitutes an offer to sell or a solicitation to purchase any tokens discussed herein.
-In any event, were this white paper to be deemed to be such an offer or solicitation, no such offer or solicitation is intended or conveyed by this white paper in any jurisdiction where it is unlawful to do so,
-where such an offer or solicitation would require a license or registration, or where such an offer or solicitation is subject to restrictions.
-In particular, any tokens discussed herein have not been, and, as of the date of issuance of this white paper, are not intended to be, registered under the securities or similar laws of any jurisdiction,
-whether or not such jurisdiction considers such tokens to be a security or similar instrument and may not be offered or sold in any jurisdiction where to do so would constitute a violation of the relevant laws of such jurisdiction.
+Nichts in diesem White Paper stellt ein Angebot zum Verkauf oder eine Aufforderung zum Kauf der hier besprochenen Token dar.
+Sollte dieses White Paper als ein solches Angebot oder eine solche Aufforderung angesehen werden, so ist ein solches Angebot oder eine solche Aufforderung in keiner Jurisdiktion, in der dies ungesetzlich ist, beabsichtigt oder wird durch dieses White Paper vermittelt,
+wo ein solches Angebot oder eine solche Aufforderung eine Lizenz oder Registrierung erfordern würde oder wo ein solches Angebot oder eine solche Aufforderung Einschränkungen unterliegt.
+Insbesondere sind die hierin besprochenen Token nicht gemäß den Wertpapiergesetzen oder ähnlichen Gesetzen einer Rechtsordnung registriert worden, und es ist zum Zeitpunkt der Veröffentlichung dieses Whitepapers auch nicht beabsichtigt, sie zu registrieren,
+unabhängig davon, ob eine solche Rechtsordnung die Token als Wertpapier oder ähnliches Instrument betrachtet oder nicht, und sie dürfen nicht in einer Rechtsordnung angeboten oder verkauft werden, in der dies einen Verstoß gegen die entsprechenden Gesetze dieser Rechtsordnung darstellen würde.
 
 
-# License
+# Lizenz
 
-The source code[^src] of this paper is available under the Creative Commons Attribution-ShareAlike 4.0 International[^cc] license.
+Der Quellcode[^src] dieses Artikels ist verfügbar unter der Creative Commons Attribution-ShareAlike 4.0 International[^cc] Lizenz.
 
 [^src]: See: @sources
 [^cc]: See: @cc
 
 
-# Introduction
+# Einführung
 
-The Internet is predominantly composed of open-source projects and has been since its inception.
-Over time, many of these projects have become foundational pieces upon which all future innovation is built.
-And while fortunes have been made from it, open-source is mainly created and maintained without compensation.
+Das Internet besteht überwiegend aus Open-Source-Projekten, und das schon seit seinen Anfängen.
+Im Laufe der Zeit haben sich viele dieser Projekte zu Grundpfeilern entwickelt, auf denen alle zukünftigen Innovationen aufgebaut sind.
+Und obwohl damit ein Vermögen gemacht wurde, wird Open-Source hauptsächlich ohne Vergütung erstellt und gepflegt.
 
-We believe that the entirety of modern human endeavor has been stunted by relying on the smallest percentage of the world's engineers to choose between a salary or keeping the Internet running.
-Open-source is a labor of love often hindered by a lack of meaningful economic incentives resulting in genuinely worthwhile projects never reaching their potential while others suffer from security issues due to the lack of incentives to maintain software throughout its lifecycle.
-To fully realize our potential, we need a fair remuneration system for the open-source ecosystem that doesn’t fundamentally change how it is built or utilized.
+Wir sind der Meinung, dass das gesamte moderne menschliche Streben dadurch behindert wird, dass sich der kleinste Prozentsatz der Ingenieure der Welt zwischen einem Gehalt und der Aufrechterhaltung des Internets entscheiden muss.
+Open-Source ist ein Werk der Liebe, das oft durch das Fehlen sinnvoller wirtschaftlicher Anreize behindert wird. Das führt dazu, dass wirklich lohnenswerte Projekte nie ihr Potenzial erreichen, während andere unter Sicherheitsproblemen leiden, weil es keine Anreize gibt, die Software während ihres gesamten Lebenszyklus zu pflegen.
+Um unser Potenzial voll auszuschöpfen, brauchen wir ein faires Vergütungssystem für das Open-Source-Ökosystem, das die Art und Weise, wie es aufgebaut oder genutzt wird, nicht grundlegend verändert.
 
-Enterprises often wrap business models around open-source, generating revenue directly from the work of the benevolent developers while also relying on them to fix bugs as issues occur.
-A great example is a recent incident involving a critical security vulnerability in Log4j, a package from the Apache Software Foundation that found its way across many commercial software and services employed by enterprises and governments.
-In November 2021, a security researcher working for Alibaba Group Holding Ltd. reported vulnerability CVE-2021-44228[^1], which received the highest possible base score from the Apache Software Foundation.
-Amit Yoran, Chief Executive of Tenable and founding director of the United States Computer Emergency Readiness Team (US-CERT), described this vulnerability as “the single biggest, most critical vulnerability of the last decade”[^2].
-Panic ensued and the few volunteers who maintained this package came publicly under fire for the failure.
-After addressing the outrage with a humble plea for fairness, systems got patched.
-Enterprises and governments eventually realized that Log4j, a package used by a broad range of critical systems for two decades, was maintained by a few unpaid volunteers, the same unsung heroes who sprang into action despite abuse from the industry[^3] and worked tirelessly to address the vulnerability.
+Unternehmen bauen oft Geschäftsmodelle um Open Source herum auf, um direkt von der Arbeit der wohlwollenden Entwickler zu profitieren und sich gleichzeitig darauf zu verlassen, dass sie Fehler beheben, wenn Probleme auftreten.
+Ein gutes Beispiel dafür ist der jüngste Vorfall im Zusammenhang mit einer kritischen Sicherheitslücke in Log4j, einem Paket der Apache Software Foundation, das seinen Weg in viele kommerzielle Software und Dienste gefunden hat, die von Unternehmen und Regierungen genutzt werden.
+Im November 2021 meldete ein Sicherheitsforscher, der für die Alibaba Group Holding Ltd. arbeitet, die Sicherheitslücke CVE-2021-44228[^1], die von der Apache Software Foundation die höchstmögliche Basisbewertung erhielt.
+Amit Yoran, Chief Executive von Tenable und Gründungsdirektor des United States Computer Emergency Readiness Team (US-CERT), bezeichnete diese Sicherheitslücke als "die größte und kritischste Sicherheitslücke des letzten Jahrzehnts"[^2].
+Panik brach aus und die wenigen Freiwilligen, die dieses Paket betreuten, gerieten wegen des Versagens öffentlich unter Beschuss.
+Nachdem sie die Empörung mit einem bescheidenen Plädoyer für Fairness angesprochen hatten, wurden die Systeme gepatcht.
+Unternehmen und Regierungen erkannten schließlich, dass Log4j, ein Paket, das zwei Jahrzehnte lang von einer Vielzahl kritischer Systeme verwendet wurde, von einigen wenigen unbezahlten Freiwilligen gewartet wurde, denselben unbesungenen Helden, die trotz der Beschimpfungen durch die Industrie[^3] in Aktion traten und unermüdlich an der Behebung der Sicherheitslücke arbeiteten.
 
-Sadly, Log4j is far from the only example.
-core-js is downloaded 30 million times per week as the base of every Node.js application, yet it is also barely funded.
-Recently several bitcoin core developers resigned, citing, among other reasons, a *lack of financial compensation* for their decision.
+Leider ist Log4j bei weitem nicht das einzige Beispiel.
+core-js wird als Basis jeder Node.js-Anwendung 30 Millionen Mal pro Woche heruntergeladen, wird aber ebenfalls kaum finanziert.
+Kürzlich haben mehrere Bitcoin-Core-Entwickler gekündigt und dies unter anderem mit dem *Mangel an finanzieller Entschädigung* begründet.
 
-There have been multiple attempts at providing incentive structures, typically involving sponsorship and bounty systems.
-Sponsorship makes it possible for consumers of open-source to donate to the projects they favor.
-However, picture open-source as a tower of bricks where lower layers are long forgotten, but still maintained by dedicated engineers and relied upon by even more developers.
-Only projects at the top of the tower are typically known and receive sponsorship.
-This biased selection leads to essential bricks that hold up the tower attracting no donations, while favorites receive more than they need.
-Bounties allow consumers of projects to propose payment for developers to build specific features, thus only remunerating projects for doing things not necessarily in their best interest.
-And again, only rewarding favorites.
+Es gab mehrere Versuche, Anreizstrukturen zu schaffen, typischerweise in Form von Sponsoring und Bounty-Systemen.
+Sponsoring ermöglicht es den Nutzern von Open-Source, für die von ihnen bevorzugten Projekte zu spenden.
+Stellen Sie sich Open-Source jedoch wie einen Turm aus Ziegelsteinen vor, bei dem die unteren Schichten längst vergessen sind, aber immer noch von engagierten Ingenieuren gepflegt werden und auf die sich noch mehr Entwickler verlassen.
+Nur die Projekte an der Spitze des Turms sind in der Regel bekannt und werden gesponsert.
+Diese voreingenommene Auswahl führt dazu, dass wichtige Bausteine, die den Turm hochhalten, keine Spenden erhalten, während die Favoriten mehr erhalten, als sie brauchen.
+Bounties ermöglichen es den Nutzern von Projekten, den Entwicklern Zahlungen für den Bau bestimmter Funktionen vorzuschlagen, so dass Projekte nur für Dinge entlohnt werden, die nicht unbedingt in ihrem besten Interesse sind.
+Und auch hier werden nur die Favoriten belohnt.
 
-In this paper, we propose tea — a decentralized system for fairly remunerating open-source developers based on their contributions to the entire ecosystem and enacted through the tea incentive algorithm applied across all entries in the tea registry.
-
+In diesem Beitrag schlagen wir Tea vor - ein dezentrales System zur fairen Vergütung von Open-Source-Entwicklern auf der Grundlage ihrer Beiträge zum gesamten Ökosystem, das durch den tea-Anreizalgorithmus für alle Einträge in der Tea-Registry umgesetzt wird.
 ![Simplified view of the tea steeping rewards system.](img/figure-1.svg)
 
 $\parskip=0pt plus 1pt$
@@ -61,52 +60,52 @@ $\parskip=0pt plus 1pt$
 [^3]: Source: @twitter
 
 
-# Components
+# Komponenten
 
-A software developer building an application needs four things: a browser, a terminal, an editor, and a package manager.
-Of these four, the package manager is what controls the tooling and frameworks a developer needs to construct their product.
-This layer is where we see the potential to change how open-source is remunerated.
+Ein Softwareentwickler, der eine Applikation erstellt, braucht vier Dinge: einen Browser, ein Terminal, einen Editor und einen Paketmanager.
+Von diesen vier Dingen steuert der Paketmanager die Werkzeuge und Frameworks, die ein Entwickler benötigt, um sein Produkt zu erstellen.
+Auf dieser Ebene sehen wir das Potenzial, die Art und Weise zu verändern, wie Open-Source vergütet wird.
 
-## The Package Manager
+## Der Paketmanager
 
-The package manager knows what open-source software an application depends on to function, from the top of the tower to its base.
-Every component and version essential to the application is known and recorded.
-It knows that the top of the tower carefully selects its dependencies and that careful selection continues down.
-The package manager is uniquely placed in the developer tool stack to enable automated and precise value distribution based on actual real-world usage.
+Der Paketmanager weiß, von welcher Open-Source-Software eine Anwendung abhängt, um zu funktionieren, von der Spitze des Turms bis zu seiner Basis.
+Jede Komponente und Version, die für die Anwendung wichtig ist, ist bekannt und aufgezeichnet.
+Er weiß, dass die Spitze des Turms seine Abhängigkeiten sorgfältig auswählt und diese sorgfältige Auswahl sich nach unten fortsetzt.
+Der Paketmanager ist einzigartig im Stapel der Entwicklerwerkzeuge platziert, um eine automatisierte und präzise Werteverteilung auf der Grundlage der tatsächlichen Nutzung in der Praxis zu ermöglichen.
 
-We propose an immutable decentralized registry designed to distribute value based on an algorithm that determines each entry’s contribution to the system’s utility and health.
-Value can enter the graph at apex points—apps and essential libraries—and be distributed to the dependencies of those apex points and their dependencies recursively since the registry knows the entire open-source graph.
+Wir schlagen eine unveränderliche dezentrale Registry vor, die Werte auf der Grundlage eines Algorithmus verteilt, der den Beitrag jedes Eintrags zum Nutzen und zur Gesundheit des Systems bestimmt.
+Werte können an den Spitzenpunkten des Graphen eingetragen werden - Anwendungen und wichtige Bibliotheken - und werden rekursiv an die Abhängigkeiten dieser Spitzenpunkte und deren Abhängigkeiten verteilt, da die Registry den gesamten Open-Source-Graphen kennt.
 
-Additionally, we believe that material information must be available via the package manager for developers to assess whether they can trust a package and its author.
-This information may be based on reputation, community kudos, data retrieved from decentralized identity (DID[^4]) systems, other package managers, or incentive mechanisms that potentially rely on network participants putting economic value at risk.
+Außerdem sind wir der Meinung, dass über den Paketmanager wesentliche Informationen verfügbar sein müssen, damit Entwickler/innen einschätzen können, ob sie einem Paket und seinem Autor vertrauen können.
+Diese Informationen können auf Reputation, Ansehen in der Gemeinschaft, Daten aus dezentralen Identitätssystemen (DID[^4]), anderen Paketmanagern oder Anreizmechanismen beruhen, die möglicherweise darauf beruhen, dass Netzwerkteilnehmer einen wirtschaftlichen Wert riskieren.
 
-We predict that tea’s combination of tools, information, and rewards will justly incentivize developers, helping stimulate the growth of open-source software and fostering innovation.
+Wir gehen davon aus, dass die Kombination aus Werkzeugen, Informationen und Belohnungen von Tea einen Anreiz für Entwickler/innen darstellt, der das Wachstum von Open-Source-Software anregt und die Innovation fördert.
 
 [^4]: See: @w3
 
-## The Decentralized Registry
+## Die dezentralisierte Registratur
 
-Every package manager has its own package registry duplicating the same metadata repeatedly.
-It’s time there was a single, comprehensive and definitive registry designed and governed by the communities that depend on it.
-This decentralized, immutable registry could provide security, stability and prevent
-malevolent intent.
+Jeder Paketmanager hat seine eigene Paketregistrierung, in der die gleichen Metadaten immer wieder dupliziert werden.
+Es ist an der Zeit, dass es eine einzige, umfassende und endgültige Registrierung gibt, die von den Gemeinschaften, die auf sie angewiesen sind, entwickelt und verwaltet wird.
+Diese dezentralisierte, unveränderliche Registrierung könnte Sicherheit und Stabilität bieten und
+böswillige Absichten verhindern.
 
-The Internet runs on tens of thousands of vital open-source components.
-It’s remarkable that thus far, incidents caused by the removal of essential open-source infrastructure have been minimal.
-The most famous was the removal of an NPM left-pad[^5] dependency in 2016, which cascaded into continuous integration and continuous deployment systems leaving developers high and dry for days.
-This event demonstrated that the Internet itself is based on fragile systems of development.
-Other examples involved active or intentional participation from the package maintainers sabotaging their popular packages (See colors.js, faker.js[^6], and node-ipc[^7]),
-or bad actors looking to profit by pretending to help maintain packages and corrupting them to steal, for example, Bitcoin private keys (See event-stream[^8]),
-or malicious packages with intentional misspelling errors, also known as typosquatting,
-in the hope of tricking users into installing them, for example crossenv vs. cross-env NPM packages[^npmjsCrossenv].
+Das Internet basiert auf Zehntausenden von wichtigen Open-Source-Komponenten.
+Es ist bemerkenswert, dass es bisher nur wenige Vorfälle gab, die durch die Entfernung wichtiger Open-Source-Infrastrukturen verursacht wurden.
+Der berühmteste Vorfall war die Entfernung einer NPM-Linkspad[^5]-Abhängigkeit im Jahr 2016, die sich auf die Systeme für kontinuierliche Integration und kontinuierliches Deployment auswirkte und Entwickler/innen tagelang auf dem Trockenen sitzen ließ.
+Dieses Ereignis zeigte, dass das Internet selbst auf fragilen Entwicklungssystemen basiert.
+Andere Beispiele beinhalten die aktive oder absichtliche Beteiligung von Paketverwalter, die ihre beliebten Pakete sabotieren (siehe colors.js, faker.js[^6] und node-ipc[^7]),
+oder bösartige Akteure, die Profit machen wollen, indem sie vorgeben, bei der Wartung von Paketen zu helfen, und diese korrumpieren, um z. B. private Bitcoin-Schlüssel zu stehlen (siehe event-stream[^8]),
+oder bösartige Pakete mit absichtlichen Rechtschreibfehlern, auch bekannt als Typosquatting,
+in der Hoffnung, die Nutzer zur Installation zu verleiten, z. B. crossenv vs. cross-env NPM-Pakete[^npmjsCrossenv].
 
-Software integrity needs to be guaranteed as the industry progresses towards a future where digital assets are part of the software.
-We cannot continue to leave ourselves vulnerable to malicious actors modifying the software.
+Auf dem Weg in eine Zukunft, in der digitale Güter Teil der Software sind, muss die Integrität der Software gewährleistet sein.
+Wir können uns nicht länger der Gefahr aussetzen, dass böswillige Akteure die Software verändern.
 
-Most tools that we call package managers cannot guarantee that these packages built into the apps and dApps are the unaltered open-source code published by their original authors.
-Microsoft’s GitHub has found that 17% of vulnerabilities in software were planted for malicious purposes[^9], with some remaining undetected for extended periods (See Webmin 1.890[^10]).
+Die meisten Werkzeuge, die wir Paketmanager nennen, können nicht garantieren, dass die in die Apps und dApps eingebauten Pakete der unveränderte Open-Source-Code sind, der von ihren ursprünglichen Autoren veröffentlicht wurde.
+Auf Microsofts GitHub wurde festgestellt, dass 17 % der Schwachstellen in Software zu böswilligen Zwecken eingeschleust wurden[^9], wobei einige für längere Zeit unentdeckt blieben (siehe Webmin 1.890[^10]).
 
-A decentralized registry augmented by a reputation system and supported by economic incentives designed to expose bad actors and reward good actors may provide the guarantees developer communities have been looking for.
+Ein dezentralisiertes Register, das durch ein Reputationssystem ergänzt und durch wirtschaftliche Anreize unterstützt wird, um schlechte Akteure zu entlarven und gute Akteure zu belohnen, könnte die Garantien bieten, nach denen die Entwicklergemeinschaften gesucht haben.
 
 [^5]: Source: @theregister
 [^6]: Source: @fossa
@@ -117,467 +116,465 @@ A decentralized registry augmented by a reputation system and supported by econo
 [^10]: Source: @threatpost
 
 
-## The Storage System
+## Das Speichersystem
 
-Open-source packages deliver a broad range of functionality, some of which may be restricted or unwanted.
-Encryption is an excellent example of that.
-A critical use case for encryption is the support of individuals’ privacy across the globe.
-Encryption, however, can also be used for nefarious purposes (see Phantom Secure, dismantled by law enforcement agencies in March 2018[^11]) or may be compromised to support law enforcement activities (See Operation Ironside (AFP), Operation Greenlight (Europol),
-and Operation Trojan Shield (FBI)[^12] where the FBI operated an “encrypted” communication platform, AN0M, and convinced criminals to use their “encrypted” phones for secure communication).
+Open-Source-Pakete bieten eine breite Palette an Funktionen, von denen einige eingeschränkt oder unerwünscht sein können.
+Die Verschlüsselung ist ein hervorragendes Beispiel dafür.
+Ein wichtiger Anwendungsfall für Verschlüsselung ist der Schutz der individuellen Privatsphäre auf der ganzen Welt.
+Verschlüsselung kann aber auch für schändliche Zwecke eingesetzt werden (siehe Phantom Secure, das im März 2018 von den Strafverfolgungsbehörden zerschlagen wurde[^11]) oder zur Unterstützung von Strafverfolgungsaktivitäten missbraucht werden (siehe Operation Ironside (AFP), Operation Greenlight (Europol),
+und Operation Trojan Shield (FBI)[^12], bei der das FBI eine "verschlüsselte" Kommunikationsplattform, AN0M, betrieb und Kriminelle davon überzeugte, ihre "verschlüsselten" Telefone für eine sichere Kommunikation zu nutzen).
 
-Encryption’s broad applications have made it a perfect use case for open-source software and a great example that any solution that stores packages must be tamper-proof and censorship-resistant.
-tea is a decentralized protocol that does not intend to filter or sanction packages based on their functionality.
-While the tea governance may elect to remove proven malicious packages (see the governance section for more information), it is critical for the tea system to connect with multiple storage systems, including decentralized ones that demonstrate that a package is unaltered and correctly replicated.
-Package maintainers may choose the storage system best suited for their need to store and distribute their packages securely.
+Die vielfältigen Anwendungsmöglichkeiten der Verschlüsselung haben sie zu einem perfekten Anwendungsfall für Open-Source-Software gemacht und sind ein gutes Beispiel dafür, dass jede Lösung, die Pakete speichert, fälschungssicher und zensurresistent sein muss.
+Tea ist ein dezentrales Protokoll, das nicht die Absicht hat, Pakete aufgrund ihrer Funktionalität zu filtern oder zu sanktionieren.
+Zwar kann die Tea-Governance nachweislich bösartige Pakete entfernen (weitere Informationen im Abschnitt Governance), doch ist es für das Tea-System wichtig, sich mit mehreren Speichersystemen zu verbinden, darunter auch mit dezentralen Systemen, die nachweisen, dass ein Paket unverändert ist und korrekt repliziert wurde.
+Die Paketbetreuer können das Speichersystem wählen, das am besten für die sichere Speicherung und Verteilung ihrer Pakete geeignet ist.
 
 [^11]: Source: @fbi
 [^12]: Source: @europol
 
-# Network Participants
+# Netwerk Teilnehmer
 
-tea’s mission is to empower open-source communities and ensure their contributors are supported as they create the tools that build the Internet.
-In this white paper, we distinguish participants through their contributions.
-Some may contribute code or verify contributed code.
-Others may provide economic value to support developers and their reputation.
+tea hat sich zur Mission gemacht, Open-Source-Gemeinschaften zu stärken und sicherzustellen, dass ihre Mitwirkenden bei der Entwicklung der Werkzeuge, die das Internet aufbauen, unterstützt werden.
+In diesem Whitepaper unterscheiden wir die Teilnehmer durch ihre Beiträge.
+Einige tragen Code bei oder überprüfen den beigetragenen Code.
+Andere bieten einen wirtschaftlichen Wert, um Entwickler und ihren Ruf zu unterstützen.
 
-## Package Maintainers
+## Paket-Maintainer
 
-Package maintainers must make sure their software continues to deliver increasing value as the industry evolves.
+Paket-Maintainer müssen dafür sorgen, dass ihre Software mit der Weiterentwicklung der Branche immer mehr Wert liefert.
 
-tea assumes that package creators maintain their work.
-Package maintainers are pillars of open-source communities who need to be empowered and rewarded for their ongoing contributions.
-A package maintainer may decide to discontinue their maintenance efforts or realize they cannot operate at a pace that matches the package users' expectations.
-Package maintainers receive a non-fungible token (NFT) when they complete a package submission (see the maintainer NFT section for additional details).
-This NFT is used to evidence their work and is the key that directs tea rewards.
-The holder of a package’s NFT can transfer its ownership to another developer (or group of developers), thus making them maintainers of the package and recipients of any future rewards.
-Similarly, a developer may decide to take on the role of package maintainer by forking the existing package and submitting a new one which they will maintain moving forward, thus becoming themselves both package creator and maintainer.
+tee setzt voraus, dass die Ersteller von Paketen ihre Arbeit pflegen.
+Paket-Maintainer sind die Säulen der Open-Source-Gemeinschaft, die für ihre kontinuierlichen Beiträge gestärkt und belohnt werden müssen.
+Es kann vorkommen, dass ein Paket-Maintaner seine Wartungsarbeiten einstellt oder feststellt, dass er nicht in dem Tempo arbeiten kann, das den Erwartungen der Paketnutzer entspricht.
+Paket-Maintainer erhalten einen nicht fungiblen Token (NFT), wenn sie ein Paket einreichen (weitere Informationen finden Sie im Abschnitt NFT für Paketbetreuer).
+Diese NFT wird als Nachweis für ihre Arbeit verwendet und ist der Schlüssel für die Belohnungen.
+Der Inhaber der NFT eines Pakets kann sie auf einen anderen Entwickler (oder eine Gruppe von Entwicklern) übertragen, wodurch diese zu Maintainern des Pakets und Empfängern zukünftiger Belohnungen werden.
+Ebenso kann ein Entwickler beschließen, die Rolle des Paket-Maintainer zu übernehmen, indem er das bestehende Paket forked und ein neues einreicht, das er in Zukunft betreuen wird.
 
-It is essential to provide developer communities with the right tools to determine which packages are being maintained and their past and present maintainers’ reputation and quality of work.
-We’ve too often seen open-source work being tampered with and the efforts of many ruined by bad actors.
-Although the work of these bad actors is largely discovered and remediated, it is often not until significant damage has been incurred through financial or data loss.
-Take for example the EventStream npm package[^13] that was downloaded over 1.5 million times per week and relied upon by over 1,500 packages when a hacker managed to penetrate the open-source project,
-gain the trust of its original author and modify EventStream to depend on a malicious package that would exfiltrate bitcoin wallet credentials to a third-party server\.
-Although tools may help detect some of these attacks, they cannot always be relied upon, which creates an entire community dependent upon each other’s diligence and willingness to share their findings.
+Es ist wichtig, den Entwicklergemeinschaften die richtigen Werkzeuge an die Hand zu geben, um herauszufinden, welche Pakete Maintained werden und welchen Ruf und welche Qualität die bisherigen und aktuellen Maintainern haben.
+Wir haben schon zu oft erlebt, dass Open-Source-Arbeiten manipuliert und die Bemühungen vieler Menschen durch bösartige Akteure zunichte gemacht wurden.
+Obwohl die Arbeit dieser bösartigen Akteure größtenteils entdeckt und behoben wird, geschieht dies oft erst, wenn ein erheblicher Schaden in Form von finanziellen Verlusten oder Datenverlusten entstanden ist.
+Nehmen wir zum Beispiel das EventStream npm-Paket[^13], das über 1,5 Millionen Mal pro Woche heruntergeladen wurde und auf das sich über 1.500 Pakete stützten, als es einem Hacker gelang, in das Open-Source-Projekt einzudringen,
+in das Open-Source-Projekt einzudringen, das Vertrauen des ursprünglichen Autors zu gewinnen und EventStream so zu verändern, dass es von einem bösartigen Paket abhängt, das die Anmeldedaten für die Bitcoin-Brieftasche an einen Drittanbieter-Server weiterleitet.
+Obwohl Tools helfen können, einige dieser Angriffe zu erkennen, kann man sich nicht immer auf sie verlassen, was dazu führt, dass eine ganze Gemeinschaft von der gegenseitigen Sorgfalt und der Bereitschaft, ihre Erkenntnisse zu teilen, abhängig ist.
 
-We propose introducing incentives via the tea token described in the tea token section, encouraging open-source communities to report their findings constructively, so package maintainers can address them before they are exploited.
+Wir schlagen vor, Anreize über den tea-Token einzuführen, der im Abschnitt tea-Token beschrieben wird und die Open-Source-Gemeinschaft dazu ermutigt, ihre Entdeckungen konstruktiv zu melden, damit die Paket-Maintainer sie beheben können, bevor sie ausgenutzt werden.
 
 [^13]: Source: @medium
 
-## Package Users
+## Paket Benutzer
 
-Package users are software developers focused on solving a specific problem.
-They often look in the open-source community for the tools they need to experiment quickly and iterate at very little to no cost, directly benefiting from the work of package creators and maintainers.
-Traditionally, a subset may have chosen to support package maintainers through donations or other forms of remuneration; however, this has rarely been the case.
+Paketnutzer sind Softwareentwickler, die sich auf die Lösung eines bestimmten Problems konzentrieren.
+Sie suchen oft in der Open-Source-Gemeinschaft nach den Werkzeugen, die sie brauchen, um schnell zu experimentieren und zu iterieren, und zwar zu sehr geringen oder gar keinen Kosten, so dass sie direkt von der Arbeit der Paketentwickler und -Maintainer profitieren.
+Traditionell hat sich ein Teil von ihnen dafür entschieden, die Paket-Maintainer durch Spenden oder andere Formen der Vergütung zu unterstützen; dies ist jedoch selten der Fall.
 
-Sponsorship can be an effective system to support open-source development; however, remuneration does not typically extend to all dependencies.
-This limitation benefits favorites and gets in the way of innovation and software building.
-To strive as the foundation of software development, open-source must empower all developers, whether beginners or experts, across all layers in the tower.
+Sponsoring kann ein effektives System zur Unterstützung der Open-Source-Entwicklung sein, aber die Vergütung erstreckt sich in der Regel nicht auf alle Abhängigkeiten.
+Diese Einschränkung begünstigt und behindert die Innovation und die Entwicklung von Software.
+Wenn Open-Source die Grundlage der Softwareentwicklung sein soll, müssen alle Entwickler/innen, egal ob Anfänger/innen oder Expert/innen, über alle Ebenen des Turms hinweg befähigt werden.
 
-tea’s purpose is to maintain the core values of open-source software while providing a decentralized system to remunerate package maintainers for their work.
-To deliver on this mission, tea intends to develop — and incentivize others to develop — mechanisms for package users to support package maintainers through unique use cases of the tea token, as described in the tea token and future work and potential community effort sections.
+Das Ziel von tea ist es, die Grundwerte von Open-Source-Software aufrechtzuerhalten und gleichzeitig ein dezentrales System zur Verfügung zu stellen, mit dem Paket-Maintainer für ihre Arbeit entlohnt werden.
+Um diese Mission zu erfüllen, will tea Mechanismen entwickeln - und andere dazu anregen, diese zu entwickeln -, mit denen Paketnutzer die Paket-Maintainer durch einzigartige Anwendungsfälle des tea-Tokens unterstützen können, wie in den Abschnitten tea-Token, zukünftige Arbeit und potenzielle Gemeinschaftsarbeit beschrieben.
 
-## Package Supporters and Sponsors
+## Paketunterstützer und Sponsoren
+Im Web 2.0 und web3 werden Paketunterstützer oft als "Sponsoren" bezeichnet. Sie sind Organisationen oder Paketnutzer, die Open-Source-Software für ihre kommerziellen Produkte nutzen, Philanthropen, die das Ökosystem unterstützen wollen, oder Unternehmer, die Teams finanzieren wollen, um Komponenten eines größeren Systems zu entwickeln.
 
-In Web 2.0 and web3, package supporters have often been called “sponsors.” They are organizations or package users who use open-source software to build their commercial products, philanthropists looking to support the ecosystem, or entrepreneurs looking to fund teams to develop components of a larger system.
+tea schlägt vor, die Gemeinschaft der Paketunterstützer auf die gesamte tea-Gemeinschaft auszuweiten, egal ob es sich um Organisationen, Entwickler, Nutzer oder Technikbegeisterte handelt.
+Das Ziel von tea ist es, dezentrale Anreizmechanismen durch einzigartige Anwendungsfälle des tea-Tokens für jedes Mitglied der tea-Gemeinschaft zu implementieren, um zur dauerhaften Nachhaltigkeit und zum kontinuierlichen Wachstum von Open-Source beizutragen.
+Paketunterstützer und -sponsoren können frei entscheiden, welche Pakete oder Paket-Maintainer sie auf der Grundlage ihrer Arbeit, ihrer Überzeugungen oder anderer Kriterien und Maßstäbe, die ihre Entscheidung beeinflussen, unterstützen wollen.
+Darüber hinaus fließt die Unterstützung der Paketunterstützer und sponsoren in die Abhängigkeiten der einzelnen Pakete ein. Damit wird dem Paket-Maintainer implizit vertraut, dass er gute Entscheidungen für seinen Stack trifft und diese Informationen zu seinem Ansehen beitragen.
 
-tea proposes to extend the communities of package supporters to the entire tea community, whether organizations, developers, users, or tech enthusiasts.
-tea’s goal is to implement decentralized incentive mechanisms through unique use cases of the tea token for any member of the tea community to contribute to the perpetual sustainability and continuous growth of open-source.
-Package supporters and sponsors are free to decide which packages or package maintainers they want to support based on their work, beliefs, or any criteria and metric that would influence their decision.
-Additionally, the support provided by package supporters and sponsors will flow to each package’s dependencies, thus implicitly trusting the package maintainer to make good choices about their stack and using this information to contribute to their reputation.
-
-Provided that the package maintainer offers such service, a package supporter and sponsor may receive a premium support level NFT in return, thus benefiting from accelerated SLAs or more flexible licensing.
-Additionally, package supporters and sponsors may decide to support packages or package maintainers and automatically redirect all or a percentage of their rewards to incentivize teams to build new open-source software.
-In other words, packages don’t need to exist for tea to start pouring in.
-Nascent projects can be supported just as well as more mature ones, further incentivizing a constantly evolving open-source landscape.
+Wenn der Paket-Maintainer einen solchen Service anbietet, kann ein Paketunterstützer und -sponsor im Gegenzug einen Premium-Support-Level NFT erhalten und so von beschleunigten SLAs oder einer flexibleren Lizenzierung profitieren.
+Darüber hinaus können Paketunterstützer und sponsoren beschließen, Pakete oder Paket-Maintainer zu unterstützen und automatisch alle oder einen Teil ihrer Belohnungen umzuleiten, um Anreize für Teams zu schaffen, neue Open-Source-Software zu entwickeln.
+Mit anderen Worten: Pakete müssen nicht erst existieren, damit der tea fließt.
+Aufstrebende Projekte können genauso gut unterstützt werden wie reifere, was einen weiteren Anreiz für eine sich ständig weiterentwickelnde Open-Source-Landschaft darstellt.
 
 ## tea Tasters
 
-As new packages or new versions of existing packages are released, the validity of the work needs to be provably demonstrated.
-This information is critical for package users to decide whether or not to trust both the package and its maintainers.
-With the tea protocol, this function is provided by the tea tasters.
+Wenn neue Pakete oder neue Versionen bestehender Pakete veröffentlicht werden, muss die Gültigkeit der Arbeit nachweislich belegt werden.
+Diese Informationen sind wichtig, damit die Paketnutzer entscheiden können, ob sie dem Paket und seinen Maintainer vertrauen oder nicht.
+Beim teeprotokoll wird diese Aufgabe von den tea Taster übernommen.
 
-tea tasters, typically, are experienced software developers willing to dedicate some of their time to check the claims associated with a package (functionality, security, semantic versioning[^14], license accuracy, etc.)
-and stake both their reputation and economic value to demonstrate the outcome of their research and analysis and support their reviews.
-tea tasters receive rewards for their diligence and efforts.
-At tea, we call  “steeping your tea” the action of locking tea tokens to support your reviews and receive rewards (or penalties) based on the consensus on the validity of your reviews.
+tea-Tasters sind in der Regel erfahrene Softwareentwickler, die bereit sind, einen Teil ihrer Zeit darauf zu verwenden, die mit einem Paket verbundenen Behauptungen zu überprüfen (Funktionalität, Sicherheit, semantische Versionierung[^14], Richtigkeit der Lizenz usw.)
+und setzen sowohl ihren Ruf als auch ihren wirtschaftlichen Wert aufs Spiel, um das Ergebnis ihrer Recherchen und Analysen zu belegen und ihre Bewertungen zu unterstützen.
+tea-Tasters erhalten eine Belohnung für ihren Fleiß und ihre Bemühungen.
+Bei tea nennen wir "steeping your tea" die Aktion, tea-Token zu sperren, um deine Rezensionen zu unterstützen und Belohnungen (oder Strafen) zu erhalten, die auf dem Konsens über die Gültigkeit deiner Rezensionen basieren.
 
-Like package supporters, tea tasters can influence a package and package maintainer’s reputation; however, their impact is more significant given their role in validating a package’s security, functionality, and quality.
-tea tasters will also need to build their reputation to support their claims.
-The quality of their work and the economic value they put at risk as they steep their reviews combined with other external data sources will build each tea taster’s reputation, bringing more value to their work.
-See the package reputation section for more details on the mechanisms used to influence a package and package maintainer’s reputation.
+Wie die Unterstützer eines Pakets können auch tea-Tasters den Ruf eines Pakets und des Paketbetreuers beeinflussen, allerdings ist ihr Einfluss größer, da sie die Sicherheit, Funktionalität und Qualität eines Pakets überprüfen.
+tea Tasters müssen auch ihren Ruf aufbauen, um ihre Ansprüche zu untermauern.
+Die Qualität ihrer Arbeit und der wirtschaftliche Wert, den sie mit ihren Bewertungen in Verbindung mit anderen externen Datenquellen aufs Spiel setzen, erhöhen den Ruf jedes tea-Tasters und steigern den Wert seiner Arbeit.
+Weitere Informationen zu den Mechanismen, die den Ruf eines Pakets und des Paket-Maintainers beeinflussen, findest du im Abschnitt über den Ruf eines Pakets.
 
 [^14]: See: @semver
 
-# Protocol Overview
+# Protokoll-Übersicht
 
-The design of a protocol to reward open-source contributions is mired with challenges.
-Open-source software is by definition open to all and can, as a result, be subjected to misattribution, appropriation, or malicious tampering.
-However, the open-source community has consistently demonstrated its willingness to highlight good actors and expose bad actors.
-Historically, the energy spent reviewing and commenting on other developers’ contributions has been strictly voluntary, despite how time-consuming and crucial reporting and defending findings may be.
+Die Entwicklung eines Protokolls zur Belohnung von Open-Source-Beiträgen ist mit vielen Herausforderungen verbunden.
+Open-Source-Software ist per Definition offen für alle und kann daher falsch zugeordnet, angeeignet oder böswillig manipuliert werden.
+Die Open-Source-Gemeinschaft hat jedoch immer wieder ihre Bereitschaft gezeigt, gute Akteure hervorzuheben und schlechte Akteure zu entlarven.
+In der Vergangenheit wurde die Energie, die für die Überprüfung und Kommentierung der Beiträge anderer Entwickler aufgewendet wurde, ausschließlich auf freiwilliger Basis eingesetzt, obwohl das Melden und Verteidigen von Ergebnissen zeitaufwändig und wichtig sein kann.
 
-We intend to create a trustless distribution platform for applications secured by reputation and financial incentives, as we believe adequate rewards for open-source contributions cannot succeed without both a reputation system and the ability for members of the community to communicate their findings and support (or dissent) for a package or the work of a developer.
+Wir wollen eine vertrauenswürdige Verbreitungsplattform für Anwendungen schaffen, die durch Reputation und finanzielle Anreize abgesichert ist. Denn wir glauben, dass eine angemessene Belohnung für Open-Source-Beiträge ohne ein Reputationssystem und die Möglichkeit für die Mitglieder der Community, ihre Erkenntnisse und Unterstützung (oder Ablehnung) für ein Paket oder die Arbeit eines Entwicklers mitzuteilen, nicht gelingen kann.
 
-We must provide developers with tools to access and contribute to this reputation system.
-Tools that include simple visual and programmable access to the version and reputation of all dependencies within their packages.
-A clear understanding of which community members support each package and how many tea tokens they are steeping will contribute to the reputation of each package, just as how much a package maintainer is steeping their work communicates how much they stand behind their work.
-These combined data points will help inform a reputation system for all community members and facilitate choice.
-As the EventStream package hack was not conducted through the package itself, but via one of its dependencies, visibility across all layers of dependencies will be vital to building this trustless system.
-However, considerations such as computation and transaction (“gas”) costs will need to take priority as the system is designed and built.
+Wir müssen Entwicklern Werkzeuge an die Hand geben, mit denen sie auf dieses Reputationssystem zugreifen und zu ihm beitragen können.
+Werkzeuge, die einen einfachen visuellen und programmierbaren Zugriff auf die Version und den Ruf aller Abhängigkeiten innerhalb ihrer Pakete ermöglichen.
+Ein klares Verständnis darüber, welche Community-Mitglieder jedes Paket unterstützen und wie viele tea-Token sie steeping, wird zum Ansehen jedes Pakets beitragen, genauso wie die Menge, mit der ein Paket-Maintainer seine Arbeit steeped, kommuniziert, wie sehr er hinter seiner Arbeit steht.
+Diese kombinierten Daten werden dazu beitragen, ein Reputationssystem für alle Community-Mitglieder zu entwickeln und die Auswahl zu erleichtern.
+Da der Hack des EventStream-Pakets nicht über das Paket selbst, sondern über eine seiner Abhängigkeiten durchgeführt wurde, ist die Transparenz über alle Ebenen der Abhängigkeiten hinweg entscheidend für den Aufbau dieses vertrauenswürdigen Systems.
+Bei der Entwicklung und dem Aufbau des Systems müssen jedoch auch Überlegungen wie die Kosten für Berechnungen und Transaktionen ("Gas") Vorrang haben.
 
-Our goal is to reward both Web 2.0 and web3 developers.
-The intricacies and specifics of each stack make it so that tracking installations and uninstallations of packages could easily fall victim to one or more bad actors.
-That includes “buying” installations to artificially inflate numbers.
-An even worse scenario would be introducing fundamental changes to the nature of open-source software by creating unnecessary friction with license keys or other deployment tracking mechanisms.
-To provide the broadest coverage, we believe that rewards mustn’t rely on a simplistic notion of tracking installations or uninstallations, but rather on incentive mechanisms that encourage the submission of quality packages and the reporting of nefarious or high-risk packages.
-Lastly, many packages rely on common dependencies.
-For example, Lodash has 151,209 dependents[^15] while chalk has 78,854 dependents[^16] or Log4js has 3,343 dependents[^17].
-As more packages are created using the same dependencies, how do we ensure that incentives are distributed fairly and equitably?
-How do we ensure that the most utilized dependencies are rewarded without starving new or emerging packages and developers?
-How do we ensure that the incentive system does not end-up steering developers away from niche languages to centralize them where incentives are better?
-But also, as developers, how do we identify packages with the most dependents to build alternatives - leaner, more efficient, better-coded versions of these packages?
-At tea, we believe that the lack of incentive has impeded the evolution of open-source software.
-Supported by the right economic incentives and rewards, more developers will be in a position to build, improve and augment open–source software for the betterment of the world.
-Only then will the tea token be able to represent the total value of open-source software.
+Unser Ziel ist es, sowohl Web 2.0- als auch Web3-Entwickler zu belohnen.
+Die Feinheiten und Besonderheiten jedes Stacks führen dazu, dass die Verfolgung von Installationen und Deinstallationen von Paketen leicht einem oder mehreren schlechten Akteuren zum Opfer fallen kann.
+Dazu gehört auch das "Kaufen" von Installationen, um die Zahlen künstlich aufzublähen.
+Ein noch schlimmeres Szenario wäre es, das Wesen von Open-Source-Software grundlegend zu verändern, indem man unnötige Reibungsverluste durch Lizenzschlüssel oder andere Mechanismen zur Verfolgung der Installation verursacht.
+Um eine möglichst breite Abdeckung zu erreichen, sollten die Belohnungen nicht auf einer simplen Verfolgung von Installationen oder Deinstallationen beruhen, sondern auf Anreizmechanismen, die die Einreichung von Qualitätspaketen und die Meldung von schändlichen oder risikoreichen Paketen fördern.
+Und schließlich sind viele Pakete auf gemeinsame Abhängigkeiten angewiesen.
+Lodash hat zum Beispiel 151.209 Abhängigkeiten[^15], während Kreide 78.854 Abhängigkeiten[^16] oder Log4js 3.343 Abhängigkeiten[^17] hat.
+Wie stellen wir sicher, dass die Anreize fair und gerecht verteilt werden, wenn mehr Pakete mit denselben Abhängigkeiten erstellt werden?
+Wie stellen wir sicher, dass die am meisten genutzten Abhängigkeiten belohnt werden, ohne dass neue oder aufstrebende Pakete und Entwickler ausgehungert werden?
+Wie stellen wir sicher, dass das Anreizsystem nicht dazu führt, dass Entwickler von Nischensprachen weggelenkt werden, um sie dort zu zentralisieren, wo die Anreize besser sind?
+Und wie können wir als Entwickler die Pakete mit den meisten Abhängigkeiten identifizieren, um Alternativen zu bauen - schlankere, effizientere und besser codierte Versionen dieser Pakete?
+Wir bei tea glauben, dass der Mangel an Anreizen die Entwicklung von Open-Source-Software behindert hat.
+Mit den richtigen wirtschaftlichen Anreizen und Belohnungen werden mehr Entwickler in der Lage sein, Open-Source-Software zum Wohle der Welt zu entwickeln, zu verbessern und zu erweitern.
+Erst dann wird der tea-Token den Gesamtwert von Open-Source-Software repräsentieren können.
 
 [^15]: Source: @npmjsLodash
 [^16]: Source: @npmjsChalk
 [^17]: Source: @npmjsLogFourjs
 
-## Package Submission
+## Paket Einreichung
 
-The submission of a package release requires multiple transactions to occur atomically.
-Specifically, the package maintainer must:
+Die Einreichung einer Paketfreigabe erfordert mehrere Transaktionen, die atomar ablaufen.
+Insbesondere muss der Paketbetreuer:
 
-* Register the package (and its semantic version) with the decentralized registry.
-* Upload the package into the decentralized storage system for resilience, censorship resistance, and ease of distribution.
-* Contribute to the package’s reputation and trustworthiness by *steeping* tea tokens.
+* Das Paket (und seine semantische Version) bei der dezentralen Registrierungsstelle registrieren.
+* Das Paket in das dezentrale Speichersystem hochladen, um es widerstandsfähig zu machen, vor Zensur zu schützen und die Verteilung zu erleichtern.
+* Zum Ansehen und zur Vertrauenswürdigkeit des Pakets beitragen, indem du Tee-Tokens *steeping*.
 
-Failure of any one of the three operations will result in the protocol reverting to its previous state, thus eliminating any evidence of the submission.
+Wenn einer der drei Vorgänge fehlschlägt, kehrt das Protokoll in seinen vorherigen Zustand zurück und löscht alle Beweise für die Einreichung.
 
-When a package is successfully submitted, the package maintainer will receive a maintainer NFT to evidence their work and contribution to open-source.
-The package maintainer may transfer the steeping rewards associated with the maintainer NFT to a third party.
-However, the reputation associated with the creation and maintenance of the asset will remain with the package maintainer, so their reputation can be affected over time.
-As the reputation of any member of the tea community reaches key milestones, they may be granted access to elevated parts of the protocol or receive accelerated rewards, as decided by the tea governance.
-For more details on the maintainer NFT, see the maintainer NFT section.
+Wenn ein Paket erfolgreich eingereicht wurde, erhält der Paket-Maintainer eine Maintainer-NFT als Nachweis für seine Arbeit und seinen Beitrag zu Open Source.
+Der Paket-Maintainer kann die mit der Maintainer-NFT verbundenen Steeping Rewards an eine dritte Partei übertragen.
+Der Ruf, der mit der Erstellung und Pflege des Assets verbunden ist, verbleibt jedoch beim Paket-Maintainer, so dass sein Ruf im Laufe der Zeit beeinträchtigt werden kann.
+Wenn die Reputation eines Mitglieds der tea-Gemeinschaft wichtige Meilensteine erreicht, kann ihm nach Entscheidung der tea-Governance Zugang zu höheren Teilen des Protokolls gewährt werden oder es kann beschleunigte Belohnungen erhalten.
+Weitere Einzelheiten zum Maintainer-NFT findest du im Abschnitt Maintainer-NFT.
 
-### Dependencies Analysis
 
-Package dependencies can run deep, as each package often has both dependents and dependencies.
-To provide a simple methodology that rewards all developers who have contributed to open-source software while keeping the creation of the dependencies tree quick and computationally efficient, we propose to verify only first-level dependencies upon submission of a package.
+### Abhängigkeiten Analyse
 
-This design is driven by the hypothesis that each dependency is itself a package that was independently submitted to the tea tree.
-In doing so, each of its dependencies can be mapped, and if its dependencies have dependencies themselves, those will be mapped at the time the dependency package is submitted.
+Paketabhängigkeiten können tiefgreifend sein, da jedes Paket oft sowohl Abhängigkeiten als auch Abhängigkeiten hat.
+Um eine einfache Methode zu schaffen, die alle Entwickler belohnt, die zu Open-Source-Software beigetragen haben, und gleichzeitig die Erstellung des Abhängigkeitsbaums schnell und rechnerisch effizient zu gestalten, schlagen wir vor, nur die Abhängigkeiten der ersten Ebene zu überprüfen, wenn ein Paket eingereicht wird.
+
+Diesem Entwurf liegt die Hypothese zugrunde, dass jede Abhängigkeit selbst ein Paket ist, das unabhängig im teabaum eingereicht wurde.
+Auf diese Weise kann jede seiner Abhängigkeiten abgebildet werden, und wenn seine Abhängigkeiten selbst Abhängigkeiten haben, werden diese zum Zeitpunkt der Einreichung des Abhängigkeitspakets abgebildet.
 
 ![Dependencies analysis diagram.](img/figure-3.svg){#fig:dep-analysis}
 
-
-In @fig:dep-analysis, the submission of package A triggers an analysis of runtime dependencies 1 through n and build dependencies 1 through n, while runtime dependencies 1.1 through 1.n and build dependencies 1.1 through 1.n were analyzed when package B was submitted.
-We will apply the same methodology for incentive distribution as the steeped tokens are distributed across all dependencies, thus recursively steeping the packages listed as dependencies (see @fig:steeping-rewards).
+In @fig:dep-analysis löst die Einreichung von Paket A eine Analyse der Laufzeitabhängigkeiten 1 bis n und der Build-Abhängigkeiten 1 bis n aus, während die Laufzeitabhängigkeiten 1.1 bis 1.n und die Build-Abhängigkeiten 1.1 bis 1.n analysiert wurden, als Paket B eingereicht wurde.
+Wir wenden dieselbe Methode für die Verteilung der Anreize an, da die Steeping-Token auf alle Abhängigkeiten verteilt werden, also rekursiv die als Abhängigkeiten aufgeführten Pakete steepen (siehe @fig:steeping-rewards).
 
 ![Steeping rewards distribution across dependencies.](img/figure-2.svg){#fig:steeping-rewards}
 
 
-Versioning and conflicting dependencies are significant challenges, and troubleshooting them can turn into massive time drains.
-To address this, we propose each package be subject to a comprehensive dependency scan upon submission so we can ensure that the package complies with the following rules for semantic version ranges.
+Versionierung und widersprüchliche Abhängigkeiten sind eine große Herausforderung, deren Behebung viel Zeit in Anspruch nehmen kann.
+Um dieses Problem anzugehen, schlagen wir vor, jedes Paket bei der Einreichung einer umfassenden Prüfung der Abhängigkeiten zu unterziehen, damit wir sicherstellen können, dass das Paket die folgenden Regeln für semantische Versionsbereiche einhält.
 
-* Packages may only constrain their dependencies to a major version, though the start of the range can be any valid semantic version (e.g., >=5.2.1 <6).
-* If a dependency is upgraded to a more recent major version, tea may require that the package’s major version be increased.
-* Similarly, if a dependency is upgraded to a more recent minor version, tea may require that the package’s minor version be increased.
-* If a new dependency is added, tea may require that the package’s minor version be increased.
+* Pakete dürfen ihre Abhängigkeiten nur auf eine Hauptversion beschränken, wobei der Beginn des Bereichs jede gültige semantische Version sein kann (z. B. >=5.2.1 <6).
+* Wenn eine Abhängigkeit auf eine neuere Hauptversion aktualisiert wird, kann es erforderlich sein, dass die Hauptversion des Pakets erhöht wird.
+* Wird eine Abhängigkeit auf eine neuere Nebenversion aktualisiert, kann tea verlangen, dass die Nebenversion des Pakets erhöht wird.
+* Wenn eine neue Abhängigkeit hinzugefügt wird, kann tea verlangen, dass die Nebenversion des Pakets erhöht wird.
 
-Considering the unnecessary effort imposed upon any package user when the above rules are transgressed, we propose that a portion of the tea token steeped by the package maintainer be slashed to reflect their lack of due diligence.
-If a developer forces everyone to juggle their cups, someone will spill some tea.
-Since the dependency scan is expected to occur at submission, we should note that no steeping from package supporters and sponsors or tea tasters will have happened.
+In Anbetracht des unnötigen Aufwands, der jedem Nutzer eines Pakets auferlegt wird, wenn die oben genannten Regeln übertreten werden, schlagen wir vor, dass ein Teil der tea-Token, die der Paketbetreuer eingeworfen hat, steeped wird, um den Mangel an Sorgfalt zu reflektieren.
+Wenn ein Entwickler jeden dazu zwingt, mit seinen Tassen zu jonglieren, wird jemand etwas tea verschütten.
+Da erwartet wird, dass die Überprüfung der Abhängigkeiten bei der Einreichung stattfindet, sollten wir anmerken, dass die Unterstützer und Sponsoren des Pakets oder die tea-Tasters nichts steeped haben.
 
-## Package & Package Maintainer Reputation
 
-Package maintainers must contribute to their package’s reputation and trustworthiness by steeping tea tokens.
-However, a reputation system that relies solely on the author’s economic contribution does not provide sufficient user protection and can be subject to Sybil attacks, where a single individual creates multiple representations of themselves to leave a large volume of positive reviews on their work,
-tricking users into believing their work was reviewed and approved by many.
+## Reputation von Paketen und Paket-Maintainer
 
-Several methodologies are available to prevent Sybil attacks, some of which are described by Nitish Balachandran and Sugata Sanyal in “A Review of Techniques to Mitigate Sybil Attacks”[^18].
-As tea is a decentralized protocol, using a trust certification system that relies on a centralized certificate issuance authority would be contrary to its core.
-We propose to focus on decentralized approaches to Sybil attack mitigation and, more specifically, on methodologies that rely on a large group of network participants incentivized to assess and publicly represent the reputation of each package and its maintainer.
+Paket-Maintainer müssen zur Reputation und Vertrauenswürdigkeit ihres Pakets beitragen, indem sie tea-Tokens eintauschen.
+Ein Reputationssystem, das sich ausschließlich auf den wirtschaftlichen Beitrag des Autors stützt, bietet jedoch keinen ausreichenden Schutz für die Nutzer und kann Sybil-Angriffen ausgesetzt sein, bei denen eine einzelne Person mehrere Repräsentationen ihrer selbst erstellt, um eine große Anzahl positiver Bewertungen für ihre Arbeit zu hinterlassen,
+Dadurch wird den Nutzern vorgegaukelt, dass ihre Arbeit von vielen überprüft und genehmigt wurde.
 
-Similar to the production of blocks on a proof-of-stake blockchain, where non-producing nodes can validate the work of others and, when necessary, highlight a violation of the rules of the network, which leads to a penalization of the bad actor through slashing (destruction of a portion of their stake),
-we propose a system whereby third-parties (aka tea tasters) would be able to review packages produced by package maintainers and be economically incentivized to behave in the best interest of the open-source software community and its users as well as recognize good behavior and penalize bad behavior.
-This system must be both Sybil resistant and prevent large token holders from materially influencing the protocol or the reputation of specific packages.
-We believe this approach to be more aligned with open-source, providing a more fertile substrate to foster adoption and trust, and ultimately facilitate the growth of tea.
+Es gibt mehrere Methoden zur Verhinderung von Sybil-Angriffen, von denen einige von Nitish Balachandran und Sugata Sanyal in "A Review of Techniques to Mitigate Sybil Attacks"[^18] beschrieben werden.
+Da es sich bei tea um ein dezentrales Protokoll handelt, würde die Verwendung eines vertrauenswürdigen Zertifizierungssystems, das sich auf eine zentralisierte Zertifizierungsstelle stützt, seinem Kern widersprechen.
+Wir schlagen vor, sich auf dezentralisierte Ansätze zur Abschwächung von Sybil-Angriffen zu konzentrieren, und zwar auf Methoden, die sich auf eine große Gruppe von Netzwerkteilnehmern stützen, die einen Anreiz haben, die Reputation jedes Pakets und seines Maintainer zu bewerten und öffentlich darzustellen.
+
+Ähnlich wie bei der Produktion von Blöcken auf einer Proof-of-Stake-Blockchain, bei der nicht-produzierende Knoten die Arbeit anderer validieren und gegebenenfalls einen Verstoß gegen die Regeln des Netzwerks aufzeigen können, was zu einer Bestrafung des schlechten Akteurs durch Slashing (Zerstörung eines Teils seines Einsatzes) führt,
+schlagen wir ein System vor, bei dem Dritte (auch tea-Tasters genannt) in der Lage wären, von Paketbetreuern erstellte Pakete zu überprüfen und einen wirtschaftlichen Anreiz zu haben, sich im besten Interesse der Open-Source-Softwaregemeinschaft und ihrer Nutzer zu verhalten, sowie gutes Verhalten anzuerkennen und schlechtes Verhalten zu bestrafen.
+Dieses System muss sowohl sybil-resistent sein als auch verhindern, dass große Token-Inhaber das Protokoll oder den Ruf bestimmter Pakete wesentlich beeinflussen.
+Wir sind der Meinung, dass dieser Ansatz besser zu Open-Source passt und ein fruchtbareres Substrat für die Förderung von Akzeptanz und Vertrauen bietet, was letztlich das Wachstum von tea erleichtert.
 
 [^18]: Source: @arxiv
 
-## Package Review by Third Parties
+## Überprüfung des Pakets durch Dritte
+Die Überprüfung von Paketen durch Dritte ist ein wesentlicher Bestandteil des Reputationsaufbaus. Die Überprüfung durch Dritte birgt jedoch eine Reihe einzigartiger Gefahren, darunter die bereits erwähnten Sybil-Angriffe.
 
-The review of packages by third parties is an essential component of reputation building, however, third-party review has its own set of unique threats including the aforementioned Sybil attacks.
+Die Blockchain-Technologie, insbesondere das Staking, bietet tea eine einzigartige Möglichkeit, diese Herausforderung zu meistern.
+Obwohl Wallet-Adressen in unendlichen Mengen verfügbar sein können, ist dies bei tea-Token nicht der Fall, deren anfänglicher Vorrat bei 10 Milliarden Stück liegen soll.
+Darüber hinaus trägt jede von den Entwicklern durchgeführte Aktion, wie z. B. das Einreichen von Paketen, das Überprüfen von Paketen oder das steeping von Paketen, zu ihrer Reputation bei, wodurch ein einzigartiges Profil erstellt wird, das jeder Entwickler nutzen kann, um sowohl zur tea-Community beizutragen als auch an der Governance von tea teilzunehmen.
 
-Blockchain technology, and more explicitly staking, offers a unique opportunity for tea to tackle this challenge.
-Although wallet addresses may be available in infinite quantities, this is not the case with tea tokens, whose initial supply is expected to be 10 billion.
-Additionally, each action performed by developers, such as submitting packages, verifying packages, or steeping them, will contribute to their reputation, thus creating a unique profile each developer can use to both contribute to the tea community and participate in tea’s governance.
+Durch die Verpflichtung von Drittgutachtern, tea-Tokens zu steepen und das Risiko einzugehen, einen Teil ihrer steeped Token zu verlieren, falls sie sich gegen die Interessen des Interesse des Netzwerks handeln oder ein schlechter Akteur sind, können Dritte einem Paket zusätzliche Glaubwürdigkeit verleihen und eine Belohnung in Form von tea-Tokens erhalten..
 
-By requiring third-party reviewers to steep tea tokens and incur the risk of losing a portion of their steeped tokens should they turn out to behave against the interest of the network or be a bad actor, third parties can provide additional credence to a package and receive a reward, in the form of tea tokens.
+Wir schlagen außerdem vor, das Reputationssystem auf Dritte auszudehnen, die die unabhängige Überprüfung von Paketen durchführen - die tea-Tasters. Der Abschluss einer positiven Überprüfung erfordert zwei Vorgänge, die atomar ablaufen:
 
-We also propose extending the reputation system to the third parties who perform the independent verification of packages - the tea tasters.
-The completion of a positive review will require two operations to occur atomically:
+* Die Einreichung der Codeüberprüfung, die vom tea-Taster unterzeichnet und für alle Mitglieder der Gemeinschaft öffentlich zugänglich ist, zusammen mit
+* Der Akt des steeping "für" das Paket (im Gegensatz zu "gegen" das Paket), um seine Überprüfung zu untermauern.
 
-* The submission of the code review, signed by the tea taster and publicly accessible to all members of the community, along with
-* The act of steeping “for” the package (vs. “against” the package), to substantiate their review.
+Nach Abschluss einer negativen Bewertung, die eine oder mehrere kritische Schwachstellen enthält, müssen die tea-Tasters zunächst den Paket-Maintainer über ein Nachrichtenprotokoll kontaktieren, um ihn über die Schwachstelle zu informieren und ihm die Möglichkeit zu geben, das Problem rechtzeitig zu beheben.
+Nach Ablauf der dem Paket-Maintainer zugestandenen Frist zur Behebung der Schwachstelle oder sobald das korrigierte Paket verfügbar ist, wird dasselbe Nachrichtenprotokoll verwendet, um alle Nutzer und Tester dieses Pakets (einschließlich der Abhängigen) darüber zu informieren, dass eine Schwachstelle gefunden und hoffentlich behoben wurde,
+und hoffentlich behoben wurde, damit sie wissen, dass sie ihre Anwendung oder Abhängigkeiten aktualisieren müssen.
+Um die Zeit der Entwickler nicht zu verschwenden, wird die Kommunikation zwischen den tea-Tasters und den Paket-Maintainer erfordern, dass die tea-Taster tea-Tokens steep.
 
-The completion of a negative review that includes one or more critical vulnerabilities will require the tea tasters first to contact the package maintainer using a messaging protocol to notify them of the vulnerability and allow them to address the issue in a timely fashion.
-Upon expiry of the governance-defined period allocated to the package maintainer to address their vulnerability or as the corrected package becomes available, the same messaging protocol will be used to notify all users and testers of this package (including dependents) that a vulnerability has been identified,
-and hopefully addressed, so they know to update their application or dependencies.
-To disincentivize wasting developers’ time, communication between the tea tasters and package maintainers will require the tea tasters to steep tea tokens.
+Nach Abschluss beider Vorgänge erhalten die tea-Taster eine NFT als Nachweis für ihre Arbeit an einem bestimmten Paket und einer bestimmten Paketversion.
+Die Ansammlung von NFTs in Kombination mit dem Aufgussverhältnis jedes der überprüften Pakete und Informationen aus externen Systemen geben Aufschluss über die Reputation eines tea-Tasters.
+Wenn ihr Ruf wichtige Meilensteine erreicht, können tea-Tasters Zugang zu höherwertigen Teilen des Protokolls oder zu beschleunigten Belohnungen erhalten, wie von der Teeverwaltung beschlossen.
 
-Upon completing both operations, the tea tasters will receive an NFT as evidence of their work on the specific package and package version.
-The accumulation of NFTs combined with the steeping ratio of each of the packages reviewed and information extracted from external systems will inform a tea taster’s reputation.
-As their reputation reaches key milestones, tea tasters may earn access to elevated parts of the protocol or accelerated rewards, as decided by the tea governance.
+## Veraltete oder korrupte Pakete
 
-## Outdated or Corrupt Packages
+Die Aufgabe von tea ist es, Mitwirkende und Teilnehmer in den Open-Source-Gemeinschaften zu belohnen; die Belohnungen müssen jedoch den Bemühungen der Paketbetreuer und teeverkoster entsprechen.
+Unzureichend gepflegte, veraltete oder korrupte Pakete sind klare Anzeichen dafür, dass die Paketbetreuer den Erwartungen der Gemeinschaft nicht gerecht werden oder das Vertrauen und die Unterstützung, die ihnen durch das steeping von Paketen entgegengebracht werden, nicht erfüllen.
+Eine weitere Manifestation veralteter Pakete kann die fortgesetzte Verwendung einer Legacy-Sprache oder einer Legacy-Version von Mehrversionssprachen sein.
+Pakete, die zu lange veraltet oder korrupt sind, weisen darauf hin, dass die tea-Taster die Arbeit der Paketbetreuer regelmäßig und konsequent überprüfen müssen.
 
-tea’s mission is to reward contributors and participants in the open-source communities; however, rewards must be commensurate with the efforts deployed by package maintainers and tea tasters.
-Under-maintained, outdated, or corrupted packages are clear indications of package maintainers not living up to the community’s expectations or not delivering on the trust and support impressed upon them through the steeping of packages.
-Another manifestation of outdated packages may be the continued use of a legacy language or legacy version of multi-version languages.
-Packages remaining outdated or corrupt for too long indicate that tea tasters need to review package maintainers’ work regularly and consistently.
+tea-Tasters sind kritische Mitglieder der Open-Source-Gemeinschaften, da ihre Bewertungen und die damit verbundenen Behauptungen die Paketnutzer zu oder weg von Paketen lenken können.
+Um sicherzustellen, dass den Bewertungen kontinuierlich vertraut werden kann, schlagen wir einen Mechanismus vor, bei dem für veraltete oder korrupte Pakete ein Teil der gesammelten Token an die tea-Tasters geschickt wird, die als erste die mangelnde Wartung eines Pakets erkannt haben.
 
-tea tasters are critical members of the open-source communities in that their reviews and associated claims can steer package users towards or away from packages.
-To ensure that reviews can be trusted on an ongoing basis, we propose a mechanism whereby outdated or corrupted packages may see a portion of their steeped tokens sent to the tea tasters who were first to recognize the lack of maintenance of any package.
+Jede negative Bewertung, die einen Fehler wie eine Zero-Day-Schwachstelle oder die Verwendung einer veralteten Abhängigkeit aufzeigt und nach Ablauf einer von der Governance festgelegten Frist offen bleibt, sollte als Versagen des Paket-Maintainer angesehen werden.
+Er hat die Aufgabe, die ihm anvertraut und für die er belohnt wurde, nicht erfüllt.
+Dasselbe gilt für Unterstützer und Sponsoren von Paketen, die ihren Ruf auf die Arbeit von säumigen Paket-Maintainer gesetzt haben und dafür belohnt wurden, es aber versäumt haben, den Mangel an Wartung zu erkennen oder sich entschieden haben, das Paket trotzdem weiter zu unterstützen.
 
-Any negative review which outlines a flaw such as a zero-day vulnerability or the use of an outdated dependency and remains open past a grace period defined by governance should be considered a failure on the part of the package maintainer.
-They have not completed the task they were entrusted with and rewarded for.
-The same can be said for package supporters and sponsors who staked their reputation on the work of delinquent package maintainers and received rewards for it, but failed to identify the lack of maintenance or elected to continue to support the package regardless.
-
-As packages gain in popularity and usage, with more applications and potentially mission-critical systems depending on them, we must incentivize developers to discreetly report flaws to the package maintainer and package maintainers to address such flaws before they can be exploited.
-Consequently, we propose that any outdated or corrupted package which is subject to one or more evidenced negative reviews and remains in such state past the governance-defined grace period see a portion of its steeped tokens be slashed regardless of their origin (package maintainer, package supporters, and sponsors or prior tea tasters),
-while another portion is sent to the tea tasters who submitted the negative reviews.
-Distribution to all tea tasters could be based on the age of their review and the number of tea tokens they steeped for their review.
+Da Pakete immer beliebter werden und immer mehr Anwendungen und potenziell unternehmenskritische Systeme von ihnen abhängen, müssen wir Anreize für Entwickler schaffen, Fehler diskret an den Paket-Maintainer zu melden, und die Paket-Maintainer müssen solche Fehler beheben, bevor sie ausgenutzt werden können.
+Daher schlagen wir vor, dass jedem veralteten oder korrupten Paket, das eine oder mehrere nachweislich negative Bewertungen erhalten hat und in diesem Zustand über die von der Regierung festgelegte Gnadenfrist hinaus bestehen bleibt, ein Teil seiner Token abgezogen wird, unabhängig von ihrer Herkunft (Paket-Maintainer, Paketunterstützer und Sponsoren oder frühere tea-Taster),
+während ein anderer Teil an die tea-Taster geschickt wird, die die negativen Bewertungen abgegeben haben.
+Die Verteilung an alle tea-Tasters könnte auf der Grundlage des Alters ihrer Bewertung und der Anzahl der tea-Tokens, die sie für ihre Bewertung aufgegossen haben, erfolgen.
 
 ## Maintainer NFT
 
-Upon successful submission of a package, the package maintainer will receive an NFT to evidence their work and contribution.
-The holder of this NFT will automatically receive all rewards associated with the package.
-Package maintainers may transfer maintenance ownership over a package to another package maintainer by simply transferring the package’s NFT.
-Successful transfer of the NFT will lead to the new owner automatically receiving future package rewards.
+Nach erfolgreicher Einreichung eines Pakets erhält der Paket-Maintainer eine NFT als Nachweis seiner Arbeit und seines Beitrags.
+Der Inhaber dieser NFT erhält automatisch alle mit dem Paket verbundenen Belohnungen.
+Paket-Maintainer können das Eigentum an einem Paket auf einen anderen Paket-Maintainer übertragen, indem sie einfach die NFT des Pakets weitergeben.
+Eine erfolgreiche Übertragung der NFT führt dazu, dass der neue Besitzer automatisch zukünftige Rewards für das Paket erhält.
 
-An important part of reputation building relies on the frequency and quantity of quality package submissions.
-The NFT delivered to package maintainers as evidence of their work may be used by the reputation system to update a package maintainer’s reputation and give them access to elevated parts of the protocol, as decided by the tea governance.
-However, to prevent attack vectors, such as community members buying their reputation, the transfer of the maintainer NFT will not result in a transfer of reputation.
-Reputation must remain directly associated with a specific developer’s work and must not be transferable.
+Ein wichtiger Teil des Reputationsaufbaus hängt von der Häufigkeit und Quantität der Einreichung von Qualitätspaketen ab.
+Die NFT, die den Paket-Maintainer als Beweis für ihre Arbeit ausgehändigt wird, kann vom Reputationssystem verwendet werden, um die Reputation eines Paket-Maintainer zu aktualisieren und ihm Zugang zu höherwertigen Teilen des Protokolls zu gewähren, wie von der tea Governance beschlossen.
+Um jedoch Angriffsvektoren zu verhindern, wie z.B. dass Mitglieder der Gemeinschaft ihre Reputation kaufen, wird die Übertragung der Betreuer-NFT nicht zu einer Übertragung der Reputation führen.
+Die Reputation muss direkt mit der Arbeit eines bestimmten Entwicklers verbunden bleiben und darf nicht übertragbar sein.
 
-# tea Token
+# tea-Token
 
-## Securing the Network
+## Absicherung des Netzes
 
-While many blockchains may appear as effective and secure infrastructure solutions to support tea’s objectives, we believe that careful consideration must be given to the technology stack upon which the tea system is built.
+Während viele Blockchains als effektive und sichere Infrastrukturlösungen erscheinen, um die Ziele von tea zu unterstützen, glauben wir, dass der Technologie-Stack, auf dem das tea-System aufbaut, sorgfältig geprüft werden muss.
 
-Scalability, cost-effectiveness, ESG, and third-party extensibility are important design considerations that a tea-sovereign proof-of-stake system could better serve.
-In proof-of-stake, node operators and network participants stake economic value in the form of the chain’s native token to increase the system’s security.
-Node operators and network participants receive rewards for the successful production of blocks that comply with the rules of the network and include accurate transaction information.
-Inactivity (aka node down) or malicious/incorrect activity are penalized by destroying a fraction of the staked tokens through slashing.
+Skalierbarkeit, Kosteneffizienz, ESG und Erweiterbarkeit durch Dritte sind wichtige Designüberlegungen, die ein souveränes Proof-of-Stake-System für tea besser erfüllen könnte.
+Beim Proof-of-Stake-System setzen Knotenbetreiber und Netzwerkteilnehmer einen wirtschaftlichen Wert in Form des Tokens der Kette ein, um die Sicherheit des Systems zu erhöhen.
+Knotenbetreiber und Netzwerkteilnehmer erhalten Belohnungen für die erfolgreiche Produktion von Blöcken, die den Regeln des Netzwerks entsprechen und genaue Transaktionsinformationen enthalten.
+Inaktivität (auch bekannt als "Node Down") oder böswillige/falsche Aktivitäten werden bestraft, indem ein Teil der eingesetzten Token durch Slashing vernichtet wird.
 
-A proof-of-stake system powered by the tea token will allow tea token holders to contribute to the system’s security by *staking* tea and support open-source developers by *steeping* tea.
-We're fully aware economic factors may prevent some developers from staking or steeping tea; as such, staking and steeping will be available for as little as a leaf, the smallest denomination of tea representing one one-hundred-millionth ($10^{-8}$) of a tea.
+Ein Proof-of-Stake-System, das durch den tea-Token angetrieben wird, ermöglicht es den tea-Token-Inhabern, zur Sicherheit des Systems beizutragen, indem sie tea *staking* und Open-Source-Entwickler unterstützen, indem sie tea *stepping*.
+Wir sind uns bewusst, dass wirtschaftliche Faktoren einige Entwickler davon abhalten könnten, tea zu *staking*  oder zu *steeping*; daher wird das staking und steeping von tea für nur ein leaf möglich sein, die kleinste Stückelung von tea, die einem Hundertmillionstel ($10^{-8}$) eines tea's entspricht.
 
-Both applications of the tea token serve vital functions in the support and growth of the open-source ecosystem.
-Staking tea will ensure that the tea system continues to operate securely, so all network participants can submit and access packages to review them, integrate them into their application, etc.
-In contrast, the steeping of tea will support tea’s goal of providing tools for all network participants to support and use packages that meet quality and dependability requirements, as formulated by the tea community through their support and dissent of each package.
-Care will be taken when defining and implementing staking and steeping parameters so one does not become parasitic on the other.
+Beide Anwendungen des tea-Tokens erfüllen wichtige Funktionen für die Unterstützung und das Wachstum des Open-Source-Ökosystems.
+Durch das *staking* von tea wird sichergestellt, dass das teasystem weiterhin sicher funktioniert, so dass alle Netzwerkteilnehmer Pakete einreichen und darauf zugreifen können, um sie zu überprüfen, sie in ihre Anwendung zu integrieren, usw.
+Im Gegensatz dazu wird das Steeping von tea das Ziel unterstützen, allen Netzwerkteilnehmern Werkzeuge zur Verfügung zu stellen, mit denen sie Pakete unterstützen und nutzen können, die den Qualitäts- und Zuverlässigkeitsanforderungen entsprechen, wie sie von der tea-Gemeinschaft durch ihre Unterstützung und Ablehnung der einzelnen Pakete formuliert wurden.
+Bei der Definition und Umsetzung von Staking- und Steeping-Parametern wird sorgfältig darauf geachtet, dass das eine nicht zum Schmarotzer am anderen wird.
 
-## Incentives and Penalties
+## Anreize und Strafmaßnahmen
 
-As discussed earlier, there can be strong incentives for bad actors to compromise open-source software.
-The majority of the Internet’s critical infrastructure is running on open-source, and the race to find exploits and other vulnerabilities is on.
-At tea, we believe that package maintainers are not the ones that should be blamed (although they often are).
+Wie bereits erwähnt, kann es für böswillige Akteure einen starken Anreiz geben, Open-Source-Software zu kompromittieren.
+Der größte Teil der kritischen Infrastruktur des Internets läuft auf Open-Source, und der Wettlauf um die Suche nach Exploits und anderen Schwachstellen ist in vollem Gange.
+Wir bei tea sind der Meinung, dass die Paket-Maintainer nicht die Schuldigen sind (obwohl sie es oft sind).
 
-tea protocol incentives fix this through a fair and equitable incentive distribution.
-A package like Lodash with over 151k dependents is a pillar of open-source development, and its maintainer deserves to be rewarded proportionally.
-However, a reward system built solely on the number of dependents would prevent innovators from disrupting these monopolies unless they are sufficiently funded by third parties or have already accumulated enough resources to self-fund.
-This approach would likely lead to a shrinking number of contributors, resulting in the polar opposite of what tea is about.
+Die Anreize des tea-Protokolls beheben dies durch eine faire und gerechte Verteilung der Anreize.
+Ein Paket wie Lodash mit über 151k Abhängigkeiten ist eine Säule der Open-Source-Entwicklung, und sein Maintainer verdient es, entsprechend belohnt zu werden.
+Ein Belohnungssystem, das allein auf der Anzahl der Abhängigkeiten aufbaut, würde jedoch Innovatoren davon abhalten, diese Monopole zu durchbrechen, es sei denn, sie werden ausreichend von Dritten finanziert oder haben bereits genug Ressourcen angesammelt, um sich selbst zu finanzieren.
+Dieser Ansatz würde wahrscheinlich zu einer schrumpfenden Zahl von Beitragszahlern führen, was das genaue Gegenteil dessen wäre, worum es bei tea geht.
 
-tea’s goal is to represent the value of open-source software and, in doing so, foster its growth by empowering its participants with the resources they need to pursue their passion unencumbered.
-The tea incentive distribution system needs to carefully consider the steeping ratio of each package and adjust each package’s incentive accordingly.
-To reduce the risk of a small number of packages used as dependencies across many applications collecting the majority of steeping rewards, we will leverage the research produced by the web3 Foundation[^19] for the Polkadot proof-of-stake-based rewards mechanism.
-We may further adjust the implementation and its variables based on the results of practical experiments.
+Das Ziel von tea ist es, den Wert von Open-Source-Software zu repräsentieren und dabei ihr Wachstum zu fördern, indem die Teilnehmer mit den Ressourcen ausgestattet werden, die sie benötigen, um ihrer Leidenschaft unbelastet nachzugehen.
+Das System zur Verteilung der Anreize für tea muss das Steeping-Verhältnis der einzelnen Pakete sorgfältig berücksichtigen und die Anreize für jedes Paket entsprechend anpassen.
+Um das Risiko zu verringern, dass eine kleine Anzahl von Paketen, die in vielen Anwendungen als Abhängigkeiten verwendet werden, den Großteil der Steeping-Belohnungen erhalten, werden wir die Forschungsergebnisse der web3 Foundation[^19] für den Polkadot-Proof-of-Stake-basierten Belohnungsmechanismus nutzen.
+Wir können die Implementierung und ihre Variablen auf der Grundlage der Ergebnisse von praktischen Experimenten weiter anpassen.
 
-As a package steep approaches a governance-defined optimum steeping ratio, its steeping rewards ratio will decrease progressively.
-When a package exceeds its optimum steeping ratio, the steeping rewards ratio will decrease sharply to de-incentivize package supporters and tea tasters from further steeping highly steeped packages.
-This design could allow lesser steeped packages to become more attractive to both package supporters and tea tasters.
-It may also incentivize experienced developers to build alternatives to highly-steeped packages, creating an opportunity for the tea community to balance supporting existing software and promoting innovation.
-The steeping ratio will be calculated using the circulating supply in its initial design.
-The tea community may alter this design to improve the system’s scalability further.
-Let $\chi$ be the steeping ratio across all packages.
-It represents the total number of tea tokens steeped by package maintainers, package users, package supporters and sponsors, and tea tasters divided by the total tea token supply.
-Given how many open-source packages are available today and their expected growth, $\chi$ will always be a very small value between $0$ and $1$.
+Wenn sich ein Paket einem von der Regierung definierten optimalen Steeping-Verhältnis nähert, wird sein Steeping-Belohnungs-Verhältnis schrittweise abnehmen.
+Wenn ein Paket sein optimales Steeping-Verhältnis überschreitet, sinkt das Steeping-Belohnungs-Verhältnis drastisch, um die Paketbefürworter und tea-Tasters davon abzuhalten, weitere Pakete mit hohem Steeping zu *steppen*.
+Dieses Konzept könnte es ermöglichen, dass Pakete mit geringerem Steeping sowohl für Paketbefürworter als auch für tea-Tasters attraktiver werden.
+Es könnte auch einen Anreiz für erfahrene Entwickler darstellen, Alternativen zu stark getränkten Paketen zu entwickeln, was der teagemeinschaft die Möglichkeit gibt, ein Gleichgewicht zwischen der Unterstützung bestehender Software und der Förderung von Innovationen zu schaffen.
+Das Steeping-Verhältnis wird anhand des zirkulierenden Angebots in seinem ursprünglichen Entwurf berechnet.
+Die tea-Community kann dieses Design ändern, um die Skalierbarkeit des Systems weiter zu verbessern.
+$\chi$ sei das Steeping-verhältnis für alle Pakete.
+Sie stellt die Gesamtzahl der von Paketbetreuern, Paketnutzern, Paketunterstützern und -sponsoren sowie tea-Tasters steeped  tea-Tokens dar, geteilt durch den Gesamtbestand an tea-Tokens.
+In Anbetracht der Anzahl der heute verfügbaren Open-Source-Pakete und ihres erwarteten Wachstums, wird $\chi$ immer ein sehr kleiner Wert zwischen $0$ und $1$ sein.
 
-Let $\psi$ be the staking ratio.
-It represents the total number of tea tokens staked by any network participant to secure the network.
 
-Let $\chi_{ideal}$ be the steeping ratio we would like each package to attain for a fair distribution of rewards across all packages and their dependencies.
-The value of $\chi_{ideal}$ must be updated as new packages are added to the decentralized registry, and dependencies are created.
-To determine the best value for $\chi_{ideal}$, we will use a popularity bell curve updated at the start of each reward cycle.
+**Sei $\psi$ das staking verhältnis.
+Sie stellt die Gesamtzahl der tea-Tokens dar, die jeder Netzwerkteilnehmer zur Sicherung des Netzwerks einsetzt.
 
-Let $\tau = \tau(\chi)$ be the annual steeping interest rate distributed to all tea community members who steep tea tokens to support open-source developers.
-In other words, $\tau(\chi)$ corresponds to the steeping reward received over a year by a community member that steeps tea tokens for the entire year.
+$\chi_{ideal}$ sei das Steeping-Verhältnis, das jedes Paket erreichen soll, um eine faire Verteilung der Belohnungen auf alle Pakete und ihre Abhängigkeiten zu erreichen.
+Der Wert von $\chi_{ideal}$ muss aktualisiert werden, wenn neue Pakete zur dezentralen Registrierung hinzugefügt und Abhängigkeiten geschaffen werden.
+Um den besten Wert für $\chi_{ideal}$ zu bestimmen, werden wir eine Popularitäts-Glockenkurve verwenden, die zu Beginn jedes Reward-Zyklus aktualisiert wird.
 
-Let $\gamma = \gamma(\psi)$ be the annual staking interest rate distributed to all node operators and network participants who stake tea tokens to secure the network.
-In other words, $\gamma(\psi)$ corresponds to the staking reward received over a year by a community member that stakes tea tokens for the entire year.
+Sei $\tau = \tau(\chi)$ der jährliche Steeping-Zinssatz, der an alle Mitglieder der tea-Community verteilt wird, die tea-Token steepen, um Open-Source-Entwickler zu unterstützen.
+Mit anderen Worten: $\tau(\chi)$ entspricht der Steeping-Belohnung, die ein Community-Mitglied, das ein ganzes Jahr lang tea-Token steeps, über ein Jahr hinweg erhält.
 
-Let $\delta$ be the annual inflation directed at the network treasury.
-$\delta$ may vary as external factors affect the token supply.
+Sei $\gamma = \gamma(\psi)$ der jährliche staking Zinssatz , der an alle Knotenbetreiber und Netzwerkteilnehmer verteilt wird, die tea-Tokens zur Sicherung des Netzwerks einsetzen.
+Mit anderen Worten: $\gamma(\psi)$ entspricht der staking-belohnung, die ein Mitglied der Gemeinschaft, das ein ganzes Jahr lang tea-Tokens staked, über ein Jahr hinweg erhält.
 
-We consider the annual steeping reward rate as a function of $\chi$ and the annual staking reward rate as a function of $\psi$.
+$\delta$ sei die jährliche Inflation, die in die Kasse des Netzwerks fließt.
+$\delta$ kann variieren, da externe Faktoren das Token-Angebot beeinflussen.
 
-* $\tau(\chi)$ corresponds to the incentive for people to steep a package.
-As $\chi$ increases, fewer rewards $\tau(\chi)$ are needed.
-* $\gamma(\psi)$ corresponds to the incentive for people to stake the network.
-As $\psi$ increases, fewer rewards $\gamma(\psi)$ are needed to secure the network.
+Wir betrachten die jährliche Steeping-Belohnungsrate als eine Funktion von $\chi$ und die jährliche Staking-Belohnungsrate als eine Funktion von $\psi$.
 
-The annual inflation $I$ will be equivalent to $(\tau + \gamma + \delta)$ and calculated as follows:
+* $\tau(\chi)$ entspricht dem Anreiz für die Leute, ein Paket zu steepen.
+Je höher $\chi$ ist, desto weniger Belohnungen $\tau(\chi)$ werden benötigt.
+* $\gamma(\psi)$ entspricht dem Anreiz für die Leute, das Netz zu staken.
+Wenn $\psi$ steigt, werden weniger Belohnungen $\gamma(\psi)$ benötigt, um das Netz zu sichern.
+
+Die jährliche Inflation $I$ entspricht $(\tau + \gamma + \delta)$ und berechnet sich wie folgt:
 
 $$
-I = \frac{\textrm{token supply at the end of the year} - \textrm{token supply at the beginning of the year}}{\textrm{token supply at the beginning of the year}} = (\tau + \gamma + \delta)
+I = \frac{\textrm{Tokenvorrat am Ende des Jahres}} - \textrm{Tokenvorrat am Anfang des Jahres}} = (\tau + \gamma + \delta)
 $$
 
-The contribution to inflation of $\tau_{\textsc{all}}$ (incentive distributed to all package steepers) and $\gamma_{\textsc{all}}$ (incentive distributed across all contributors to the network security) should be weighed to ensure that the system incentivizes the optimal steeping/staking ratio.
+Der Beitrag zur Inflation von $\tau_{\textsc{all}}$ (Anreiz, der an alle Paket-steepers verteilt wird) und $\gamma_{\textsc{all}}$ (Anreiz, der auf alle Teilnehmer an der Netzsicherheit verteilt wird) sollte abgewogen werden, um sicherzustellen, dass das System das optimale Verhältnis zwischen Steeping und Staking anreizt.
 
-As we focus on the incentives distributed across all package steepers, we determine that
+Da wir uns auf die Anreize konzentrieren, die auf alle Steepers verteilt sind, stellen wir fest, dass
 $\tau_{\textsc{all}}$
-is a function of the steeping ratio $\chi$ and therefore
-$\tau_{\textsc{all}}(\chi) = \chi \cdot \tau(\chi)$.
-From our previous analysis, we can see that
-$\tau_{\textsc{all}}(\chi_{ideal}) = \chi_{ideal} \cdot \tau_{ideal}$.
-Since the goal is to reach a state where
+eine Funktion des Steeping-Verhältnisses $\chi$ ist und somit
+$\tau_{\textec{all}}(\chi) = \chi \cdot \tau(\chi)$.
+Aus unserer vorangegangenen Analyse können wir erkennen, dass
+$\tau_{\textec{all}}(\chi_{ideal}) = \chi_{ideal} \cdot \tau_{ideal}$.
+Da das Ziel darin besteht, einen Zustand zu erreichen, in dem
 $\chi = \chi_{ideal}$
-, rewards
+ist, belohnt
 $\tau_{ideal}(\chi)$
-should be maximal at that value.
+bei diesem Wert maximal sein.
 
-Let $\tau_{ideal} = \tau(\chi_{ideal})$
-be the reward rate delivered by the network at the ideal scenario where
+Sei $\tau_{ideal} = \tau(\chi_{ideal})$
+die Belohnungsrate, die das Netzwerk im idealen Szenario liefert, in dem
 $\chi = \chi_{ideal}$.
 
-Let $\tau_{0}$ be the limit of  $\tau_{\textsc{all}}(\chi)$ as $\chi$ goes to zero when no members of the tea community steep any packages.
-The value of $\tau_{0}$ should be close to zero but not zero to incentivize early adopters.
-As suggested by the web3 Foundation’s research, we propose that:
+Sei $\tau_{0}$ der Grenzwert von $\tau_{\textsc{all}}(\chi)$, da $\chi$ gegen Null geht, wenn kein Mitglied der teagemeinschaft irgendwelche Pakete steeped.
+Der Wert von $\tau_{0}$ sollte nahe bei Null, aber nicht bei Null liegen, um Anreize für frühe Anwender zu schaffen.
+Wie in der Forschung der web3 Foundation vorgeschlagen, schlagen wir vor, dass:
 
-* the inflation function grows linearly between $\chi = 0$ and $\chi = \chi_{ideal}$, and
-* it decay exponentially between $\chi = \chi_{ideal}$ and $\chi = 1$.
+* die Inflationsfunktion zwischen $\chi = 0$ und $\chi = \chi_{ideal}$ linear wächst, und
+* sie zwischen $\chi = \chi_{ideal}$ und $\chi = 1$ exponentiell abnimmt.
 
-We chose a similar exponential decrease for $\tau_{\textsc{all}}(\chi)$ because it implies an exponential decrease of $\tau(\chi)$, and we want rewards to fall sharply beyond $\chi_{ideal}$ to prevent a single package from receiving all the rewards.
+Wir haben eine ähnliche exponentielle Abnahme für $\tau_{\textsc{all}}(\chi)$ gewählt, weil sie eine exponentielle Abnahme von $\tau(\chi)$ impliziert, und wir wollen, dass die Belohnungen jenseits von $\chi_{ideal}$ stark abfallen, um zu verhindern, dass ein einziges Paket alle Belohnungen erhält.
 
-The decay is defined so that the inflation rate decreases by at most 50% when  $\chi$ shifts $d$ units to the right of $\chi_{ideal}$ – i.e.
+Der Zerfall ist so definiert, dass die Inflationsrate um höchstens 50% abnimmt, wenn $\chi$ sich um $d$ Einheiten nach rechts von $\chi_{ideal}$ verschiebt - d.h.
 $\tau_{\textsc{all}}(\chi_{ideal} + d) \geq \tau_{\textsc{all}} \cdot 0.5$.
 
-We propose the following interest rate and inflation rate functions, which depend on the parameters $\chi_{ideal}$, $\tau_{ideal}$, $\tau_{0}$ and $d$.
+Wir schlagen die folgenden Zins- und Inflationsratenfunktionen vor, die von den Parametern $\chi_{ideal}$, $\tau_{ideal}$, $\tau_{0}$ und $d$ abhängen.
 
 \begin{align*}
 &\tau_{\textsc{all}}(\chi) = \tau_{0} + (\tau_{\textsc{all}}(\chi_{ideal}) - \tau_{0})\frac{\chi}{\chi_{ideal}}\enspace\textrm{for}\;0 < \chi \leq \chi_{ideal} \\
 &\tau_{\textsc{all}}(\chi) = \tau_{0} + (\tau_{\textsc{all}}(\chi_{ideal}) - \tau_{0}) \cdot 2^{(\chi_{ideal}-\chi)/d}\enspace\textrm{for}\;\chi_{ideal} < \chi \leq 1
 \end{align*}
 
-Just as good actors need to be rewarded; bad actors need to be identified and penalized.
-Open-source software provides many opportunities for bad actors to create pain points and reputational risks for an entire community of developers.
-From the misappropriation of work to the alteration and redistribution of software packages, or the injection of nefarious code, the war between good and bad actors goes on, often with well-funded bad actors who see the contamination of open-source packages as an opportunity to benefit financially.
-The downside has been relatively minimal, with packages potentially banned from digital shelves or subjected to a poor reputation.
+Genauso wie gute Akteure belohnt werden müssen, müssen schlechte Akteure identifiziert und bestraft werden.
+Open-Source-Software bietet böswilligen Akteuren viele Möglichkeiten, einer ganzen Gemeinschaft von Entwicklern Schmerzen und Reputationsrisiken zu bereiten.
+Von der widerrechtlichen Aneignung von Arbeit über die Veränderung und Weitergabe von Softwarepaketen bis hin zur Einschleusung von bösartigem Code - der Krieg zwischen guten und bösen Akteuren geht weiter, oft mit gut finanzierten bösen Akteuren, die in der Verunreinigung von Open-Source-Paketen eine Chance sehen, finanziell zu profitieren.
+Die Nachteile sind relativ gering, da die Pakete möglicherweise aus den digitalen Regalen verbannt werden oder einen schlechten Ruf haben.
 
-We propose introducing a slashing mechanism to establish a more material downside that directly affects bad actors’ economic value.
-As tea tasters evaluate and analyze the code in newly submitted packages, we suggest tea tasters receive the tools and incentives to pinpoint and highlight nefarious code so package users can be made aware of the risks, and package maintainers, package supporters, and sponsors are penalized for submitting or supporting nefarious code.
-To that extent, for all evidenced negative reviews performed per the network rules and which have been addressed by the package maintainer within the governance-defined period, the package maintainer should not incur any penalty contrary to the package supporters and sponsors or the tea tasters who provided a positive review of the package in question.
-For negative reviews performed per the network rules and that the package maintainer has not addressed within the governance-defined period, a fraction of the tokens steeped by the package maintainer, the package supporters and sponsors, and previous tea tasters will be slashed.
-Another fraction will be locked into an insurance pool controlled by the tea governance.
-The tea governance will establish policies and rules in close collaboration with the community to distribute the pool’s contents to those affected by vulnerabilities.
-The protocol will distribute a third fraction of the steeped tokens across all tea tasters who contributed to the negative review and steeped against the package, based on the number of tea tokens they steeped “against” the package and how long their tokens have steeped.
-In other words, the sooner one or more tea tasters identify and report the flaw according to the rules of the network, the higher the reward they will get for supporting safe and productive open-source development.
+Wir schlagen vor, einen Slashing-Mechanismus einzuführen, um einen materielleren Nachteil zu schaffen, der sich direkt auf den wirtschaftlichen Wert der bösen Akteure auswirkt.
+Da tea-Tasters den Code in neu eingereichten Paketen bewerten und analysieren, schlagen wir vor, dass tea-Tasters die Werkzeuge und Anreize erhalten, um ruchlosen Code zu identifizieren und hervorzuheben, damit Paketnutzer auf die Risiken aufmerksam gemacht werden können und Paketbetreuer, Paketunterstützer und Sponsoren für das Einreichen oder Unterstützen von ruchlosem Code bestraft werden.
+Insofern sollte der Paket-Maintainer für alle nachweislich negativen Bewertungen, die gemäß den Netzwerkregeln durchgeführt wurden und auf die der Paket-Maintainer innerhalb des von der Verwaltung festgelegten Zeitraums reagiert hat, nicht bestraft werden, im Gegensatz zu den Paketunterstützern und -sponsoren oder den tea-Tasters, die eine positive Bewertung des fraglichen Pakets abgegeben haben.
+Für negative Bewertungen, die gemäß den Netzwerkregeln durchgeführt werden und die der Paketbetreuer nicht innerhalb des von der Governance definierten Zeitraums angesprochen hat, wird ein Bruchteil der Token, die vom Paketbetreuer, den Paketunterstützern und -sponsoren sowie früheren tea-Tasters steeped sind, slashed.
+Ein weiterer Teil fließt in einen Versicherungspool, der von der tea Governance kontrolliert wird.
+Die tea Governance wird in enger Zusammenarbeit mit der Gemeinschaft Richtlinien und Regeln aufstellen, um den Inhalt des Pools an die von Schwachstellen Betroffenen zu verteilen.
+Das Protokoll verteilt einen dritten Teil der steeped Token an alle tea-Tasters, die zu der negativen Bewertung beigetragen und gegen das Paket steeeped haben, basierend auf der Anzahl der Token, die sie "gegen" das Paket steeped haben, und wie lange ihre Token getränkt wurden.
+Mit anderen Worten: Je eher ein oder mehrere tea-Taster den Fehler identifizieren und gemäß den Regeln des Netzwerks melden, desto höher ist die Belohnung, die sie für die Unterstützung einer sicheren und produktiven Open-Source-Entwicklung erhalten.
 
-To prevent community members from randomly voting “against” highly steeped packages hoping to receive the majority of any penalty, all tea tokens steeped “against” will not be rewarded with inflation and may be subject to a decay mechanism, thus reducing their value over time.
+Um zu verhindern, dass Mitglieder der Gemeinschaft wahllos gegen stark steeped Pakete stimmen, in der Hoffnung, die Mehrheit der Strafe zu erhalten, werden alle tea-Tokens, die "gegen" steeped wurden, nicht mit Inflation belohnt und können einem Verfallsmechanismus unterliegen, wodurch ihr Wert mit der Zeit sinkt.
 
 [^19]: Source: @web3
 
 
-# Governance
+# Die Governance
 
-Governance is critical to the development, sustainability, and adoption of any distributed system.
+Governance ist entscheidend für die Entwicklung, Nachhaltigkeit und Akzeptanz eines jeden verteilten Systems.
 
-We propose that tea includes on-chain governance where all tea token holders can suggest and vote on changes to critical parameters weighted by token ownership and reputation.
-These parameters could include inflation, transaction fees, staking rewards, steeping rewards, or optimum steeping ratio.
-This functionality will ensure that critical parameters can evolve and be optimized over time by members of the tea community.
-We anticipate governance will launch with a simple structure and progressively expand as the tea system matures, facilitating adoption and ensuring progressive decentralization.
+Wir schlagen vor, dass tea eine On-Chain-Governance beinhaltet, bei der alle tea-Token-Inhaber Änderungen an kritischen Parametern, die nach Token-Besitz und Reputation gewichtet sind, vorschlagen und darüber abstimmen können.
+Zu diesen Parametern könnten Inflation, Transaktionsgebühren, Staking-Belohnungen, Steeping-Belohnungen oder das optimale Steeping-Verhältnis gehören.
+Mit dieser Funktion wird sichergestellt, dass kritische Parameter im Laufe der Zeit von den Mitgliedern der tea-Community weiterentwickelt und optimiert werden können.
+Wir gehen davon aus, dass die Governance mit einer einfachen Struktur startet und mit zunehmender Reife des teasystems schrittweise erweitert wird, um die Akzeptanz zu erleichtern und eine fortschreitende Dezentralisierung zu gewährleisten.
 
-Some system parameters may not be subject to governance or support high-frequency changes to reduce the attack surface represented by governance.
-A progressive transition of parameters to open, decentralized governance will ensure the stability and predictability of the system.
-
-
-# Third-Party Extensibility
-
-As we build the initial tools to ignite the long-overdue support of the open-source communities, we believe part of our mission is to ensure that third parties can extend the overall toolset.
-In addition to providing the infrastructure for developers to build extensions to the protocol, including new ways to innovate and further the support of open-source developers, our plans include the potential for other package managers to contribute to the protocol.
-The dreams and efforts of open-source developers have built the innovation that supports our everyday life.
-We look forward to discovering the new uses and extensions for tea proposed by the tea community.
+Einige Systemparameter unterliegen möglicherweise nicht der Governance oder unterstützen hochfrequente Änderungen, um die Angriffsfläche der Governance zu verringern.
+Ein schrittweiser Übergang von Parametern zu offener, dezentraler Governance wird die Stabilität und Vorhersehbarkeit des Systems gewährleisten.
 
 
-# Future Work and Potential Community Efforts
+# Erweiterbarkeit durch Drittanbieter
 
-As the tea system matures, we foresee the community deciding and contributing to alterations and extensions of the tea system through governance.
-Below are some ideas that we believe may inspire some.
+Während wir die ersten Tools entwickeln, um die längst überfällige Unterstützung der Open-Source-Gemeinschaften zu gewinnen, sehen wir es als Teil unserer Aufgabe an, sicherzustellen, dass Dritte das gesamte Toolset erweitern können.
+Neben der Bereitstellung der Infrastruktur für Entwickler zur Erstellung von Erweiterungen des Protokolls, einschließlich neuer Möglichkeiten zur Innovation und zur Förderung der Unterstützung von Open-Source-Entwicklern, sehen unsere Pläne auch die Möglichkeit vor, dass andere Paketmanager zum Protokoll beitragen.
+Die Träume und Bemühungen von Open-Source-Entwicklern haben die Innovationen hervorgebracht, die unser tägliches Leben unterstützen.
+Wir freuen uns darauf, die neuen Verwendungsmöglichkeiten und Erweiterungen für tea zu entdecken, die von der teagemeinschaft vorgeschlagen werden.
 
-## tea Wholesalers
+# Künftige Arbeiten und potenzielle Gemeinschaftsanstrengungen
 
-Open-source software communities are vibrant and constantly looking to innovate and deliver value.
-This dedication and altruism lead to the constant building of new software and packages, each one pulling dependencies.
-As a result, we anticipate the dependencies map to evolve constantly, leading to frequent changes to the steeping ratio and rewards.
-In the future, the tea community may propose the development of a system designed to dynamically monitor the steeping ratio for each package and rebalance how package supporters steep their tokens based on their own criteria.
+Wir gehen davon aus, dass die Gemeinschaft in dem Maße, in dem das teasystem reift, über
+Änderungen und Erweiterungen des teasystems mitbestimmen und mitgestalten. Nachfolgend sind
+einige Ideen, von denen wir glauben, dass sie einige inspirieren können.
 
-## Royalties on Package Transfer
+## tea-Großhändler
 
-We recognize that package maintainers may decide to transfer their steeping rewards stream to one or more developers.
-The governance of such transfer must remain the decision of the package maintainer and their partners, with no interference from tea.
-Tools will need to be provided for such transfer to be total or partial (perhaps through only a portion of the steeping rewards being redirected to one or more developers, while the remaining rewards continue to flow to the original package maintainer)
-and for the steeping rewards to flow through a single account controlled by a single network participant, multiple network participants, or automatically distributed across multiple accounts using static or dynamic ratios.
+Open-Source-Software-Gemeinschaften sind lebendig und ständig auf der Suche nach Innovation und Wertschöpfung.
+Diese Hingabe und dieser Altruismus führen dazu, dass ständig neue Software und Pakete entwickelt werden, von denen jedes einzelne Abhängigkeiten mit sich bringt.
+Wir gehen davon aus, dass sich die Karte der Abhängigkeiten ständig weiterentwickeln wird, was zu häufigen Änderungen des Weichenverhältnisses und der Belohnungen führen wird.
+In Zukunft könnte die tea-Community die Entwicklung eines Systems vorschlagen, das das Steeping-Verhältnis für jedes Paket dynamisch überwacht und das Steeping-Verhältnis für die Unterstützer von Paketen anhand ihrer eigenen Kriterien neu ausbalanciert.
 
-## Rewards Distribution Across Multiple Maintainers
+## Lizenzgebühren für die Übertragung von Paketen
 
-The maintenance of a package can rely on the work of one more team of developers.
-Before steeping rewards start to flow, teams should consider automating the distribution of steeping rewards amongst themselves.
-How the distribution occurs must be decided by the maintainers themselves, as they are in the best position to evaluate who contributed and how they should be rewarded.
+Wir erkennen an, dass Paketverwalter beschließen können, ihren Steeping Rewards Stream an einen oder mehrere Entwickler zu übertragen.
+Die Verwaltung einer solchen Übertragung muss die Entscheidung des Paketbetreuers und seiner Partner bleiben, ohne Einmischung von tea.
+Es müssen Werkzeuge zur Verfügung gestellt werden, damit eine solche Übertragung vollständig oder teilweise erfolgen kann (vielleicht indem nur ein Teil der Steeping Rewards an einen oder mehrere Entwickler weitergeleitet wird, während die restlichen Rewards weiterhin an den ursprünglichen Paket-Maintainer fließen)
+und dass die Steeping Rewards über ein einziges Konto fließen, das von einem einzigen Netzwerkteilnehmer kontrolliert wird, über mehrere Netzwerkteilnehmer oder automatisch über mehrere Konten unter Verwendung statischer oder dynamischer Verhältnisse verteilt werden können.
 
-To accomplish that, each team (or teams) could set up their own decentralized autonomous organization (DAO) and either automate the distribution of rewards or deploy more complex systems to determine the adequate rewards distribution based on external factors such as a vote from all DAO members,
-or time-based distributions based on continuous contribution, successful completion of bounties, etc.
+## Verteilung von Belohnungen auf mehrere Verwalter
 
-## Handling Package “Forks”
+Die Wartung eines Pakets kann sich auf die Arbeit eines weiteren Entwicklerteams stützen.
+Bevor Steeping Rewards zu fließen beginnen, sollten Teams in Betracht ziehen, die Verteilung von Steeping Rewards untereinander zu automatisieren.
+Wie die Verteilung erfolgt, muss von den Maintainer selbst entschieden werden, da sie am besten einschätzen können, wer einen Beitrag geleistet hat und wie dieser belohnt werden sollte.
 
-We believe that forks are essential and largely under-utilized.
-Forks can be an effective tool for developing packages that compete in functionality, performance, security, and even attention.
-As useful as they may be, forks must recognize the original efforts.
-Through future work or potential contributions, the tea community may enhance the system to require forks to be declared, perhaps even detected when a package is submitted.
-Undeclared forks revealed by tea tasters may result in a portion of the steeped tokens being slashed, transferred to the original package maintainer, and sent to the tea tasters who revealed the fork.
+Um dies zu erreichen, könnte jedes Team (oder Teams) seine eigene dezentrale autonome Organisation (DAO) einrichten und entweder die Verteilung der Belohnungen automatisieren oder komplexere Systeme einsetzen, um die angemessene Verteilung der Belohnungen auf der Grundlage externer Faktoren wie einer Abstimmung aller DAO-Mitglieder zu bestimmen, oder zeitbasierte Verteilungen auf der Grundlage von kontinuierlichen Beiträgen, erfolgreichem Abschluss von Kopfgeldern usw.
 
-## Runtime vs. Build Dependencies
+## Handhabung des Pakets "Forks"
 
-tea may not distinguish build dependencies from runtime dependencies when distributing steeping rewards at launch.
-However, provided the tea community feels strongly about making such a distinction, the tea community may propose enhancements to the steeping rewards distribution algorithm to account for the criticality of each dependency and their contribution to the value of the packages that depend upon them.
-These proposals would be voted upon and implemented based on the community’s decision.
+Wir sind der Meinung, dass Forks unerlässlich sind und weitgehend unzureichend genutzt werden.
+Forks können ein effektives Werkzeug für die Entwicklung von Paketen sein, die in Bezug auf Funktionalität, Leistung, Sicherheit und sogar Aufmerksamkeit konkurrieren.
+So nützlich sie auch sein mögen, Forks müssen die ursprünglichen Bemühungen anerkennen.
+Durch künftige Arbeiten oder potenzielle Beiträge könnte die tea-Gemeinschaft das System dahingehend verbessern, dass Forks deklariert werden müssen, vielleicht sogar erkannt werden, wenn ein Paket eingereicht wird.
+Nicht deklarierte Forks, die von tea-Taster aufgedeckt werden, können dazu führen, dass ein Teil der steeped Tokens gestrichen, an den ursprünglichen Paket-Maintainer übertragen und an die tea-Taster, die den Fork aufgedeckt haben, geschickt wird.
 
-## Usage-based Remuneration
+## Laufzeit- vs. Build-Abhängigkeiten
 
-As more applications are built using packages registered with tea, the community may augment the reward algorithm so that allocation may be influenced by external attested datasets such as usage.
-This update to the rewards mechanism could allow for a higher allocation of tea token rewards to flow towards packages with the highest usage while still respecting the constraints of the steeping ratio described in the tea token section.
-Package maintainers could use a similar approach to distribute steeping rewards across their dependencies based on the transparent logic of their choice.
-Note that all information used to affect the distribution of rewards across packages and dependencies in the tea system will need to be provably reliable.
+tea darf bei der Verteilung von Steeping Rewards beim Start nicht zwischen Build-Abhängigkeiten und Laufzeit-Abhängigkeiten unterscheiden.
+Wenn die tea-Gemeinschaft jedoch eine solche Unterscheidung für wichtig hält, kann sie Verbesserungen des Verteilungsalgorithmus für Steeping Rewards vorschlagen, um die Kritikalität jeder Abhängigkeit und ihren Beitrag zum Wert der Pakete, die von ihr abhängen, zu berücksichtigen.
+Über diese Vorschläge würde abgestimmt und sie würden auf der Grundlage der Entscheidung der Gemeinschaft umgesetzt.
+
+## Nutzungsabhängige Vergütung
+
+Wenn mehr Anwendungen unter Verwendung von Paketen erstellt werden, die mit tea registriert sind, kann die Gemeinschaft den Reward-Algorithmus so erweitern, dass die Zuteilung durch externe, bestätigte Datensätze wie die Nutzung beeinflusst werden kann.
+Diese Aktualisierung des Reward-Mechanismus könnte eine höhere Zuteilung von tea-Token-Rewards an Pakete mit der höchsten Nutzung ermöglichen, während die Einschränkungen des Steeping-Verhältnisses, die im Abschnitt über tea-Token beschrieben werden, weiterhin eingehalten werden.
+Paketverwalter könnten einen ähnlichen Ansatz verwenden, um Steeping Rewards über ihre Abhängigkeiten zu verteilen, basierend auf der transparenten Logik ihrer Wahl.
+Beachten Sie, dass alle Informationen, die verwendet werden, um die Verteilung von Belohnungen auf Pakete und Abhängigkeiten im teasystem zu beeinflussen, nachweislich zuverlässig sein müssen.
 
 
-# Acknowledgments
+# Anerkennungen
 
-This white paper would not exist without the support and dedication of many teaophiles.
-The authors would like to acknowledge Josh Kruger, Jadid Khan, and Jacob Heider for their contribution to the tokenomics and the many discreet individuals who volunteered their time to provide feedback on the contents of this document.
+Dieses Whitepaper würde ohne die Unterstützung und das Engagement vieler teaophiler nicht existieren.
+Die Autoren möchten Josh Kruger, Jadid Khan und Jacob Heider für ihren Beitrag zu den Tokenomics und den vielen diskreten Personen danken, die freiwillig ihre Zeit opferten, um Feedback zum Inhalt dieses Dokuments zu geben.
 
 $\parskip=0pt plus 1pt$
 
-# Glossary of Terms
+# Glossar der Begriffe
 
-| Term | Definition |
+| Begriff | Definition |
 |------|------------|
-| Leaf | The smallest denomination of the tea token. A leaf corresponds to one one-hundred-millionth ($10^{-8}$) of a tea. |
-| Slashing | The action of penalizing steepers or stakers in response to behavior contrary to the network rules. |
-| Staking | The action of locking tea tokens to secure the proof-of-stake network upon which the tea system is built. |
-| Steeping | The action of locking tea tokens to support your claim and receive rewards (or penalties) based on the consensus on the validity of your claim. |
+| Leaf | Die kleinste Stückelung der tea-Token. Ein Leaf entspricht einem Hundertmillionstel ($10^{-8}$) eines teas. |
+| Slashing | Die Bestrafung von Steepern oder Stakern als Reaktion auf ein Verhalten, das den Netzregeln zuwiderläuft. |
+| Staking | Das Sperren von tea-Token, um das Proof-of-Stake-Netzwerk, auf dem das teasystem aufbaut, zu sichern. |
+| Steeping | Die Aktion des Sperrens von tea-Tokens, um Ihren Anspruch zu unterstützen und Belohnungen (oder Strafen) zu erhalten, die auf dem Konsens über die Gültigkeit Ihres Anspruchs basieren. |
 
 
-# References
+# Referenzen
