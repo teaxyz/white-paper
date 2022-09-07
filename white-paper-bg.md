@@ -1,15 +1,15 @@
-# Disclaimer
+# Декларация за отказ от отговорност
 
-The information set out in this white paper is of a preliminary nature.
-Consequently, neither the authors nor any of their respective affiliates assume any responsibility that the information set out herein is final or correct and each of the foregoing disclaims,
-to the fullest extent permitted by applicable law, any and all liability whether arising in tort, contract or otherwise in respect of this white paper.
-Neither this white paper nor anything contained herein shall form the basis of or be relied on in connection with or act as an inducement to enter into any contract or commitment whatsoever.
+Цялата информацията, изложена в тази "бяла книга" носи предварителен характер. 
+Следователно нито авторите, нито който и да е от свързаните с тях лица поемат каквато и да е отговорност относно това, че информацията, изложена в този документ е окончателна или достоверно точна и всеки от изброените лица носи отказ от отговорност, 
+до максимална степен, която разрешена от съществуващото законодателство, от всякаква отговорност независимо дали произтича от някакъв вид правонарушение, договор или е свързана с тази "бяла книга" по друг начин. 
+Нито предложената "бяла книга", нито каквато и да е информаиця, съдържаща се в нея не може да служи като основание за спор или да бъде използвана за такова или да действа като подканване за сключване на какъвто и да е договор или ангажимент. 
 
-Nothing in this white paper constitutes an offer to sell or a solicitation to purchase any tokens discussed herein.
-In any event, were this white paper to be deemed to be such an offer or solicitation, no such offer or solicitation is intended or conveyed by this white paper in any jurisdiction where it is unlawful to do so,
-where such an offer or solicitation would require a license or registration, or where such an offer or solicitation is subject to restrictions.
-In particular, any tokens discussed herein have not been, and, as of the date of issuance of this white paper, are not intended to be, registered under the securities or similar laws of any jurisdiction,
-whether or not such jurisdiction considers such tokens to be a security or similar instrument and may not be offered or sold in any jurisdiction where to do so would constitute a violation of the relevant laws of such jurisdiction.
+Нищо в тази "бяла книга" не представлява оферта за продажба или подкана към покупка на токени, обсъждани в документацията.
+Във всеки случай, ако в някои места тази "бяла книга" ще се разглежда като подобно предложение или подкана, заявяваме, че никакво подобно предложение или подкана са били намерение или цел от настоящата документация във всяка юрисдикция, където това е незаконно, 
+където подобна оферта или подкана изискват лиценз или регистрация, или където подобна оферта или подкана подлежат на ограничения. 
+По-специално, всички токени, за които ще става въпрос в документацията не са били, и към датата на издаване на тази "бяла книга" не са предназначени да бъдат регистрирани съгласно законите, касаещи ценни книжа на която и да е юрисдикция, 
+и дали тази юрисдикция приема или не токени като като вид ценни книжа или подобен инструмент и не може да се предлага или продава в която и да е юрисдикция, където подобни действия представляват нарушение на съответнните закони на тази юрисдикция. 
 
 
 # License
