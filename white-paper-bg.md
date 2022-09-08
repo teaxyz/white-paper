@@ -12,45 +12,45 @@
 и дали тази юрисдикция приема или не токени като като вид ценни книжа или подобен инструмент и не може да се предлага или продава в която и да е юрисдикция, където подобни действия представляват нарушение на съответнните закони на тази юрисдикция. 
 
 
-# License
+# Лиценз
 
-The source code[^src] of this paper is available under the Creative Commons Attribution-ShareAlike 4.0 International[^cc] license.
+Изходният код [^src] на даденият документ е достъпен под лиценз на Creative Commons Attribution-ShareAlike 4.0 International[^cc] .
 
 [^src]: See: @sources
 [^cc]: See: @cc
 
 
-# Introduction
+# Въведение
 
-The Internet is predominantly composed of open-source projects and has been since its inception.
-Over time, many of these projects have become foundational pieces upon which all future innovation is built.
-And while fortunes have been made from it, open-source is mainly created and maintained without compensation.
+Интернетът е съставен предимно от проекти с отворен код и е бил такъв от самото му създаване. 
+С течение на времето, много от тези проекти са се превърнали във фундаментални, върху които са изградени всички последващи иновации. 
+И докато върху тази технология бяха изградени цели състояния, отворения код основно се създава и поддържа без компенсации. 
 
-We believe that the entirety of modern human endeavor has been stunted by relying on the smallest percentage of the world's engineers to choose between a salary or keeping the Internet running.
-Open-source is a labor of love often hindered by a lack of meaningful economic incentives resulting in genuinely worthwhile projects never reaching their potential while others suffer from security issues due to the lack of incentives to maintain software throughout its lifecycle.
-To fully realize our potential, we need a fair remuneration system for the open-source ecosystem that doesn’t fundamentally change how it is built or utilized.
+Ние смятаме, че цялата съвременна човешка дейност е закърняла поради факта, че разчита основно на малък процент инженери от целия свят, които са принудени да избират между заплата и поддържане на Интернет дейността. 
+Отвореният код е продукт на грижовен труд, често възпрепятстван от липса на значими икономически стимули, водещи до невъзможност на наистина значими проекти да достигнат своя потенциал, при други проекти възникват проблеми със сигурността поради липса на достатъчно стимули за поддържане на софтуера.
+За да се реализира напълно потенциала е необходимо създаване на справедлива система на възнаграждения към цялата екосистема с отворен код, което обаче не променя фундаментално начина, по който е изградена или използвана. 
 
-Enterprises often wrap business models around open-source, generating revenue directly from the work of the benevolent developers while also relying on them to fix bugs as issues occur.
-A great example is a recent incident involving a critical security vulnerability in Log4j, a package from the Apache Software Foundation that found its way across many commercial software and services employed by enterprises and governments.
-In November 2021, a security researcher working for Alibaba Group Holding Ltd. reported vulnerability CVE-2021-44228[^1], which received the highest possible base score from the Apache Software Foundation.
-Amit Yoran, Chief Executive of Tenable and founding director of the United States Computer Emergency Readiness Team (US-CERT), described this vulnerability as “the single biggest, most critical vulnerability of the last decade”[^2].
-Panic ensued and the few volunteers who maintained this package came publicly under fire for the failure.
-After addressing the outrage with a humble plea for fairness, systems got patched.
-Enterprises and governments eventually realized that Log4j, a package used by a broad range of critical systems for two decades, was maintained by a few unpaid volunteers, the same unsung heroes who sprang into action despite abuse from the industry[^3] and worked tirelessly to address the vulnerability.
+Предприятията често използват бизнес модели свързани с отворения код, генеририрайки приходи директно от работата на добросъвестните разработчици, докато разчита на тях за коригиране на грешки при възникване на проблеми. 
+Чудесен пример е скорошният инцидент, включващ критична уязвимост на сигурността в Log4j, пакет от Apache Software Foundation, който намери своето приложение в много от търговските софтуери и услуги, използвани от различни предприятия и от правителството. 
+През Ноември 2021г, изследовател по сигурността, работещ за Alibaba Group Holding Ltd. съобщава за уязвимост CVE-2021-44228[^1], която получава най-висока възможна оценка от Apache Software Foundation. 
+Amit Yoran, Главен изпълнителен директор на Tenable и директор основател на United States Computer Emergency Readiness Team (US-CERT), описа този вид уязвимост като “най-голямата и най-критична уязвимост от последното десятилетие”[^2].
+След тези събития последва паника и няколко доброволци, отговорни за поддръжка на въпросния пакет, бяха публично критикувани за провала. 
+След като в отговор на възникналото възмущение се появи скромна молба за възстановяване на справедливост, системите бяха поправени. 
+Предприятията и правителствата разбраха в крайна сметка, че Log4j, пакет, използван от голям брой критично важни системи в продължение на две десятилетия, беше поддържан от няколко доброволци за собсвена сметка, същите невъзпяти герои, които се впускат в действие въпреки злоупотребите от индустрията[^3] и работят неуморно за справяне с уязвимостта.
 
-Sadly, Log4j is far from the only example.
-core-js is downloaded 30 million times per week as the base of every Node.js application, yet it is also barely funded.
-Recently several bitcoin core developers resigned, citing, among other reasons, a *lack of financial compensation* for their decision.
+За съжаление Log4j далеч не е единственият пример.
+core-js се изтегля 30 милиона пъти седмично като база за всяко Node.js приложение, което също така почти не се финансира. 
+Наскоро няколко от основните биткойн разработчици подадоха оставка, посочвайки наред с други причини *липса на финансова компенсация* за решението си.
 
-There have been multiple attempts at providing incentive structures, typically involving sponsorship and bounty systems.
-Sponsorship makes it possible for consumers of open-source to donate to the projects they favor.
-However, picture open-source as a tower of bricks where lower layers are long forgotten, but still maintained by dedicated engineers and relied upon by even more developers.
-Only projects at the top of the tower are typically known and receive sponsorship.
-This biased selection leads to essential bricks that hold up the tower attracting no donations, while favorites receive more than they need.
-Bounties allow consumers of projects to propose payment for developers to build specific features, thus only remunerating projects for doing things not necessarily in their best interest.
-And again, only rewarding favorites.
+Отбелязваме многобройни опити за предлагане на различни структури за стимулиране, обикновено включващи системи за спонсорство и различни награди.
+Системите за спонсорство дават възможност за потребителите, използващи отворен код да даряват в полза на проекти, които те самите предпочитат. 
+Въпреки това, представете си отворения код като кула от тухли, където долните слоеве са отдавна забравени, но все още поддържани от отдадени на каузата инженери и където все още се разчита на доста разработчици. 
+Обикновено само проектите на върха на кулата са известни и получават спонсорство. 
+Този вид избирателна селекция води до това, че тухлите в основата, които поддържат цялата кула без да привличат дарения, докато горните предпочитани тухли получават повече, отколкото им е необходимо. 
+Наградите позволяват на потребителите на проекти възможности за предлагане на плащане на разработчиците за изграждане на специфични функции, като по този начин се предлага възнаграждение за проекти, които извършват дейности, не задължително в техен интерес. 
+И отново, награждават се само фаворитите.
 
-In this paper, we propose tea — a decentralized system for fairly remunerating open-source developers based on their contributions to the entire ecosystem and enacted through the tea incentive algorithm applied across all entries in the tea registry.
+В този документ, ви представяме tea — децентрализирана система за справедливо възнаграждение на разработчиците с отворен код въз основа на техния принос към цялата екосистема, въведена чрез алгоритъма за финансово стимулиране, прилаган за всички записи в регистъра на tea.
 
 ![Simplified view of the tea steeping rewards system.](img/figure-1.svg)
 
