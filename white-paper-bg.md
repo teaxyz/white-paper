@@ -22,7 +22,7 @@
 
 # Въведение
 
-Интернетът е съставен предимно от проекти с отворен код и е бил такъв от самото му създаване. 
+Интернет пространството е съставено предимно от проекти с отворен код и е бил такъв от самото му създаване. 
 С течение на времето, много от тези проекти са се превърнали във фундаментални, върху които са изградени всички последващи иновации. 
 И докато върху тази технология бяха изградени цели състояния, отворения код основно се създава и поддържа без компенсации. 
 
@@ -61,26 +61,26 @@ $\parskip=0pt plus 1pt$
 [^3]: Source: @twitter
 
 
-# Components
+# Компоненти
 
-A software developer building an application needs four things: a browser, a terminal, an editor, and a package manager.
-Of these four, the package manager is what controls the tooling and frameworks a developer needs to construct their product.
-This layer is where we see the potential to change how open-source is remunerated.
+Всеки разработчик на софтуер, създаващ приложения, се нуждае от четири неща: браузър, терминал, редактор и мениджър на пакети.
+От изброените четири неща, мениджърът на пакети е това, което контролира инструментите и основите, необходими на разработчика, за създаването на своя продукт.
+Точно това ниво представлява елемента, където виждаме потенциала за промяна на начина, по който се възнаграждава отвореният код. 
 
-## The Package Manager
+## Мениджър на пакети
 
-The package manager knows what open-source software an application depends on to function, from the top of the tower to its base.
-Every component and version essential to the application is known and recorded.
-It knows that the top of the tower carefully selects its dependencies and that careful selection continues down.
-The package manager is uniquely placed in the developer tool stack to enable automated and precise value distribution based on actual real-world usage.
+В самия мениджър на пакети е заложено да знае от какъв софтуер с отворен код зависи функционирането на дадено приложение, от върха на кулата до основата.
+Всеки компонент и версия, които са от съществено значение за приложението, са известни и записани. 
+Той знае, че върхът на кулата внимателно избира своите зависимости и този прецизен подбор продължава надолу. 
+Мениджърът на пакети заема уникално място в стека с инструменти за разработчици, за да позволи автоматизирано и прецизно разпределение на стойности въз основа на действителното им използване в реалния свят. 
 
-We propose an immutable decentralized registry designed to distribute value based on an algorithm that determines each entry’s contribution to the system’s utility and health.
-Value can enter the graph at apex points—apps and essential libraries—and be distributed to the dependencies of those apex points and their dependencies recursively since the registry knows the entire open-source graph.
+Ние предлагаме неизменен децентрализиран регистър, предназначен за разпределяне на стойност въз основа на алгоритъм, определящ приноса на всеки запис към полезността и здравето на системата.
+Стойността може да стане част от графиката във връхните точки – приложения и основни библиотеки – и да бъде разпределена към зависимостите на тези връхни точки рекурсивно, тъй като регистърът познава цялата графика с отворен код. 
 
-Additionally, we believe that material information must be available via the package manager for developers to assess whether they can trust a package and its author.
-This information may be based on reputation, community kudos, data retrieved from decentralized identity (DID[^4]) systems, other package managers, or incentive mechanisms that potentially rely on network participants putting economic value at risk.
+Също така смятаме, че съществена информация трябва да бъде достъпна чрез мениджъра на пакети, за да могат разработчиците да направят прецененка дали да се доверят на избрания пакет и неговия автор. 
+Дадена информация може да се основава на репутация, позитивни отзиви откъм общността, данни, извлечени от системи за децентрализирана самоличност (DID[^4]), други мениджъри на пакети или механизми за финансово стимулиране, които потенциално разчитат на участници в мрежата, излагащи на риск икономическата стойност. 
 
-We predict that tea’s combination of tools, information, and rewards will justly incentivize developers, helping stimulate the growth of open-source software and fostering innovation.
+Предвиждаме, че комбинацията от инструменти, информация и награди на tea справедливо ще стимулират разработчиците, помагайки за стимулиране на развитието на софтуера с отворен код и насърчавайки иновациите. 
 
 [^4]: See: @w3
 
