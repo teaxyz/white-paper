@@ -7,6 +7,7 @@ on:
       - metadata.yml
       - img/*
       - .github/workflows/ci.yml
+      - Makefile
 
 concurrency:
   group: ${{ github.ref }}
@@ -20,14 +21,27 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - run: .github/mk-pantry-accessible.sh ${{ secrets.TEMP_JACOBS_GITHUB_PAT }}
-      - run: sudo apt-get install texlive texlive-latex-extra #FIXME
-      - uses: teaxyz/setup@v0
+      # - run: .github/mk-pantry-accessible.sh ${{ secrets.TEMP_JACOBS_GITHUB_PAT }}
+      - run: | # Use on-box make until tea/pantry revlock is resolved
+          sudo apt-get install \
+            texlive-latex-base \
+            texlive-fonts-recommended \
+            texlive-fonts-extra
+          brew install \
+            pandoc \
+            pandoc-crossref \
+            librsvg
+      - run: |
+          # Need a standard font, and ttf-mscorefonts-installer has a EULA dialog. Definitely #FIXME
+          echo ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true | sudo debconf-set-selections
+          sudo apt-get install texlive texlive-latex-extra texlive-xetex msttcorefonts #FIXME
+      # - uses: teaxyz/setup@v0
       - name: Set Version
         run: |
           date=$(date '+%Y%m%d')
           echo "- \fancyfoot[L]{$VERSION+$date}" >> metadata.yml
-      - run: tea make
+      # - run: tea make
+      - run: make  # Use on-box make until tea/pantry revlock is resolved
       - uses: actions/upload-artifact@v3
         with:
           name: tea.white-paper

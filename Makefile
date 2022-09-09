@@ -26,6 +26,8 @@ tea.white-paper_%.pdf: i18n/%/white-paper.md i18n/%/metadata.yml tea.csl img/*
 	--filter pandoc-crossref \
 	--csl=tea.csl \
 	--citeproc \
+	--pdf-engine=xelatex \
+	--variable mainfont="Georgia" \
 	$<
 
 clean:

@@ -30,6 +30,7 @@ Source these yourself or use tea: `sh <(curl tea.xyz)`.
 | pandoc.org          | ^2.18   |
 | pandoc.org/crossref | ^0.3    |
 | gnome.org/librsvg   | ^2.54   |
+| gnu.org/make        | ^4      |
 
 
 ## Translate
