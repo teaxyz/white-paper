@@ -13,6 +13,7 @@ env:
 
 jobs:
   check:
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - run: .github/mk-pantry-accessible.sh ${{ secrets.TEMP_JACOBS_GITHUB_PAT }}
