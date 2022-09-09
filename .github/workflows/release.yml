@@ -58,7 +58,9 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           tag_name: ${{ env.VERSION }}
-          files: tea.white-paper.pdf
+          files: |
+            tea.white-paper.pdf
+            tea.white-paper_??.pdf
 
       - name: AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
@@ -68,12 +70,14 @@ jobs:
           aws-region: us-east-1
       - name: Upload to S3
         run: |
-          aws s3 cp \
-            ./tea.white-paper.pdf s3://www.tea.xyz/tea.white-paper.pdf \
+          mkdir white-papers
+          cp tea.white-paper.pdf tea.white-paper_??.pdf white-papers/
+          aws s3 sync \
+            ./white-papers s3://www.tea.xyz/ \
             --metadata-directive REPLACE \
             --cache-control no-cache,must-revalidate
       - name: Invalidate cache
         run: |
           aws cloudfront create-invalidation \
             --distribution-id ${{ secrets.AWS_CF_DISTRIBUTION_ID }} \
-            --paths / /tea.white-paper.pdf
+            --paths / /tea.white-paper*.pdf
