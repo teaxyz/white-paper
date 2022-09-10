@@ -98,7 +98,7 @@ $\parskip=0pt plus 1pt$
 Другите примери включват активно или умишлено участие от поддържащите пакети, саботиращи техните популярни пакети (вижте colors.js, faker.js[^6], и node-ipc[^7]),
 или лоши участници, които искат да спечелят, като се преструват, че помагат в поддръжката на пакети и ги повреждат за да крадат, например, Bitcoin частни ключове (Вижте event-stream[^8]),
 или злонамерени пакети с умишлени правописни грешки, известни също като typosquatting, 
-имайки цел да подмамят потребителите за да ги инсталират, например пакети crossenv vs. cross-env NPM [^npmjsCrossenv].
+чиято цел е да подмамят потребителите за да ги инсталират, например пакети crossenv vs. cross-env NPM [^npmjsCrossenv].
 
 Целостта на софтуера трябва да бъде гарантирана, докато цялата индустрията напредва към бъдещето, в което цифровите активи ще са част от самия софтуер. 
 Нив не можем да позволим да се оставяме уязвими към злонамерените участници, модифициращите софтуера. 
@@ -117,28 +117,28 @@ $\parskip=0pt plus 1pt$
 [^10]: Source: @threatpost
 
 
-## The Storage System
+## Система за съхранение
 
-Open-source packages deliver a broad range of functionality, some of which may be restricted or unwanted.
-Encryption is an excellent example of that.
-A critical use case for encryption is the support of individuals’ privacy across the globe.
-Encryption, however, can also be used for nefarious purposes (see Phantom Secure, dismantled by law enforcement agencies in March 2018[^11]) or may be compromised to support law enforcement activities (See Operation Ironside (AFP), Operation Greenlight (Europol),
-and Operation Trojan Shield (FBI)[^12] where the FBI operated an “encrypted” communication platform, AN0M, and convinced criminals to use their “encrypted” phones for secure communication).
+Пакетите с отворен код предоставят широк набор от функции, някои от които може да са ограничени или нежелани. 
+Шифроването е отличен пример за това.
+Важен случай за използване на криптирането е поддържането на поверителността на хората по целия свят. 
+Шифроването също така може да се използва и за нечестни цели (вижте Phantom Secure, демонтиран от правоприлагащите органи през март 2018[^11]) или може да бъде компрометирано, за да се подкрепят дейностите на правоприлагащите органи (Вижте Операция Ironside (AFP), Операция Greenlight (Europol),
+и Операция Trojan Shield (FBI)[^12], където ФБР управляваха „криптирана“ комуникационна платформа, AN0M, и убеждават престъпниците да използват своите „криптирани“ телефони за сигурна комуникация). 
 
-Encryption’s broad applications have made it a perfect use case for open-source software and a great example that any solution that stores packages must be tamper-proof and censorship-resistant.
-tea is a decentralized protocol that does not intend to filter or sanction packages based on their functionality.
-While the tea governance may elect to remove proven malicious packages (see the governance section for more information), it is critical for the tea system to connect with multiple storage systems, including decentralized ones that demonstrate that a package is unaltered and correctly replicated.
-Package maintainers may choose the storage system best suited for their need to store and distribute their packages securely.
+Голямото приложение на криптирането го превърна в идеален случай за използване на софтуер с отворен код и чудесен пример, че всяко решение, което съхранява пакети, трябва да бъде защитено от подправяне и цензура. 
+tea е децентрализиран протокол, който не е предназначен за филтриране или санкциониране на пакети въз основа на тяхната функционалност. 
+Докато управлението на tea може да избере да премахне доказано злонамерени пакети (вижте раздела за управление за повече информация), за системата tea е от решаващо значение да се свърже с множество системи за съхранение, включително децентрализирани, които показват, че пакетът е непроменен и правилно репликиран.
+Поддържащите пакети могат да изберат системата за съхранение, която е най-подходяща за техните нужди за сигурно съхранение и разпространение на своите пакети.
 
 [^11]: Source: @fbi
 [^12]: Source: @europol
 
-# Network Participants
+# Участници в мрежата
 
-tea’s mission is to empower open-source communities and ensure their contributors are supported as they create the tools that build the Internet.
-In this white paper, we distinguish participants through their contributions.
-Some may contribute code or verify contributed code.
-Others may provide economic value to support developers and their reputation.
+Мисията на проекта tea е да даде по-гпляма възможност на общностите с отворен код и да гарантира подкрепа за техните сътрудници, създаващи инструментите за изграждане на интернет.
+В настоящата "бяла книга" ние ще разпределим участниците съответно техния принос. 
+Някои може да допринесат чрез създаване на код или да потвърждаване на вече създаден такъв.
+Други могат да предоставят икономическа стойност в подкрепа на разработчиците и тяхната репутация. 
 
 ## Package Maintainers
 
