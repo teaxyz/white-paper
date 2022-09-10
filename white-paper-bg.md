@@ -84,29 +84,29 @@ $\parskip=0pt plus 1pt$
 
 [^4]: See: @w3
 
-## The Decentralized Registry
+## Децентрализираният регистър
 
-Every package manager has its own package registry duplicating the same metadata repeatedly.
-It’s time there was a single, comprehensive and definitive registry designed and governed by the communities that depend on it.
-This decentralized, immutable registry could provide security, stability and prevent
-malevolent intent.
+Всеки един от мениджърите на пакети има свой собствен регистър на пакети, който дублира едни и същи метаданни многократно.
+Дойде време за създаване на единен, пълен и окончателен регистър, проектиран и управляван от общностите, които зависят от него.
+Такъв тип децентрализиран, постоянен регистър може да осигури сигурност, стабилност и да предотврати 
+злонамерени намерения.
 
-The Internet runs on tens of thousands of vital open-source components.
-It’s remarkable that thus far, incidents caused by the removal of essential open-source infrastructure have been minimal.
-The most famous was the removal of an NPM left-pad[^5] dependency in 2016, which cascaded into continuous integration and continuous deployment systems leaving developers high and dry for days.
-This event demonstrated that the Internet itself is based on fragile systems of development.
-Other examples involved active or intentional participation from the package maintainers sabotaging their popular packages (See colors.js, faker.js[^6], and node-ipc[^7]),
-or bad actors looking to profit by pretending to help maintain packages and corrupting them to steal, for example, Bitcoin private keys (See event-stream[^8]),
-or malicious packages with intentional misspelling errors, also known as typosquatting,
-in the hope of tricking users into installing them, for example crossenv vs. cross-env NPM packages[^npmjsCrossenv].
+Интернет работи с десетки хиляди жизненоважни компоненти с отворен код. 
+Интересен факт е, че досега инцидентите, причинени от премахването на основна инфраструктура с отворен код, са минимални. 
+Най-известниятият пример беше премахването на зависимостта на NPM left-pad[^5] през 2016 г., която каскадно оказа влияние върху системите за непрекъсната интеграция и непрекъснато внедряване, оставяйки разработчиците без финансиране в продължение на дни. 
+Това събитие показа, че самият интернет е основан върху крехки системи за разработка. 
+Другите примери включват активно или умишлено участие от поддържащите пакети, саботиращи техните популярни пакети (вижте colors.js, faker.js[^6], и node-ipc[^7]),
+или лоши участници, които искат да спечелят, като се преструват, че помагат в поддръжката на пакети и ги повреждат за да крадат, например, Bitcoin частни ключове (Вижте event-stream[^8]),
+или злонамерени пакети с умишлени правописни грешки, известни също като typosquatting, 
+имайки цел да подмамят потребителите за да ги инсталират, например пакети crossenv vs. cross-env NPM [^npmjsCrossenv].
 
-Software integrity needs to be guaranteed as the industry progresses towards a future where digital assets are part of the software.
-We cannot continue to leave ourselves vulnerable to malicious actors modifying the software.
+Целостта на софтуера трябва да бъде гарантирана, докато цялата индустрията напредва към бъдещето, в което цифровите активи ще са част от самия софтуер. 
+Нив не можем да позволим да се оставяме уязвими към злонамерените участници, модифициращите софтуера. 
 
-Most tools that we call package managers cannot guarantee that these packages built into the apps and dApps are the unaltered open-source code published by their original authors.
-Microsoft’s GitHub has found that 17% of vulnerabilities in software were planted for malicious purposes[^9], with some remaining undetected for extended periods (See Webmin 1.890[^10]).
+Повечето инструменти, които наричаме мениджъри на пакети, не могат да гарантират, че тези пакети, вградени в приложенията и dApps, представляват непроменен код с отворен код, публикуван от оригиналните им автори. 
+В GitHub на Microsoft се установи, че 17% от уязвимостите в софтуерните програми са създадени със злонамерени цели[^9], като някои от тях остават неоткрити за дълъг период от време (See Webmin 1.890[^10]).
 
-A decentralized registry augmented by a reputation system and supported by economic incentives designed to expose bad actors and reward good actors may provide the guarantees developer communities have been looking for.
+Децентрализираният регистър, подкрепен от система за репутация и от икономическите стимули, създадени да разкриват лошите участници и да възнаграждават добрите участници, може да предостави необходимите гаранциите, които общностите на разработчиците толкова търсят. 
 
 [^5]: Source: @theregister
 [^6]: Source: @fossa
