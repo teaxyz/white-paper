@@ -176,35 +176,35 @@ tea предполага, че създателите на пакети пост
 Целта на tea е да поддържа основните ценности на софтуера с отворен код, като същевременно предоставя децентрализирана система за възнаграждение на участниците, поддържащи пакети за тяхната работа. 
 За да изпълни тази мисия, tea възнамерява да разработи — и да стимулира другите да разработват — механизми, позволяващи на потребителите на пакети, да подкрепят участниците поддържащи пакети чрез използване на токена tea, както е описано в разделa "tea токен" и в секциите за бъдеща работа и потенциални усилия на общността.
 
-## Package Supporters and Sponsors
+## Поддръжници и спонсори на пакета
 
-In Web 2.0 and web3, package supporters have often been called “sponsors.” They are organizations or package users who use open-source software to build their commercial products, philanthropists looking to support the ecosystem, or entrepreneurs looking to fund teams to develop components of a larger system.
+В Web 2.0 и web3, поддръжниците на пакета често са наричани „спонсори“. Те представляват организации или потребители на пакети, които използват софтуери с отворен код, за да създават свои търговски продукти, филантропи, подкрепящи екосистемата, или предприемачи, с намерение за финансиране на екипи за разработка на компоненти от по-голяма система. 
 
-tea proposes to extend the communities of package supporters to the entire tea community, whether organizations, developers, users, or tech enthusiasts.
-tea’s goal is to implement decentralized incentive mechanisms through unique use cases of the tea token for any member of the tea community to contribute to the perpetual sustainability and continuous growth of open-source.
-Package supporters and sponsors are free to decide which packages or package maintainers they want to support based on their work, beliefs, or any criteria and metric that would influence their decision.
-Additionally, the support provided by package supporters and sponsors will flow to each package’s dependencies, thus implicitly trusting the package maintainer to make good choices about their stack and using this information to contribute to their reputation.
+tea предлага разширяване на общностите от поддръжници на пакети към цялата tea общност, независимо дали са организации, разработчици, потребители или технологични ентусиасти. 
+Целта нa проекта tea е прилагане на децентрализирани механизми за стимулиране чрез уникални случаи на използване на tea токенa за всеки член от tea общността, за допринaсяне на постоянната устойчивост и непрекъснат растеж на екосистемата с отворен код. 
+Поддръжниците и спонсорите на пакети сами са свободни да решават кои пакети или поддържащи пакети искат да подкрепят въз основа на тяхната работа, убеждения или други критерии и показатели, които биха повлияли на тяхното решение. 
+Освен това поддръжката, осигурена от участниците подкрепящи пакетите и спонсорите на пакети, ще се простира към зависимостите на всеки пакет, като по този начин неявно се доверява на поддържащият пакета да направи добър избор относно стека и да използва тази информация, за да допринесе за тяхната репутация. 
 
-Provided that the package maintainer offers such service, a package supporter and sponsor may receive a premium support level NFT in return, thus benefiting from accelerated SLAs or more flexible licensing.
-Additionally, package supporters and sponsors may decide to support packages or package maintainers and automatically redirect all or a percentage of their rewards to incentivize teams to build new open-source software.
-In other words, packages don’t need to exist for tea to start pouring in.
-Nascent projects can be supported just as well as more mature ones, further incentivizing a constantly evolving open-source landscape.
+При условие, че поддържащият пакет предлага такава услуга, поддръжникът и спонсорът на пакета могат да получат в замяна първокласно ниво на NFT поддръжка, като по този начин се възползват от ускорени SLA или по-гъвкаво лицензиране. 
+Освен това поддръжниците и спонсорите на пакети могат да решат да подкрепят пакети или разработчиците на пакети и автоматично да пренасочат всички или процент от своите награди, за да стимулират екипите да създават нов софтуер с отворен код.
+С други думи, не е необходимо да съществуват пакети, за стартиране на tea процеса. 
+Проектите в начален стадий могат да бъдат подкрепяни също толкова добре, колкото и тези, които съществуват отдавна, което допълнително стимулира непрекъснато развиващата се екосистема с отворен код. 
 
-## tea Tasters
+## tea дегустатори
 
-As new packages or new versions of existing packages are released, the validity of the work needs to be provably demonstrated.
-This information is critical for package users to decide whether or not to trust both the package and its maintainers.
-With the tea protocol, this function is provided by the tea tasters.
+След като постоянно се издават нови пакети или нови версии на съществуващите пакети, валидността на работата трябва да бъде демонстрирана по доказуем начин. 
+Тази информация е от решаващо значение за потребителите на пакета, за да вземат решат дали да се доверят или не както на пакета, така и на поддържащите го специалисти. 
+В случай с tea протокола, тази функция се осигурява от tea дегустаторите.
 
-tea tasters, typically, are experienced software developers willing to dedicate some of their time to check the claims associated with a package (functionality, security, semantic versioning[^14], license accuracy, etc.)
-and stake both their reputation and economic value to demonstrate the outcome of their research and analysis and support their reviews.
-tea tasters receive rewards for their diligence and efforts.
-At tea, we call  “steeping your tea” the action of locking tea tokens to support your reviews and receive rewards (or penalties) based on the consensus on the validity of your reviews.
+tea дегустаторите, обикновено, са опитни софтуерни разработчици, готови да посветят част от времето си, за проверка на твърденията, свързани с пакетите (функционалност, сигурност, семантична версия[^14], точност на лиценза, др.)
+и залагат както репутацията си, така и финансовите си приходи, за да демонстрират резултатите от своите изследвания и анализи в подкрепа на своите твърдения.
+tea дегустаторите получават награди за старанията и усилията си.
+В tea, ние наричаме „накисване на вашия чай“ действието на заключване на tea токени, за да поддържате вашите твърдения и да получавате награди (или санкции) въз основа на консенсуса относно валидността на вашите твърдения. 
 
-Like package supporters, tea tasters can influence a package and package maintainer’s reputation; however, their impact is more significant given their role in validating a package’s security, functionality, and quality.
-tea tasters will also need to build their reputation to support their claims.
-The quality of their work and the economic value they put at risk as they steep their reviews combined with other external data sources will build each tea taster’s reputation, bringing more value to their work.
-See the package reputation section for more details on the mechanisms used to influence a package and package maintainer’s reputation.
+Подобно на поддръжниците на пакета, tea дегустаторите могат да окажат влияние върху пакета и репутацията на поддържащия пакет; обаче тяхното въздействие обаче е по-значимо, като се вземе предвид тяхната роля при валидирането на сигурността, функционалността и качеството на пакета. 
+tea дегустаторите също така ще трябва да изградят репутацията си, за да подкрепят твърденията си.
+Качеството на тяхната работа и икономическата стойност, която излагат на риск, докато подготвят рецензиите си, съчетани с други външни източници на данни, ще изградят репутацията на всеки tea дегустатор, придавайки повече стойност на работата им. 
+Вижте раздела "репутация на пакета" за повече подробности относно механизмите, използвани за повлияване на пакета и репутацията на поддържащия пакет.
 
 [^14]: See: @semver
 
