@@ -208,57 +208,57 @@ tea дегустаторите също така ще трябва да изгр
 
 [^14]: See: @semver
 
-# Protocol Overview
+# Преглед на протокола
 
-The design of a protocol to reward open-source contributions is mired with challenges.
-Open-source software is by definition open to all and can, as a result, be subjected to misattribution, appropriation, or malicious tampering.
-However, the open-source community has consistently demonstrated its willingness to highlight good actors and expose bad actors.
-Historically, the energy spent reviewing and commenting on other developers’ contributions has been strictly voluntary, despite how time-consuming and crucial reporting and defending findings may be.
+Дизайнът на протокола за възнаграждение на приноса към системата с отворен код е пълен с предизвикателства. 
+По подразбиране софтуерът с отворен код е отворен за всички и в резултат на това може да бъде подложен на погрешно пренаписване, присвояване или злонамерено подправяне. 
+Въпреки това, общността с отворен код постоянно демонстрира готовността си да разкрива добрите участници или недоброжелателни такива. 
+През изминалите години, усилията, изразходвани за преглед и коментиране на приноса на други разработчици, са били строго доброволни, въпреки това, че тези усилия отнемат много време и може да са решаващи при докладването и защитата на констатациите при откритията. 
 
-We intend to create a trustless distribution platform for applications secured by reputation and financial incentives, as we believe adequate rewards for open-source contributions cannot succeed without both a reputation system and the ability for members of the community to communicate their findings and support (or dissent) for a package or the work of a developer.
+Нашата цел е създаване на платформа за разпространение на приложения без доверители, осигурена от репутация и финансови стимули, тъй като вярваме, че адекватните награди за принос към системата с отворен код няма да са успешни без изградена система за репутация, и способността на членовете на общността да съобщават своите констатации и подкрепа (или несъгласие) за определен пакет или работа на разработчик. 
 
-We must provide developers with tools to access and contribute to this reputation system.
-Tools that include simple visual and programmable access to the version and reputation of all dependencies within their packages.
-A clear understanding of which community members support each package and how many tea tokens they are steeping will contribute to the reputation of each package, just as how much a package maintainer is steeping their work communicates how much they stand behind their work.
-These combined data points will help inform a reputation system for all community members and facilitate choice.
-As the EventStream package hack was not conducted through the package itself, but via one of its dependencies, visibility across all layers of dependencies will be vital to building this trustless system.
-However, considerations such as computation and transaction (“gas”) costs will need to take priority as the system is designed and built.
+Необходимо е да предоставим на разработчиците инструменти за достъп и принос към изграждането на системата за репутация. 
+Инструменти, които включват прост визуален и програмируем достъп до версията и репутацията на всички зависимости в техните пакети. 
+Ясното разбиране на това кои членове от общността подкрепят всеки пакет и колко tea токени те заключват, ще допринесе за репутацията на всеки пакет, точно както доколко поддържащият пакет "накисва" работата си, съобщава колко от тях подкрепят работата си. 
+Тези комбинирани точки от данни помогат за информиране и създаване на система за репутация за всички членове на общността и с това улесняват избора. 
+След като хакването на пакета EventStream не е било извършено чрез самия пакет, а чрез една от неговите зависимости, видимостта във всички слоеве на зависимости е жизненоважна за изграждането на тази надеждна система. 
+Обаче подобни съображения като изчислителни и транзакционни („газ“) разходи ще трябва да имат приоритет при проектирането и изграждането на системата. 
 
-Our goal is to reward both Web 2.0 and web3 developers.
-The intricacies and specifics of each stack make it so that tracking installations and uninstallations of packages could easily fall victim to one or more bad actors.
-That includes “buying” installations to artificially inflate numbers.
-An even worse scenario would be introducing fundamental changes to the nature of open-source software by creating unnecessary friction with license keys or other deployment tracking mechanisms.
-To provide the broadest coverage, we believe that rewards mustn’t rely on a simplistic notion of tracking installations or uninstallations, but rather on incentive mechanisms that encourage the submission of quality packages and the reporting of nefarious or high-risk packages.
-Lastly, many packages rely on common dependencies.
-For example, Lodash has 151,209 dependents[^15] while chalk has 78,854 dependents[^16] or Log4js has 3,343 dependents[^17].
-As more packages are created using the same dependencies, how do we ensure that incentives are distributed fairly and equitably?
-How do we ensure that the most utilized dependencies are rewarded without starving new or emerging packages and developers?
-How do we ensure that the incentive system does not end-up steering developers away from niche languages to centralize them where incentives are better?
-But also, as developers, how do we identify packages with the most dependents to build alternatives - leaner, more efficient, better-coded versions of these packages?
-At tea, we believe that the lack of incentive has impeded the evolution of open-source software.
-Supported by the right economic incentives and rewards, more developers will be in a position to build, improve and augment open–source software for the betterment of the world.
-Only then will the tea token be able to represent the total value of open-source software.
+Нашата цел е честно възнаграждение на разработчиците както на Web 2.0 така и на web3 екосистемите.
+Тънкостите и спецификите на всеки стек водят до това, че при проследяването на инсталирани и деинсталирани пакети, те може лесно да се превърнат в жертва на един или повече злонамерени участници. 
+Това включва „купуване“ на инсталации за изкуствено увеличаване на числата. 
+Още по-лош сценарий би бил въвеждането на фундаментални промени в природата на софтуера с отворен код чрез създаване на допълнителни затруднения при използване на лицензни ключове или други механизми за проследяване на внедряването. 
+За да осигурим по-голямо въздействие, ние вярваме, че наградите не трябва да разчитат на опростена представа за проследяване на инсталирани и деинсталирани пакети, а по-скоро на механизми за стимулиране, които насърчават подаването на качествени пакети и докладването на злонамерени или високорискови пакети. 
+И накрая, много пакети разчитат на общи зависимости. 
+Наприме, Lodash има 151,209 зависимости[^15] докато chalk има 78,854 зависимости[^16] или Log4js има 3,343 зависимости[^17].
+След като повече пакети се създават с помощта на едни и същи зависимости, как да гарантираме, че стимулите се разпределят честно и справедливо? 
+Как да гарантираме, че най-използваните зависимости са възнаградени, без да останат без възнаграждение нови или нововъзникващи пакети и разработчици? 
+Как да гарантираме, че изградената системата за стимули в крайна сметка не отклонява разработчиците от по-специализираните езици, в полза на централизираните, където стимулите са по-добри? 
+Но също така, като разработчици, как да сме сигурни, че ще идентифицираме пакети с най-големи зависимости, за да изградим алтернативи - по-прости, по-ефективни, по-добре кодирани версии на тези пакети? 
+В tea вярваме, че липсата на стимули пречи на еволюцията на софтуера с отворен код.
+Подкрепени от правилните икономически стимули и награди, повече разработчици ще бъдат в състояние да изградят, подобрят и разширят софтуера с отворен код за подобряването на цялата система.
+Само тогава tea токенът ще може да представлява цялата стойност на софтуера с отворен код. 
 
 [^15]: Source: @npmjsLodash
 [^16]: Source: @npmjsChalk
 [^17]: Source: @npmjsLogFourjs
 
-## Package Submission
+## Подаване на пакета
 
-The submission of a package release requires multiple transactions to occur atomically.
-Specifically, the package maintainer must:
+Представянето на пускането на пакета изисква множество транзакции да се извършват атомарно. 
+По-конкретно, поддържащият пакет трябва да:
 
-* Register the package (and its semantic version) with the decentralized registry.
-* Upload the package into the decentralized storage system for resilience, censorship resistance, and ease of distribution.
-* Contribute to the package’s reputation and trustworthiness by *steeping* tea tokens.
+* Регистрира пакета (и неговата семантична версия) в децентрализираният регистър.
+* Качи пакета в децентрализираната система за осигуряване на устойчивост към цензура и лесно разпространение. 
+* Допринесе за репутацията и надеждността на пакета чрез *накисване*/заключване на tea токените. 
 
-Failure of any one of the three operations will result in the protocol reverting to its previous state, thus eliminating any evidence of the submission.
+Неуспехът на която и да е от трите операции ще доведе до връщане на протокола към предишното му състояние, като по този начин ще елиминира всякакви доказателства за подаването. 
 
-When a package is successfully submitted, the package maintainer will receive a maintainer NFT to evidence their work and contribution to open-source.
-The package maintainer may transfer the steeping rewards associated with the maintainer NFT to a third party.
-However, the reputation associated with the creation and maintenance of the asset will remain with the package maintainer, so their reputation can be affected over time.
-As the reputation of any member of the tea community reaches key milestones, they may be granted access to elevated parts of the protocol or receive accelerated rewards, as decided by the tea governance.
-For more details on the maintainer NFT, see the maintainer NFT section.
+След като пакетът бъде изпратен успешно, поддържащият пакет ще получи NFT за поддържка, за да докаже своята работа и принос към отворения код. 
+Поддържащият пакет може да трансферира наградите за заключване на токени, свързани с поддържащия NFT към трета страна. 
+Въпреки това, репутацията, свързана със създаването и поддръжката на актива, ще остане при поддържащия пакет, така че неговата репутация може да бъде засегната с течение на времето. 
+Когато репутацията на който и да е член на tea общността достигне ключови етапи, те получават възможност за достъп към определени по-високи нива от протокола или да получават по-бързо награди, както е решено от tea управлението.
+За повече подробности относно поддържащите NFT вижте съответния раздел за NFT. 
 
 ### Dependencies Analysis
 
