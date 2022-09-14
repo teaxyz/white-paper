@@ -260,19 +260,19 @@ tea дегустаторите също така ще трябва да изгр
 Когато репутацията на който и да е член на tea общността достигне ключови етапи, те получават възможност за достъп към определени по-високи нива от протокола или да получават по-бързо награди, както е решено от tea управлението.
 За повече подробности относно поддържащите NFT вижте съответния раздел за NFT. 
 
-### Dependencies Analysis
+### Анализ на зависимостите
 
-Package dependencies can run deep, as each package often has both dependents and dependencies.
-To provide a simple methodology that rewards all developers who have contributed to open-source software while keeping the creation of the dependencies tree quick and computationally efficient, we propose to verify only first-level dependencies upon submission of a package.
+Зависимостите на пакетите могат да бъдат дълбоки, тъй като всеки пакет често има както зависими компоненти, така и зависимости. 
+За да предоставим проста методология, способстваща възнаграждаването на всички разработчици, които допринасят за изграждане на софтуер с отворен код, като същевременно запазват създаването на дървото на зависимостите бързо и изчислително ефективно, ние предлагаме проверяване само на зависимостите от първо ниво при подаването на пакет. 
 
-This design is driven by the hypothesis that each dependency is itself a package that was independently submitted to the tea tree.
-In doing so, each of its dependencies can be mapped, and if its dependencies have dependencies themselves, those will be mapped at the time the dependency package is submitted.
+Дизайнът е ръководен от хипотезата, че всяка зависимост сама по себе си е пакет, който е бил независимо изпратен от tea дървото. 
+По този начин всяка от неговите зависимости може да бъде картографирана и ако самите нейни зависимости имат зависимости, те ще бъдат картографирани в момента на изпращане на пакета за зависимости. 
 
 ![Dependencies analysis diagram.](img/figure-3.svg){#fig:dep-analysis}
 
 
-In @fig:dep-analysis, the submission of package A triggers an analysis of runtime dependencies 1 through n and build dependencies 1 through n, while runtime dependencies 1.1 through 1.n and build dependencies 1.1 through 1.n were analyzed when package B was submitted.
-We will apply the same methodology for incentive distribution as the steeped tokens are distributed across all dependencies, thus recursively steeping the packages listed as dependencies (see @fig:steeping-rewards).
+Във @fig:dep-analysis, представяне на пакета A пуска  задейства анализ на зависимостите по време на изпълнение 1 чрез n и изгражда зависимост 1 чрез n, докато зависимостите по време на изпълнение 1.1 чрез 1.n и изгражда зависимости 1.1 чрез 1.n където са анализирани при при подаването на пакет B.
+Ще приложим същата методология за разпределение на стимули, тъй като заключените токени се разпределят във всички зависимости, като по този начин рекурсивно накисваме "пакетите", посочени като зависимости (see @fig:steeping-rewards).
 
 ![Steeping rewards distribution across dependencies.](img/figure-2.svg){#fig:steeping-rewards}
 
