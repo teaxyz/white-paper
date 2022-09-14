@@ -268,26 +268,26 @@ tea дегустаторите също така ще трябва да изгр
 Дизайнът е ръководен от хипотезата, че всяка зависимост сама по себе си е пакет, който е бил независимо изпратен от tea дървото. 
 По този начин всяка от неговите зависимости може да бъде картографирана и ако самите нейни зависимости имат зависимости, те ще бъдат картографирани в момента на изпращане на пакета за зависимости. 
 
-![Dependencies analysis diagram.](img/figure-3.svg){#fig:dep-analysis}
+![Диаграма анализ на зависимостите.](img/figure-3.svg){#фиг:анализ-зависимости}
 
 
-Във @fig:dep-analysis, представяне на пакета A пуска  задейства анализ на зависимостите по време на изпълнение 1 чрез n и изгражда зависимост 1 чрез n, докато зависимостите по време на изпълнение 1.1 чрез 1.n и изгражда зависимости 1.1 чрез 1.n където са анализирани при при подаването на пакет B.
-Ще приложим същата методология за разпределение на стимули, тъй като заключените токени се разпределят във всички зависимости, като по този начин рекурсивно накисваме "пакетите", посочени като зависимости (see @fig:steeping-rewards).
+Във @фиг:анализ-зависимости, представяне на пакета A пуска  задейства анализ на зависимостите по време на изпълнение 1 чрез n и изгражда зависимост 1 чрез n, докато зависимостите по време на изпълнение 1.1 чрез 1.n и изгражда зависимости 1.1 чрез 1.n където са анализирани при при подаването на пакет B.
+Ще приложим същата методология за разпределение на стимули, тъй като заключените токени се разпределят във всички зависимости, като по този начин рекурсивно накисваме "пакетите", посочени като зависимости (виж @фиг:заключване-награди).
 
-![Steeping rewards distribution across dependencies.](img/figure-2.svg){#fig:steeping-rewards}
+![Разпределение на наградите между зависимостите.](img/figure-2.svg){#фиг:заключване-награди}
 
 
-Versioning and conflicting dependencies are significant challenges, and troubleshooting them can turn into massive time drains.
-To address this, we propose each package be subject to a comprehensive dependency scan upon submission so we can ensure that the package complies with the following rules for semantic version ranges.
+Версиите и противоречивите зависимости са значителни предизвикателства и отстраняването им може да отнеме много време.
+За да решим този проблем, ние предлагаме всеки пакет да бъде подложен на цялостно сканиране на зависимости при изпращане така че можем да гарантираме, че пакетът отговаря на следните правила за семантика на диапазони на версиите.
 
-* Packages may only constrain their dependencies to a major version, though the start of the range can be any valid semantic version (e.g., >=5.2.1 <6).
-* If a dependency is upgraded to a more recent major version, tea may require that the package’s major version be increased.
-* Similarly, if a dependency is upgraded to a more recent minor version, tea may require that the package’s minor version be increased.
-* If a new dependency is added, tea may require that the package’s minor version be increased.
+* Пакетите могат да ограничат своите зависимости само до основна версия, въпреки че началото на диапазона може да представлява всяка валидна семантична версия (e.g., >=5.2.1 <6).
+* Ако определена зависимост бъде ъпгрейдната до по-нова основна версия, tea може да изисква увеличаване на основната версия на пакета. 
+* Подобно, ако дадена зависимост бъде надстроена до по-нова второстепенна версия, tea може да изисква увеличаване на второстепенната версия на пакета. 
+* При добавяне на нова зависимост, tea може да изисква увеличаване на второстепенната версия на пакета. 
 
-Considering the unnecessary effort imposed upon any package user when the above rules are transgressed, we propose that a portion of the tea token steeped by the package maintainer be slashed to reflect their lack of due diligence.
-If a developer forces everyone to juggle their cups, someone will spill some tea.
-Since the dependency scan is expected to occur at submission, we should note that no steeping from package supporters and sponsors or tea tasters will have happened.
+Имайки предвид ненужните усилия, наложени на всеки потребител на пакета, когато горните правила са нарушени, ние предлагаме част от tea токените, "напоени" от поддържащия пакета, да бъде намалени, за да се отрази липсата от полагане на необходимо усърдие. 
+Ако разработчик принуждава всички да жонглират с чашите си, някой ще разлее малко чай. 
+Тъй като се очаква сканирането на зависимостите да се извърши при подаване, трябва да отбележим, че няма да се случи "накисване" от поддръжници и спонсори на пакета или  tea дегустатори. 
 
 ## Package & Package Maintainer Reputation
 
