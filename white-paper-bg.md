@@ -289,20 +289,20 @@ tea дегустаторите също така ще трябва да изгр
 Ако разработчик принуждава всички да жонглират с чашите си, някой ще разлее малко чай. 
 Тъй като се очаква сканирането на зависимостите да се извърши при подаване, трябва да отбележим, че няма да се случи "накисване" от поддръжници и спонсори на пакета или  tea дегустатори. 
 
-## Package & Package Maintainer Reputation
+## Пакет и репутация на поддържащия пакет
 
-Package maintainers must contribute to their package’s reputation and trustworthiness by steeping tea tokens.
-However, a reputation system that relies solely on the author’s economic contribution does not provide sufficient user protection and can be subject to Sybil attacks, where a single individual creates multiple representations of themselves to leave a large volume of positive reviews on their work,
-tricking users into believing their work was reviewed and approved by many.
+Поддържащите пакети трябва да допринесат за репутацията и надеждността на своя пакет чрез "накисване" на tea токените. 
+Обаче, системата за репутация, разчитаща единствено на икономическия принос на автора, не осигурява достатъчна защита на потребителите и може да се превърне в обект на Sybil атаки, при които един човек създава множество представяния на себе си, за да остави голям обем положителни отзиви за работата си, 
+карайки потребителите да повярват, че тяхната работа е прегледана и одобрена от много хора. 
 
-Several methodologies are available to prevent Sybil attacks, some of which are described by Nitish Balachandran and Sugata Sanyal in “A Review of Techniques to Mitigate Sybil Attacks”[^18].
-As tea is a decentralized protocol, using a trust certification system that relies on a centralized certificate issuance authority would be contrary to its core.
-We propose to focus on decentralized approaches to Sybil attack mitigation and, more specifically, on methodologies that rely on a large group of network participants incentivized to assess and publicly represent the reputation of each package and its maintainer.
+Съществуват няколко методологии за предотвратяване на атаките на Sybil, някои от които са описани от Nitish Balachandran и Sugata Sanyal в “Преглед на техниките за смекчаване на атаките на Sybil”[^18].
+Тъй като tea представлява децентрализиран протокол, използването на система за сертифициране на доверие, която разчита на централизиран орган за издаване на сертификати, би било в противоречие с неговата същност. 
+Ние предлагаме да се съсредоточим върху децентрализирани подходи за смекчаване на атаките на Sybil и по-конкретно върху методологии, които разчитат на голяма група участници в мрежата, стимулирани да оценяват и представят публично репутацията на всеки пакет и неговия поддържащ. 
 
-Similar to the production of blocks on a proof-of-stake blockchain, where non-producing nodes can validate the work of others and, when necessary, highlight a violation of the rules of the network, which leads to a penalization of the bad actor through slashing (destruction of a portion of their stake),
-we propose a system whereby third-parties (aka tea tasters) would be able to review packages produced by package maintainers and be economically incentivized to behave in the best interest of the open-source software community and its users as well as recognize good behavior and penalize bad behavior.
-This system must be both Sybil resistant and prevent large token holders from materially influencing the protocol or the reputation of specific packages.
-We believe this approach to be more aligned with open-source, providing a more fertile substrate to foster adoption and trust, and ultimately facilitate the growth of tea.
+Подобно на производството на блокове в proof-of-stake блокчейн, където нодите, които не произвеждащите блокове могат да валидират работата на другите и, когато е необходимо, да подчертаят нарушение на правилата в мрежата, което води до санкциониране на лошите участници чрез слашинг (унищожаване на част от техния залог в стейкинг), 
+ние предлагаме система, чрез която трети страни (известни още като tea дегустатори) имат възможност да преглеждат пакети, произведени от поддържащи пакети, и да бъдат икономически стимулирани да се държат в най-добрия интерес на общността на софтуера с отворен код и неговите потребители, както и да разпознават доброто и наказват недосбросъвестно поведение. 
+Тази система трябва да бъде едновременно устойчива на Sybil и да не позволява на големите притежатели на токени да влияят съществено върху протокола или репутацията на конкретни пакети. 
+Сигурни сме, че този подход е в по-голяма степен съобразен с отворения код, осигурявайки по-добър субстрат за насърчаване на приемането и доверието и в крайна сметка улесняващ развитието на tea проекта. 
 
 [^18]: Source: @arxiv
 
