@@ -306,61 +306,61 @@ tea дегустаторите също така ще трябва да изгр
 
 [^18]: Source: @arxiv
 
-## Package Review by Third Parties
+## Преглед на пакета от трети страни
 
-The review of packages by third parties is an essential component of reputation building, however, third-party review has its own set of unique threats including the aforementioned Sybil attacks.
+Съществен компонент в изграждането на репутация, е прегледът на пакети от трети страни, но такъв вид преглед има свой собствен набор от евентуални уникални заплахи, включително гореспоменатите атаки на Sybil. 
 
-Blockchain technology, and more explicitly staking, offers a unique opportunity for tea to tackle this challenge.
-Although wallet addresses may be available in infinite quantities, this is not the case with tea tokens, whose initial supply is expected to be 10 billion.
-Additionally, each action performed by developers, such as submitting packages, verifying packages, or steeping them, will contribute to their reputation, thus creating a unique profile each developer can use to both contribute to the tea community and participate in tea’s governance.
+Блокчейн технологията и по-точбно стейкинг предлага уникална възможност за tea проекта да се справи с това предизвикателство. 
+Въпреки че всеки може да си направи и използва толкова адреси на портфейли, колкото си поиска това не е така с tea токените, чието първоначално предлагане се очаква да бъде 10 милиарда. 
+Освен това, всяко действие, извършено от разработчиците, като изпращане на пакети, проверка на пакети или "накисването" им, ще допринесе за тяхната репутация, като по този начин създава уникален профил, който всеки разработчик може да използва, за да участва както в tea общността, така и в tea управлението. 
 
-By requiring third-party reviewers to steep tea tokens and incur the risk of losing a portion of their steeped tokens should they turn out to behave against the interest of the network or be a bad actor, third parties can provide additional credence to a package and receive a reward, in the form of tea tokens.
+Чрез изискване към рецензентите от трети страни да "заключват" tea токени и поемат риска от загуба на част от техните "заключени" токени, при положение, че ще се докаже, че се държат против интересите на мрежата или са недобросъвестни участници, трети страни могат да осигурят допълнителна достоверност на пакетите си и да получат награда под формата на tea токени. 
 
-We also propose extending the reputation system to the third parties who perform the independent verification of packages - the tea tasters.
-The completion of a positive review will require two operations to occur atomically:
+Ние също така предлагаме разширяване на системата за репутация към трети страни, които извършват независима проверка на пакетите - tea дегустатори. 
+За приключване на положителен преглед ще се изискват две операции, които да се появят атомарно: 
 
-* The submission of the code review, signed by the tea taster and publicly accessible to all members of the community, along with
-* The act of steeping “for” the package (vs. “against” the package), to substantiate their review.
+* Подаването на прегледа на кода, който е подписан от tea дегустатора и публично достъпен за всички членове на общността, заедно с 
+* Акта на накисване „за“ пакета (срещу „против“ пакета), за да бъде обоснован самия преглед. 
 
-The completion of a negative review that includes one or more critical vulnerabilities will require the tea tasters first to contact the package maintainer using a messaging protocol to notify them of the vulnerability and allow them to address the issue in a timely fashion.
-Upon expiry of the governance-defined period allocated to the package maintainer to address their vulnerability or as the corrected package becomes available, the same messaging protocol will be used to notify all users and testers of this package (including dependents) that a vulnerability has been identified,
-and hopefully addressed, so they know to update their application or dependencies.
-To disincentivize wasting developers’ time, communication between the tea tasters and package maintainers will require the tea tasters to steep tea tokens.
+Завършването на отрицателен преглед, който включва наличие на една или повече критични уязвимости, ще изисква от tea дегустаторите първо да се свържат с поддържащия пакет, използвайки протокол за съобщения, за да уведомят за наличието на уязвимост и да им бъде позволено да решат проблема своевременно. 
+След изтичане на определения от управлението период, определен на поддържащия пакета за справяне с тяхната уязвимост, или когато коригираният пакет стане достъпен, същият протокол за съобщения ще бъде използван за уведомяване на всички потребители и тестери на този пакет (включително зависими лица), че уязвимостта е била идентифицирана, 
+и се надяваме отстранена, за да знаят, че е необходимо да актуализират своето приложение или зависимости. 
+За да се демотивира загубата на време от страната на разработчиците, комуникацията между tea дегустаторите и поддържащите пакети ще изисква от tea дегустаторите да "заключват" tea токени. 
 
-Upon completing both operations, the tea tasters will receive an NFT as evidence of their work on the specific package and package version.
-The accumulation of NFTs combined with the steeping ratio of each of the packages reviewed and information extracted from external systems will inform a tea taster’s reputation.
-As their reputation reaches key milestones, tea tasters may earn access to elevated parts of the protocol or accelerated rewards, as decided by the tea governance.
+След завършване на двете операции tea дегустаторите ще получат NFT като доказателство за тяхната работа върху конкретния пакет и версията на пакета. 
+Събирането на NFT, съчетано със съотношението на накисване на "всеки" от прегледаните пакети и информацията, извлечена от външни системи, ще повлияе на репутацията на tea дегустатора.
+След като репутацията им достига ключови етапи, tea дегустаторите могат да спечелят достъп до по-висши части от протокола или по-бързо да получат награди, както бъде решено от tea управлението. 
 
-## Outdated or Corrupt Packages
+## Остарели или повредени пакети
 
-tea’s mission is to reward contributors and participants in the open-source communities; however, rewards must be commensurate with the efforts deployed by package maintainers and tea tasters.
-Under-maintained, outdated, or corrupted packages are clear indications of package maintainers not living up to the community’s expectations or not delivering on the trust and support impressed upon them through the steeping of packages.
-Another manifestation of outdated packages may be the continued use of a legacy language or legacy version of multi-version languages.
-Packages remaining outdated or corrupt for too long indicate that tea tasters need to review package maintainers’ work regularly and consistently.
+Mисията на tea е да възнаграждава сътрудниците и участниците в общностите с отворен код; наградите обаче трябва да са съизмерими с усилията, положени от участниците поддържащите пакети и tea дегустаторите.
+Недостатъчно поддържаните, остарели или повредени пакети са ясни индикации, че участниците, поддържащите пакети не отговарят на очакванията на общността или не отговарят на доверието и подкрепата, внушени им чрез "накисването" на пакетите. 
+Друг показател на остарели пакети може да бъде продължаващото използване на остарял език или остаряла версия на език с няколко вресии. 
+Пакетите, които остават твърде дълго време остарели или повредени, показват, че e необходимо tea дегустаторите редовно и последователно да преглеждат работата на поддържащите пакета. 
 
-tea tasters are critical members of the open-source communities in that their reviews and associated claims can steer package users towards or away from packages.
-To ensure that reviews can be trusted on an ongoing basis, we propose a mechanism whereby outdated or corrupted packages may see a portion of their steeped tokens sent to the tea tasters who were first to recognize the lack of maintenance of any package.
+tea дегустаторите са важни членове на общностите с отворен код, тъй като техните рецензии и свързани твърдения могат да насочват потребителите на пакети към тях или съответно да ги откажат от пакетите. 
+За да се гарантира, че на рецензиите може да се вярва на непрекъснат базис, ние предлагаме механизъм, чрез който остарелите или повредени пакети могат да видят част от техните заключени токени, изпратени към tea дегустаторите, които първи разпознаха липсата на поддръжка на който и да е пакет.
 
-Any negative review which outlines a flaw such as a zero-day vulnerability or the use of an outdated dependency and remains open past a grace period defined by governance should be considered a failure on the part of the package maintainer.
-They have not completed the task they were entrusted with and rewarded for.
-The same can be said for package supporters and sponsors who staked their reputation on the work of delinquent package maintainers and received rewards for it, but failed to identify the lack of maintenance or elected to continue to support the package regardless.
+Всеки преглед с отрицателен резултат, който подчертава недостатък като уязвимост от типа zero-day или използване на остаряла зависимост и остава отворен след гратисен период, определен от управлението, трябва да се счита за неуспешен от страна на поддържащия пакета. 
+Той не е изпълнил задачата, която е била поверена и за която са наградени. 
+Същото може да се каже за поддръжниците и спонсорите на пакети, които са заложили репутацията си на работата на участниците, недобросъвестно поддържащи пакети и са получили награди за това, но не са успели да идентифицират липсата на поддръжка или са избрали да продължат да поддържат пакета независимо от това. 
 
-As packages gain in popularity and usage, with more applications and potentially mission-critical systems depending on them, we must incentivize developers to discreetly report flaws to the package maintainer and package maintainers to address such flaws before they can be exploited.
-Consequently, we propose that any outdated or corrupted package which is subject to one or more evidenced negative reviews and remains in such state past the governance-defined grace period see a portion of its steeped tokens be slashed regardless of their origin (package maintainer, package supporters, and sponsors or prior tea tasters),
-while another portion is sent to the tea tasters who submitted the negative reviews.
-Distribution to all tea tasters could be based on the age of their review and the number of tea tokens they steeped for their review.
+След като пакетите набират популярност и използване, с повече приложения и потенциално критични системи, зависещи от тях, ние трябва да стимулираме разработчиците да докладват дискретно за недостатъците на поддържащия пакет и участниците поддържащите пакети да отстранят тези недостатъци, преди да могат да бъдат експлоатирани. 
+Затова, ние предлагаме за всеки остарял или повреден пакет, който е обект на една или повече доказани рецензии с отрицателен резултат и остава в такова състояние след определения от управлението гратисен период, да се намали част от неговите натрупани токени, независимо от техния произход (поддръжка на пакет, пакет поддръжници и спонсори или предишни tea дегустатори), 
+докато друга част се изпраща към tea дегустаторите, които са изпратили отрицателните отзиви след прегледа.
+Разпределението към всички tea дегустатори може да бъде базирана върху давността на техния преглед и броя tea токени, които те са "заключили" за да направят своя преглед. 
 
-## Maintainer NFT
+## Поддържащи NFT
 
-Upon successful submission of a package, the package maintainer will receive an NFT to evidence their work and contribution.
-The holder of this NFT will automatically receive all rewards associated with the package.
-Package maintainers may transfer maintenance ownership over a package to another package maintainer by simply transferring the package’s NFT.
-Successful transfer of the NFT will lead to the new owner automatically receiving future package rewards.
+След успешно подаване на пакет, участника поддържащ пакета ще получи NFT, за да се докаже неговата работа и принос. 
+Притежателят на този NFT автоматично получава всички награди, свързани с пакета. 
+Поддържащите пакети имат възможност да прехвърлят собствеността върху поддръжката на пакет към друг поддържащ пакет, като просто прехвърлят NFT към пакета. 
+Успешното прехвърляне на NFT ще доведе до автоматично получаване на бъдещи пакетни награди към новия собственик. 
 
-An important part of reputation building relies on the frequency and quantity of quality package submissions.
-The NFT delivered to package maintainers as evidence of their work may be used by the reputation system to update a package maintainer’s reputation and give them access to elevated parts of the protocol, as decided by the tea governance.
-However, to prevent attack vectors, such as community members buying their reputation, the transfer of the maintainer NFT will not result in a transfer of reputation.
-Reputation must remain directly associated with a specific developer’s work and must not be transferable.
+Важен момент при изграждането на репутация разчита на честотата и количеството на подаваните качествени пакети.
+NFT получени от поддържащите пакети като доказателство за тяхната работа, могат да бъдат използвани от системата за репутация, за да се актуализира репутацията на поддържащия пакет и да им даде достъп до по-високи нива от протокола, както е решено от tea управлението. 
+Обаче, за предотвратяване на евентуалните вектори на атаки, като например купуване на репутацията на членове от общността, прехвърлянето на поддържащите NFT, те няма да доведат до прехвърляне и на репутация. 
+Репутацията трябва да остане пряко свързана с работата на конкретен разработчик и не трябва да се прехвърля. 
 
 # tea Token
 
