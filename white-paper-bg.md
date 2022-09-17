@@ -473,21 +473,21 @@ $\tau_{{all}}(\chi_{ideal} + d) \geq \tau_{{all}} \cdot 0.5$.
 &\tau_{{all}}(\chi) = \tau_{0} + (\tau_{{all}}(\chi_{ideal}) - \tau_{0}) \cdot 2^{(\chi_{ideal}-\chi)/d}\enspace\textrm{for}\;\chi_{ideal} < \chi \leq 1
 \end{align*}
 
-Just as good actors need to be rewarded; bad actors need to be identified and penalized.
-Open-source software provides many opportunities for bad actors to create pain points and reputational risks for an entire community of developers.
-From the misappropriation of work to the alteration and redistribution of software packages, or the injection of nefarious code, the war between good and bad actors goes on, often with well-funded bad actors who see the contamination of open-source packages as an opportunity to benefit financially.
-The downside has been relatively minimal, with packages potentially banned from digital shelves or subjected to a poor reputation.
+Точно както съвестните участници трябва да бъдат възнаградени; недобросъвестните такива трябва да бъдат идентифицирани и наказани. 
+Софтуерът с отворен код предоставя много възможности за недобросъвестните участници да създават критични моменти и репутационни рискове за цялата общност от разработчици. 
+От злоупотребата с работния процес до промяната и преразпределението на софтуерни пакети или внедряването на престъпен код, войната между добрите и лошите участници продължава, често с добре финансирани недобросъвестни участници, които виждат възможност да навредят на пакетите с отворен код за да се облагодетелстват финансово. 
+Обратното въздействие е сравнително минимално, като пакетите потенциално са забранени от дигиталните рафтове или са подложени на лоша репутация. 
 
-We propose introducing a slashing mechanism to establish a more material downside that directly affects bad actors’ economic value.
-As tea tasters evaluate and analyze the code in newly submitted packages, we suggest tea tasters receive the tools and incentives to pinpoint and highlight nefarious code so package users can be made aware of the risks, and package maintainers, package supporters, and sponsors are penalized for submitting or supporting nefarious code.
-To that extent, for all evidenced negative reviews performed per the network rules and which have been addressed by the package maintainer within the governance-defined period, the package maintainer should not incur any penalty contrary to the package supporters and sponsors or the tea tasters who provided a positive review of the package in question.
-For negative reviews performed per the network rules and that the package maintainer has not addressed within the governance-defined period, a fraction of the tokens steeped by the package maintainer, the package supporters and sponsors, and previous tea tasters will be slashed.
-Another fraction will be locked into an insurance pool controlled by the tea governance.
-The tea governance will establish policies and rules in close collaboration with the community to distribute the pool’s contents to those affected by vulnerabilities.
-The protocol will distribute a third fraction of the steeped tokens across all tea tasters who contributed to the negative review and steeped against the package, based on the number of tea tokens they steeped “against” the package and how long their tokens have steeped.
-In other words, the sooner one or more tea tasters identify and report the flaw according to the rules of the network, the higher the reward they will get for supporting safe and productive open-source development.
+Ние предлагаме да се въведе слашинг механизъм, за да се установят по-съществени недостатъци, който пряко засягат финансовото стимулиране на недобросъвестните участници. 
+Тъй като tea дегустаторите оценяват и анализират кода в новоподадените пакети, ние предлагаме на tea дегустаторите да получават необходими инструменти и стимули за определяне и подчертаване на злонамерен код, така че потребителите на пакети да могат да бъдат информирани за рисковете, а участните, поддържащи пакети, поддръжниците на пакети и спонсорите да бъдат санкционирани за изпращане или поддържане на злонамерен код. 
+В тази връзка, за всички доказани прегледи с отрицателен резултат, извършени съгласно правилата на мрежата, които са били разгледани и премахнати от поддържащия пакета в рамките на определения от управлението период, поддържащият пакета не трябва да понася никакви санкции в противоречие с поддръжниците и спонсорите на пакета или tea дегустаторите, които дават положителен преглед на въпросния пакет. 
+За отрицателни прегледи, извършени съгласно правилата на мрежата и които поддържащият пакета не е разгледал в рамките на определения от управлението период, част от токените, "напоени" от участника поддържащия пакет, поддръжниците и спонсорите на пакета и предишните tea дегустатори ще бъдат намалени. 
+Другата част ще бъде заключена в застрахователен пул, контролиран от управлението на tea проекта. 
+Управлението на tea проекта ще установи необходимите политики и правила в тясно сътрудничество с общността за разпространение на съдържанието на пула към тези засегнатите от уязвимости. 
+Протоколът ще разпредели една трета част от "напоените" токени между всички tea дегустатори, допринесли за прегледа с отрицателен резултат, токени, които те са "накиснали" срещу пакета, въз основа на броя tea токени които са заключили „срещу“ пакета, и колко време са били "накисвани". 
+С други думи, колкото по-скоро един или повече tea дегустатори идентифицират и докладват за недостатъците според правилата на мрежата, толкова по-висока награда ще получат за поддържане на безопасна и продуктивна разработка с отворен код. 
 
-To prevent community members from randomly voting “against” highly steeped packages hoping to receive the majority of any penalty, all tea tokens steeped “against” will not be rewarded with inflation and may be subject to a decay mechanism, thus reducing their value over time.
+За да попречат на членовете на общността да гласуват на случаен принцип „против“ силно "напоени" пакети, надявайки се да получат по-голямата част от гласовете, всички tea токени, "напоени" „против“, няма да бъдат засегнати от инфлация и може да бъдат обект на механизъм на разпадане, като по този начин намаляват стойността си с течение на времето . 
 
 [^19]: Source: @web3
 
