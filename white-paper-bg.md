@@ -492,92 +492,92 @@ $\tau_{{all}}(\chi_{ideal} + d) \geq \tau_{{all}} \cdot 0.5$.
 [^19]: Source: @web3
 
 
-# Governance
+# Управление
 
-Governance is critical to the development, sustainability, and adoption of any distributed system.
+Управлението е от решаващо значение за развитието, устойчивостта и приемането на всяка разпределена система. 
 
-We propose that tea includes on-chain governance where all tea token holders can suggest and vote on changes to critical parameters weighted by token ownership and reputation.
-These parameters could include inflation, transaction fees, staking rewards, steeping rewards, or optimum steeping ratio.
-This functionality will ensure that critical parameters can evolve and be optimized over time by members of the tea community.
-We anticipate governance will launch with a simple structure and progressively expand as the tea system matures, facilitating adoption and ensuring progressive decentralization.
+Ние предлагаме tea да включва управление във веригата, където всички притежатели на tea токени да могат да предлагат и гласуват за промени в критични параметри, претеглени в съответствие със собствеността върху токените и репутацията. 
+Тези параметри могат да включват инфлация, транзакционни такси, стейкинг награди, награди за "накисване" или оптимално съотношение при накисване.
+Тази функционалност ще гарантира, че критичните параметри могат да се развиват и оптимизират с течение на времето от членовете на tea общността. 
+Очакваме управлението да стартира с проста структура и прогресивно да се разширява с развитието на tea системата, улеснявайки приемането и осигурявайки прогресивна децентрализация. 
 
-Some system parameters may not be subject to governance or support high-frequency changes to reduce the attack surface represented by governance.
-A progressive transition of parameters to open, decentralized governance will ensure the stability and predictability of the system.
-
-
-# Third-Party Extensibility
-
-As we build the initial tools to ignite the long-overdue support of the open-source communities, we believe part of our mission is to ensure that third parties can extend the overall toolset.
-In addition to providing the infrastructure for developers to build extensions to the protocol, including new ways to innovate and further the support of open-source developers, our plans include the potential for other package managers to contribute to the protocol.
-The dreams and efforts of open-source developers have built the innovation that supports our everyday life.
-We look forward to discovering the new uses and extensions for tea proposed by the tea community.
+Някои системни параметри може да не са обект на управление или да поддържат високочестотни промени за намаляване на повърхността от атака, представена от управлението. 
+Постепенният преход на параметрите към отворено, децентрализирано управление ще осигури стабилност и предвидимост на системата. 
 
 
-# Future Work and Potential Community Efforts
+# Разширяемост от трети страни
 
-As the tea system matures, we foresee the community deciding and contributing to alterations and extensions of the tea system through governance.
-Below are some ideas that we believe may inspire some.
-
-## tea Wholesalers
-
-Open-source software communities are vibrant and constantly looking to innovate and deliver value.
-This dedication and altruism lead to the constant building of new software and packages, each one pulling dependencies.
-As a result, we anticipate the dependencies map to evolve constantly, leading to frequent changes to the steeping ratio and rewards.
-In the future, the tea community may propose the development of a system designed to dynamically monitor the steeping ratio for each package and rebalance how package supporters steep their tokens based on their own criteria.
-
-## Royalties on Package Transfer
-
-We recognize that package maintainers may decide to transfer their steeping rewards stream to one or more developers.
-The governance of such transfer must remain the decision of the package maintainer and their partners, with no interference from tea.
-Tools will need to be provided for such transfer to be total or partial (perhaps through only a portion of the steeping rewards being redirected to one or more developers, while the remaining rewards continue to flow to the original package maintainer)
-and for the steeping rewards to flow through a single account controlled by a single network participant, multiple network participants, or automatically distributed across multiple accounts using static or dynamic ratios.
-
-## Rewards Distribution Across Multiple Maintainers
-
-The maintenance of a package can rely on the work of one more team of developers.
-Before steeping rewards start to flow, teams should consider automating the distribution of steeping rewards amongst themselves.
-How the distribution occurs must be decided by the maintainers themselves, as they are in the best position to evaluate who contributed and how they should be rewarded.
-
-To accomplish that, each team (or teams) could set up their own decentralized autonomous organization (DAO) and either automate the distribution of rewards or deploy more complex systems to determine the adequate rewards distribution based on external factors such as a vote from all DAO members,
-or time-based distributions based on continuous contribution, successful completion of bounties, etc.
-
-## Handling Package “Forks”
-
-We believe that forks are essential and largely under-utilized.
-Forks can be an effective tool for developing packages that compete in functionality, performance, security, and even attention.
-As useful as they may be, forks must recognize the original efforts.
-Through future work or potential contributions, the tea community may enhance the system to require forks to be declared, perhaps even detected when a package is submitted.
-Undeclared forks revealed by tea tasters may result in a portion of the steeped tokens being slashed, transferred to the original package maintainer, and sent to the tea tasters who revealed the fork.
-
-## Runtime vs. Build Dependencies
-
-tea may not distinguish build dependencies from runtime dependencies when distributing steeping rewards at launch.
-However, provided the tea community feels strongly about making such a distinction, the tea community may propose enhancements to the steeping rewards distribution algorithm to account for the criticality of each dependency and their contribution to the value of the packages that depend upon them.
-These proposals would be voted upon and implemented based on the community’s decision.
-
-## Usage-based Remuneration
-
-As more applications are built using packages registered with tea, the community may augment the reward algorithm so that allocation may be influenced by external attested datasets such as usage.
-This update to the rewards mechanism could allow for a higher allocation of tea token rewards to flow towards packages with the highest usage while still respecting the constraints of the steeping ratio described in the tea token section.
-Package maintainers could use a similar approach to distribute steeping rewards across their dependencies based on the transparent logic of their choice.
-Note that all information used to affect the distribution of rewards across packages and dependencies in the tea system will need to be provably reliable.
+Докато изграждаме първоначалните инструменти, за насърчаване на дългоочакваната подкрепа на общностите с отворен код, ние вярваме, че част от нашата мисия е да гарантираме, че трети страни могат да разширят цялостния набор от инструменти.
+В допълнение към предоставянето на инфраструктура за разработчиците за изграждане на разширения към протокола, включително нови начини за иновации и по-нататъшна поддръжка на разработчици с отворен код, нашите планове включват възможности и за други мениджъри на пакети да допринесат за протокола. 
+Мечтите и усилията на разработчиците с отворен код изградиха иновациита, която поддържат ежедневието ни. 
+Очакваме с нетърпение да открием новите начини за употреба и разширения за tea, предложени от нашата общност.
 
 
-# Acknowledgments
+# Бъдеща работа и потенциални усилия на общността
 
-This white paper would not exist without the support and dedication of many teaophiles.
-The authors would like to acknowledge Josh Kruger, Jadid Khan, and Jacob Heider for their contribution to the tokenomics and the many discreet individuals who volunteered their time to provide feedback on the contents of this document.
+С развитието на tea системата ние предвиждаме, че tea общността ще взима решения и да допринася за промените и разширенията на tea системата чрез управление. 
+По-долу ви представяме някои идеи, които вярваме, че могат да вдъхновят някои от вас.
+
+## tea Търговци на едро
+
+Софтуерните общности с отворен код са динамични и постоянно се стремят към иновации и полезни дейности. 
+Тази всеотдайност и алтруизъм водят до постоянното изграждане на нови софтуери и пакети, всеки от които води със себе си до зависимости. 
+Като резултат от това, очакваме постоянно развитие на картата на зависимостите, което ще доведе до чести промени в съотношението на "накисване" и наградите. 
+В бъдеще tea общността може да предложи разработването на система, проектирана да наблюдава динамичното съотношението на "накисване" за всеки пакет и да балансира отново начина, по който поддръжниците на пакета "накисват" своите токени въз основа на собствените си критерии.
+
+## Роялти за прехвърляне на пакет
+
+Ние осъзнаваме, че поддържащите пакети може да решат да прехвърлят своята част от възнаграждения на един или повече разработчици. 
+Управлението на такова прехвърляне трябва да остане решение на участниците, поддържащи пакета и техните партньори, без намеса от страна на tea проекта. 
+Необходимо е да бъдат осигурени инструменти, за да се осъществи подобно прехвърляне пълно или частично (може би чрез насочване на само част от наградите за "накисване" към един или повече разработчици, докато останалите награди продължават да се насочват към оригиналния поддържащ пакет) 
+и за да има възможност по-големите награди да преминават през един акаунт, контролиран от един участник в мрежата, множество участници в мрежата или автоматично разпределени между множество акаунти, използвайки статични или динамични съотношения. 
+
+## Разпределение на награди между няколко поддържащи участници 
+
+Поддръжката на един пакет може да разчита и на работата на още един екип от разработчици. 
+Преди започване на получаване на награди за "накисване", екипите трябва да обмислят начините за автоматизиране на разпределение на наградите за "накисване" помежду си. 
+Начинът на извършване на разпределението трябва да бъде решен от самите поддържащи, тъй като те са в най-добра позиция да оценят кой е допринесъл и как трябва да бъде възнаграден. 
+
+За да се постигне това, всеки екип (или екипи) имат право да създадат своя собствена децентрализирана автономна организация (DAO) или да автоматизират разпределението на наградите, или да внедрят по-сложни системи за определяне на адекватното разпределение на наградите въз основа на външни фактори, като например гласуване от всички DAO членове, 
+или разпределения, базирани на времеви условия, на непрекъснат принос, успешно завършване на баунти програми и т.н. 
+
+## Пакети за обработка “Forks”
+
+Вярваме, че forks/ форковете са от съществено значение и до голяма степен не се използват достатъчно. 
+Форковете могат да бъдат ефективен инструмент за разработване на пакети, които се конкурират във функционалност, производителност, сигурност и дори внимание. 
+Колкото и полезни да са, форковете трябва да разпознават първоначалните усилия. 
+Чрез бъдеща работа или потенциални приноси, tea общността може да подобри системата, за да изисква форковете да бъдат декларирани, може би дори открити при подаване на пакет. 
+Недекларираните форкове, разкрити от tea дегустаторите, може да доведат до нарязване на част от "напоените" токени, прехвърляни към оригиналния участник поддържащ пакет и изпратени към tea дегустаторите на чай, открили съответния форк. 
+
+## Рънтайм vs. Изграждане на зависимости
+
+tea може да не разграничи зависимостите на изграждане от зависимостите по време на изпълнение при разпределяне на наградите по време на стартиране. 
+Въпреки това, при условие че tea общността е твърдо решена да направи такова разграничение, тази общност може да предложи подобрения на алгоритъма за разпределение на наградите, за да отчете критичността на всяка зависимост и нейния принос към стойността на пакетите, които зависят от това.
+Тези предложения ще бъдат гласувани и изпълнени въз основа на решението на общността. 
+
+## Възнаграждение въз основа на използването
+
+Тъй като повече приложения се създават с помощта на пакети, регистрирани с tea, общността може да разшири и допълни алгоритъма за възнаграждение, така че разпределението да бъде повлияно от външни удостоверени данни, такива например като употреба.
+Тази актуализация на механизма за възнаграждения може да позволи по-голямо разпределение на наградите от tea токени, които да се насочат към пакети с най-голяма употреба, като същевременно се спазват ограниченията на съотношението на "накисване", описано в раздела tea токени. 
+Поддържащите пакети биха могли да използват подобен подход, за да разпределят награди за "накисване" между своите зависимости въз основа на прозрачната логика по тяхна преценка. 
+Имайте предвид, че цялата информация, използвана, за да се повлияе на разпределението на наградите между пакетите и зависимостите в tea системата, ще трябва да бъде доказуемо надеждна. 
+
+
+# Благодарности
+
+Тази "бяла книга" не би съществувала без подкрепата и отдадеността на много участници, харесващи tea.
+Авторите биха искали да благодарят на Джош Крюгер, Джадид Хан и Джейкъб Хайдер за приноса им към токеномиката и на многото други незабележими лица, които доброволно отделиха времето си, за да предоставят обратна връзка относно съдържанието на този документ. 
 
 $\parskip=0pt plus 1pt$
 
-# Glossary of Terms
+# Речник на термините
 
-| Term | Definition |
+| Наименование | Определение |
 |------|------------|
-| Leaf | The smallest denomination of the tea token. A leaf corresponds to one one-hundred-millionth ($10^{-8}$) of a tea. |
-| Slashing | The action of penalizing steepers or stakers in response to behavior contrary to the network rules. |
-| Staking | The action of locking tea tokens to secure the proof-of-stake network upon which the tea system is built. |
-| Steeping | The action of locking tea tokens to support your claim and receive rewards (or penalties) based on the consensus on the validity of your claim. |
+| Лист | Най-малката деноминация на tea токена. Едно листо съответства на една стомилионна ($10^{-8}$) tea токена. |
+| Слашинг | Действие за наказване на участници в "накисване" или стейкинг в отговор на поведение, което противоречи на правилата на мрежата. |
+| Стейкинг | Действие за заключване на tea токени за защита на proof-of-stake мрежата, върху която е изградена tea системата. |
+| Накисване | Действието за заключване на tea токени в подкрепа на вашата претенция и получаване на награди (или санкции) въз основа на консенсуса относно валидността на вашата претенция. |
 
 
-# References
+# Препратки
