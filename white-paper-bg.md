@@ -414,63 +414,63 @@ tea общността може да промени този дизайн, за 
 Стойността $\chi_{ideal}$ трябва да се актуализира при добавяне на нови пакети към децентрализирания регистър и създаване на зависимости. 
 За да определим най-добрата стойност за $\chi_{ideal}$, ще използваме камбанна крива на популярността, актуализирана в началото на всеки цикъл на възнаграждение.
 
-Let $\tau = \tau(\chi)$ be the annual steeping interest rate distributed to all tea community members who steep tea tokens to support open-source developers.
-In other words, $\tau(\chi)$ corresponds to the steeping reward received over a year by a community member that steeps tea tokens for the entire year.
+Нека $\tau = \tau(\chi)$ представлява годишният лихвен процент за "накисване", разпределен към всички членове на tea общността, които заключват tea токените в подкрепа на разработчиците с отворен код. 
+С други думи, $\tau(\chi)$ съответства на наградата за "накисване", получавана в рамките на една година от член на общността, който е "накисвал" tea токени през цялата година. 
 
-Let $\gamma = \gamma(\psi)$ be the annual staking interest rate distributed to all node operators and network participants who stake tea tokens to secure the network.
-In other words, $\gamma(\psi)$ corresponds to the staking reward received over a year by a community member that stakes tea tokens for the entire year.
+Нека $\gamma = \gamma(\psi)$ представлява годишнен лихвен процент при стейкинг, разпределен на всички оператори на възли и участници в мрежата, които стейкват tea токени, осигурявайки сигурността на мрежата. 
+С други думи, $\gamma(\psi)$ съответства на стейкинг наградата, получена за една година от член на общността, който стейква tea токени през цялата година. 
 
-Let $\delta$ be the annual inflation directed at the network treasury.
-$\delta$ may vary as external factors affect the token supply.
+Нека $\delta$ е годишна инфлация, насочена към хазната на мрежата. 
+$\delta$ може да варира, тъй като различни външни фактори влияят на токен съплая. 
 
-We consider the annual steeping reward rate as a function of $\chi$ and the annual staking reward rate as a function of $\psi$.
+Ние разглеждаме годишната ставка на възнаграждение за накисване като функция на $\chi$ и годишната ставка на възнаграждение за стейкинг като функция на $\psi$.
 
-* $\tau(\chi)$ corresponds to the incentive for people to steep a package.
-As $\chi$ increases, fewer rewards $\tau(\chi)$ are needed.
-* $\gamma(\psi)$ corresponds to the incentive for people to stake the network.
-As $\psi$ increases, fewer rewards $\gamma(\psi)$ are needed to secure the network.
+* $\tau(\chi)$ съответства на стимул за хората да "накиснат" пакети. 
+Тъй като $\chi$ се увеличава, са необходими по-малко награди  $\tau(\chi)$ .
+* $\gamma(\psi)$ съответства на стимул за хората за да използват стейкинг в мрежата.
+С нарастването на $\psi$ са необходими по-малко награди $\gamma(\psi)$ за сигурността на мрежата.
 
-The annual inflation $I$ will be equivalent to $(\tau + \gamma + \delta)$ and calculated as follows:
+Годишната инфлация $I$ ще бъде еквивалентна на $(\tau + \gamma + \delta)$ и се изчислява, както следва::
 
 $$
-I = \frac{\textrm{token supply at the end of the year} - \textrm{token supply at the beginning of the year}}{\textrm{token supply at the beginning of the year}} = (\tau + \gamma + \delta)
+I = \frac{\textrm{токен съплай към края на годината} - \textrm{токен съплай в началото на годината}}{\textrm{токен съплай в началото на годината}} = (\tau + \gamma + \delta)
 $$
 
-The contribution to inflation of $\tau_{\textsc{all}}$ (incentive distributed to all package steepers) and $\gamma_{\textsc{all}}$ (incentive distributed across all contributors to the network security) should be weighed to ensure that the system incentivizes the optimal steeping/staking ratio.
+Приносът към инфлацията на $\tau_{{all}}$ (награди, разпределени на всички пакети, които се "накисват") и $\gamma_{{all}}$ (награди, разпределен между всички участници в сигурността на мрежата) трябва да се претегли, за да се гарантира, че системата стимулира оптималното съотношение на "накисване"/стейкинг. 
 
-As we focus on the incentives distributed across all package steepers, we determine that
-$\tau_{\textsc{all}}$
-is a function of the steeping ratio $\chi$ and therefore
-$\tau_{\textsc{all}}(\chi) = \chi \cdot \tau(\chi)$.
-From our previous analysis, we can see that
-$\tau_{\textsc{all}}(\chi_{ideal}) = \chi_{ideal} \cdot \tau_{ideal}$.
-Since the goal is to reach a state where
+Тъй като се фокусираме върху стимулите, разпределени между всички пакети, ние определяме следното
+$\tau_{{all}}$
+е функция на съотношението на накисване $\chi$ и следователно
+$\tau_{{all}}(\chi) = \chi \cdot \tau(\chi)$.
+От предишния ни анализ можем да видим това
+$\tau_{{all}}(\chi_{ideal}) = \chi_{ideal} \cdot \tau_{ideal}$.
+Тъй като целта е да се достигне състояние, в което
 $\chi = \chi_{ideal}$
-, rewards
+, наградите
 $\tau_{ideal}(\chi)$
-should be maximal at that value.
+трябва да са максимални при тази стойност.
 
-Let $\tau_{ideal} = \tau(\chi_{ideal})$
-be the reward rate delivered by the network at the ideal scenario where
+Нека $\tau_{ideal} = \tau(\chi_{ideal})$
+бъде процентът на възнаграждение, предоставен от мрежата при идеалния сценарий, където
 $\chi = \chi_{ideal}$.
 
-Let $\tau_{0}$ be the limit of  $\tau_{\textsc{all}}(\chi)$ as $\chi$ goes to zero when no members of the tea community steep any packages.
-The value of $\tau_{0}$ should be close to zero but not zero to incentivize early adopters.
-As suggested by the web3 Foundation’s research, we propose that:
+Нека $\tau_{0}$ представлява лимит  $\tau_{{all}}(\chi)$ като $\chi$ отива до нула, когато никой от членовете на tea общността не "накисва" никакви пакети.
+Стойността на $\tau_{0}$ трябва да бъде близо до нула, но не и нула, за да стимулира ранните участници и последователи. 
+Както беше предложено от изследването на фондация web3, ние предлагаме, че:
 
-* the inflation function grows linearly between $\chi = 0$ and $\chi = \chi_{ideal}$, and
-* it decay exponentially between $\chi = \chi_{ideal}$ and $\chi = 1$.
+* функцията на инфлацията нараства линейно между $\chi = 0$ and $\chi = \chi_{ideal}$, и
+* тя се разпада експоненциално между $\chi = \chi_{ideal}$ и $\chi = 1$.
 
-We chose a similar exponential decrease for $\tau_{\textsc{all}}(\chi)$ because it implies an exponential decrease of $\tau(\chi)$, and we want rewards to fall sharply beyond $\chi_{ideal}$ to prevent a single package from receiving all the rewards.
+Избрахме подобно експоненциално намаление за $\tau_{{all}}(\chi)$ защото предполага експоненциално намаляване на $\tau(\chi)$, и искаме наградите да паднат рязко под $\chi_{ideal}$ за да предотвратим получаването на всички награди от един пакет.
 
-The decay is defined so that the inflation rate decreases by at most 50% when  $\chi$ shifts $d$ units to the right of $\chi_{ideal}$ – i.e.
-$\tau_{\textsc{all}}(\chi_{ideal} + d) \geq \tau_{\textsc{all}} \cdot 0.5$.
+Намаляването се определя така, че темпът на инфлация намалява с най-много 50%, когато  $\chi$ shifts $d$ единици вдясно от $\chi_{ideal}$ – например.
+$\tau_{{all}}(\chi_{ideal} + d) \geq \tau_{{all}} \cdot 0.5$.
 
-We propose the following interest rate and inflation rate functions, which depend on the parameters $\chi_{ideal}$, $\tau_{ideal}$, $\tau_{0}$ and $d$.
+Ние предлагаме следните функции на лихвения процент и инфлация, които зависят от параметрите $\chi_{ideal}$, $\tau_{ideal}$, $\tau_{0}$ and $d$.
 
 \begin{align*}
-&\tau_{\textsc{all}}(\chi) = \tau_{0} + (\tau_{\textsc{all}}(\chi_{ideal}) - \tau_{0})\frac{\chi}{\chi_{ideal}}\enspace\textrm{for}\;0 < \chi \leq \chi_{ideal} \\
-&\tau_{\textsc{all}}(\chi) = \tau_{0} + (\tau_{\textsc{all}}(\chi_{ideal}) - \tau_{0}) \cdot 2^{(\chi_{ideal}-\chi)/d}\enspace\textrm{for}\;\chi_{ideal} < \chi \leq 1
+&\tau_{{all}}(\chi) = \tau_{0} + (\tau_{{all}}(\chi_{ideal}) - \tau_{0})\frac{\chi}{\chi_{ideal}}\enspace\textrm{for}\;0 < \chi \leq \chi_{ideal} \\
+&\tau_{{all}}(\chi) = \tau_{0} + (\tau_{{all}}(\chi_{ideal}) - \tau_{0}) \cdot 2^{(\chi_{ideal}-\chi)/d}\enspace\textrm{for}\;\chi_{ideal} < \chi \leq 1
 \end{align*}
 
 Just as good actors need to be rewarded; bad actors need to be identified and penalized.
