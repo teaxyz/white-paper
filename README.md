@@ -78,7 +78,6 @@ We build, publish and feature full PDFs of all translations at tea.xyz.
    make tea.white-paper_${LANG}.pdf
    ```
 
-
 ## Maintenance
 
 ### Set Version
