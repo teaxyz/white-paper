@@ -17,7 +17,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: .github/mk-pantry-accessible.sh ${{ secrets.TEMP_JACOBS_GITHUB_PAT }}
-      - uses: teaxyz/setup@v0.3.1 # TODO: major version only
+      - uses: teaxyz/setup@v0
       - id: rev-parse
         name: did we already publish this version?
         run: |
@@ -37,7 +37,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: .github/mk-pantry-accessible.sh ${{ secrets.TEMP_JACOBS_GITHUB_PAT }}
-      - uses: teaxyz/setup@v0.3.1 # TODO: major version only
+      - uses: teaxyz/setup@v0
       - run: | # Use on-box make until tea/pantry revlock is resolved
           sudo apt-get install \
             texlive-latex-base \
@@ -52,9 +52,7 @@ jobs:
           echo ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true | sudo debconf-set-selections
           sudo apt-get install texlive texlive-latex-extra texlive-xetex msttcorefonts #FIXME
       - name: Set Version
-        run: |
-          date=$(date '+%Y%m%d')
-          echo "- \fancyfoot[L]{$VERSION}" >> metadata.yml
+        run: echo "- \fancyfoot[L]{$VERSION}" >> metadata.yml
       # - run: tea make
       - run: make  # Use on-box make until tea/pantry revlock is resolved
       - uses: actions/upload-artifact@v3
