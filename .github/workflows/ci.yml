@@ -5,6 +5,7 @@ on:
     paths:
       - white-paper.md
       - metadata.yml
+      - i18n/*
       - img/*
       - .github/workflows/ci.yml
       - Makefile
