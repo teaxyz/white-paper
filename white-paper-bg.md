@@ -468,10 +468,8 @@ $\tau_{{all}}(\chi_{ideal} + d) \geq \tau_{{all}} \cdot 0.5$.
 
 Ние предлагаме следните функции на лихвения процент и инфлация, които зависят от параметрите $\chi_{ideal}$, $\tau_{ideal}$, $\tau_{0}$ and $d$.
 
-\begin{align*}
-&\tau_{{all}}(\chi) = \tau_{0} + (\tau_{{all}}(\chi_{ideal}) - \tau_{0})\frac{\chi}{\chi_{ideal}}\enspace\textrm{for}\;0 < \chi \leq \chi_{ideal} \\
-&\tau_{{all}}(\chi) = \tau_{0} + (\tau_{{all}}(\chi_{ideal}) - \tau_{0}) \cdot 2^{(\chi_{ideal}-\chi)/d}\enspace\textrm{for}\;\chi_{ideal} < \chi \leq 1
-\end{align*}
+$\tau_{{all}}(\chi)$ = $\tau_{0}$ + $(\tau_{{all}}(\chi_{ideal})$ - $\tau_{0})$ $\frac{\chi}{\chi_{ideal}}\enspace\textrm{for}$\ 0 < $\chi \leq \chi_{ideal}$ \
+$\tau_{{all}}(\chi)$ = $\tau_{0}$ + $(\tau_{{all}}(\chi_{ideal})$ - $\tau_{0})$ $\cdot 2^{(\chi_{ideal}-\chi)/d}\enspace\textrm{for}$ $\chi_{ideal}$ < $\chi \leq 1 \$
 
 Точно както съвестните участници трябва да бъдат възнаградени; недобросъвестните такива трябва да бъдат идентифицирани и наказани. 
 Софтуерът с отворен код предоставя много възможности за недобросъвестните участници да създават критични моменти и репутационни рискове за цялата общност от разработчици. 
