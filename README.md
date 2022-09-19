@@ -5,7 +5,7 @@ with mathematical representations embedded as [LaTeX].
 New releases are compiled to `.pdf` with [Pandoc] before being
 [published here at GitHub][releases].
 
-# tea/white-paper 1.0.3
+# tea/white-paper 1.0.4
 
 ## Contributing
 
@@ -77,7 +77,6 @@ We build, publish and feature full PDFs of all translations at tea.xyz.
    ```sh
    make tea.white-paper_${LANG}.pdf
    ```
-
 
 ## Maintenance
 
