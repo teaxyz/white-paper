@@ -5,8 +5,8 @@ on:
     paths:
       - white-paper.md
       - metadata.yml
-      - i18n/*
-      - img/*
+      - 'i18n/**'
+      - 'img/**'
       - .github/workflows/ci.yml
       - Makefile
 
@@ -36,7 +36,8 @@ jobs:
           # Need a standard font, and ttf-mscorefonts-installer has a EULA dialog. Definitely #FIXME
           echo ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true | sudo debconf-set-selections
           sudo apt-get install texlive texlive-latex-extra texlive-xetex msttcorefonts #FIXME
-      # - uses: teaxyz/setup@v0
+      - run: .github/mk-pantry-accessible.sh ${{ secrets.TEMP_JACOBS_GITHUB_PAT }}
+      - uses: teaxyz/setup@v0.3.1 # TODO: major version only
       - name: Set Version
         run: |
           date=$(date '+%Y%m%d')
