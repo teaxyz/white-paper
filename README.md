@@ -5,7 +5,7 @@ with mathematical representations embedded as [LaTeX].
 New releases are compiled to `.pdf` with [Pandoc] before being
 [published here at GitHub][releases].
 
-# tea/white-paper 1.0.3
+# tea/white-paper 1.0.4
 
 ## Contributing
 
@@ -30,6 +30,7 @@ Source these yourself or use tea: `sh <(curl tea.xyz)`.
 | pandoc.org          | ^2.18   |
 | pandoc.org/crossref | ^0.3    |
 | gnome.org/librsvg   | ^2.54   |
+| gnu.org/make        | ^4      |
 
 
 ## Translate
@@ -76,7 +77,6 @@ We build, publish and feature full PDFs of all translations at tea.xyz.
    ```sh
    make tea.white-paper_${LANG}.pdf
    ```
-
 
 ## Maintenance
 
