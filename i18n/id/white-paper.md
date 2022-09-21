@@ -442,7 +442,7 @@ $\tau_{\textsc{all}}$
 adalah fungsi dari rasio seduhan $\chi$ dan oleh karena itu
 $\tau_{\textsc{all}}(\chi) = \chi \cdot \tau(\chi)$.
 Dari analisis kami sebelumnya, kami dapat melihat bahwa
-$\tau_{\textsc{semua}}(\chi_{ideal}) = \chi_{ideal} \cdot \tau_{ideal}$.
+$\tau_{\textsc{all}}(\chi_{ideal}) = \chi_{ideal} \cdot \tau_{ideal}$.
 Karena tujuannya adalah untuk mencapai keadaan di mana
 $\chi = \chi_{ideal}$
 , hadiah
@@ -460,17 +460,17 @@ Seperti yang disarankan oleh penelitian Yayasan web3, kami mengusulkan bahwa:
 * fungsi inflasi tumbuh secara linier antara $\chi = 0$ dan $\chi = \chi_{ideal}$, dan
 * itu meluruh secara eksponensial antara $\chi = \chi_{ideal}$ dan $\chi = 1$.
 
-Kami memilih penurunan eksponensial serupa untuk $\tau_{\textsc{all}}(\chi)$ karena ini menyiratkan penurunan eksponensial $\tau(\chi)$, dan kami ingin imbalan turun tajam melampaui $\chi_{ ideal}$ untuk mencegah satu paket menerima semua hadiah.
+Kami memilih penurunan eksponensial serupa untuk $\tau_{\textsc{all}}(\chi)$ karena ini menyiratkan penurunan eksponensial $\tau(\chi)$, dan kami ingin imbalan turun tajam melampaui $\chi_{ideal}$ untuk mencegah satu paket menerima semua hadiah.
 
 Peluruhan didefinisikan sehingga tingkat inflasi berkurang paling banyak 50% ketika $\chi$ menggeser unit $d$ ke kanan $\chi_{ideal}$ – yaitu.
-$\tau_{\textsc{semua}}(\chi_{ideal} + d) \geq \tau_{\textsc{semua}} \cdot 0.5$.
+$\tau_{\textsc{all}}(\chi_{ideal} + d) \geq \tau_{\textsc{all}} \cdot 0.5$.
 
 Kami mengusulkan fungsi tingkat bunga dan tingkat inflasi berikut, yang bergantung pada parameter $\chi_{ideal}$, $\tau_{ideal}$, $\tau_{0}$ dan $d$.
 
-\bemula{selaraskan*}
-&\tau_{\textsc{semua}}(\chi) = \tau_{0} + (\tau_{\textsc{semua}}(\chi_{ideal}) - \tau_{0})\frac{\chi }{\chi_{ideal}}\enspace\textrm{for}\;0 < \chi \leq \chi_{ideal} \\
-&\tau_{\textsc{semua}}(\chi) = \tau_{0} + (\tau_{\textsc{semua}}(\chi_{ideal}) - \tau_{0}) \cdot 2^{ (\chi_{ideal}-\chi)/d}\enspace\textrm{for}\;\chi_{ideal} < \chi \leq 1
-\end{selaras*}
+\begin{align*}
+&\tau_{\textsc{all}}(\chi) = \tau_{0} + (\tau_{\textsc{all}}(\chi_{ideal}) - \tau_{0})\frac{\chi}{\chi_{ideal}}\enspace\textrm{for}\;0 < \chi \leq \chi_{ideal} \\
+&\tau_{\textsc{all}}(\chi) = \tau_{0} + (\tau_{\textsc{all}}(\chi_{ideal}) - \tau_{0}) \cdot 2^{(\chi_{ideal}-\chi)/d}\enspace\textrm{for}\;\chi_{ideal} < \chi \leq 1
+\end{align*}
 
 Sama seperti aktor yang baik perlu dihargai; aktor jahat perlu diidentifikasi dan dihukum.
 Perangkat lunak open-source memberikan banyak peluang bagi pelaku jahat untuk menciptakan masalah dan risiko reputasi bagi seluruh komunitas pengembang.
