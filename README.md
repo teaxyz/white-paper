@@ -5,7 +5,7 @@ with mathematical representations embedded as [LaTeX].
 New releases are compiled to `.pdf` with [Pandoc] before being
 [published here at GitHub][releases].
 
-# tea/white-paper 1.0.4
+# tea/white-paper 1.0.5
 
 ## Contributing
 
