@@ -53,7 +53,7 @@ Dalam makalah ini, kami mengusulkan teh — sistem terdesentralisasi untuk membe
 
 ![Tampilan sederhana dari sistem hadiah seduhan teh.](img/figure-1.svg)
 
-$\parskip=0pt ditambah 1pt$
+$\parskip=0pt plus 1pt$
 
 [^1]: Sumber: @nist
 [^2]: Sumber: @reuters
