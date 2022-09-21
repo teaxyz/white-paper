@@ -1,0 +1,16 @@
+name: CD
+
+on:
+  push:
+    branches: [main]
+    paths: ['i18n/**']
+
+env:
+  TEA_SECRET: ${{ secrets.TEA_SECRET }}
+
+jobs:
+  cd:
+    uses: ./.github/workflows/make.yml
+    with:
+      upload: true
+    secrets: inherit
