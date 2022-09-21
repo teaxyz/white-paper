@@ -553,6 +553,7 @@ Garpu yang tidak dideklarasikan yang diungkapkan oleh pencicip teh dapat mengaki
 teh mungkin tidak membedakan dependensi build dari dependensi runtime saat mendistribusikan hadiah seduhan saat peluncuran.
 Namun, komunitas asalkan merasa kuat untuk membedakan perbedaan seperti itu, dapat meningkatkan peningkatan pada perbaikan distribusi seduhan hadiah dengan meningkatkan kekritisan setiap kontribusi dan kontribusinya terhadap nilai-nilai yang ditawarkan komunitas.
 Usulan-usulan ini akan dipilih dan dilaksanakan berdasarkan keputusan masyarakat.
+
 ## Remunerasi berdasarkan penggunaan
 
 Karena semakin banyak aplikasi yang dibangun menggunakan paket yang terdaftar dengan teh, komunitas dapat meningkatkan algoritme penghargaan sehingga alokasi dapat dipengaruhi oleh kumpulan data yang dibuktikan secara eksternal seperti penggunaan.
