@@ -59,8 +59,8 @@ references:
   url: https://arxiv.org/abs/1207.2617/
 - id: web3
   url: https://research.web3.foundation/en/latest/polkadot/overview/2-token-economics.html
-  lang: zh
-  dir: ltr 
+lang: zh
+dir: ltr 
 header-includes:
 - \fancyfoot[L]{${VERSION 1}+${zh}}
 translator:
