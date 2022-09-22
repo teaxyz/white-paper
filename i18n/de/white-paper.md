@@ -51,6 +51,7 @@ Bounties ermöglichen es den Nutzern von Projekten, den Entwicklern Zahlungen f�
 Und auch hier werden nur die Favoriten belohnt.
 
 In diesem Beitrag schlagen wir Tea vor - ein dezentrales System zur fairen Vergütung von Open-Source-Entwicklern auf der Grundlage ihrer Beiträge zum gesamten Ökosystem, das durch den tea-Anreizalgorithmus für alle Einträge in der Tea-Registry umgesetzt wird.
+
 ![Simplified view of the tea steeping rewards system.](img/figure-1.svg)
 
 $\parskip=0pt plus 1pt$
@@ -431,7 +432,7 @@ Wenn $\psi$ steigt, werden weniger Belohnungen $\gamma(\psi)$ benötigt, um das 
 Die jährliche Inflation $I$ entspricht $(\tau + \gamma + \delta)$ und berechnet sich wie folgt:
 
 $$
-I = \frac{\textrm{Tokenvorrat am Ende des Jahres}} - \textrm{Tokenvorrat am Anfang des Jahres}} = (\tau + \gamma + \delta)
+I = \frac{\textrm{Tokenvorrat am Ende des Jahres} - \textrm{Tokenvorrat am Anfang des Jahres}}{\textrm{Tokenvorrat am Anfang des Jahres}} = (\tau + \gamma + \delta)
 $$
 
 Der Beitrag zur Inflation von $\tau_{\textsc{all}}$ (Anreiz, der an alle Paket-steepers verteilt wird) und $\gamma_{\textsc{all}}$ (Anreiz, der auf alle Teilnehmer an der Netzsicherheit verteilt wird) sollte abgewogen werden, um sicherzustellen, dass das System das optimale Verhältnis zwischen Steeping und Staking anreizt.
@@ -439,9 +440,9 @@ Der Beitrag zur Inflation von $\tau_{\textsc{all}}$ (Anreiz, der an alle Paket-s
 Da wir uns auf die Anreize konzentrieren, die auf alle Steepers verteilt sind, stellen wir fest, dass
 $\tau_{\textsc{all}}$
 eine Funktion des Steeping-Verhältnisses $\chi$ ist und somit
-$\tau_{\textec{all}}(\chi) = \chi \cdot \tau(\chi)$.
+$\tau_{\textsc{all}}(\chi) = \chi \cdot \tau(\chi)$.
 Aus unserer vorangegangenen Analyse können wir erkennen, dass
-$\tau_{\textec{all}}(\chi_{ideal}) = \chi_{ideal} \cdot \tau_{ideal}$.
+$\tau_{\textsc{all}}(\chi_{ideal}) = \chi_{ideal} \cdot \tau_{ideal}$.
 Da das Ziel darin besteht, einen Zustand zu erreichen, in dem
 $\chi = \chi_{ideal}$
 ist, belohnt
