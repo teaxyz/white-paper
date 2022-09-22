@@ -75,7 +75,7 @@ header-includes:
 - \setlength{\headheight}{5\baselineskip}
 - \pagestyle{fancy}
 - \fancyfoot[LE,RO]{© 2022 tea.inc.}
- - \fancyfoot[L]{v1.0.3+bg}   # expand these variables!
+- \fancyfoot[L]{v1.0.3+bg}   # expand these variables!
 lang: bg       # https://pandoc.org/MANUAL.html#language-variables
 dir: ltr      # language direction; ltr:left-to-right or rtl:right-to-left
 translator:

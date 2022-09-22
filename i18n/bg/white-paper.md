@@ -1,56 +1,56 @@
-# Disclaimer
+#  Декларация за отказ от отговорност
 
-The information set out in this white paper is of a preliminary nature.
-Consequently, neither the authors nor any of their respective affiliates assume any responsibility that the information set out herein is final or correct and each of the foregoing disclaims,
-to the fullest extent permitted by applicable law, any and all liability whether arising in tort, contract or otherwise in respect of this white paper.
-Neither this white paper nor anything contained herein shall form the basis of or be relied on in connection with or act as an inducement to enter into any contract or commitment whatsoever.
+Цялата информацията, изложена в тази "бяла книга" носи предварителен характер. 
+Следователно нито авторите, нито който и да е от свързаните с тях лица поемат каквато и да е отговорност относно твърдението, че информацията, изложена в този документ е окончателна или достоверно точна и всеки от изброените лица носи отказ от отговорност, 
+до максимална степен, която е разрешена от съществуващото законодателство, а също така от всякаква отговорност независимо дали произтича от някакъв вид правонарушение, договор или е свързана с тази "бяла книга" по друг начин. 
+Нито предложената "бяла книга", нито каквато и да е информация, съдържаща се в нея не може да служи като основание за спор или да бъде използвана за такова или да действа като подканване за сключване на какъвто и да е договор или ангажимент. 
 
-Nothing in this white paper constitutes an offer to sell or a solicitation to purchase any tokens discussed herein.
-In any event, were this white paper to be deemed to be such an offer or solicitation, no such offer or solicitation is intended or conveyed by this white paper in any jurisdiction where it is unlawful to do so,
-where such an offer or solicitation would require a license or registration, or where such an offer or solicitation is subject to restrictions.
-In particular, any tokens discussed herein have not been, and, as of the date of issuance of this white paper, are not intended to be, registered under the securities or similar laws of any jurisdiction,
-whether or not such jurisdiction considers such tokens to be a security or similar instrument and may not be offered or sold in any jurisdiction where to do so would constitute a violation of the relevant laws of such jurisdiction.
+Нищо в тази "бяла книга" не представлява оферта за продажба или подкана към покупка на токени, обсъждани в документацията.
+Във всеки случай, ако в някои места тази "бяла книга" ще се разглежда като подобно предложение или подкана, заявяваме, че никакво подобно предложение или подкана са били намерение или цел от настоящата документация във всяка юрисдикция, където това е незаконно, 
+където подобна оферта или подкана изискват лиценз или регистрация, или където подобна оферта или подкана подлежат на ограничения. 
+По-специално, всички токени, за които ще става въпрос в документацията не са били, и към датата на издаване на тази "бяла книга" не са предназначени да бъдат регистрирани съгласно законите, касаещи ценни книжа на която и да е юрисдикция, 
+и дали тази юрисдикция приема или не токени като като вид ценни книжа или подобен инструмент и не може да се предлага или продава в която и да е юрисдикция, където подобни действия представляват нарушение на съответнните закони на тази юрисдикция. 
 
 
-# License
+# Лиценз
 
-The source code[^src] of this paper is available under the Creative Commons Attribution-ShareAlike 4.0 International[^cc] license.
+Изходният код [^src] на даденият документ е достъпен под лиценз на Creative Commons Attribution-ShareAlike 4.0 International[^cc] .
 
 [^src]: See: @sources
 [^cc]: See: @cc
 
 
-# Introduction
+# Въведение
 
-The Internet is predominantly composed of open-source projects and has been since its inception.
-Over time, many of these projects have become foundational pieces upon which all future innovation is built.
-And while fortunes have been made from it, open-source is mainly created and maintained without compensation.
+Интернет пространството е съставено предимно от проекти с отворен код и е било такъва от самото му създаване. 
+С течение на времето, много от тези проекти са се превърнали във фундаментални, върху които са изградени всички последващи иновации. 
+И докато върху тази технология бяха изградени цели състояния, отворения код основно се създава и поддържа без компенсации. 
 
-We believe that the entirety of modern human endeavor has been stunted by relying on the smallest percentage of the world's engineers to choose between a salary or keeping the Internet running.
-Open-source is a labor of love often hindered by a lack of meaningful economic incentives resulting in genuinely worthwhile projects never reaching their potential while others suffer from security issues due to the lack of incentives to maintain software throughout its lifecycle.
-To fully realize our potential, we need a fair remuneration system for the open-source ecosystem that doesn’t fundamentally change how it is built or utilized.
+Ние смятаме, че цялата съвременна човешка дейност е закърняла поради факта, че разчита основно на малък процент инженери от целия свят, които са принудени да избират между заплата и поддържане на Интернет дейността. 
+Отвореният код е продукт на грижовен труд, често възпрепятстван от липса на значими икономически стимули, водещи до невъзможност на наистина значими проекти да достигнат своя потенциал, при други проекти възникват проблеми със сигурността поради липса на достатъчно стимули за поддържане на софтуера.
+За да се реализира напълно потенциала е необходимо създаване на справедлива система на възнаграждения към цялата екосистема с отворен код, което обаче не променя фундаментално начина, по който тя е изградена или използвана. 
 
-Enterprises often wrap business models around open-source, generating revenue directly from the work of the benevolent developers while also relying on them to fix bugs as issues occur.
-A great example is a recent incident involving a critical security vulnerability in Log4j, a package from the Apache Software Foundation that found its way across many commercial software and services employed by enterprises and governments.
-In November 2021, a security researcher working for Alibaba Group Holding Ltd. reported vulnerability CVE-2021-44228[^1], which received the highest possible base score from the Apache Software Foundation.
-Amit Yoran, Chief Executive of Tenable and founding director of the United States Computer Emergency Readiness Team (US-CERT), described this vulnerability as “the single biggest, most critical vulnerability of the last decade”[^2].
-Panic ensued and the few volunteers who maintained this package came publicly under fire for the failure.
-After addressing the outrage with a humble plea for fairness, systems got patched.
-Enterprises and governments eventually realized that Log4j, a package used by a broad range of critical systems for two decades, was maintained by a few unpaid volunteers, the same unsung heroes who sprang into action despite abuse from the industry[^3] and worked tirelessly to address the vulnerability.
+Предприятията често използват бизнес модели свързани с отворения код, генерирайки приходи директно от работата на добросъвестните разработчици, докато разчита на тях за коригиране на грешки при възникване на проблеми. 
+Чудесен пример е скорошният инцидент, включващ критична уязвимост на сигурността в Log4j, пакет от Apache Software Foundation, който намери своето приложение в много  търговски софтуери и услуги, използвани от различни предприятия и от правителството. 
+През Ноември 2021г, изследовател по сигурността, работещ за Alibaba Group Holding Ltd. съобщава за уязвимост CVE-2021-44228[^1], която получава най-висока възможна оценка от Apache Software Foundation. 
+Amit Yoran, Главен изпълнителен директор на Tenable и директор основател на United States Computer Emergency Readiness Team (US-CERT), описа този вид уязвимост като “най-голямата и най-критична уязвимост от последното десятилетие”[^2].
+След тези събития последва паника и няколко доброволци, отговорни за поддръжка на въпросния пакет, бяха публично критикувани за провала. 
+След като в отговор на възникналото възмущение се появи скромна молба за възстановяване на справедливост, системите бяха поправени. 
+Предприятията и правителствата разбраха в крайна сметка, че Log4j, пакет, използван от голям брой критично важни системи в продължение на две десятилетия, беше поддържан от няколко доброволци за тяхна собствена сметка, това са същите невъзпяти герои, които се впускат в действие въпреки злоупотребите от индустрията[^3] и работят неуморно за справяне с уязвимостта.
 
-Sadly, Log4j is far from the only example.
-core-js is downloaded 30 million times per week as the base of every Node.js application, yet it is also barely funded.
-Recently several bitcoin core developers resigned, citing, among other reasons, a *lack of financial compensation* for their decision.
+За съжаление Log4j далеч не е единственият пример.
+core-js се изтегля 30 милиона пъти седмично като база за всяко Node.js приложение, което също така почти не се финансира. 
+Наскоро няколко от основните биткойн разработчици подадоха оставка, посочвайки наред с други причини *липса на финансова компенсация* за решението си.
 
-There have been multiple attempts at providing incentive structures, typically involving sponsorship and bounty systems.
-Sponsorship makes it possible for consumers of open-source to donate to the projects they favor.
-However, picture open-source as a tower of bricks where lower layers are long forgotten, but still maintained by dedicated engineers and relied upon by even more developers.
-Only projects at the top of the tower are typically known and receive sponsorship.
-This biased selection leads to essential bricks that hold up the tower attracting no donations, while favorites receive more than they need.
-Bounties allow consumers of projects to propose payment for developers to build specific features, thus only remunerating projects for doing things not necessarily in their best interest.
-And again, only rewarding favorites.
+Отбелязваме многобройни опити за предлагане на различни структури за стимулиране, обикновено включващи системи за спонсорство и различни награди.
+Системите за спонсорство дават възможност за потребителите, използващи отворен код да даряват в полза на проекти, които те самите предпочитат. 
+Въпреки това, представете си отворения код като кула от тухли, където долните слоеве са отдавна забравени, но все още поддържани от отдадени на каузата инженери и където все още се разчита на доста разработчици. 
+Обикновено само проектите на върха на кулата са известни и получават спонсорство. 
+Този вид избирателна селекция води до това, че тухлите в основата, които поддържат цялата кула не получават дарения, докато горните предпочитани тухли получават повече, отколкото им е необходимо. 
+Наградите позволяват на потребителите на проекти възможности за предлагане на плащане на разработчиците за изграждане на специфични функции, като по този начин се предлага възнаграждение за проекти, които извършват дейности, не задължително в техен интерес. 
+И отново, награждават се само фаворитите.
 
-In this paper, we propose tea — a decentralized system for fairly remunerating open-source developers based on their contributions to the entire ecosystem and enacted through the tea incentive algorithm applied across all entries in the tea registry.
+В този документ, ви представяме tea — децентрализирана система за справедливо възнаграждение на разработчиците с отворен код въз основа на техния принос към цялата екосистема, въведена чрез алгоритъма за финансово стимулиране, прилаган към всички записи в регистъра на tea.
 
 ![Simplified view of the tea steeping rewards system.](img/figure-1.svg)
 
@@ -61,52 +61,52 @@ $\parskip=0pt plus 1pt$
 [^3]: Source: @twitter
 
 
-# Components
+# Компоненти
 
-A software developer building an application needs four things: a browser, a terminal, an editor, and a package manager.
-Of these four, the package manager is what controls the tooling and frameworks a developer needs to construct their product.
-This layer is where we see the potential to change how open-source is remunerated.
+Всеки разработчик на софтуер, създаващ приложения, се нуждае от четири неща: браузър, терминал, редактор и мениджър на пакети.
+От изброените четири неща, мениджърът на пакети е това, което контролира инструментите и основите, необходими на разработчика, за създаването на своя продукт.
+Точно това ниво представлява елемента, където виждаме потенциала за промяна на начина, по който се възнаграждава отвореният код. 
 
-## The Package Manager
+## Мениджър на пакети
 
-The package manager knows what open-source software an application depends on to function, from the top of the tower to its base.
-Every component and version essential to the application is known and recorded.
-It knows that the top of the tower carefully selects its dependencies and that careful selection continues down.
-The package manager is uniquely placed in the developer tool stack to enable automated and precise value distribution based on actual real-world usage.
+В самия мениджър на пакети е заложено да знае от какъв софтуер с отворен код зависи функционирането на дадено приложение, от върха на кулата до основата.
+Всеки компонент и версия, които са от съществено значение за приложението, са известни и записани. 
+Той знае, че върхът на кулата внимателно избира своите зависимости и този прецизен подбор продължава отгоре надолу. 
+Мениджърът на пакети заема уникално място в стека с инструменти за разработчици, за да позволи автоматизирано и прецизно разпределение на стойности въз основа на действителното им използване в реалния свят. 
 
-We propose an immutable decentralized registry designed to distribute value based on an algorithm that determines each entry’s contribution to the system’s utility and health.
-Value can enter the graph at apex points—apps and essential libraries—and be distributed to the dependencies of those apex points and their dependencies recursively since the registry knows the entire open-source graph.
+Ние предлагаме неизменен децентрализиран регистър, предназначен за разпределяне на стойност въз основа на алгоритъм, определящ приноса на всеки запис към полезността и здравето на системата.
+Стойността може да стане част от графиката във връхните точки – приложения и основни библиотеки – и да бъде разпределена към зависимостите на тези връхни точки рекурсивно, тъй като регистърът познава цялата графика с отворен код. 
 
-Additionally, we believe that material information must be available via the package manager for developers to assess whether they can trust a package and its author.
-This information may be based on reputation, community kudos, data retrieved from decentralized identity (DID[^4]) systems, other package managers, or incentive mechanisms that potentially rely on network participants putting economic value at risk.
+Също така смятаме, че съществена информация трябва да бъде достъпна чрез мениджъра на пакети, за да могат разработчиците да направят преценка дали да се доверят на избрания пакет и неговия автор. 
+Дадена информация може да се основава на репутация, позитивни отзиви откъм общността, данни, извлечени от системи за децентрализирана самоличност (DID[^4]), други мениджъри на пакети или механизми за финансово стимулиране, които потенциално разчитат на участници в мрежата, излагащи на риск икономическата стойност. 
 
-We predict that tea’s combination of tools, information, and rewards will justly incentivize developers, helping stimulate the growth of open-source software and fostering innovation.
+Предвиждаме, че комбинацията от инструменти, информация и награди на tea справедливо ще стимулират разработчиците, помагайки за стимулиране на развитието на софтуера с отворен код и насърчавайки иновациите. 
 
 [^4]: See: @w3
 
-## The Decentralized Registry
+## Децентрализираният регистър
 
-Every package manager has its own package registry duplicating the same metadata repeatedly.
-It’s time there was a single, comprehensive and definitive registry designed and governed by the communities that depend on it.
-This decentralized, immutable registry could provide security, stability and prevent
-malevolent intent.
+Всеки един от мениджърите на пакети има свой собствен регистър на пакети, който дублира едни и същи метаданни многократно.
+Дойде време за създаване на единен, пълен и окончателен регистър, проектиран и управляван от общностите, които зависят от него.
+Такъв тип децентрализиран, постоянен регистър може да осигури сигурност, стабилност и да предотврати 
+злонамерени намерения.
 
-The Internet runs on tens of thousands of vital open-source components.
-It’s remarkable that thus far, incidents caused by the removal of essential open-source infrastructure have been minimal.
-The most famous was the removal of an NPM left-pad[^5] dependency in 2016, which cascaded into continuous integration and continuous deployment systems leaving developers high and dry for days.
-This event demonstrated that the Internet itself is based on fragile systems of development.
-Other examples involved active or intentional participation from the package maintainers sabotaging their popular packages (See colors.js, faker.js[^6], and node-ipc[^7]),
-or bad actors looking to profit by pretending to help maintain packages and corrupting them to steal, for example, Bitcoin private keys (See event-stream[^8]),
-or malicious packages with intentional misspelling errors, also known as typosquatting,
-in the hope of tricking users into installing them, for example crossenv vs. cross-env NPM packages[^npmjsCrossenv].
+Интернет работи с десетки хиляди жизненоважни компоненти с отворен код. 
+Интересен факт е, че досега инцидентите, причинени от премахването на основна инфраструктура с отворен код, са минимални. 
+Най-известниятият пример беше премахването на зависимостта на NPM left-pad[^5] през 2016 г., която каскадно оказа влияние върху системите за непрекъсната интеграция и непрекъснато внедряване, оставяйки разработчиците без финансиране в продължение на дни. 
+Това събитие показа, че самият интернет е основан върху крехки системи за разработка. 
+Другите примери включват активно или умишлено участие от поддържащите пакети, саботиращи техните популярни пакети (вижте colors.js, faker.js[^6], и node-ipc[^7]),
+или лоши участници, които искат да спечелят, като се преструват, че помагат в поддръжката на пакети и ги повреждат за да крадат, например, Bitcoin частни ключове (Вижте event-stream[^8]),
+или злонамерени пакети с умишлени правописни грешки, известни също като typosquatting, 
+чиято цел е да подмамят потребителите за да инсталират, например пакети crossenv vs. cross-env NPM [^npmjsCrossenv].
 
-Software integrity needs to be guaranteed as the industry progresses towards a future where digital assets are part of the software.
-We cannot continue to leave ourselves vulnerable to malicious actors modifying the software.
+Целостта на софтуера трябва да бъде гарантирана, докато цялата индустрията напредва към бъдещето, в което цифровите активи ще са част от самия софтуер. 
+Ние не можем да позволим да се оставяме уязвими към злонамерените участници, модифициращи софтуера. 
 
-Most tools that we call package managers cannot guarantee that these packages built into the apps and dApps are the unaltered open-source code published by their original authors.
-Microsoft’s GitHub has found that 17% of vulnerabilities in software were planted for malicious purposes[^9], with some remaining undetected for extended periods (See Webmin 1.890[^10]).
+Повечето инструменти, които наричаме мениджъри на пакети, не могат да гарантират, че тези пакети, вградени в приложенията и dApps, представляват непроменен код с отворен код, публикуван от оригиналните им автори. 
+В GitHub на Microsoft се установи, че 17% от уязвимостите в софтуерните програми са създадени със злонамерени цели[^9], като някои от тях остават неоткрити за дълъг период от време (See Webmin 1.890[^10]).
 
-A decentralized registry augmented by a reputation system and supported by economic incentives designed to expose bad actors and reward good actors may provide the guarantees developer communities have been looking for.
+Децентрализираният регистър, подкрепен от система за репутация и от икономическите стимули, създадени да разкриват лошите участници и да възнаграждават добрите участници, може да предостави необходимите гаранциите, които общностите на разработчиците толкова търсят. 
 
 [^5]: Source: @theregister
 [^6]: Source: @fossa
@@ -117,467 +117,467 @@ A decentralized registry augmented by a reputation system and supported by econo
 [^10]: Source: @threatpost
 
 
-## The Storage System
+## Система за съхранение
 
-Open-source packages deliver a broad range of functionality, some of which may be restricted or unwanted.
-Encryption is an excellent example of that.
-A critical use case for encryption is the support of individuals’ privacy across the globe.
-Encryption, however, can also be used for nefarious purposes (see Phantom Secure, dismantled by law enforcement agencies in March 2018[^11]) or may be compromised to support law enforcement activities (See Operation Ironside (AFP), Operation Greenlight (Europol),
-and Operation Trojan Shield (FBI)[^12] where the FBI operated an “encrypted” communication platform, AN0M, and convinced criminals to use their “encrypted” phones for secure communication).
+Пакетите с отворен код предоставят широк набор от функции, някои от които може да са ограничени или нежелани. 
+Шифроването е отличен пример за това.
+Важен случай за използване на криптирането е поддържането на поверителността на хората по целия свят. 
+Шифроването също така може да се използва и за нечестни цели (вижте Phantom Secure, демонтиран от правоприлагащите органи през март 2018[^11]) или може да бъде компрометирано, за да се подкрепят дейностите на правоприлагащите органи (Вижте Операция Ironside (AFP), Операция Greenlight (Europol),
+и Операция Trojan Shield (FBI)[^12], където ФБР управляват „криптирана“ комуникационна платформа, AN0M, и убеждават престъпниците да използват своите „криптирани“ телефони за сигурна комуникация). 
 
-Encryption’s broad applications have made it a perfect use case for open-source software and a great example that any solution that stores packages must be tamper-proof and censorship-resistant.
-tea is a decentralized protocol that does not intend to filter or sanction packages based on their functionality.
-While the tea governance may elect to remove proven malicious packages (see the governance section for more information), it is critical for the tea system to connect with multiple storage systems, including decentralized ones that demonstrate that a package is unaltered and correctly replicated.
-Package maintainers may choose the storage system best suited for their need to store and distribute their packages securely.
+Голямото приложение на криптирането го превърна в идеален случай за използване на софтуер с отворен код и чудесен пример, че всяко решение, с което имаме възможност за съхранение на пакети, трябва да бъде защитено от подправяне и цензура. 
+tea е децентрализиран протокол, който не е предназначен за филтриране или санкциониране на пакети въз основа на тяхната функционалност. 
+Докато управлението на tea може да избере да премахне доказано злонамерени пакети (вижте раздела за управление за повече информация), за системата tea е от решаващо значение да се свърже с множество системи за съхранение, включително децентрализирани, които показват, че пакетът е непроменен и правилно репликиран.
+Поддържащите пакети могат да изберат системата за съхранение, която е най-подходяща за техните нужди за сигурно съхранение и разпространение на своите пакети.
 
 [^11]: Source: @fbi
 [^12]: Source: @europol
 
-# Network Participants
+# Участници в мрежата
 
-tea’s mission is to empower open-source communities and ensure their contributors are supported as they create the tools that build the Internet.
-In this white paper, we distinguish participants through their contributions.
-Some may contribute code or verify contributed code.
-Others may provide economic value to support developers and their reputation.
+Мисията на проекта tea е да даде по-голяма възможност на общностите с отворен код и да гарантира подкрепа за техните сътрудници, създаващи инструментите за изграждане на интернет.
+В настоящата "бяла книга" ние ще разпределим участниците съответно техния принос. 
+Някои може да допринесат чрез създаване на код или да способстват за потвърждаване на вече създаден такъв.
+Други могат да предоставят икономическа стойност в подкрепа на разработчиците и тяхната репутация. 
 
-## Package Maintainers
+## Специалисти, поддържащи пакетите
 
-Package maintainers must make sure their software continues to deliver increasing value as the industry evolves.
+Разработчиците на пакети трябва да се уверени, че техният софтуер продължава осигуряване на нарастващите изисквания в крак с развитието на индустрията. 
 
-tea assumes that package creators maintain their work.
-Package maintainers are pillars of open-source communities who need to be empowered and rewarded for their ongoing contributions.
-A package maintainer may decide to discontinue their maintenance efforts or realize they cannot operate at a pace that matches the package users' expectations.
-Package maintainers receive a non-fungible token (NFT) when they complete a package submission (see the maintainer NFT section for additional details).
-This NFT is used to evidence their work and is the key that directs tea rewards.
-The holder of a package’s NFT can transfer its ownership to another developer (or group of developers), thus making them maintainers of the package and recipients of any future rewards.
-Similarly, a developer may decide to take on the role of package maintainer by forking the existing package and submitting a new one which they will maintain moving forward, thus becoming themselves both package creator and maintainer.
+tea предполага, че създателите на пакети постоянно следят и поддържат тяхната работа. 
+Разработчиците на пакети представляват основа на общностите с отворен код, които трябва да бъдат овластени и възнаградени за техния постоянен принос.
+Създателят на пакет може да реши да прекрати своите усилия по поддръжка или да разбере, че темпа, с който от него се очаква да работи, не отговаря на очакванията на потребителите на пакета. 
+Създателите на пакети получават незаменими токен (NFT), когато завършат изпращане на пакета (вижте раздела NFT на създателите за допълнителни подробности). 
+Самият NFT се използва кето доказване на реззултат от тяхната работа и е ключът, който определя наградите на tea. 
+Притежателите на NFT пакети имат възможност да прехвърлят собствеността си на друг разработчик (или група разработчици), като по този начин ги прави поддържащи пакета и получатели на всякакви бъдещи награди. 
+Също така, разработчикът може да реши да поеме ролята на поддържащ пакета, чрез форк на съществуващия пакет и изпрати нов, който ще поддържа занапред, като по този начин сам стане създател и поддържащ пакета. 
 
-It is essential to provide developer communities with the right tools to determine which packages are being maintained and their past and present maintainers’ reputation and quality of work.
-We’ve too often seen open-source work being tampered with and the efforts of many ruined by bad actors.
-Although the work of these bad actors is largely discovered and remediated, it is often not until significant damage has been incurred through financial or data loss.
-Take for example the EventStream npm package[^13] that was downloaded over 1.5 million times per week and relied upon by over 1,500 packages when a hacker managed to penetrate the open-source project,
-gain the trust of its original author and modify EventStream to depend on a malicious package that would exfiltrate bitcoin wallet credentials to a third-party server\.
-Although tools may help detect some of these attacks, they cannot always be relied upon, which creates an entire community dependent upon each other’s diligence and willingness to share their findings.
+Важно е да предоставим на общностите от разработчици правилните инструменти, за да се определят кои пакети се поддържат, а също така репутацията и качеството на поддръжката на техните разработчици, предишни или настоящи. 
+Честа практика е работата на специалистите с отворен код да се подправя и усилията на мнозина да се съсипват от недобросъвестни участници. 
+Въпреки че дейността на тези недобросъвестни участници е до голяма степен разкрита и коригирана, наблюдаваме чести случаи тяхната дейност да остане не разкрита, докато не бъдат нанесени значителни щети поради финансова загуба или загуба на данни. 
+Да вземем за пример пакет EventStream npm[^13], който беше изтеглен над 1.5 милиони пъти седмично и използва над 1,500 пакета, когато хакер успя да проникне в проекта с отворен код,  
+да спечели доверието на първоначалния разработчик и да модифицира EventStream, по начин, по който той да стане зависим от злонамерен пакет, предаващ идентификационните данни на биткойн портфейла към сървър от трета страна\.
+Въпреки че инструментите могат да помогнат за откриването на някои от тези атаки, на тях не винаги може да се разчита, което създава една цяла общност, зависима от усърдието и желанието на всички участници да споделят своите открития. 
 
-We propose introducing incentives via the tea token described in the tea token section, encouraging open-source communities to report their findings constructively, so package maintainers can address them before they are exploited.
+Ние предлагаме въвеждане на стимули чрез tea токен, описан в секцията "tea токен", като насърчаваме общностите с отворен код да докладват своите констатации конструктивно и навреме, така че поддържащите пакетите специалисти да могат да се справят с тях, преди да бъдат експлоатирани. 
 
 [^13]: Source: @medium
 
-## Package Users
+## Участници, използващи пакети
 
-Package users are software developers focused on solving a specific problem.
-They often look in the open-source community for the tools they need to experiment quickly and iterate at very little to no cost, directly benefiting from the work of package creators and maintainers.
-Traditionally, a subset may have chosen to support package maintainers through donations or other forms of remuneration; however, this has rarely been the case.
+Участниците, използващи пакетите са софтуерни разработчици, фокусирани върху решаването на специфични проблеми.  
+Те често търсят в общността с отворен код инструментите, от които се нуждаят, за да ги използват за бързо експериментиране без големи финанансови плащания, като се възползват директно от работата на създателите и на тези, поддържащите пакети. 
+Обикновено, една част от групата може да е избрала да подкрепи поддържащите пакетите чрез дарения или други форми на възнаграждение; това обаче рядко се случва. 
 
-Sponsorship can be an effective system to support open-source development; however, remuneration does not typically extend to all dependencies.
-This limitation benefits favorites and gets in the way of innovation and software building.
-To strive as the foundation of software development, open-source must empower all developers, whether beginners or experts, across all layers in the tower.
+Спонсорството може да представлява ефективна система за подпомагане на разработките с отворен код; обаче, възнаграждението обикновено не обхваща всички зависимости. 
+Това ограничение е изгодно на фаворитите и пречи на иновациите и изграждането на софтуера. 
+За да се превърне в основа на софтуерни разработки, отвореният код трябва да дава възможност на всички разработчици, независимо дали са начинаещи или експерти, във всички слоеве на кулата. 
 
-tea’s purpose is to maintain the core values of open-source software while providing a decentralized system to remunerate package maintainers for their work.
-To deliver on this mission, tea intends to develop — and incentivize others to develop — mechanisms for package users to support package maintainers through unique use cases of the tea token, as described in the tea token and future work and potential community effort sections.
+Целта на tea е да поддържа основните ценности на софтуера с отворен код, като същевременно предоставя децентрализирана система за възнаграждение на участниците, поддържащи пакети за тяхната работа. 
+За да изпълни тази мисия, tea възнамерява да разработи — и да стимулира другите да разработват — механизми, позволяващи на потребителите на пакети, да подкрепят участниците поддържащи пакети чрез използване на токена tea, както е описано в разделa "tea токен" и в секциите за бъдеща работа и потенциални усилия на общността.
 
-## Package Supporters and Sponsors
+## Поддръжници и спонсори на пакета
 
-In Web 2.0 and web3, package supporters have often been called “sponsors.” They are organizations or package users who use open-source software to build their commercial products, philanthropists looking to support the ecosystem, or entrepreneurs looking to fund teams to develop components of a larger system.
+В Web 2.0 и web3, поддръжниците на пакета често са наричани „спонсори“. Те представляват организации или потребители на пакети, които използват софтуери с отворен код, за да създават свои търговски продукти, филантропи, подкрепящи екосистемата, или предприемачи, с намерение за финансиране на екипи за разработка на компоненти от по-голяма система. 
 
-tea proposes to extend the communities of package supporters to the entire tea community, whether organizations, developers, users, or tech enthusiasts.
-tea’s goal is to implement decentralized incentive mechanisms through unique use cases of the tea token for any member of the tea community to contribute to the perpetual sustainability and continuous growth of open-source.
-Package supporters and sponsors are free to decide which packages or package maintainers they want to support based on their work, beliefs, or any criteria and metric that would influence their decision.
-Additionally, the support provided by package supporters and sponsors will flow to each package’s dependencies, thus implicitly trusting the package maintainer to make good choices about their stack and using this information to contribute to their reputation.
+tea предлага разширяване на общностите от поддръжници на пакети към цялата tea общност, независимо дали са организации, разработчици, потребители или технологични ентусиасти. 
+Целта нa проекта tea е прилагане на децентрализирани механизми за стимулиране чрез уникални случаи на използване на tea токенa за всеки член от tea общността, за допринaсяне на постоянната устойчивост и непрекъснат растеж на екосистемата с отворен код. 
+Поддръжниците и спонсорите на пакети сами са свободни да решават кои пакети или поддържащи пакети искат да подкрепят въз основа на тяхната работа, убеждения или други критерии и показатели, които биха повлияли на тяхното решение. 
+Освен това поддръжката, осигурена от участниците подкрепящи пакетите и спонсорите на пакети, ще се простира към зависимостите на всеки пакет, като по този начин неявно се доверява на поддържащият пакета да направи добър избор относно стека и да използва тази информация, за да допринесе за тяхната репутация. 
 
-Provided that the package maintainer offers such service, a package supporter and sponsor may receive a premium support level NFT in return, thus benefiting from accelerated SLAs or more flexible licensing.
-Additionally, package supporters and sponsors may decide to support packages or package maintainers and automatically redirect all or a percentage of their rewards to incentivize teams to build new open-source software.
-In other words, packages don’t need to exist for tea to start pouring in.
-Nascent projects can be supported just as well as more mature ones, further incentivizing a constantly evolving open-source landscape.
+При условие, че поддържащият пакет предлага такава услуга, поддръжникът и спонсорът на пакета могат да получат в замяна първокласно ниво на NFT поддръжка, като по този начин се възползват от ускорени SLA или по-гъвкаво лицензиране. 
+Освен това поддръжниците и спонсорите на пакети могат да решат да подкрепят пакети или разработчиците на пакети и автоматично да пренасочат всички или процент от своите награди, за да стимулират екипите да създават нов софтуер с отворен код.
+С други думи, не е необходимо да съществуват пакети, за стартиране на tea процеса. 
+Проектите в начален стадий могат да бъдат подкрепяни също толкова добре, колкото и тези, които съществуват отдавна, което допълнително стимулира непрекъснато развиващата се екосистема с отворен код. 
 
-## tea Tasters
+## tea дегустатори
 
-As new packages or new versions of existing packages are released, the validity of the work needs to be provably demonstrated.
-This information is critical for package users to decide whether or not to trust both the package and its maintainers.
-With the tea protocol, this function is provided by the tea tasters.
+След като постоянно се издават нови пакети или нови версии на съществуващите пакети, валидността на работата трябва да бъде демонстрирана по доказуем начин. 
+Тази информация е от решаващо значение за потребителите на пакета, за да вземат решат дали да се доверят или не както на пакета, така и на поддържащите го специалисти. 
+В случай с tea протокола, тази функция се осигурява от tea дегустаторите.
 
-tea tasters, typically, are experienced software developers willing to dedicate some of their time to check the claims associated with a package (functionality, security, semantic versioning[^14], license accuracy, etc.)
-and stake both their reputation and economic value to demonstrate the outcome of their research and analysis and support their reviews.
-tea tasters receive rewards for their diligence and efforts.
-At tea, we call  “steeping your tea” the action of locking tea tokens to support your reviews and receive rewards (or penalties) based on the consensus on the validity of your reviews.
+tea дегустаторите, обикновено, са опитни софтуерни разработчици, готови да посветят част от времето си, за проверка на твърденията, свързани с пакетите (функционалност, сигурност, семантична версия[^14], точност на лиценза, др.)
+и залагат както репутацията си, така и финансовите си приходи, за да демонстрират резултатите от своите изследвания и анализи в подкрепа на своите твърдения.
+tea дегустаторите получават награди за старанията и усилията си.
+В tea, ние наричаме „накисване на вашия чай“ действието на заключване на tea токени, за да поддържате вашите твърдения и да получавате награди (или санкции) въз основа на консенсуса относно валидността на вашите твърдения. 
 
-Like package supporters, tea tasters can influence a package and package maintainer’s reputation; however, their impact is more significant given their role in validating a package’s security, functionality, and quality.
-tea tasters will also need to build their reputation to support their claims.
-The quality of their work and the economic value they put at risk as they steep their reviews combined with other external data sources will build each tea taster’s reputation, bringing more value to their work.
-See the package reputation section for more details on the mechanisms used to influence a package and package maintainer’s reputation.
+Подобно на поддръжниците на пакета, tea дегустаторите могат да окажат влияние върху пакета и репутацията на поддържащия пакет; обаче тяхното въздействие обаче е по-значимо, като се вземе предвид тяхната роля при валидирането на сигурността, функционалността и качеството на пакета. 
+tea дегустаторите също така ще трябва да изградят репутацията си, за да подкрепят твърденията си.
+Качеството на тяхната работа и икономическата стойност, която излагат на риск, докато подготвят рецензиите си, съчетани с други външни източници на данни, ще изградят репутацията на всеки tea дегустатор, придавайки повече стойност на работата им. 
+Вижте раздела "репутация на пакета" за повече подробности относно механизмите, използвани за повлияване на пакета и репутацията на поддържащия пакет.
 
 [^14]: See: @semver
 
-# Protocol Overview
+# Преглед на протокола
 
-The design of a protocol to reward open-source contributions is mired with challenges.
-Open-source software is by definition open to all and can, as a result, be subjected to misattribution, appropriation, or malicious tampering.
-However, the open-source community has consistently demonstrated its willingness to highlight good actors and expose bad actors.
-Historically, the energy spent reviewing and commenting on other developers’ contributions has been strictly voluntary, despite how time-consuming and crucial reporting and defending findings may be.
+Дизайнът на протокола за възнаграждение на приноса към системата с отворен код е пълен с предизвикателства. 
+По подразбиране софтуерът с отворен код е отворен за всички и в резултат на това може да бъде подложен на погрешно пренаписване, присвояване или злонамерено подправяне. 
+Въпреки това, общността с отворен код постоянно демонстрира готовността си да разкрива добрите участници или недоброжелателни такива. 
+През изминалите години, усилията, изразходвани за преглед и коментиране на приноса на други разработчици, са били строго доброволни, въпреки това, че тези усилия отнемат много време и може да са решаващи при докладването и защитата на констатациите при откритията. 
 
-We intend to create a trustless distribution platform for applications secured by reputation and financial incentives, as we believe adequate rewards for open-source contributions cannot succeed without both a reputation system and the ability for members of the community to communicate their findings and support (or dissent) for a package or the work of a developer.
+Нашата цел е създаване на платформа за разпространение на приложения без доверители, осигурена от репутация и финансови стимули, тъй като вярваме, че адекватните награди за принос към системата с отворен код няма да са успешни без изградена система за репутация, и способността на членовете на общността да съобщават своите констатации и подкрепа (или несъгласие) за определен пакет или работа на разработчик. 
 
-We must provide developers with tools to access and contribute to this reputation system.
-Tools that include simple visual and programmable access to the version and reputation of all dependencies within their packages.
-A clear understanding of which community members support each package and how many tea tokens they are steeping will contribute to the reputation of each package, just as how much a package maintainer is steeping their work communicates how much they stand behind their work.
-These combined data points will help inform a reputation system for all community members and facilitate choice.
-As the EventStream package hack was not conducted through the package itself, but via one of its dependencies, visibility across all layers of dependencies will be vital to building this trustless system.
-However, considerations such as computation and transaction (“gas”) costs will need to take priority as the system is designed and built.
+Необходимо е да предоставим на разработчиците инструменти за достъп и принос към изграждането на системата за репутация. 
+Инструменти, които включват прост визуален и програмируем достъп до версията и репутацията на всички зависимости в техните пакети. 
+Ясното разбиране на това кои членове от общността подкрепят всеки пакет и колко tea токени те заключват, ще допринесе за репутацията на всеки пакет, точно както доколко поддържащият пакет "накисва" работата си, съобщава колко от тях подкрепят работата си. 
+Тези комбинирани точки от данни помогат за информиране и създаване на система за репутация за всички членове на общността и с това улесняват избора. 
+След като хакването на пакета EventStream не е било извършено чрез самия пакет, а чрез една от неговите зависимости, видимостта във всички слоеве на зависимости е жизненоважна за изграждането на тази надеждна система. 
+Обаче подобни съображения като изчислителни и транзакционни („газ“) разходи ще трябва да имат приоритет при проектирането и изграждането на системата. 
 
-Our goal is to reward both Web 2.0 and web3 developers.
-The intricacies and specifics of each stack make it so that tracking installations and uninstallations of packages could easily fall victim to one or more bad actors.
-That includes “buying” installations to artificially inflate numbers.
-An even worse scenario would be introducing fundamental changes to the nature of open-source software by creating unnecessary friction with license keys or other deployment tracking mechanisms.
-To provide the broadest coverage, we believe that rewards mustn’t rely on a simplistic notion of tracking installations or uninstallations, but rather on incentive mechanisms that encourage the submission of quality packages and the reporting of nefarious or high-risk packages.
-Lastly, many packages rely on common dependencies.
-For example, Lodash has 151,209 dependents[^15] while chalk has 78,854 dependents[^16] or Log4js has 3,343 dependents[^17].
-As more packages are created using the same dependencies, how do we ensure that incentives are distributed fairly and equitably?
-How do we ensure that the most utilized dependencies are rewarded without starving new or emerging packages and developers?
-How do we ensure that the incentive system does not end-up steering developers away from niche languages to centralize them where incentives are better?
-But also, as developers, how do we identify packages with the most dependents to build alternatives - leaner, more efficient, better-coded versions of these packages?
-At tea, we believe that the lack of incentive has impeded the evolution of open-source software.
-Supported by the right economic incentives and rewards, more developers will be in a position to build, improve and augment open–source software for the betterment of the world.
-Only then will the tea token be able to represent the total value of open-source software.
+Нашата цел е честно възнаграждение на разработчиците както на Web 2.0 така и на web3 екосистемите.
+Тънкостите и спецификите на всеки стек водят до това, че при проследяването на инсталирани и деинсталирани пакети, те може лесно да се превърнат в жертва на един или повече злонамерени участници. 
+Това включва „купуване“ на инсталации за изкуствено увеличаване на числата. 
+Още по-лош сценарий би бил въвеждането на фундаментални промени в природата на софтуера с отворен код чрез създаване на допълнителни затруднения при използване на лицензни ключове или други механизми за проследяване на внедряването. 
+За да осигурим по-голямо въздействие, ние вярваме, че наградите не трябва да разчитат на опростена представа за проследяване на инсталирани и деинсталирани пакети, а по-скоро на механизми за стимулиране, които насърчават подаването на качествени пакети и докладването на злонамерени или високорискови пакети. 
+И накрая, много пакети разчитат на общи зависимости. 
+Например, Lodash има 151,209 зависимости[^15] докато chalk има 78,854 зависимости[^16] или Log4js има 3,343 зависимости[^17].
+След като повече пакети се създават с помощта на едни и същи зависимости, как да гарантираме, че стимулите се разпределят честно и справедливо? 
+Как да гарантираме, че най-използваните зависимости са възнаградени, без да останат без възнаграждение нови или нововъзникващи пакети и разработчици? 
+Как да гарантираме, че изградената системата за стимули в крайна сметка не отклонява разработчиците от по-специализираните езици, в полза на централизираните, където стимулите са по-добри? 
+Но също така, като разработчици, как да сме сигурни, че ще идентифицираме пакети с най-големи зависимости, за да изградим алтернативи - по-прости, по-ефективни, по-добре кодирани версии на тези пакети? 
+В tea вярваме, че липсата на стимули пречи на еволюцията на софтуера с отворен код.
+Подкрепени от правилните икономически стимули и награди, повече разработчици ще бъдат в състояние да изградят, подобрят и разширят софтуера с отворен код за подобряването на цялата система.
+Само тогава tea токенът ще може да представлява цялата стойност на софтуера с отворен код. 
 
 [^15]: Source: @npmjsLodash
 [^16]: Source: @npmjsChalk
 [^17]: Source: @npmjsLogFourjs
 
-## Package Submission
+## Подаване на пакета
 
-The submission of a package release requires multiple transactions to occur atomically.
-Specifically, the package maintainer must:
+Представянето на пускането на пакета изисква множество транзакции да се извършват атомарно. 
+По-конкретно, поддържащият пакет трябва да:
 
-* Register the package (and its semantic version) with the decentralized registry.
-* Upload the package into the decentralized storage system for resilience, censorship resistance, and ease of distribution.
-* Contribute to the package’s reputation and trustworthiness by *steeping* tea tokens.
+* Регистрира пакета (и неговата семантична версия) в децентрализираният регистър.
+* Качи пакета в децентрализираната система за осигуряване на устойчивост към цензура и лесно разпространение. 
+* Допринесе за репутацията и надеждността на пакета чрез *накисване*/заключване на tea токените. 
 
-Failure of any one of the three operations will result in the protocol reverting to its previous state, thus eliminating any evidence of the submission.
+Неуспехът на която и да е от трите операции ще доведе до връщане на протокола към предишното му състояние, като по този начин ще елиминира всякакви доказателства за подаването. 
 
-When a package is successfully submitted, the package maintainer will receive a maintainer NFT to evidence their work and contribution to open-source.
-The package maintainer may transfer the steeping rewards associated with the maintainer NFT to a third party.
-However, the reputation associated with the creation and maintenance of the asset will remain with the package maintainer, so their reputation can be affected over time.
-As the reputation of any member of the tea community reaches key milestones, they may be granted access to elevated parts of the protocol or receive accelerated rewards, as decided by the tea governance.
-For more details on the maintainer NFT, see the maintainer NFT section.
+След като пакетът бъде изпратен успешно, поддържащият пакет ще получи NFT за поддържка, за да докаже своята работа и принос към отворения код. 
+Поддържащият пакет може да трансферира наградите за заключване на токени, свързани с поддържащия NFT към трета страна. 
+Въпреки това, репутацията, свързана със създаването и поддръжката на актива, ще остане при поддържащия пакет, така че неговата репутация може да бъде засегната с течение на времето. 
+Когато репутацията на който и да е член на tea общността достигне ключови етапи, те получават възможност за достъп към определени по-високи нива от протокола или да получават по-бързо награди, както е решено от tea управлението.
+За повече подробности относно поддържащите NFT вижте съответния раздел за NFT. 
 
-### Dependencies Analysis
+### Анализ на зависимостите
 
-Package dependencies can run deep, as each package often has both dependents and dependencies.
-To provide a simple methodology that rewards all developers who have contributed to open-source software while keeping the creation of the dependencies tree quick and computationally efficient, we propose to verify only first-level dependencies upon submission of a package.
+Зависимостите на пакетите могат да бъдат дълбоки, тъй като всеки пакет често има както зависими компоненти, така и зависимости. 
+За да предоставим проста методология, способстваща възнаграждаването на всички разработчици, които допринасят за изграждане на софтуер с отворен код, като същевременно запазват създаването на дървото на зависимостите бързо и изчислително ефективно, ние предлагаме проверяване само на зависимостите от първо ниво при подаването на пакет. 
 
-This design is driven by the hypothesis that each dependency is itself a package that was independently submitted to the tea tree.
-In doing so, each of its dependencies can be mapped, and if its dependencies have dependencies themselves, those will be mapped at the time the dependency package is submitted.
+Дизайнът е ръководен от хипотезата, че всяка зависимост сама по себе си е пакет, който е бил независимо изпратен от tea дървото. 
+По този начин всяка от неговите зависимости може да бъде картографирана и ако самите нейни зависимости имат зависимости, те ще бъдат картографирани в момента на изпращане на пакета за зависимости. 
 
-![Dependencies analysis diagram.](img/figure-3.svg){#fig:dep-analysis}
-
-
-In @fig:dep-analysis, the submission of package A triggers an analysis of runtime dependencies 1 through n and build dependencies 1 through n, while runtime dependencies 1.1 through 1.n and build dependencies 1.1 through 1.n were analyzed when package B was submitted.
-We will apply the same methodology for incentive distribution as the steeped tokens are distributed across all dependencies, thus recursively steeping the packages listed as dependencies (see @fig:steeping-rewards).
-
-![Steeping rewards distribution across dependencies.](img/figure-2.svg){#fig:steeping-rewards}
+![Dependencies analysis diagram.](img/figure-3.svg){#фиг:анализ-зависимости}
 
 
-Versioning and conflicting dependencies are significant challenges, and troubleshooting them can turn into massive time drains.
-To address this, we propose each package be subject to a comprehensive dependency scan upon submission so we can ensure that the package complies with the following rules for semantic version ranges.
+Във @фиг:анализ-зависимости, представяне на пакета A пуска  задейства анализ на зависимостите по време на изпълнение 1 чрез n и изгражда зависимост 1 чрез n, докато зависимостите по време на изпълнение 1.1 чрез 1.n и изгражда зависимости 1.1 чрез 1.n където са анализирани при при подаването на пакет B.
+Ще приложим същата методология за разпределение на стимули, тъй като заключените токени се разпределят във всички зависимости, като по този начин рекурсивно накисваме "пакетите", посочени като зависимости (виж @фиг:заключване-награди).
 
-* Packages may only constrain their dependencies to a major version, though the start of the range can be any valid semantic version (e.g., >=5.2.1 <6).
-* If a dependency is upgraded to a more recent major version, tea may require that the package’s major version be increased.
-* Similarly, if a dependency is upgraded to a more recent minor version, tea may require that the package’s minor version be increased.
-* If a new dependency is added, tea may require that the package’s minor version be increased.
+![Steeping rewards distribution across dependencies.](img/figure-2.svg){#фиг:заключване-награди}
 
-Considering the unnecessary effort imposed upon any package user when the above rules are transgressed, we propose that a portion of the tea token steeped by the package maintainer be slashed to reflect their lack of due diligence.
-If a developer forces everyone to juggle their cups, someone will spill some tea.
-Since the dependency scan is expected to occur at submission, we should note that no steeping from package supporters and sponsors or tea tasters will have happened.
 
-## Package & Package Maintainer Reputation
+Версиите и противоречивите зависимости са значителни предизвикателства и отстраняването им може да отнеме много време.
+За да решим този проблем, ние предлагаме всеки пакет да бъде подложен на цялостно сканиране на зависимости при изпращане така че можем да гарантираме, че пакетът отговаря на следните правила за семантика на диапазони на версиите.
 
-Package maintainers must contribute to their package’s reputation and trustworthiness by steeping tea tokens.
-However, a reputation system that relies solely on the author’s economic contribution does not provide sufficient user protection and can be subject to Sybil attacks, where a single individual creates multiple representations of themselves to leave a large volume of positive reviews on their work,
-tricking users into believing their work was reviewed and approved by many.
+* Пакетите могат да ограничат своите зависимости само до основна версия, въпреки че началото на диапазона може да представлява всяка валидна семантична версия (e.g., >=5.2.1 <6).
+* Ако определена зависимост бъде ъпгрейдната до по-нова основна версия, tea може да изисква увеличаване на основната версия на пакета. 
+* Подобно, ако дадена зависимост бъде надстроена до по-нова второстепенна версия, tea може да изисква увеличаване на второстепенната версия на пакета. 
+* При добавяне на нова зависимост, tea може да изисква увеличаване на второстепенната версия на пакета. 
 
-Several methodologies are available to prevent Sybil attacks, some of which are described by Nitish Balachandran and Sugata Sanyal in “A Review of Techniques to Mitigate Sybil Attacks”[^18].
-As tea is a decentralized protocol, using a trust certification system that relies on a centralized certificate issuance authority would be contrary to its core.
-We propose to focus on decentralized approaches to Sybil attack mitigation and, more specifically, on methodologies that rely on a large group of network participants incentivized to assess and publicly represent the reputation of each package and its maintainer.
+Имайки предвид ненужните усилия, наложени на всеки потребител на пакета, когато горните правила са нарушени, ние предлагаме част от tea токените, "напоени" от поддържащия пакета, да бъде намалени, за да се отрази липсата от полагане на необходимо усърдие. 
+Ако разработчик принуждава всички да жонглират с чашите си, някой ще разлее малко чай. 
+Тъй като се очаква сканирането на зависимостите да се извърши при подаване, трябва да отбележим, че няма да се случи "накисване" от поддръжници и спонсори на пакета или  tea дегустатори. 
 
-Similar to the production of blocks on a proof-of-stake blockchain, where non-producing nodes can validate the work of others and, when necessary, highlight a violation of the rules of the network, which leads to a penalization of the bad actor through slashing (destruction of a portion of their stake),
-we propose a system whereby third-parties (aka tea tasters) would be able to review packages produced by package maintainers and be economically incentivized to behave in the best interest of the open-source software community and its users as well as recognize good behavior and penalize bad behavior.
-This system must be both Sybil resistant and prevent large token holders from materially influencing the protocol or the reputation of specific packages.
-We believe this approach to be more aligned with open-source, providing a more fertile substrate to foster adoption and trust, and ultimately facilitate the growth of tea.
+## Пакет и репутация на поддържащия пакет
+
+Поддържащите пакети трябва да допринесат за репутацията и надеждността на своя пакет чрез "накисване" на tea токените. 
+Обаче, системата за репутация, разчитаща единствено на икономическия принос на автора, не осигурява достатъчна защита на потребителите и може да се превърне в обект на Sybil атаки, при които един човек създава множество представяния на себе си, за да остави голям обем положителни отзиви за работата си, 
+карайки потребителите да повярват, че тяхната работа е прегледана и одобрена от много хора. 
+
+Съществуват няколко методологии за предотвратяване на атаките на Sybil, някои от които са описани от Nitish Balachandran и Sugata Sanyal в “Преглед на техниките за смекчаване на атаките на Sybil”[^18].
+Тъй като tea представлява децентрализиран протокол, използването на система за сертифициране на доверие, която разчита на централизиран орган за издаване на сертификати, би било в противоречие с неговата същност. 
+Ние предлагаме да се съсредоточим върху децентрализирани подходи за смекчаване на атаките на Sybil и по-конкретно върху методологии, които разчитат на голяма група участници в мрежата, стимулирани да оценяват и представят публично репутацията на всеки пакет и неговия поддържащ. 
+
+Подобно на производството на блокове в proof-of-stake блокчейн, където нодите, които не произвеждащите блокове могат да валидират работата на другите и, когато е необходимо, да подчертаят нарушение на правилата в мрежата, което води до санкциониране на лошите участници чрез слашинг (унищожаване на част от техния залог в стейкинг), 
+ние предлагаме система, чрез която трети страни (известни още като tea дегустатори) имат възможност да преглеждат пакети, произведени от поддържащи пакети, и да бъдат икономически стимулирани да се държат в най-добрия интерес на общността на софтуера с отворен код и неговите потребители, както и да разпознават доброто и наказват недосбросъвестно поведение. 
+Тази система трябва да бъде едновременно устойчива на Sybil и да не позволява на големите притежатели на токени да влияят съществено върху протокола или репутацията на конкретни пакети. 
+Сигурни сме, че този подход е в по-голяма степен съобразен с отворения код, осигурявайки по-добър субстрат за насърчаване на приемането и доверието и в крайна сметка улесняващ развитието на tea проекта. 
 
 [^18]: Source: @arxiv
 
-## Package Review by Third Parties
+## Преглед на пакета от трети страни
 
-The review of packages by third parties is an essential component of reputation building, however, third-party review has its own set of unique threats including the aforementioned Sybil attacks.
+Съществен компонент в изграждането на репутация, е прегледът на пакети от трети страни, но такъв вид преглед има свой собствен набор от евентуални уникални заплахи, включително гореспоменатите атаки на Sybil. 
 
-Blockchain technology, and more explicitly staking, offers a unique opportunity for tea to tackle this challenge.
-Although wallet addresses may be available in infinite quantities, this is not the case with tea tokens, whose initial supply is expected to be 10 billion.
-Additionally, each action performed by developers, such as submitting packages, verifying packages, or steeping them, will contribute to their reputation, thus creating a unique profile each developer can use to both contribute to the tea community and participate in tea’s governance.
+Блокчейн технологията и по-точбно стейкинг предлага уникална възможност за tea проекта да се справи с това предизвикателство. 
+Въпреки че всеки може да си направи и използва толкова адреси на портфейли, колкото си поиска това не е така с tea токените, чието първоначално предлагане се очаква да бъде 10 милиарда. 
+Освен това, всяко действие, извършено от разработчиците, като изпращане на пакети, проверка на пакети или "накисването" им, ще допринесе за тяхната репутация, като по този начин създава уникален профил, който всеки разработчик може да използва, за да участва както в tea общността, така и в tea управлението. 
 
-By requiring third-party reviewers to steep tea tokens and incur the risk of losing a portion of their steeped tokens should they turn out to behave against the interest of the network or be a bad actor, third parties can provide additional credence to a package and receive a reward, in the form of tea tokens.
+Чрез изискване към рецензентите от трети страни да "заключват" tea токени и поемат риска от загуба на част от техните "заключени" токени, при положение, че ще се докаже, че се държат против интересите на мрежата или са недобросъвестни участници, трети страни могат да осигурят допълнителна достоверност на пакетите си и да получат награда под формата на tea токени. 
 
-We also propose extending the reputation system to the third parties who perform the independent verification of packages - the tea tasters.
-The completion of a positive review will require two operations to occur atomically:
+Ние също така предлагаме разширяване на системата за репутация към трети страни, които извършват независима проверка на пакетите - tea дегустатори. 
+За приключване на положителен преглед ще се изискват две операции, които да се появят атомарно: 
 
-* The submission of the code review, signed by the tea taster and publicly accessible to all members of the community, along with
-* The act of steeping “for” the package (vs. “against” the package), to substantiate their review.
+* Подаването на прегледа на кода, който е подписан от tea дегустатора и публично достъпен за всички членове на общността, заедно с 
+* Акта на накисване „за“ пакета (срещу „против“ пакета), за да бъде обоснован самия преглед. 
 
-The completion of a negative review that includes one or more critical vulnerabilities will require the tea tasters first to contact the package maintainer using a messaging protocol to notify them of the vulnerability and allow them to address the issue in a timely fashion.
-Upon expiry of the governance-defined period allocated to the package maintainer to address their vulnerability or as the corrected package becomes available, the same messaging protocol will be used to notify all users and testers of this package (including dependents) that a vulnerability has been identified,
-and hopefully addressed, so they know to update their application or dependencies.
-To disincentivize wasting developers’ time, communication between the tea tasters and package maintainers will require the tea tasters to steep tea tokens.
+Завършването на отрицателен преглед, който включва наличие на една или повече критични уязвимости, ще изисква от tea дегустаторите първо да се свържат с поддържащия пакет, използвайки протокол за съобщения, за да уведомят за наличието на уязвимост и да им бъде позволено да решат проблема своевременно. 
+След изтичане на определения от управлението период, определен на поддържащия пакета за справяне с тяхната уязвимост, или когато коригираният пакет стане достъпен, същият протокол за съобщения ще бъде използван за уведомяване на всички потребители и тестери на този пакет (включително зависими лица), че уязвимостта е била идентифицирана, 
+и се надяваме отстранена, за да знаят, че е необходимо да актуализират своето приложение или зависимости. 
+За да се демотивира загубата на време от страната на разработчиците, комуникацията между tea дегустаторите и поддържащите пакети ще изисква от tea дегустаторите да "заключват" tea токени. 
 
-Upon completing both operations, the tea tasters will receive an NFT as evidence of their work on the specific package and package version.
-The accumulation of NFTs combined with the steeping ratio of each of the packages reviewed and information extracted from external systems will inform a tea taster’s reputation.
-As their reputation reaches key milestones, tea tasters may earn access to elevated parts of the protocol or accelerated rewards, as decided by the tea governance.
+След завършване на двете операции tea дегустаторите ще получат NFT като доказателство за тяхната работа върху конкретния пакет и версията на пакета. 
+Събирането на NFT, съчетано със съотношението на накисване на "всеки" от прегледаните пакети и информацията, извлечена от външни системи, ще повлияе на репутацията на tea дегустатора.
+След като репутацията им достига ключови етапи, tea дегустаторите могат да спечелят достъп до по-висши части от протокола или по-бързо да получат награди, както бъде решено от tea управлението. 
 
-## Outdated or Corrupt Packages
+## Остарели или повредени пакети
 
-tea’s mission is to reward contributors and participants in the open-source communities; however, rewards must be commensurate with the efforts deployed by package maintainers and tea tasters.
-Under-maintained, outdated, or corrupted packages are clear indications of package maintainers not living up to the community’s expectations or not delivering on the trust and support impressed upon them through the steeping of packages.
-Another manifestation of outdated packages may be the continued use of a legacy language or legacy version of multi-version languages.
-Packages remaining outdated or corrupt for too long indicate that tea tasters need to review package maintainers’ work regularly and consistently.
+Mисията на tea е да възнаграждава сътрудниците и участниците в общностите с отворен код; наградите обаче трябва да са съизмерими с усилията, положени от участниците поддържащите пакети и tea дегустаторите.
+Недостатъчно поддържаните, остарели или повредени пакети са ясни индикации, че участниците, поддържащите пакети не отговарят на очакванията на общността или не отговарят на доверието и подкрепата, внушени им чрез "накисването" на пакетите. 
+Друг показател на остарели пакети може да бъде продължаващото използване на остарял език или остаряла версия на език с няколко вресии. 
+Пакетите, които остават твърде дълго време остарели или повредени, показват, че e необходимо tea дегустаторите редовно и последователно да преглеждат работата на поддържащите пакета. 
 
-tea tasters are critical members of the open-source communities in that their reviews and associated claims can steer package users towards or away from packages.
-To ensure that reviews can be trusted on an ongoing basis, we propose a mechanism whereby outdated or corrupted packages may see a portion of their steeped tokens sent to the tea tasters who were first to recognize the lack of maintenance of any package.
+tea дегустаторите са важни членове на общностите с отворен код, тъй като техните рецензии и свързани твърдения могат да насочват потребителите на пакети към тях или съответно да ги откажат от пакетите. 
+За да се гарантира, че на рецензиите може да се вярва на непрекъснат базис, ние предлагаме механизъм, чрез който остарелите или повредени пакети могат да видят част от техните заключени токени, изпратени към tea дегустаторите, които първи разпознаха липсата на поддръжка на който и да е пакет.
 
-Any negative review which outlines a flaw such as a zero-day vulnerability or the use of an outdated dependency and remains open past a grace period defined by governance should be considered a failure on the part of the package maintainer.
-They have not completed the task they were entrusted with and rewarded for.
-The same can be said for package supporters and sponsors who staked their reputation on the work of delinquent package maintainers and received rewards for it, but failed to identify the lack of maintenance or elected to continue to support the package regardless.
+Всеки преглед с отрицателен резултат, който подчертава недостатък като уязвимост от типа zero-day или използване на остаряла зависимост и остава отворен след гратисен период, определен от управлението, трябва да се счита за неуспешен от страна на поддържащия пакета. 
+Той не е изпълнил задачата, която е била поверена и за която са наградени. 
+Същото може да се каже за поддръжниците и спонсорите на пакети, които са заложили репутацията си на работата на участниците, недобросъвестно поддържащи пакети и са получили награди за това, но не са успели да идентифицират липсата на поддръжка или са избрали да продължат да поддържат пакета независимо от това. 
 
-As packages gain in popularity and usage, with more applications and potentially mission-critical systems depending on them, we must incentivize developers to discreetly report flaws to the package maintainer and package maintainers to address such flaws before they can be exploited.
-Consequently, we propose that any outdated or corrupted package which is subject to one or more evidenced negative reviews and remains in such state past the governance-defined grace period see a portion of its steeped tokens be slashed regardless of their origin (package maintainer, package supporters, and sponsors or prior tea tasters),
-while another portion is sent to the tea tasters who submitted the negative reviews.
-Distribution to all tea tasters could be based on the age of their review and the number of tea tokens they steeped for their review.
+След като пакетите набират популярност и използване, с повече приложения и потенциално критични системи, зависещи от тях, ние трябва да стимулираме разработчиците да докладват дискретно за недостатъците на поддържащия пакет и участниците поддържащите пакети да отстранят тези недостатъци, преди да могат да бъдат експлоатирани. 
+Затова, ние предлагаме за всеки остарял или повреден пакет, който е обект на една или повече доказани рецензии с отрицателен резултат и остава в такова състояние след определения от управлението гратисен период, да се намали част от неговите натрупани токени, независимо от техния произход (поддръжка на пакет, пакет поддръжници и спонсори или предишни tea дегустатори), 
+докато друга част се изпраща към tea дегустаторите, които са изпратили отрицателните отзиви след прегледа.
+Разпределението към всички tea дегустатори може да бъде базирана върху давността на техния преглед и броя tea токени, които те са "заключили" за да направят своя преглед. 
 
-## Maintainer NFT
+## Поддържащи NFT
 
-Upon successful submission of a package, the package maintainer will receive an NFT to evidence their work and contribution.
-The holder of this NFT will automatically receive all rewards associated with the package.
-Package maintainers may transfer maintenance ownership over a package to another package maintainer by simply transferring the package’s NFT.
-Successful transfer of the NFT will lead to the new owner automatically receiving future package rewards.
+След успешно подаване на пакет, участника поддържащ пакета ще получи NFT, за да се докаже неговата работа и принос. 
+Притежателят на този NFT автоматично получава всички награди, свързани с пакета. 
+Поддържащите пакети имат възможност да прехвърлят собствеността върху поддръжката на пакет към друг поддържащ пакет, като просто прехвърлят NFT към пакета. 
+Успешното прехвърляне на NFT ще доведе до автоматично получаване на бъдещи пакетни награди към новия собственик. 
 
-An important part of reputation building relies on the frequency and quantity of quality package submissions.
-The NFT delivered to package maintainers as evidence of their work may be used by the reputation system to update a package maintainer’s reputation and give them access to elevated parts of the protocol, as decided by the tea governance.
-However, to prevent attack vectors, such as community members buying their reputation, the transfer of the maintainer NFT will not result in a transfer of reputation.
-Reputation must remain directly associated with a specific developer’s work and must not be transferable.
+Важен момент при изграждането на репутация разчита на честотата и количеството на подаваните качествени пакети.
+NFT получени от поддържащите пакети като доказателство за тяхната работа, могат да бъдат използвани от системата за репутация, за да се актуализира репутацията на поддържащия пакет и да им даде достъп до по-високи нива от протокола, както е решено от tea управлението. 
+Обаче, за предотвратяване на евентуалните вектори на атаки, като например купуване на репутацията на членове от общността, прехвърлянето на поддържащите NFT, те няма да доведат до прехвърляне и на репутация. 
+Репутацията трябва да остане пряко свързана с работата на конкретен разработчик и не трябва да се прехвърля. 
 
-# tea Token
+# Токен tea 
 
-## Securing the Network
+## Защита на мрежата
 
-While many blockchains may appear as effective and secure infrastructure solutions to support tea’s objectives, we believe that careful consideration must be given to the technology stack upon which the tea system is built.
+Докато голям брой блокчейни може да изглеждат като ефективни и сигурни инфраструктурни решения в подкрепа на целите на tea проекта, ние вярваме, че трябва да се обърне  внимание и на технологичния стек, върху който е изградена системата на проекта tea. 
 
-Scalability, cost-effectiveness, ESG, and third-party extensibility are important design considerations that a tea-sovereign proof-of-stake system could better serve.
-In proof-of-stake, node operators and network participants stake economic value in the form of the chain’s native token to increase the system’s security.
-Node operators and network participants receive rewards for the successful production of blocks that comply with the rules of the network and include accurate transaction information.
-Inactivity (aka node down) or malicious/incorrect activity are penalized by destroying a fraction of the staked tokens through slashing.
+Мащабируемост, рентабилност, ESG и разширяемост от трети страни са важни аспекти при проектиране, които една суверенна proof-of-stake система би могла да обслужва по-добре. 
+В системата proof-of-stake, операторите на ноди и участниците в мрежата залагат икономическата стойност под формата на основният токен на мрежата, за увеличаване сигурността на системата. 
+Операторите на ноди и участниците в мрежата получават награди за успешното производство на блокове, които отговарят на правилата на мрежата и включват точна информация за транзакциите.
+Неактивност (известна още като спиране на възел или нода) или злонамерена/неправилна дейност се санкционират чрез унищожаване на част от стейкваните токени чрез слашинг. 
 
-A proof-of-stake system powered by the tea token will allow tea token holders to contribute to the system’s security by *staking* tea and support open-source developers by *steeping* tea.
-We're fully aware economic factors may prevent some developers from staking or steeping tea; as such, staking and steeping will be available for as little as a leaf, the smallest denomination of tea representing one one-hundred-millionth ($10^{-8}$) of a tea.
+Системата proof-of-stake, осигурена от токена tea, ще позволи на притежателите на токена да допринасят за сигурността на системата чрез tea *стейкинг* и да подкрепят разработчиците с отворен код чрез tea *накисване*. 
+Наясно сме с факта, че икономическите фактори могат да попречат на някои разработчици да стейкват или "накисват" tea токена; съответно процедурите като, стейкинг и "накисване" ще бъдат достъпни за малки стойности или количества като например един лист/leaf, което е най-малката номинална стойност на tea, представляваща една стомилионна ($10^{-8}$) от tea. 
 
-Both applications of the tea token serve vital functions in the support and growth of the open-source ecosystem.
-Staking tea will ensure that the tea system continues to operate securely, so all network participants can submit and access packages to review them, integrate them into their application, etc.
-In contrast, the steeping of tea will support tea’s goal of providing tools for all network participants to support and use packages that meet quality and dependability requirements, as formulated by the tea community through their support and dissent of each package.
-Care will be taken when defining and implementing staking and steeping parameters so one does not become parasitic on the other.
+И двете приложения на tea токенa изпълняват жизненоважни функции в подкрепата и растежа на екосистемата с отворен код. 
+Стейкинг на токена tea ще гарантира, че tea системата ще продължи да работи сигурно, така че всички участници в мрежата да могат да изпращат и имат достъп до пакети, за да ги прегледат, да ги интегрират в своето приложение и т.н. 
+За разлика от това, "накисването" на tea ще подкрепи целта на tea за предоставяне на инструменти за всички участници в мрежата за поддръжка и използване на пакети, които отговарят на изискванията за качество и надеждност, както e формулиранo от tea общността чрез тяхната подкрепа и несъгласие с всеки пакет. 
+Ще се внимава при дефинирането и прилагането на параметри за стейкинг и "накисване" така че единият да не влияе отрицателно върху другия.
 
-## Incentives and Penalties
+## Стимули и наказания
 
-As discussed earlier, there can be strong incentives for bad actors to compromise open-source software.
-The majority of the Internet’s critical infrastructure is running on open-source, and the race to find exploits and other vulnerabilities is on.
-At tea, we believe that package maintainers are not the ones that should be blamed (although they often are).
+Както беше обсъдено по-рано, недобросъвестните участници имат добри финансови стимули за да компрометират софтуери с отворен код. 
+По-голямата част от важната Интернет инфраструктура работи с отворен код и надпреварата за откриване на експлойти и други уязвимости продължава. 
+В компанията tea, ние вярваме, че не само поддържащите пакети са тези, които трябва да бъдат обвинявани (въпреки че често са). 
 
-tea protocol incentives fix this through a fair and equitable incentive distribution.
-A package like Lodash with over 151k dependents is a pillar of open-source development, and its maintainer deserves to be rewarded proportionally.
-However, a reward system built solely on the number of dependents would prevent innovators from disrupting these monopolies unless they are sufficiently funded by third parties or have already accumulated enough resources to self-fund.
-This approach would likely lead to a shrinking number of contributors, resulting in the polar opposite of what tea is about.
+Стимулите на протокола tea коригират тази ситуация чрез честно и справедливо разпределение на стимулите. 
+Пакет като Lodash с над 151 000 зависими компоненти е основен при разработката с отворен код и неговият поддържащ заслужава да бъде възнаграден пропорционално. 
+Въпреки това, система за възнаграждение, изградена единствено въз основа на броя на зависимостите, ще попречи на иноваторите да разрушат тези монополи, освен ако не са достатъчно финансирани от трети страни или вече са натрупали достатъчно ресурси, за да се самофинансират. 
+Този подход вероятно ще доведе до намаляване на броя на участниците, което ще доведе до пълна противоположност на идеята, която представлява tea. 
 
-tea’s goal is to represent the value of open-source software and, in doing so, foster its growth by empowering its participants with the resources they need to pursue their passion unencumbered.
-The tea incentive distribution system needs to carefully consider the steeping ratio of each package and adjust each package’s incentive accordingly.
-To reduce the risk of a small number of packages used as dependencies across many applications collecting the majority of steeping rewards, we will leverage the research produced by the web3 Foundation[^19] for the Polkadot proof-of-stake-based rewards mechanism.
-We may further adjust the implementation and its variables based on the results of practical experiments.
+Целта на tea е да представи стойността на софтуера с отворен код и по този начин да насърчи растежа му, като предостави на участниците ресурсите, от които се нуждаят, за безпроблемно следване на целта си. 
+Системата за разпределение на tea стимули внимателно преценя съотношението на "накисване" на всеки пакет и съответно коригира стимулите за него. 
+За намаляване риска от това, че малък брой пакети, използвани като зависимости в много приложения, събира по-голямата част от наградите, ние ще използваме изследването, извършено от web3 Foundation[^19] за механизъм за възнаграждения, базиран на proof-of-stake механизъм от Polkadot.
+Можем допълнително да коригираме изпълнението и неговите променливи въз основа на резултатите от практически експерименти. 
 
-As a package steep approaches a governance-defined optimum steeping ratio, its steeping rewards ratio will decrease progressively.
-When a package exceeds its optimum steeping ratio, the steeping rewards ratio will decrease sharply to de-incentivize package supporters and tea tasters from further steeping highly steeped packages.
-This design could allow lesser steeped packages to become more attractive to both package supporters and tea tasters.
-It may also incentivize experienced developers to build alternatives to highly-steeped packages, creating an opportunity for the tea community to balance supporting existing software and promoting innovation.
-The steeping ratio will be calculated using the circulating supply in its initial design.
-The tea community may alter this design to improve the system’s scalability further.
-Let $\chi$ be the steeping ratio across all packages.
-It represents the total number of tea tokens steeped by package maintainers, package users, package supporters and sponsors, and tea tasters divided by the total tea token supply.
-Given how many open-source packages are available today and their expected growth, $\chi$ will always be a very small value between $0$ and $1$.
+Тъй като процеса на "накисване" на пакета се доближава до дефинирано от управлението оптимално съотношение на накисване, съотношението на възнаграждение за "накисване" ще намалява прогресивно. 
+Когато даденият пакет превиши оптималното си съотношение на "накисване", съотношението на наградите за "накисване" ще намалее рязко, за да дестимулира поддръжниците на пакета и tea дегустаторите от допълнително "накисване" на вече силно "накиснати" пакети. 
+Такъв вид дизайн позволява на по-слабо напоените пакети да станат по-привлекателни както за привържениците на пакета, така и за tea дегустаторите. 
+Тази процедура може да стимулира опитните разработчици за създаване на алтернативи на силно "накиснатите" пакети, създавайки възможност за tea общността да балансира поддържането на съществуващ софтуер и насърчаването на иновациите. 
+Коефициентът на "накисване" ще бъде изчислен, чрез използване на циркулационното захранване в първоначалния му проект. 
+tea общността може да промени този дизайн, за да подобри допълнително мащабируемостта на системата. 
+Нека $\chi$ да представлява коефициент на "накисване" във всички пакети.
+Той представлява общия брой tea токени, "напоени" от участниците, поддържащи пакети, от потребителите на пакети, поддръжниците и спонсори на пакети и tea дегустаторите, разделен на общото предлагане на teа токени. 
+Имайки предвид колко пакети с отворен код са налични днес и очакваният им растеж, $\chi$ винаги ще бъде много малка стойност между $0$ и $1$. 
 
-Let $\psi$ be the staking ratio.
-It represents the total number of tea tokens staked by any network participant to secure the network.
+Нека $\psi$ да е съотношението при стейкинг.
+Той представлява общия брой tea токени, в стейкинг от всеки участник в мрежата за защита на самата мрежата. 
 
-Let $\chi_{ideal}$ be the steeping ratio we would like each package to attain for a fair distribution of rewards across all packages and their dependencies.
-The value of $\chi_{ideal}$ must be updated as new packages are added to the decentralized registry, and dependencies are created.
-To determine the best value for $\chi_{ideal}$, we will use a popularity bell curve updated at the start of each reward cycle.
+Нека $\chi_{ideal}$ да бъде коефициентът на "накисване", който бихме искали всеки пакет да постигне за справедливо разпределение на наградите във всички пакети и техните зависимости. 
+Стойността $\chi_{ideal}$ трябва да се актуализира при добавяне на нови пакети към децентрализирания регистър и създаване на зависимости. 
+За да определим най-добрата стойност за $\chi_{ideal}$, ще използваме камбанна крива на популярността, актуализирана в началото на всеки цикъл на възнаграждение.
 
-Let $\tau = \tau(\chi)$ be the annual steeping interest rate distributed to all tea community members who steep tea tokens to support open-source developers.
-In other words, $\tau(\chi)$ corresponds to the steeping reward received over a year by a community member that steeps tea tokens for the entire year.
+Нека $\tau = \tau(\chi)$ представлява годишният лихвен процент за "накисване", разпределен към всички членове на tea общността, които заключват tea токените в подкрепа на разработчиците с отворен код. 
+С други думи, $\tau(\chi)$ съответства на наградата за "накисване", получавана в рамките на една година от член на общността, който е "накисвал" tea токени през цялата година. 
 
-Let $\gamma = \gamma(\psi)$ be the annual staking interest rate distributed to all node operators and network participants who stake tea tokens to secure the network.
-In other words, $\gamma(\psi)$ corresponds to the staking reward received over a year by a community member that stakes tea tokens for the entire year.
+Нека $\gamma = \gamma(\psi)$ представлява годишнен лихвен процент при стейкинг, разпределен на всички оператори на възли и участници в мрежата, които стейкват tea токени, осигурявайки сигурността на мрежата. 
+С други думи, $\gamma(\psi)$ съответства на стейкинг наградата, получена за една година от член на общността, който стейква tea токени през цялата година. 
 
-Let $\delta$ be the annual inflation directed at the network treasury.
-$\delta$ may vary as external factors affect the token supply.
+Нека $\delta$ е годишна инфлация, насочена към хазната на мрежата. 
+$\delta$ може да варира, тъй като различни външни фактори влияят на токен съплая. 
 
-We consider the annual steeping reward rate as a function of $\chi$ and the annual staking reward rate as a function of $\psi$.
+Ние разглеждаме годишната ставка на възнаграждение за накисване като функция на $\chi$ и годишната ставка на възнаграждение за стейкинг като функция на $\psi$.
 
-* $\tau(\chi)$ corresponds to the incentive for people to steep a package.
-As $\chi$ increases, fewer rewards $\tau(\chi)$ are needed.
-* $\gamma(\psi)$ corresponds to the incentive for people to stake the network.
-As $\psi$ increases, fewer rewards $\gamma(\psi)$ are needed to secure the network.
+* $\tau(\chi)$ съответства на стимул за хората да "накиснат" пакети. 
+Тъй като $\chi$ се увеличава, са необходими по-малко награди  $\tau(\chi)$ .
+* $\gamma(\psi)$ съответства на стимул за хората за да използват стейкинг в мрежата.
+С нарастването на $\psi$ са необходими по-малко награди $\gamma(\psi)$ за сигурността на мрежата.
 
-The annual inflation $I$ will be equivalent to $(\tau + \gamma + \delta)$ and calculated as follows:
+Годишната инфлация $I$ ще бъде еквивалентна на $(\tau + \gamma + \delta)$ и се изчислява, както следва:
 
 $$
-I = \frac{\textrm{token supply at the end of the year} - \textrm{token supply at the beginning of the year}}{\textrm{token supply at the beginning of the year}} = (\tau + \gamma + \delta)
+I = \frac{\textrm{токен съплай към края на годината} - \textrm{токен съплай в началото на годината}}{\textrm{токен съплай в началото на годината}} = (\tau + \gamma + \delta)
 $$
 
-The contribution to inflation of $\tau_{\textsc{all}}$ (incentive distributed to all package steepers) and $\gamma_{\textsc{all}}$ (incentive distributed across all contributors to the network security) should be weighed to ensure that the system incentivizes the optimal steeping/staking ratio.
+Приносът към инфлацията на $\tau_{{all}}$ (награди, разпределени на всички пакети, които се "накисват") и $\gamma_{{all}}$ (награди, разпределен между всички участници в сигурността на мрежата) трябва да се претегли, за да се гарантира, че системата стимулира оптималното съотношение на "накисване"/стейкинг. 
 
-As we focus on the incentives distributed across all package steepers, we determine that
-$\tau_{\textsc{all}}$
-is a function of the steeping ratio $\chi$ and therefore
-$\tau_{\textsc{all}}(\chi) = \chi \cdot \tau(\chi)$.
-From our previous analysis, we can see that
-$\tau_{\textsc{all}}(\chi_{ideal}) = \chi_{ideal} \cdot \tau_{ideal}$.
-Since the goal is to reach a state where
+Тъй като се фокусираме върху стимулите, разпределени между всички пакети, ние определяме следното
+$\tau_{{all}}$
+е функция на съотношението на накисване $\chi$ и следователно
+$\tau_{{all}}(\chi) = \chi \cdot \tau(\chi)$.
+От предишния ни анализ можем да видим това
+$\tau_{{all}}(\chi_{ideal}) = \chi_{ideal} \cdot \tau_{ideal}$.
+Тъй като целта е да се достигне състояние, в което
 $\chi = \chi_{ideal}$
-, rewards
+, наградите
 $\tau_{ideal}(\chi)$
-should be maximal at that value.
+трябва да са максимални при тази стойност.
 
-Let $\tau_{ideal} = \tau(\chi_{ideal})$
-be the reward rate delivered by the network at the ideal scenario where
+Нека $\tau_{ideal} = \tau(\chi_{ideal})$
+бъде процентът на възнаграждение, предоставен от мрежата при идеалния сценарий, където
 $\chi = \chi_{ideal}$.
 
-Let $\tau_{0}$ be the limit of  $\tau_{\textsc{all}}(\chi)$ as $\chi$ goes to zero when no members of the tea community steep any packages.
-The value of $\tau_{0}$ should be close to zero but not zero to incentivize early adopters.
-As suggested by the web3 Foundation’s research, we propose that:
+Нека $\tau_{0}$ представлява лимит  $\tau_{{all}}(\chi)$ като $\chi$ отива до нула, когато никой от членовете на tea общността не "накисва" никакви пакети.
+Стойността на $\tau_{0}$ трябва да бъде близо до нула, но не и нула, за да стимулира ранните участници и последователи. 
+Както беше предложено от изследването на фондация web3, ние предлагаме, че:
 
-* the inflation function grows linearly between $\chi = 0$ and $\chi = \chi_{ideal}$, and
-* it decay exponentially between $\chi = \chi_{ideal}$ and $\chi = 1$.
+* функцията на инфлацията нараства линейно между $\chi = 0$ and $\chi = \chi_{ideal}$, и
+* тя се разпада експоненциално между $\chi = \chi_{ideal}$ и $\chi = 1$.
 
-We chose a similar exponential decrease for $\tau_{\textsc{all}}(\chi)$ because it implies an exponential decrease of $\tau(\chi)$, and we want rewards to fall sharply beyond $\chi_{ideal}$ to prevent a single package from receiving all the rewards.
+Избрахме подобно експоненциално намаление за $\tau_{{all}}(\chi)$ защото предполага експоненциално намаляване на $\tau(\chi)$, и искаме наградите да паднат рязко под $\chi_{ideal}$ за да предотвратим получаването на всички награди от един пакет.
 
-The decay is defined so that the inflation rate decreases by at most 50% when  $\chi$ shifts $d$ units to the right of $\chi_{ideal}$ – i.e.
-$\tau_{\textsc{all}}(\chi_{ideal} + d) \geq \tau_{\textsc{all}} \cdot 0.5$.
+Намаляването се определя така, че темпът на инфлация намалява с най-много 50%, когато  $\chi$ променя $d$ единици вдясно от $\chi_{ideal}$ – например.
+$\tau_{{all}}(\chi_{ideal} + d) \geq \tau_{{all}} \cdot 0.5$.
 
-We propose the following interest rate and inflation rate functions, which depend on the parameters $\chi_{ideal}$, $\tau_{ideal}$, $\tau_{0}$ and $d$.
+Ние предлагаме следните функции на лихвения процент и инфлация, които зависят от параметрите $\chi_{ideal}$, $\tau_{ideal}$, $\tau_{0}$ and $d$.
 
-\begin{align*}
-&\tau_{\textsc{all}}(\chi) = \tau_{0} + (\tau_{\textsc{all}}(\chi_{ideal}) - \tau_{0})\frac{\chi}{\chi_{ideal}}\enspace\textrm{for}\;0 < \chi \leq \chi_{ideal} \\
-&\tau_{\textsc{all}}(\chi) = \tau_{0} + (\tau_{\textsc{all}}(\chi_{ideal}) - \tau_{0}) \cdot 2^{(\chi_{ideal}-\chi)/d}\enspace\textrm{for}\;\chi_{ideal} < \chi \leq 1
-\end{align*}
+$
+$\tau_{{all}}(\chi)$ = $\tau_{0}$ + $(\tau_{{all}}(\chi_{ideal})$ - $\tau_{0})$ $\frac{\chi}{\chi_{ideal}}\enspace\textrm{for}$\ 0 < $\chi \leq \chi_{ideal}$ \
+$\tau_{{all}}(\chi)$ = $\tau_{0}$ + $(\tau_{{all}}(\chi_{ideal})$ - $\tau_{0})$ $\cdot 2^{(\chi_{ideal}-\chi)/d}\enspace\textrm{for}$ $\chi_{ideal}$ < $\chi \leq 1 \$
+$
 
-Just as good actors need to be rewarded; bad actors need to be identified and penalized.
-Open-source software provides many opportunities for bad actors to create pain points and reputational risks for an entire community of developers.
-From the misappropriation of work to the alteration and redistribution of software packages, or the injection of nefarious code, the war between good and bad actors goes on, often with well-funded bad actors who see the contamination of open-source packages as an opportunity to benefit financially.
-The downside has been relatively minimal, with packages potentially banned from digital shelves or subjected to a poor reputation.
+Точно както съвестните участници трябва да бъдат възнаградени; недобросъвестните такива трябва да бъдат идентифицирани и наказани. 
+Софтуерът с отворен код предоставя много възможности за недобросъвестните участници да създават критични моменти и репутационни рискове за цялата общност от разработчици. 
+От злоупотребата с работния процес до промяната и преразпределението на софтуерни пакети или внедряването на престъпен код, войната между добрите и лошите участници продължава, често с добре финансирани недобросъвестни участници, които виждат възможност да навредят на пакетите с отворен код за да се облагодетелстват финансово. 
+Обратното въздействие е сравнително минимално, като пакетите потенциално са забранени от дигиталните рафтове или са подложени на лоша репутация. 
 
-We propose introducing a slashing mechanism to establish a more material downside that directly affects bad actors’ economic value.
-As tea tasters evaluate and analyze the code in newly submitted packages, we suggest tea tasters receive the tools and incentives to pinpoint and highlight nefarious code so package users can be made aware of the risks, and package maintainers, package supporters, and sponsors are penalized for submitting or supporting nefarious code.
-To that extent, for all evidenced negative reviews performed per the network rules and which have been addressed by the package maintainer within the governance-defined period, the package maintainer should not incur any penalty contrary to the package supporters and sponsors or the tea tasters who provided a positive review of the package in question.
-For negative reviews performed per the network rules and that the package maintainer has not addressed within the governance-defined period, a fraction of the tokens steeped by the package maintainer, the package supporters and sponsors, and previous tea tasters will be slashed.
-Another fraction will be locked into an insurance pool controlled by the tea governance.
-The tea governance will establish policies and rules in close collaboration with the community to distribute the pool’s contents to those affected by vulnerabilities.
-The protocol will distribute a third fraction of the steeped tokens across all tea tasters who contributed to the negative review and steeped against the package, based on the number of tea tokens they steeped “against” the package and how long their tokens have steeped.
-In other words, the sooner one or more tea tasters identify and report the flaw according to the rules of the network, the higher the reward they will get for supporting safe and productive open-source development.
+Ние предлагаме да се въведе слашинг механизъм, за да се установят по-съществени недостатъци, който пряко засягат финансовото стимулиране на недобросъвестните участници. 
+Тъй като tea дегустаторите оценяват и анализират кода в новоподадените пакети, ние предлагаме на tea дегустаторите да получават необходими инструменти и стимули за определяне и подчертаване на злонамерен код, така че потребителите на пакети да могат да бъдат информирани за рисковете, а участните, поддържащи пакети, поддръжниците на пакети и спонсорите да бъдат санкционирани за изпращане или поддържане на злонамерен код. 
+В тази връзка, за всички доказани прегледи с отрицателен резултат, извършени съгласно правилата на мрежата, които са били разгледани и премахнати от поддържащия пакета в рамките на определения от управлението период, поддържащият пакета не трябва да понася никакви санкции в противоречие с поддръжниците и спонсорите на пакета или tea дегустаторите, които дават положителен преглед на въпросния пакет. 
+За отрицателни прегледи, извършени съгласно правилата на мрежата и които поддържащият пакета не е разгледал в рамките на определения от управлението период, част от токените, "напоени" от участника поддържащия пакет, поддръжниците и спонсорите на пакета и предишните tea дегустатори ще бъдат намалени. 
+Другата част ще бъде заключена в застрахователен пул, контролиран от управлението на tea проекта. 
+Управлението на tea проекта ще установи необходимите политики и правила в тясно сътрудничество с общността за разпространение на съдържанието на пула към тези засегнатите от уязвимости. 
+Протоколът ще разпредели една трета част от "напоените" токени между всички tea дегустатори, допринесли за прегледа с отрицателен резултат, токени, които те са "накиснали" срещу пакета, въз основа на броя tea токени които са заключили „срещу“ пакета, и колко време са били "накисвани". 
+С други думи, колкото по-скоро един или повече tea дегустатори идентифицират и докладват за недостатъците според правилата на мрежата, толкова по-висока награда ще получат за поддържане на безопасна и продуктивна разработка с отворен код. 
 
-To prevent community members from randomly voting “against” highly steeped packages hoping to receive the majority of any penalty, all tea tokens steeped “against” will not be rewarded with inflation and may be subject to a decay mechanism, thus reducing their value over time.
+За да попречат на членовете на общността да гласуват на случаен принцип „против“ силно "напоени" пакети, надявайки се да получат по-голямата част от гласовете, всички tea токени, "напоени" „против“, няма да бъдат засегнати от инфлация и може да бъдат обект на механизъм на разпадане, като по този начин намаляват стойността си с течение на времето . 
 
 [^19]: Source: @web3
 
 
-# Governance
+# Управление
 
-Governance is critical to the development, sustainability, and adoption of any distributed system.
+Управлението е от решаващо значение за развитието, устойчивостта и приемането на всяка разпределена система. 
 
-We propose that tea includes on-chain governance where all tea token holders can suggest and vote on changes to critical parameters weighted by token ownership and reputation.
-These parameters could include inflation, transaction fees, staking rewards, steeping rewards, or optimum steeping ratio.
-This functionality will ensure that critical parameters can evolve and be optimized over time by members of the tea community.
-We anticipate governance will launch with a simple structure and progressively expand as the tea system matures, facilitating adoption and ensuring progressive decentralization.
+Ние предлагаме tea да включва управление във веригата, където всички притежатели на tea токени да могат да предлагат и гласуват за промени в критични параметри, претеглени в съответствие със собствеността върху токените и репутацията. 
+Тези параметри могат да включват инфлация, транзакционни такси, стейкинг награди, награди за "накисване" или оптимално съотношение при накисване.
+Тази функционалност ще гарантира, че критичните параметри могат да се развиват и оптимизират с течение на времето от членовете на tea общността. 
+Очакваме управлението да стартира с проста структура и прогресивно да се разширява с развитието на tea системата, улеснявайки приемането и осигурявайки прогресивна децентрализация. 
 
-Some system parameters may not be subject to governance or support high-frequency changes to reduce the attack surface represented by governance.
-A progressive transition of parameters to open, decentralized governance will ensure the stability and predictability of the system.
-
-
-# Third-Party Extensibility
-
-As we build the initial tools to ignite the long-overdue support of the open-source communities, we believe part of our mission is to ensure that third parties can extend the overall toolset.
-In addition to providing the infrastructure for developers to build extensions to the protocol, including new ways to innovate and further the support of open-source developers, our plans include the potential for other package managers to contribute to the protocol.
-The dreams and efforts of open-source developers have built the innovation that supports our everyday life.
-We look forward to discovering the new uses and extensions for tea proposed by the tea community.
+Някои системни параметри може да не са обект на управление или да поддържат високочестотни промени за намаляване на повърхността от атака, представена от управлението. 
+Постепенният преход на параметрите към отворено, децентрализирано управление ще осигури стабилност и предвидимост на системата. 
 
 
-# Future Work and Potential Community Efforts
+# Разширяемост от трети страни
 
-As the tea system matures, we foresee the community deciding and contributing to alterations and extensions of the tea system through governance.
-Below are some ideas that we believe may inspire some.
-
-## tea Wholesalers
-
-Open-source software communities are vibrant and constantly looking to innovate and deliver value.
-This dedication and altruism lead to the constant building of new software and packages, each one pulling dependencies.
-As a result, we anticipate the dependencies map to evolve constantly, leading to frequent changes to the steeping ratio and rewards.
-In the future, the tea community may propose the development of a system designed to dynamically monitor the steeping ratio for each package and rebalance how package supporters steep their tokens based on their own criteria.
-
-## Royalties on Package Transfer
-
-We recognize that package maintainers may decide to transfer their steeping rewards stream to one or more developers.
-The governance of such transfer must remain the decision of the package maintainer and their partners, with no interference from tea.
-Tools will need to be provided for such transfer to be total or partial (perhaps through only a portion of the steeping rewards being redirected to one or more developers, while the remaining rewards continue to flow to the original package maintainer)
-and for the steeping rewards to flow through a single account controlled by a single network participant, multiple network participants, or automatically distributed across multiple accounts using static or dynamic ratios.
-
-## Rewards Distribution Across Multiple Maintainers
-
-The maintenance of a package can rely on the work of one more team of developers.
-Before steeping rewards start to flow, teams should consider automating the distribution of steeping rewards amongst themselves.
-How the distribution occurs must be decided by the maintainers themselves, as they are in the best position to evaluate who contributed and how they should be rewarded.
-
-To accomplish that, each team (or teams) could set up their own decentralized autonomous organization (DAO) and either automate the distribution of rewards or deploy more complex systems to determine the adequate rewards distribution based on external factors such as a vote from all DAO members,
-or time-based distributions based on continuous contribution, successful completion of bounties, etc.
-
-## Handling Package “Forks”
-
-We believe that forks are essential and largely under-utilized.
-Forks can be an effective tool for developing packages that compete in functionality, performance, security, and even attention.
-As useful as they may be, forks must recognize the original efforts.
-Through future work or potential contributions, the tea community may enhance the system to require forks to be declared, perhaps even detected when a package is submitted.
-Undeclared forks revealed by tea tasters may result in a portion of the steeped tokens being slashed, transferred to the original package maintainer, and sent to the tea tasters who revealed the fork.
-
-## Runtime vs. Build Dependencies
-
-tea may not distinguish build dependencies from runtime dependencies when distributing steeping rewards at launch.
-However, provided the tea community feels strongly about making such a distinction, the tea community may propose enhancements to the steeping rewards distribution algorithm to account for the criticality of each dependency and their contribution to the value of the packages that depend upon them.
-These proposals would be voted upon and implemented based on the community’s decision.
-
-## Usage-based Remuneration
-
-As more applications are built using packages registered with tea, the community may augment the reward algorithm so that allocation may be influenced by external attested datasets such as usage.
-This update to the rewards mechanism could allow for a higher allocation of tea token rewards to flow towards packages with the highest usage while still respecting the constraints of the steeping ratio described in the tea token section.
-Package maintainers could use a similar approach to distribute steeping rewards across their dependencies based on the transparent logic of their choice.
-Note that all information used to affect the distribution of rewards across packages and dependencies in the tea system will need to be provably reliable.
+Докато изграждаме първоначалните инструменти, за насърчаване на дългоочакваната подкрепа на общностите с отворен код, ние вярваме, че част от нашата мисия е да гарантираме, че трети страни могат да разширят цялостния набор от инструменти.
+В допълнение към предоставянето на инфраструктура за разработчиците за изграждане на разширения към протокола, включително нови начини за иновации и по-нататъшна поддръжка на разработчици с отворен код, нашите планове включват възможности и за други мениджъри на пакети да допринесат за протокола. 
+Мечтите и усилията на разработчиците с отворен код изградиха иновациита, която поддържат ежедневието ни. 
+Очакваме с нетърпение да открием новите начини за употреба и разширения за tea, предложени от нашата общност.
 
 
-# Acknowledgments
+# Бъдеща работа и потенциални усилия на общността
 
-This white paper would not exist without the support and dedication of many teaophiles.
-The authors would like to acknowledge Josh Kruger, Jadid Khan, and Jacob Heider for their contribution to the tokenomics and the many discreet individuals who volunteered their time to provide feedback on the contents of this document.
+С развитието на tea системата ние предвиждаме, че tea общността ще взима решения и да допринася за промените и разширенията на tea системата чрез управление. 
+По-долу ви представяме някои идеи, които вярваме, че могат да вдъхновят някои от вас.
+
+## tea Търговци на едро
+
+Софтуерните общности с отворен код са динамични и постоянно се стремят към иновации и полезни дейности. 
+Тази всеотдайност и алтруизъм водят до постоянното изграждане на нови софтуери и пакети, всеки от които води със себе си до зависимости. 
+Като резултат от това, очакваме постоянно развитие на картата на зависимостите, което ще доведе до чести промени в съотношението на "накисване" и наградите. 
+В бъдеще tea общността може да предложи разработването на система, проектирана да наблюдава динамичното съотношението на "накисване" за всеки пакет и да балансира отново начина, по който поддръжниците на пакета "накисват" своите токени въз основа на собствените си критерии.
+
+## Роялти за прехвърляне на пакет
+
+Ние осъзнаваме, че поддържащите пакети може да решат да прехвърлят своята част от възнаграждения на един или повече разработчици. 
+Управлението на такова прехвърляне трябва да остане решение на участниците, поддържащи пакета и техните партньори, без намеса от страна на tea проекта. 
+Необходимо е да бъдат осигурени инструменти, за да се осъществи подобно прехвърляне пълно или частично (може би чрез насочване на само част от наградите за "накисване" към един или повече разработчици, докато останалите награди продължават да се насочват към оригиналния поддържащ пакет) 
+и за да има възможност по-големите награди да преминават през един акаунт, контролиран от един участник в мрежата, множество участници в мрежата или автоматично разпределени между множество акаунти, използвайки статични или динамични съотношения. 
+
+## Разпределение на награди между няколко поддържащи участници
+
+Поддръжката на един пакет може да разчита и на работата на още един екип от разработчици. 
+Преди започване на получаване на награди за "накисване", екипите трябва да обмислят начините за автоматизиране на разпределение на наградите за "накисване" помежду си. 
+Начинът на извършване на разпределението трябва да бъде решен от самите поддържащи, тъй като те са в най-добра позиция да оценят кой е допринесъл и как трябва да бъде възнаграден. 
+
+За да се постигне това, всеки екип (или екипи) имат право да създадат своя собствена децентрализирана автономна организация (DAO) или да автоматизират разпределението на наградите, или да внедрят по-сложни системи за определяне на адекватното разпределение на наградите въз основа на външни фактори, като например гласуване от всички DAO членове, 
+или разпределения, базирани на времеви условия, на непрекъснат принос, успешно завършване на баунти програми и т.н. 
+
+## Пакети за обработка “Forks”
+
+Вярваме, че forks/ форковете са от съществено значение и до голяма степен не се използват достатъчно. 
+Форковете могат да бъдат ефективен инструмент за разработване на пакети, които се конкурират във функционалност, производителност, сигурност и дори внимание. 
+Колкото и полезни да са, форковете трябва да разпознават първоначалните усилия. 
+Чрез бъдеща работа или потенциални приноси, tea общността може да подобри системата, за да изисква форковете да бъдат декларирани, може би дори открити при подаване на пакет. 
+Недекларираните форкове, разкрити от tea дегустаторите, може да доведат до нарязване на част от "напоените" токени, прехвърляни към оригиналния участник поддържащ пакет и изпратени към tea дегустаторите на чай, открили съответния форк. 
+
+## Рънтайм vs. Изграждане на зависимости
+
+tea може да не разграничи зависимостите на изграждане от зависимостите по време на изпълнение при разпределяне на наградите по време на стартиране. 
+Въпреки това, при условие че tea общността е твърдо решена да направи такова разграничение, тази общност може да предложи подобрения на алгоритъма за разпределение на наградите, за да отчете критичността на всяка зависимост и нейния принос към стойността на пакетите, които зависят от това.
+Тези предложения ще бъдат гласувани и изпълнени въз основа на решението на общността. 
+
+## Възнаграждение въз основа на използването
+
+Тъй като повече приложения се създават с помощта на пакети, регистрирани с tea, общността може да разшири и допълни алгоритъма за възнаграждение, така че разпределението да бъде повлияно от външни удостоверени данни, такива например като употреба.
+Тази актуализация на механизма за възнаграждения може да позволи по-голямо разпределение на наградите от tea токени, които да се насочат към пакети с най-голяма употреба, като същевременно се спазват ограниченията на съотношението на "накисване", описано в раздела tea токени. 
+Поддържащите пакети биха могли да използват подобен подход, за да разпределят награди за "накисване" между своите зависимости въз основа на прозрачната логика по тяхна преценка. 
+Имайте предвид, че цялата информация, използвана, за да се повлияе на разпределението на наградите между пакетите и зависимостите в tea системата, ще трябва да бъде доказуемо надеждна. 
+
+
+# Благодарности
+
+Тази "бяла книга" не би съществувала без подкрепата и отдадеността на много участници, харесващи tea.
+Авторите биха искали да благодарят на Джош Крюгер, Джадид Хан и Джейкъб Хайдер за приноса им към токеномиката и на многото други незабележими лица, които доброволно отделиха времето си, за да предоставят обратна връзка относно съдържанието на този документ. 
 
 $\parskip=0pt plus 1pt$
 
-# Glossary of Terms
+# Речник на термините
 
-| Term | Definition |
+| Наименование |Определение |
 |------|------------|
-| Leaf | The smallest denomination of the tea token. A leaf corresponds to one one-hundred-millionth ($10^{-8}$) of a tea. |
-| Slashing | The action of penalizing steepers or stakers in response to behavior contrary to the network rules. |
-| Staking | The action of locking tea tokens to secure the proof-of-stake network upon which the tea system is built. |
-| Steeping | The action of locking tea tokens to support your claim and receive rewards (or penalties) based on the consensus on the validity of your claim. |
+|Лист | Най-малката деноминация на tea токена. Едно листо съответства на една стомилионна ($10^{-8}$) tea токена. |
+| Слашинг | Действие за наказване на участници в "накисване" или стейкинг в отговор на поведение, което противоречи на правилата на мрежата. |
+| Стейкинг  | Действие за заключване на tea токени за защита на proof-of-stake мрежата, върху която е изградена tea системата. |
+| Накисване | Действието за заключване на tea токени в подкрепа на вашата претенция и получаване на награди (или санкции) въз основа на консенсуса относно валидността на вашата претенция. |
 
 
-# References
+# Препратки
