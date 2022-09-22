@@ -55,6 +55,14 @@ jobs:
         path: |
           tea.white-paper.pdf
           tea.white-paper_??.pdf
+    - uses: gavv/pull-request-artifacts@v1.0.0
+      if: ${{ github.event_name == 'pull_request' }}
+      with:
+        commit: ${{ github.event.pull_request.head.sha }}
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        artifacts: |
+          tea.white-paper.pdf
+          tea.white-paper_??.pdf
 
     # Following steps only run for upload: true
     - name: AWS credentials
