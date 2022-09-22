@@ -8,6 +8,7 @@ on:
       - 'i18n/**'
       - 'img/**'
       - .github/workflows/ci.yml
+      - .github/workflows/make.yml
       - Makefile
 
 concurrency:
