@@ -441,7 +441,7 @@ $$
 Оскільки ми зосереджуємось на заохоченнях, розподілених між усіма пакетами, ми визначаємо це
 $\tau_{\textsc{all}}$
 є функцією коефіцієнта замочування $\chi$ і тому
-$\tau_{\textsc{усі}}(\chi) = \chi \cdot \tau(\chi)$.
+$\tau_{\textsc{all}}(\chi) = \chi \cdot \tau(\chi)$.
 З нашого попереднього аналізу ми це бачимо
 $\tau_{\textsc{all}}(\chi_{ideal}) = \chi_{ideal} \cdot \tau_{ideal}$.
 Оскільки мета — досягти стану, де
@@ -464,13 +464,13 @@ $\chi = \chi_{ideal}$.
 Ми вибрали подібне експоненціальне зменшення для $\tau_{\textsc{all}}(\chi)$, оскільки воно передбачає експоненціальне зменшення $\tau(\chi)$, і ми хочемо, щоб винагорода різко впала за $\chi_{ ideal}$, щоб запобігти отриманню всіх винагород одним пакетом.
 
 Розпад визначається таким чином, що рівень інфляції зменшується щонайбільше на 50%, коли $\chi$ зміщує $d$ одиниць праворуч від $\chi_{ideal}$ – тобто
-$\tau_{\textsc{all}}(\chi_{ideal} + d) \geq \tau_{\textsc{all}} \cdot 0,5$.
+$\tau_{\textsc{all}}(\chi_{ideal} + d) \geq \tau_{\textsc{all}} \cdot 0.5$.
 
 Ми пропонуємо наступні функції процентної ставки та рівня інфляції, які залежать від параметрів $\chi_{ideal}$, $\tau_{ideal}$, $\tau_{0}$ і $d$.
 
 \begin{align*}
-&\tau_{\textsc{all}}(\chi) = \tau_{0} + (\tau_{\textsc{усі}}(\chi_{ideal}) - \tau_{0})\frac{\chi }{\chi_{ideal}}\enspace\textrm{for}\;0 < \chi \leq \chi_{ideal} \\
-&\tau_{\textsc{all}}(\chi) = \tau_{0} + (\tau_{\textsc{усі}}(\chi_{ideal}) - \tau_{0}) \cdot 2^{ (\chi_{ideal}-\chi)/d}\enspace\textrm{for}\;\chi_{ideal} < \chi \leq 1
+&\tau_{\textsc{all}}(\chi) = \tau_{0} + (\tau_{\textsc{all}}(\chi_{ideal}) - \tau_{0})\frac{\chi}{\chi_{ideal}}\enspace\textrm{for}\;0 < \chi \leq \chi_{ideal} \\
+&\tau_{\textsc{all}}(\chi) = \tau_{0} + (\tau_{\textsc{all}}(\chi_{ideal}) - \tau_{0}) \cdot 2^{(\chi_{ideal}-\chi)/d}\enspace\textrm{for}\;\chi_{ideal} < \chi \leq 1
 \end{align*}
 
 Так само, як хороші актори потребують винагороди; поганих діячів потрібно виявити та покарати.
