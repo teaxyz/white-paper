@@ -25,6 +25,7 @@ jobs:
           texlive-latex-base \
           texlive-fonts-recommended \
           texlive-fonts-extra
+        eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
         brew install \
           pandoc \
           pandoc-crossref \
@@ -48,7 +49,9 @@ jobs:
         echo "- \fancyfoot[L]{$VERSION+$date}" >> metadata.yml
 
     # - run: tea make
-    - run: make  # Use on-box make until tea/pantry revlock is resolved
+    - run: | # Use on-box make until tea/pantry revlock is resolved
+        eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+        make
     - uses: actions/upload-artifact@v3
       with:
         name: tea.white-paper
