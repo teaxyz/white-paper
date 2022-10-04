@@ -5,32 +5,16 @@ on:
     paths:
       - white-paper.md
       - metadata.yml
-      - img/*
+      - 'i18n/**'
+      - 'img/**'
       - .github/workflows/ci.yml
+      - Makefile
 
 concurrency:
   group: ${{ github.ref }}
   cancel-in-progress: true
 
-env:
-  TEA_SECRET: ${{ secrets.TEA_SECRET }}
-
 jobs:
   compile:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - run: .github/mk-pantry-accessible.sh ${{ secrets.TEMP_JACOBS_GITHUB_PAT }}
-      - run: sudo apt-get install texlive texlive-latex-extra #FIXME
-      - uses: teaxyz/setup@v0
-      - name: Set Version
-        run: |
-          date=$(date '+%Y%m%d')
-          echo "- \fancyfoot[L]{$VERSION+$date}" >> metadata.yml
-      - run: tea make
-      - uses: actions/upload-artifact@v3
-        with:
-          name: tea.white-paper
-          path: |
-            tea.white-paper.pdf
-            tea.white-paper_??.pdf
+    uses: ./.github/workflows/make.yml
+    secrets: inherit
