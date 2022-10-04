@@ -25,6 +25,7 @@ jobs:
           texlive-latex-base \
           texlive-fonts-recommended \
           texlive-fonts-extra
+        eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
         brew install \
           pandoc \
           pandoc-crossref \
