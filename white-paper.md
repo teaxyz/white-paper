@@ -52,7 +52,7 @@ And again, only rewarding favorites.
 
 In this paper, we propose tea — a decentralized system for fairly remunerating open-source developers based on their contributions to the entire ecosystem and enacted through the tea incentive algorithm applied across all entries in the tea registry.
 
-![Simplified view of the tea steeping rewards system.](/img/figure-1.svg)
+![Simplified view of the tea steeping rewards system.](img/figure-1.svg)
 
 $\parskip=0pt plus 1pt$
 
@@ -268,13 +268,13 @@ To provide a simple methodology that rewards all developers who have contributed
 This design is driven by the hypothesis that each dependency is itself a package that was independently submitted to the tea tree.
 In doing so, each of its dependencies can be mapped, and if its dependencies have dependencies themselves, those will be mapped at the time the dependency package is submitted.
 
-![Dependencies analysis diagram.](/img/figure-3.svg){#fig:dep-analysis}
+![Dependencies analysis diagram.](img/figure-3.svg){#fig:dep-analysis}
 
 
 In @fig:dep-analysis, the submission of package A triggers an analysis of runtime dependencies 1 through n and build dependencies 1 through n, while runtime dependencies 1.1 through 1.n and build dependencies 1.1 through 1.n were analyzed when package B was submitted.
 We will apply the same methodology for incentive distribution as the steeped tokens are distributed across all dependencies, thus recursively steeping the packages listed as dependencies (see @fig:steeping-rewards).
 
-![Steeping rewards distribution across dependencies.](/img/figure-2.svg){#fig:steeping-rewards}
+![Steeping rewards distribution across dependencies.](img/figure-2.svg){#fig:steeping-rewards}
 
 
 Versioning and conflicting dependencies are significant challenges, and troubleshooting them can turn into massive time drains.
