@@ -21,6 +21,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - run: | # Use on-box make until tea/pantry revlock is resolved
+        sudo apt-get update
         sudo apt-get install \
           texlive-latex-base \
           texlive-fonts-recommended \
