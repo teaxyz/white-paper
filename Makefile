@@ -28,7 +28,7 @@ tea.white-paper_%.pdf: i18n/%/white-paper.md i18n/%/metadata.yml tea.csl img/*
 	--citeproc \
 	--pdf-engine=xelatex \
 	--variable mainfont="Noto Serif" \
-	--variable CJKmainfont="Noto Serif CJK SC"
+	--variable CJKmainfont="Noto Serif CJK SC" \
 	$<
 
 clean:
