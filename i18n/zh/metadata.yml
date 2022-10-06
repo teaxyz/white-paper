@@ -62,6 +62,12 @@ references:
 lang: zh
 dir: ltr 
 header-includes:
-- \fancyfoot[L]{${VERSION 1}+${zh}}
+- \usepackage{fancyhdr,ragged2e}
+- \lhead{\parbox[t]{0.5\textwidth}{\RaggedRight\rightmark\strut}}
+- \rhead{\parbox[t]{0.5\textwidth}{\RaggedLeft\leftmark\strut}}
+- \setlength{\headheight}{5\baselineskip}
+- \pagestyle{fancy}
+- \fancyfoot[LE,RO]{© 2022 tea.inc.}
+- \fancyfoot[L]{v1.0.3+zh} 
 translator:
 - LoveCity0088
