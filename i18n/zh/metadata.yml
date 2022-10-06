@@ -63,6 +63,7 @@ lang: zh
 dir: ltr 
 header-includes:
 - \usepackage{fancyhdr,ragged2e}
+- \setCJKmainfont{Noto Serif CJK SC}
 - \lhead{\parbox[t]{0.5\textwidth}{\RaggedRight\rightmark\strut}}
 - \rhead{\parbox[t]{0.5\textwidth}{\RaggedLeft\leftmark\strut}}
 - \setlength{\headheight}{5\baselineskip}
