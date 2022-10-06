@@ -36,7 +36,7 @@ jobs:
     - run: |
         # Need a standard font, and ttf-mscorefonts-installer has a EULA dialog. Definitely #FIXME
         echo ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true | sudo debconf-set-selections
-        sudo apt-get install texlive texlive-latex-extra texlive-xetex msttcorefonts #FIXME
+        sudo apt-get install texlive texlive-latex-extra texlive-xetex msttcorefonts fonts-noto fonts-noto-cjk #FIXME
     # - run: .github/mk-pantry-accessible.sh ${{ secrets.TEMP_JACOBS_GITHUB_PAT }}
     # - uses: teaxyz/setup@v0
 
