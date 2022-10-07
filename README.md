@@ -93,6 +93,7 @@ We build, publish and feature full PDFs of all translations at tea.xyz.
 echo "- \fancyfoot[L]{$1}" >> metadata.yml
 ```
 
+[`white-paper.md`]: ./white-paper.md
 [Pandoc]: https://pandoc.org
 [Markdown]: https://daringfireball.net/projects/markdown/
 [LaTeX]: https://latex-project.org/
