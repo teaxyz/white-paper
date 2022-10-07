@@ -1,5 +1,5 @@
 title: Ein dezentrales Protokoll zur Vergütung des Open-Source-Ökosystems
-abstract: |-
+abstract: >
   Die Schaffung eines offenen, öffentlichen und stabilen Registers für alle Open-Source-Software
   würde Projekte in die Lage versetzen, Releases unabhängig zu veröffentlichen,
   anstatt sich auf Dritte zu verlassen, die diese unregelmäßigen Daten in Hunderten von separaten (und duplizierten)
@@ -7,6 +7,7 @@ abstract: |-
   die von einer byzantinischen fehlertoleranten Blockchain angetrieben wird, um einzelne Fehlerquellen zu eliminieren,
   unveränderliche Veröffentlichungen bereitzustellen und es Gemeinschaften zu ermöglichen, ihre Regionen des
   Open-Source-Ökosystems unabhängig von externen Agenden zu verwalten.
+
 
   Tea fördert die Wartung von Open Source, indem es Netzwerkteilnehmern ermöglicht,
   Werte für die Pakete einzusetzen, auf die sie angewiesen sind und die sie sichern möchten.

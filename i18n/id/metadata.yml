@@ -1,5 +1,5 @@
 title: Protokol Terdesentralisasi untuk Remunerasi Open Source Ecosystem
-abstract: |-
+abstract: >
   Membuat registri terbuka, publik, dan stabil untuk semua perangkat lunak sumber terbuka
   akan memberdayakan proyek untuk menerbitkan rilis secara independen daripada mengandalkan
   pihak ketiga yang mengumpulkan data tidak teratur ini menjadi ratusan terpisah
@@ -8,6 +8,7 @@ abstract: |-
   hilangkan sumber kegagalan tunggal, berikan rilis yang tidak dapat diubah, dan izinkan
   komunitas untuk mengatur wilayah mereka dari ekosistem sumber terbuka,
   terlepas dari agenda eksternal.
+
 
   teh mendorong pemeliharaan sumber terbuka dengan mengizinkan jaringan
   peserta untuk mempertaruhkan nilai terhadap paket yang mereka andalkan dan inginkan
