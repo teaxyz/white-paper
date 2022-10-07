@@ -34,9 +34,7 @@ jobs:
         #FIXME: Can't pass secrets to remote-branch CI, so this is until teaxyz/pantry is public
         sed -ne 's/^# tea\/white-paper \([0-9]*\.[0-9]*\.[0-9]*\)/VERSION=\1/p' README.md >> $GITHUB_ENV
     - run: |
-        # Need a standard font, and ttf-mscorefonts-installer has a EULA dialog. Definitely #FIXME
-        echo ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true | sudo debconf-set-selections
-        sudo apt-get install texlive texlive-latex-extra texlive-xetex msttcorefonts fonts-noto fonts-noto-cjk #FIXME
+        sudo apt-get install texlive texlive-latex-extra texlive-xetex fonts-noto fonts-noto-cjk #FIXME
     # - run: .github/mk-pantry-accessible.sh ${{ secrets.TEMP_JACOBS_GITHUB_PAT }}
     # - uses: teaxyz/setup@v0
 
