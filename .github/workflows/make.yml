@@ -96,6 +96,7 @@ jobs:
               const artifact_id = artifacts.artifacts[0].id
 
               const artifacts_url = `https://github.com/teaxyz/white-paper/suites/${check_suite_id}/artifacts/${artifact_id}`
+              console.log(artifacts_url)
 
               const comment = await github.request('POST /repos/{owner}/{repo}/issues/{issue_number}/comments', {
                 owner: context.repo.owner,
