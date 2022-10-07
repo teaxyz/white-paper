@@ -1,8 +1,23 @@
 title: Ein dezentrales Protokoll zur Vergütung des Open-Source-Ökosystems
-abstract: |
-  | Die Schaffung eines offenen, öffentlichen und stabilen Registers für alle Open-Source-Software würde Projekte in die Lage versetzen, Releases unabhängig zu veröffentlichen, anstatt sich auf Dritte zu verlassen, die diese unregelmäßigen Daten in Hunderten von separaten (und duplizierten) Systemen zusammenstellen. Paket-Verwalter werden ihre Veröffentlichungen in einer dezentralen Registrierung veröffentlichen, die von einer byzantinischen fehlertoleranten Blockchain angetrieben wird, um einzelne Fehlerquellen zu eliminieren, unveränderliche Veröffentlichungen bereitzustellen und es Gemeinschaften zu ermöglichen, ihre Regionen des Open-Source-Ökosystems unabhängig von externen Agenden zu verwalten.
-  |
-  | Tea fördert die Wartung von Open Source, indem es Netzwerkteilnehmern ermöglicht, Werte für die Pakete einzusetzen, auf die sie angewiesen sind und die sie sichern möchten. Das Diagramm des Tea-Protokolls bietet unveränderliche Paketregistrierung, Abhängigkeitsanforderungen, Paketauthentizität und Verwendungsorakel, um den Tea-Vergütungsalgorithmus zu informieren. Die systematische Inflation wird basierend auf diesem Algorithmus auf alle Pakete verteilt. Wenn Sicherheits- oder Entwicklungsprobleme gefunden werden, können Entwickler Ansprüche gegen das Paket geltend machen, die durch Beweise gestützt werden, und es kann zu Schrägstrichen kommen. Mitglieder der Open-Source-Community können Pakete auf Qualitätsprobleme überprüfen, und das Protokoll kann auf diese Überprüfungen reagieren, indem es proportionale Slashing-Ereignisse erlässt.
+abstract: >
+  Die Schaffung eines offenen, öffentlichen und stabilen Registers für alle Open-Source-Software
+  würde Projekte in die Lage versetzen, Releases unabhängig zu veröffentlichen,
+  anstatt sich auf Dritte zu verlassen, die diese unregelmäßigen Daten in Hunderten von separaten (und duplizierten)
+  Systemen zusammenstellen. Paket-Verwalter werden ihre Veröffentlichungen in einer dezentralen Registrierung veröffentlichen,
+  die von einer byzantinischen fehlertoleranten Blockchain angetrieben wird, um einzelne Fehlerquellen zu eliminieren,
+  unveränderliche Veröffentlichungen bereitzustellen und es Gemeinschaften zu ermöglichen, ihre Regionen des
+  Open-Source-Ökosystems unabhängig von externen Agenden zu verwalten.
+
+
+  Tea fördert die Wartung von Open Source, indem es Netzwerkteilnehmern ermöglicht,
+  Werte für die Pakete einzusetzen, auf die sie angewiesen sind und die sie sichern möchten.
+  Das Diagramm des Tea-Protokolls bietet unveränderliche Paketregistrierung, Abhängigkeitsanforderungen,
+  Paketauthentizität und Verwendungsorakel, um den Tea-Vergütungsalgorithmus zu informieren.
+  Die systematische Inflation wird basierend auf diesem Algorithmus auf alle Pakete verteilt.
+  Wenn Sicherheits- oder Entwicklungsprobleme gefunden werden, können Entwickler Ansprüche gegen das Paket geltend machen,
+  die durch Beweise gestützt werden, und es kann zu Schrägstrichen kommen. Mitglieder der Open-Source-Community
+  können Pakete auf Qualitätsprobleme überprüfen, und das Protokoll kann auf diese Überprüfungen reagieren,
+  indem es proportionale Slashing-Ereignisse erlässt.
 author:
 - Max Howell
 - Timothy Lewis
