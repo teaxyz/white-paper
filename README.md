@@ -61,6 +61,13 @@ We build, publish and feature full PDFs of all translations at tea.xyz.
     translator:
       - Your Fullname
     ```
+
+    ⚠️ Chinese, Japanese, and Korean languages only. Please also add the following to the `metadata.yml`:
+    ```yml
+    header-includes:
+      - \usepackage{xeCJK}
+      - \setCJKmainfont{Noto Serif CJK XX} # where XX can be SC, TC, HK, JP, KR https://github.com/googlefonts/noto-cjk
+    ```
 5. Translate `./i18n/${LANG}/white-paper.md`
 6. Commit translation to git and push to GitHub:
    ```sh
