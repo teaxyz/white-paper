@@ -25,7 +25,10 @@ jobs:
         sudo apt-get install \
           texlive-latex-base \
           texlive-fonts-recommended \
-          texlive-fonts-extra
+          texlive-fonts-extra \
+          texlive \
+          texlive-latex-extra \
+          texlive-xetex
         eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
         brew install \
           pandoc \
@@ -33,8 +36,8 @@ jobs:
           librsvg
         #FIXME: Can't pass secrets to remote-branch CI, so this is until teaxyz/pantry is public
         sed -ne 's/^# tea\/white-paper \([0-9]*\.[0-9]*\.[0-9]*\)/VERSION=\1/p' README.md >> $GITHUB_ENV
-    - run: |
-        sudo apt-get install texlive texlive-latex-extra texlive-xetex fonts-noto fonts-noto-cjk #FIXME
+    - run: | # install noto fonts for translated pdfs
+        sudo apt-get install fonts-noto fonts-noto-cjk
     # - run: .github/mk-pantry-accessible.sh ${{ secrets.TEMP_JACOBS_GITHUB_PAT }}
     # - uses: teaxyz/setup@v0
 
