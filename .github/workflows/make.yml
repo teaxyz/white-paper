@@ -60,6 +60,53 @@ jobs:
           tea.white-paper.pdf
           tea.white-paper_??.pdf
 
+    # print artifacts link to pull requests
+    # workflow_id=26393176
+    # filter for event="pull_request" && status="completed"
+    # number = get referenced_workflows.ref regex refs/pull/92/merge
+    # get check_suite_id=8668949222
+    # if number == pr number then get id(run_id=3205943871)
+    # get artifcate_id=390313556
+    # construct artifact url https://github.com/teaxyz/white-paper/suites/${check_suite_id}/artifacts/${artifact_id}
+
+    - name: Print artifacts to pull request
+      uses: actions/github-script@v6
+      with:
+        script: |
+          const pr_num = context.payload.pull_request.id
+          const result = await github.request('GET /repos/{owner}/{repo}/actions/workflows/{workflow_id}/runs', {
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            workflow_id: '26393176',
+            event: 'pull_request',
+            status: 'completed'
+          })
+          let regex = /[0-9]+/i
+          for (let i=0, i<result.workflow_runs; i++) {
+            if (pr_num == regex.match(result.referenced_workflows.ref)) {
+              const check_suite_id = result.check_suite_id
+              const workflow_id = result.workflow_id
+              const run_id = result.id
+
+              const artifacts = github.request('GET /repos/{owner}/{repo}/actions/runs/{run_id}/artifacts', {
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                run_id: run_id
+              })
+              const artifact_id = artifacts.artifacts[0].id
+
+              const artifacts_url = `https://github.com/teaxyz/white-paper/suites/${check_suite_id}/artifacts/${artifact_id}`
+              return artifacts_url
+            }
+          }
+
+
+          
+          
+          
+
+
+
     # Following steps only run for upload: true
     - name: AWS credentials
       if: ${{ inputs.upload }}
