@@ -82,7 +82,7 @@ jobs:
             status: 'completed'
           })
           let regex = /[0-9]+/i
-          for (let i=0, i<result.workflow_runs; i++) {
+          for (let iref=0, iref<result.workflow_runs; iref++) {
             if (pr_num == regex.match(result.referenced_workflows.ref)) {
               const check_suite_id = result.check_suite_id
               const workflow_id = result.workflow_id
