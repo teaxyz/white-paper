@@ -1,25 +1,15 @@
-title: Protokol Terdesentralisasi untuk Remunerasi Open Source Ecosystem
-abstract: >
-  Membuat registri terbuka, publik, dan stabil untuk semua perangkat lunak sumber terbuka
-  akan memberdayakan proyek untuk menerbitkan rilis secara independen daripada mengandalkan
-  pihak ketiga yang mengumpulkan data tidak teratur ini menjadi ratusan terpisah
-  (dan duplikat) sistem. Pengelola paket akan memublikasikan rilis mereka ke
-  registri terdesentralisasi yang didukung oleh blockchain toleran kesalahan Bizantium untuk
-  hilangkan sumber kegagalan tunggal, berikan rilis yang tidak dapat diubah, dan izinkan
-  komunitas untuk mengatur wilayah mereka dari ekosistem sumber terbuka,
-  terlepas dari agenda eksternal.
+title: 用于奖励开源生态系统的去中心化协议
+abstract: |-
+ 为所有开源软件创建一个开放、公共和稳定的注册表将使项目能够独立发布版本，而不是
+ 依赖于将这些不规则数据组装到数百个独立（和重复）系统中的第三方。Package维护者将
+ 他们的作品发布到由拜占庭容错区块链驱动的去中心化注册表，以消除单一故障源，提供
+ 稳定的发布，并允许社区来管理其开源生态系统的区域，而不受外部议程的影响。
 
-
-  teh mendorong pemeliharaan sumber terbuka dengan mengizinkan jaringan
-  peserta untuk mempertaruhkan nilai terhadap paket yang mereka andalkan dan inginkan
-  aman. Grafik protokol teh menyediakan pendaftaran paket yang tidak dapat diubah,
-  persyaratan ketergantungan, keaslian paket, dan oracle penggunaan untuk menginformasikan
-  algoritma remunerasi teh. Inflasi sistematis didistribusikan ke semua
-  paket berdasarkan algoritma itu. Jika masalah keamanan atau pengembangan adalah
-  ditemukan, pengembang dapat membuat klaim yang didukung oleh bukti terhadap paket,
-  dan pemotongan dapat terjadi. Anggota komunitas sumber terbuka dapat meninjau
-  paket untuk masalah kualitas, dan protokol dapat menanggapi ulasan ini
-  dengan memberlakukan acara tebasan proporsional.
+  Tea 通过允许网络参与者将他们依赖并希望保护的软件 Package进行质押来作为激励开源
+  的维护。 Tea 协议的图表提供了不可变的 Package注册、依赖要求、 Package真实性和
+  使用预言机，以告知Tea 报酬算法。系统膨胀基于该算法分配给所有 Package。如果发现
+  安全或开发问题，开发人员可以提出有证据支持的索赔，并可能进行惩罚。开源社区的成员
+  可以审查 Package的质量问题，协议可以通过制定比例削减事件来回应这些审查。
 author:
 - Max Howell
 - Timothy Lewis
@@ -69,15 +59,17 @@ references:
   url: https://arxiv.org/abs/1207.2617/
 - id: web3
   url: https://research.web3.foundation/en/latest/polkadot/overview/2-token-economics.html
+lang: zh
+dir: ltr 
 header-includes:
 - \usepackage{fancyhdr,ragged2e}
+- \usepackage{xeCJK}
+- \setCJKmainfont{Noto Serif CJK SC}
 - \lhead{\parbox[t]{0.5\textwidth}{\RaggedRight\rightmark\strut}}
 - \rhead{\parbox[t]{0.5\textwidth}{\RaggedLeft\leftmark\strut}}
 - \setlength{\headheight}{5\baselineskip}
 - \pagestyle{fancy}
 - \fancyfoot[LE,RO]{© 2022 tea.inc.}
-- \fancyfoot[L]{v1.0.3+id}   # expand these variables!
-lang: id      # https://pandoc.org/MANUAL.html#language-variables
-dir: ltr      # language direction; ltr:left-to-right or rtl:right-to-left
+- \fancyfoot[L]{v1.0.3+zh} 
 translator:
-  - civiel
+- LoveCity0088

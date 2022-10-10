@@ -1,5 +1,5 @@
-title: A Decentralized Protocol for Remunerating the Open‑Source Ecosystem
-abstract: |-
+title: A Decentralized Protocol for Remunerating the Open-Source Ecosystem
+abstract: >
   Creating an open, public and stable registry for all open-source software
   would empower projects to publish releases independently rather than rely on
   third parties who assemble this irregular data into hundreds of separate
@@ -8,7 +8,7 @@ abstract: |-
   eliminate single sources of failure, provide immutable releases, and allow
   communities to govern their regions of the open-source ecosystem,
   independent of external agendas.
-
+  
   tea incentivizes the maintenance of open-source by allowing network
   participants to stake value against the packages they depend on and want to
   secure. The tea protocol’s graph provides immutable package registration,
@@ -19,6 +19,7 @@ abstract: |-
   and slashing may occur. Members of the open-source community can review
   packages for quality issues, and the protocol can respond to these reviews
   by enacting proportional slashing events.
+
 author:
 - Max Howell
 - Timothy Lewis
