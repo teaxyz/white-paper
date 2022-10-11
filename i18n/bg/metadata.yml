@@ -1,0 +1,82 @@
+title: Децентрализиран протокол за възнаграждение на екосистемата с отворен код
+abstract: |-
+  Създаването на отворен, публичен и стабилен регистър за целия софтуер с отворен код 
+  ще даде възможност на проектите да публикуват версии независимо, вместо да разчитат на 
+  трети страни, които събират тези непостоянни данни в стотици отделни
+  системи (дублиращи се). Участниците поддържащите пакети ще публикуват своите версии на
+  децентрализираният регистър, изграден на базата на византийски устойчив на грешки блокчейн за
+  елиминиране на единични източници на проблеми, осигуряване на неизменни версии и позволяване
+  на общностите да управляват своите раздели от екосистемата с отворен код,
+  независимо от външни програми.
+
+  tea стимулира поддържането на отворен код, като позволява на участниците в мрежата
+  възможност за стейкинг срещу пакетите, от които зависят и за които осигуряват
+  защита. Графиката на tea протокола предоставя постоянна регистрация на пакетите, 
+  изисквания към зависимости, автентичност на пакетите и оракули за използване за информиране
+  алгоритъмът за възнаграждение за tea. Системната инфлация е разпределена за всички
+  пакети, базирани на този алгоритъм. Ако се откриват проблеми със сигурността или развитието,
+  разработчиците могат да правят твърдения, подкрепени с доказателства срещу пакета,
+  и възможно е да се стигне до слашинг. Членовете на общността с отворен код могат да преглеждат
+  пакетите за откриване проблеми с качеството и протоколът може да реагира на тези проверки
+  чрез въвеждане на съответни слашинг събития.
+author:
+- Max Howell
+- Timothy Lewis
+- Thomas Borrel
+references:
+- id: sources
+  url: https://github.com/teaxyz/white-paper
+- id: cc
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+- id: nist
+  url: https://nvd.nist.gov/vuln/detail/CVE-2021-44228
+- id: reuters
+  url: https://www.reuters.com/article/usa-cyber-vulnerability-idCNL1N2SY2PA
+- id: twitter
+  url: https://twitter.com/yazicivo/status/1469349956880408583
+- id: w3
+  url: https://www.w3.org/TR/did-core/
+- id: theregister
+  url: https://www.theregister.com/2016/03/23/npm_left_pad_chaos/
+- id: fossa
+  url: https://fossa.com/blog/npm-packages-colors-faker-corrupted/
+- id: lunasec
+  url: https://www.lunasec.io/docs/blog/node-ipc-protestware/
+- id: github
+  url: https://github.com/dominictarr/event-stream/issues/116
+- id: zdnet
+  url: https://www.zdnet.com/article/open-source-software-how-many-bugs-are-hidden-there-on-purpose/
+- id: threatpost
+  url: https://threatpost.com/backdoor-found-in-utility-for-linux/147581/
+- id: fbi
+  url: https://www.fbi.gov/news/stories/phantom-secure-takedown-031618
+- id: europol
+  url: https://www.europol.europa.eu/media-press/newsroom/news/800-criminals-arrested-in-biggest-ever-law-enforcement-operation-against-encrypted-communication
+- id: medium
+  url: https://medium.com/intrinsic-blog/compromised-npm-package-event-stream-d47d08605502
+- id: semver
+  url: https://semver.org/
+- id: npmjsCrossenv
+  url: https://blog.npmjs.org/post/163723642530/crossenv-malware-on-the-npm-registry.html
+- id: npmjsLodash
+  url: https://www.npmjs.com/package/lodash
+- id: npmjsChalk
+  url: https://www.npmjs.com/package/chalk
+- id: npmjsLogFourjs
+  url: https://www.npmjs.com/package/log4js/
+- id: arxiv
+  url: https://arxiv.org/abs/1207.2617/
+- id: web3
+  url: https://research.web3.foundation/en/latest/polkadot/overview/2-token-economics.html
+header-includes:
+- \usepackage{fancyhdr,ragged2e}
+- \lhead{\parbox[t]{0.5\textwidth}{\RaggedRight\rightmark\strut}}
+- \rhead{\parbox[t]{0.5\textwidth}{\RaggedLeft\leftmark\strut}}
+- \setlength{\headheight}{5\baselineskip}
+- \pagestyle{fancy}
+- \fancyfoot[LE,RO]{© 2022 tea.inc.}
+- \fancyfoot[L]{v1.0.3+bg}   # expand these variables!
+lang: bg       # https://pandoc.org/MANUAL.html#language-variables
+dir: ltr      # language direction; ltr:left-to-right or rtl:right-to-left
+translator:
+- Svetlana Fyodorovna Dulapchi
