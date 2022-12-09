@@ -1,0 +1,83 @@
+title: Giao thức Phi Tập Trung để trả thù lao cho Hệ Sinh Thái Nguồn Mở
+abstract: >
+  Tạo sổ đăng ký mở, công khai và ổn định cho tất cả phần mềm nguồn mở
+  sẽ trao quyền cho các dự án xuất bản các bản phát hành một cách độc lập thay vì dựa vào
+  các bên thứ ba tập hợp dữ liệu bất thường này thành hàng trăm dữ liệu riêng biệt
+  (và trùng lặp) hệ thống. Người bảo trì gói sẽ xuất bản bản phát hành của họ tới
+  một sổ đăng ký phi tập trung được cung cấp bởi chuỗi khối chịu lỗi Byzantine để
+  loại bỏ các nguồn lỗi đơn lẻ, cung cấp các bản phát hành không thay đổi và cho phép
+  các cộng đồng để quản lý các khu vực của họ trong hệ sinh thái nguồn mở,
+  độc lập với các chương trình nghị sự bên ngoài.
+  
+  tea khuyến khích việc duy trì mã nguồn mở bằng cách cho phép mạng
+  những người tham gia cổ phần giá trị đối với các gói mà họ phụ thuộc và muốn
+  chắc chắn. Biểu đồ của giao thức tea cung cấp đăng ký gói bất biến,
+  yêu cầu phụ thuộc, tính xác thực của gói và cách sử dụng tiên tri để thông báo
+  thuật toán thù lao tea. Lạm phát có hệ thống được phân phối cho tất cả
+  các gói dựa trên thuật toán đó. Nếu các vấn đề về bảo mật hoặc phát triển
+  được tìm thấy, các nhà phát triển có thể đưa ra tuyên bố được hỗ trợ bởi bằng chứng chống lại gói,
+  và chém có thể xảy ra. Các thành viên của cộng đồng mã nguồn mở có thể xem lại
+  các gói cho các vấn đề về chất lượng và giao thức có thể phản hồi các đánh giá này
+  bằng cách ban hành các sự kiện cắt theo tỷ lệ.
+
+author:
+- Max Howell
+- Timothy Lewis
+- Thomas Borrel
+references:
+- id: sources
+  url: https://github.com/teaxyz/white-paper
+- id: cc
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+- id: nist
+  url: https://nvd.nist.gov/vuln/detail/CVE-2021-44228
+- id: reuters
+  url: https://www.reuters.com/article/usa-cyber-vulnerability-idCNL1N2SY2PA
+- id: twitter
+  url: https://twitter.com/yazicivo/status/1469349956880408583
+- id: w3
+  url: https://www.w3.org/TR/did-core/
+- id: theregister
+  url: https://www.theregister.com/2016/03/23/npm_left_pad_chaos/
+- id: fossa
+  url: https://fossa.com/blog/npm-packages-colors-faker-corrupted/
+- id: lunasec
+  url: https://www.lunasec.io/docs/blog/node-ipc-protestware/
+- id: github
+  url: https://github.com/dominictarr/event-stream/issues/116
+- id: zdnet
+  url: https://www.zdnet.com/article/open-source-software-how-many-bugs-are-hidden-there-on-purpose/
+- id: threatpost
+  url: https://threatpost.com/backdoor-found-in-utility-for-linux/147581/
+- id: fbi
+  url: https://www.fbi.gov/news/stories/phantom-secure-takedown-031618
+- id: europol
+  url: https://www.europol.europa.eu/media-press/newsroom/news/800-criminals-arrested-in-biggest-ever-law-enforcement-operation-against-encrypted-communication
+- id: medium
+  url: https://medium.com/intrinsic-blog/compromised-npm-package-event-stream-d47d08605502
+- id: semver
+  url: https://semver.org/
+- id: npmjsCrossenv
+  url: https://blog.npmjs.org/post/163723642530/crossenv-malware-on-the-npm-registry.html
+- id: npmjsLodash
+  url: https://www.npmjs.com/package/lodash
+- id: npmjsChalk
+  url: https://www.npmjs.com/package/chalk
+- id: npmjsLogFourjs
+  url: https://www.npmjs.com/package/log4js/
+- id: arxiv
+  url: https://arxiv.org/abs/1207.2617/
+- id: web3
+  url: https://research.web3.foundation/en/latest/polkadot/overview/2-token-economics.html
+header-includes:
+- \usepackage{fancyhdr,ragged2e}
+- \lhead{\parbox[t]{0.5\textwidth}{\RaggedRight\rightmark\strut}}
+- \rhead{\parbox[t]{0.5\textwidth}{\RaggedLeft\leftmark\strut}}
+- \setlength{\headheight}{5\baselineskip}
+- \pagestyle{fancy}
+- \fancyfoot[LE,RO]{© 2022 tea.inc.}
+- \fancyfoot[L]{v1.0.5+vi}
+lang: vi       
+dir: ltr 
+translator:
+  - Truong Quoc Tuan
