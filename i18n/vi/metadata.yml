@@ -76,7 +76,7 @@ header-includes:
 - \setlength{\headheight}{5\baselineskip}
 - \pagestyle{fancy}
 - \fancyfoot[LE,RO]{© 2022 tea.inc.}
-- \fancyfoot[L]{v1.0.5+vi}
+- \fancyfoot[L]{v1.0.3+vi}
 lang: vi       
 dir: ltr 
 translator:
