@@ -23,8 +23,6 @@ Then you can either:
 
 ## Dependencies
 
-Source these yourself or use tea: `sh <(curl tea.xyz)`.
-
 | Project             | Version |
 |---------------------|---------|
 | pandoc.org          | ^2.18   |
@@ -32,6 +30,13 @@ Source these yourself or use tea: `sh <(curl tea.xyz)`.
 | gnome.org/librsvg   | ^2.54   |
 | gnu.org/make        | ^4      |
 
+Source these yourself or use tea:
+
+```sh
+git clone https://github.com/teaxyz/white-paper tea.white-paper
+cd tea.white-paper
+sh <(curl tea.xyz) -E make
+```
 
 ## Translate
 
@@ -42,7 +47,7 @@ We build, publish and feature full PDFs of all translations at tea.xyz.
     ```sh
     $ export LANG=…          # https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
     $ export USER=…          # your github
-    $ export VERSION=$(git describe --abbrev=0) # latest version tag  
+    $ export VERSION=$(git describe --abbrev=0) # latest version tag
     $ git clone https://github.com/${USER}/white-paper tea-white-paper
     …
     $ cd tea-white-paper

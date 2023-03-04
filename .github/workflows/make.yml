@@ -1,6 +1,9 @@
 name: make
 
 on:
+  pull_request:
+    paths:
+      - .github/workflows/make.yml
   workflow_call:
     inputs:
       release:
@@ -12,48 +15,47 @@ on:
         required: false
         type: boolean
 
-env:
-  TEA_SECRET: ${{ secrets.TEA_SECRET }}
-
 jobs:
   make:
     runs-on: ubuntu-latest
+    container: ubuntu
+    # ^^ with the standard github ubuntu image the build fails
     steps:
     - uses: actions/checkout@v3
-    - run: | # Use on-box make until tea/pantry revlock is resolved
-        sudo apt-get update
-        sudo apt-get install \
+
+    - name: apt deps
+      env:
+        DEBIAN_FRONTEND: noninteractive
+        TZ: Etc/UTC
+      run: |
+        apt-get --yes update
+
+        # packaging texlive is a world of pain
+        apt-get --yes install \
           texlive-latex-base \
           texlive-fonts-recommended \
           texlive-fonts-extra \
           texlive \
           texlive-latex-extra \
-          texlive-xetex
-        eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-        brew install \
-          pandoc \
-          pandoc-crossref \
-          librsvg
-        #FIXME: Can't pass secrets to remote-branch CI, so this is until teaxyz/pantry is public
-        sed -ne 's/^# tea\/white-paper \([0-9]*\.[0-9]*\.[0-9]*\)/VERSION=\1/p' README.md >> $GITHUB_ENV
-    - run: | # install noto fonts for translated pdfs
-        sudo apt-get install fonts-noto fonts-noto-cjk
-    # - run: .github/mk-pantry-accessible.sh ${{ secrets.TEMP_JACOBS_GITHUB_PAT }}
-    # - uses: teaxyz/setup@v0
+          texlive-xetex \
+          texlive-lang-all
+
+        # fonts we need
+        apt-get --yes install fonts-noto fonts-noto-cjk
+
+    - uses: teaxyz/setup@v0
 
     - name: Set Version - Release
       if: ${{ inputs.release }}
-      run: echo "- \fancyfoot[L]{$VERSION}" >> metadata.yml
+      run: echo "- \\\\fancyfoot[L]{$VERSION}" >> metadata.yml
     - name: Set Version - CI/CD
       if: ${{ !inputs.release }}
       run: |
         date=$(date '+%Y%m%d')
-        echo "- \fancyfoot[L]{$VERSION+$date}" >> metadata.yml
+        echo "- \\\\fancyfoot[L]{$VERSION+$date}" >> metadata.yml
 
-    # - run: tea make
-    - run: | # Use on-box make until tea/pantry revlock is resolved
-        eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-        make
+    - run: tea -E make
+
     - uses: actions/upload-artifact@v3
       with:
         name: tea.white-paper
