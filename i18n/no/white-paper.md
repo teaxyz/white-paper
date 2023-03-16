@@ -567,7 +567,7 @@ Vær oppmerksom på at all informasjon som brukes for å påvirke fordelingen av
 Denne hvitboken ville ikke eksistere uten støtten og dedikasjonen fra mange teofile.
 Forfatterne vil gjerne takke Josh Kruger, Jadid Khan og Jacob Heider for deres bidrag til tokenomics og de mange diskrete individene som meldte seg frivillig til å gi tilbakemelding på innholdet i dette dokumentet.
 
-$\parskip=0pt pluss 1pt$
+$\parskip=0pt plus 1pt$
 
 # Ordliste
 
