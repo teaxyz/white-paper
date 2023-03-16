@@ -1,0 +1,83 @@
+title: En desentralisert protokoll for belønning av åpen kildekode-økosystemet
+abstract: >
+ Opprette et åpent, offentlig og stabilt register for all åpen kildekode-programvare
+ ville gi prosjekter mulighet til å publisere utgivelser uavhengig i stedet for å stole på
+ tredjeparter som samler disse uregelmessige dataene i hundrevis av separate
+  (og dupliserte) systemer. Pakkevedlikeholdere vil publisere sine utgivelser til
+  et desentralisert register drevet av en bysantinsk feiltolerant blokkjede til
+  eliminere enkeltkilder til feil, gi uforanderlige utgivelser og tillate
+  samfunn for å styre sine regioner i åpen kildekode-økosystemet,
+  uavhengig av eksterne agendaer.
+
+  te oppmuntrer til vedlikehold av åpen kildekode ved å tillate nettverk
+  deltakere for å sette verdi mot pakkene de er avhengige av og ønsker
+  sikre. Teprotokollens graf gir uforanderlig pakkeregistrering,
+  avhengighetskrav, pakkens autentisitet og bruksorakler for å informere
+  algoritmen for tevederlag. Systematisk inflasjon fordeles på alle
+  pakker basert på den algoritmen. Hvis sikkerhet eller utviklingsproblemer er
+  funnet, kan utviklere komme med påstander støttet av bevis mot pakken,
+  og skjæring kan forekomme. Medlemmer av åpen kildekode-fellesskapet kan gjennomgå
+  pakker for kvalitetsproblemer, og protokollen kan svare på disse anmeldelsene
+  ved å vedta proporsjonale slashing-hendelser.
+
+author:
+- Max Howell
+- Timothy Lewis
+- Thomas Borrel
+references:
+- id: sources
+  url: https://github.com/teaxyz/white-paper
+- id: cc
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+- id: nist
+  url: https://nvd.nist.gov/vuln/detail/CVE-2021-44228
+- id: reuters
+  url: https://www.reuters.com/article/usa-cyber-vulnerability-idCNL1N2SY2PA
+- id: twitter
+  url: https://twitter.com/yazicivo/status/1469349956880408583
+- id: w3
+  url: https://www.w3.org/TR/did-core/
+- id: theregister
+  url: https://www.theregister.com/2016/03/23/npm_left_pad_chaos/
+- id: fossa
+  url: https://fossa.com/blog/npm-packages-colors-faker-corrupted/
+- id: lunasec
+  url: https://www.lunasec.io/docs/blog/node-ipc-protestware/
+- id: github
+  url: https://github.com/dominictarr/event-stream/issues/116
+- id: zdnet
+  url: https://www.zdnet.com/article/open-source-software-how-many-bugs-are-hidden-there-on-purpose/
+- id: threatpost
+  url: https://threatpost.com/backdoor-found-in-utility-for-linux/147581/
+- id: fbi
+  url: https://www.fbi.gov/news/stories/phantom-secure-takedown-031618
+- id: europol
+  url: https://www.europol.europa.eu/media-press/newsroom/news/800-criminals-arrested-in-biggest-ever-law-enforcement-operation-against-encrypted-communication
+- id: medium
+  url: https://medium.com/intrinsic-blog/compromised-npm-package-event-stream-d47d08605502
+- id: semver
+  url: https://semver.org/
+- id: npmjsCrossenv
+  url: https://blog.npmjs.org/post/163723642530/crossenv-malware-on-the-npm-registry.html
+- id: npmjsLodash
+  url: https://www.npmjs.com/package/lodash
+- id: npmjsChalk
+  url: https://www.npmjs.com/package/chalk
+- id: npmjsLogFourjs
+  url: https://www.npmjs.com/package/log4js/
+- id: arxiv
+  url: https://arxiv.org/abs/1207.2617/
+- id: web3
+  url: https://research.web3.foundation/en/latest/polkadot/overview/2-token-economics.html
+header-includes:
+- \usepackage{fancyhdr,ragged2e}
+- \lhead{\parbox[t]{0.5\textwidth}{\RaggedRight\rightmark\strut}}
+- \rhead{\parbox[t]{0.5\textwidth}{\RaggedLeft\leftmark\strut}}
+- \setlength{\headheight}{5\baselineskip}
+- \pagestyle{fancy}
+- \fancyfoot[LE,RO]{© 2022 tea.inc.}
+- \fancyfoot[L]{c1.0.5+no}   
+lang: no 
+dir: ltr      
+translator:
+  - Renat Ghoste 
