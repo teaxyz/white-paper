@@ -1,5 +1,5 @@
 ---
-description: Vestion 2.0.0
+description: Version 2.0.0
 ---
 
 # white-paper
