@@ -150,7 +150,7 @@ Sponsorship can be an effective system to support open-source development; howev
 
 To bolster the sustainability and integrity of the software supply chain and enable open-source developers to capture the value they create, tea aims to establish mechanisms where support benefits all aspects of a project. Support from backers will cascade through a project's dependencies, from the top to the base of the tree. This implicitly places trust in the package maintainer's ability to make informed choices about their stack, thus enhancing their reputation.
 
-<figure><img src="https://lh3.googleusercontent.com/f6j-vUQKsQzZJ9-4oQ5DIE5rj-Wh1f1OKWXbtITm_wqwaxXkCudPm37a2gMPPE8OD3qC5vB7l7qQgqQgCW_fzM5gxhYwCYlq-p6-MqPw4p7LrjLVy_ODNua0ivNobvcO3z04ibENt_L4TWVCCA0KkOE" alt=""><figcaption><p>Figure 2 - Rewards distribution across dependencies</p></figcaption></figure>
+<figure><img src=".gitbook/assets/figure-2.png" alt=""><figcaption><p>Figure 2 - Rewards distribution across dependencies</p></figcaption></figure>
 
 #### tea Tasters
 
