@@ -37,7 +37,7 @@ Enterprises often wrap business models around open-source, generating revenue di
 
 Sadly, Log4j is far from the only example. core-js is downloaded 30 million times per week as the base of every Node.js application, yet it is also barely funded, potentially forcing it’s primary maintainer to [walk away from the project or even change the license to closed source](https://www.thestack.technology/core-js-maintainer-denis-pusharev-license-broke-angry/). Recently several bitcoin core developers resigned, citing, among other reasons, a lack of financial compensation for their decision.
 
-<figure><img src="https://lh5.googleusercontent.com/SzLe5brW-z889YTmamVxiy5OF2L3nbAwlk1_PxZOId_Joc87GLd2Ah2g_YVnk4zFGs4GItP_f2Qbx-sPj7_Q9PAsenT9SXC6fL_mJY9lSJK8GD59SlxcssVNVrLcM8w3KV6WUVKHStxbmi9PteExmBk" alt=""><figcaption><p>Figure 1 - Dependency - Source: <a href="https://xkcd.com/2347/">https://xkcd.com/2347/</a></p></figcaption></figure>
+<figure><img src=".gitbook/assets/xkcd-dependency (1).png" alt=""><figcaption><p>Figure 1 - Dependency - Source: <a href="https://xkcd.com/2347/">https://xkcd.com/2347/</a></p></figcaption></figure>
 
 There have been multiple attempts at providing incentive structures, typically involving sponsorship and bounty systems. Sponsorship makes it possible for consumers of open-source to donate to the projects they favor. However, picture open-source as a tower of bricks where lower layers are long forgotten, but still maintained by dedicated engineers and relied upon by even more developers. Only projects at the top of the tower are typically known and receive sponsorship. This biased selection leads to essential bricks that hold up the tower attracting no donations, while favorites receive more than they need. Bounties allow consumers of projects to propose payment for developers to build specific features, thus only rewarding projects for doing things that may not be in their best interest. And again, only rewarding favorites.
 
@@ -285,7 +285,7 @@ TEA tokens will also be utilized to support packages and secure the software sup
 
 It’s recommended that a 10 billion maximum token supply be distributed across all members of the tea community as described below:
 
-<figure><img src="https://lh5.googleusercontent.com/rSNLxvkLG3U2inaatlv8CnjrK8NgEMfd3WRJ_jj5D-CeDzKJnSH8hGppFW2wa4xAWY4UraxfIwc3WhNVMRLJmVuOOtgmV_hpf-mvZDcAv8ntlwjM9_m_4a1UbMYuBQSQp7MOpbk3J6A9j8EBPsyr64s" alt=""><figcaption><p>Figure 3 - Token distribution of total supply</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Token Allocation (1).png" alt=""><figcaption><p>Figure 3 - Token distribution of total supply</p></figcaption></figure>
 
 Roughly 50% of the maximum token supply should be allocated to “Ecosystem & Governance”, which includes incentives for open-source projects to onboard and maintain their codebase as well as rewards for contributing to decentralized votes and consensus via the tea DAO. Tokens allocated to “Ecosystem & Governance” should be distributed as Proof of Contribution rewards, staking rewards, and other types of developer-centric incentives.&#x20;
 
