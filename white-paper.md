@@ -1,5 +1,5 @@
 ---
-description: Version 2.0.0
+description: Version 2.1.0
 ---
 
 # white-paper
@@ -27,13 +27,13 @@ This paper is available under the [Creative Commons Attribution-ShareAlike 4.0 I
 
 ## Introduction
 
-The modern-day Internet is predominantly composed of open-source projects and has been since its inception. Open-source projects are developed and maintained via collaboration amongst global developer communities, and their codebases are made available for anyone to utilize as a public good. In the past 80 years (it is [generally believed](https://archive.org/details/historyofmodernc00ceru) that the first example of free and open-source software was released in 1953), open-source software has evolved from the product of niche technology hobbyists to the infrastructure upon which all innovation has been built. Despite the importance of open-source software, the developers that create and maintain the codebase as a public utility receive no fungible rewards for their immense contribution as innovators and maintainers.&#x20;
+The modern-day Internet is predominantly composed of open-source projects and has been since its inception. Open-source projects are developed and maintained via collaboration amongst global developer communities, and their codebases are made available for anyone to utilize as a public good. In the past 80 years (it is [generally believed](https://archive.org/details/historyofmodernc00ceru) that the first example of free and open-source software was released in 1953), open-source software has evolved from the product of niche technology hobbyists to the infrastructure upon which all innovation has been built. Despite the importance of open-source software, the developers that create and maintain the codebase as a public utility receive no fungible rewards for their immense contribution as innovators and maintainers.
 
 Enterprise software, which has grown into a multi-billion dollar industry, is built on the foundation laid by open-source. Yet there is almost no value accrual back to the individuals who thanklessly maintain its very underpinnings. And while fortunes have been made from it, open-source software is mainly created and maintained as a public utility with no viable means for developers to capture the value they create.
 
 We believe that the potential of the modern-day internet has been stunted by relying on a small percentage of the world’s engineers to maintain open-source software purely out of altruism. Open-source is a labor of love often hindered by a lack of meaningful incentives for core maintainers. Open source developers must choose between a day job that provides living wages or maintaining the very foundation of enterprise software. A lack of incentives results in genuinely worthwhile projects never reaching their potential while others suffer from security issues due to a lack of upkeep throughout the software’s lifecycle. To unlock the full potential of open-source, we require a universal method for assessing the “fair value” of open-source projects, enabling open-source developers to capture the value they create by facilitating capital inflows to the open-source community, all without altering the core principles of how open-source is developed and used.
 
-Enterprises often wrap business models around open-source, generating revenue directly from the work of the benevolent developers while also relying on them to fix bugs as issues occur. Open-source codebases offer plug-and-play core functionality for enterprises; however, software vulnerabilities can pose an immense risk for applications built on top of open-source. A great example is a recent incident involving a critical security vulnerability in Log4j, a package from the [Apache Software Foundation](https://www.apache.org/) that found its way across many commercial software and services employed by enterprises and governments. In November 2021, a security researcher working for [Alibaba Group Holding Ltd.](https://www.alibabagroup.com/) reported vulnerability [CVE-2021-44228](https://nvd.nist.gov/vuln/detail/CVE-2021-44228), which received the highest possible base score from the Apache Software Foundation. Amit Yoran, Chief Executive of [Tenable](https://www.tenable.com/) and founding director of the United States Computer Emergency Readiness Team (US-CERT), described this vulnerability as “[the single biggest, most critical vulnerability of the last decade](https://www.reuters.com/article/usa-cyber-vulnerability-idCNL1N2SY2PA)”. Panic ensued and the few volunteers who maintained this package came publicly under fire for the failure. After addressing the outrage with a humble plea for fairness, systems got patched. Enterprises and governments eventually realized that Log4j, a package used by a broad range of critical systems for two decades, was maintained by a few unpaid volunteers, the same unsung heroes who sprang into action despite [abuse from the industry](https://twitter.com/yazicivo/status/1469349956880408583) and worked tirelessly to address the vulnerability.&#x20;
+Enterprises often wrap business models around open-source, generating revenue directly from the work of the benevolent developers while also relying on them to fix bugs as issues occur. Open-source codebases offer plug-and-play core functionality for enterprises; however, software vulnerabilities can pose an immense risk for applications built on top of open-source. A great example is a recent incident involving a critical security vulnerability in Log4j, a package from the [Apache Software Foundation](https://www.apache.org/) that found its way across many commercial software and services employed by enterprises and governments. In November 2021, a security researcher working for [Alibaba Group Holding Ltd.](https://www.alibabagroup.com/) reported vulnerability [CVE-2021-44228](https://nvd.nist.gov/vuln/detail/CVE-2021-44228), which received the highest possible base score from the Apache Software Foundation. Amit Yoran, Chief Executive of [Tenable](https://www.tenable.com/) and founding director of the United States Computer Emergency Readiness Team (US-CERT), described this vulnerability as “[the single biggest, most critical vulnerability of the last decade](https://www.reuters.com/article/usa-cyber-vulnerability-idCNL1N2SY2PA)”. Panic ensued and the few volunteers who maintained this package came publicly under fire for the failure. After addressing the outrage with a humble plea for fairness, systems got patched. Enterprises and governments eventually realized that Log4j, a package used by a broad range of critical systems for two decades, was maintained by a few unpaid volunteers, the same unsung heroes who sprang into action despite [abuse from the industry](https://twitter.com/yazicivo/status/1469349956880408583) and worked tirelessly to address the vulnerability.
 
 Sadly, Log4j is far from the only example. core-js is downloaded 30 million times per week as the base of every Node.js application, yet it is also barely funded, potentially forcing it’s primary maintainer to [walk away from the project or even change the license to closed source](https://www.thestack.technology/core-js-maintainer-denis-pusharev-license-broke-angry/). Recently several bitcoin core developers resigned, citing, among other reasons, a lack of financial compensation for their decision.
 
@@ -138,7 +138,7 @@ With more than 10 million packages accessible across the top 30 package managers
 
 We believe that the tea Protocol’s Proof of Contribution algorithm combined with other incentives can provide package users with the information they need to select the foundation of their own project quickly and thoughtfully.
 
-#### Project Supporters&#x20;
+#### Project Supporters
 
 In Web 2.0 and web3, a subset of package users, often called “sponsors”, has chosen to support package maintainers through donations or other forms of remuneration; however, this has rarely been the case.
 
@@ -217,7 +217,7 @@ Distribution to all tea tasters could be based on the age of their review and th
 
 ## TEA Token
 
-TEA is a cryptographic token which serves as the access key to certain parts and designated features of the tea Protocol.&#x20;
+TEA is a cryptographic token which serves as the access key to certain parts and designated features of the tea Protocol.
 
 Holders of TEA token have the ability to:
 
@@ -272,7 +272,7 @@ Governance is closely tied to this active engagement. For each TEA token staked,
 
 ### TEA Token Supply Distribution
 
-A majority of the TEA tokens created by the protocol are used as incentives to encourage package maintainers, users, and supporters to perform activities that provide value to the decentralized network. The distribution of TEA tokens to various stakeholders within the protocol is dictated by a “distribution schedule.”&#x20;
+A majority of the TEA tokens created by the protocol are used as incentives to encourage package maintainers, users, and supporters to perform activities that provide value to the decentralized network. The distribution of TEA tokens to various stakeholders within the protocol is dictated by a “distribution schedule.”
 
 Network incentives will be distributed directly by the tea Protocol, in the form of TEA tokens, to four groups of stakeholders:
 
@@ -285,11 +285,11 @@ TEA tokens will also be utilized to support packages and secure the software sup
 
 It’s recommended that a 10 billion maximum token supply be distributed across all members of the tea community as described below:
 
-<figure><img src=".gitbook/assets/Token Allocation (1).png" alt=""><figcaption><p>Figure 3 - Token distribution of total supply</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Token Allocation-Updated.svg" alt=""><figcaption><p>Figure 3 - Token distribution of maximum supply</p></figcaption></figure>
 
-Roughly 50% of the maximum token supply should be allocated to “Ecosystem & Governance”, which includes incentives for open-source projects to onboard and maintain their codebase as well as rewards for contributing to decentralized votes and consensus via the tea DAO. Tokens allocated to “Ecosystem & Governance” should be distributed as Proof of Contribution rewards, staking rewards, and other types of developer-centric incentives.&#x20;
+Roughly 51.4% of the maximum token supply should be allocated to “Ecosystem & Governance”, which includes incentives for open-source projects to onboard and maintain their codebase as well as rewards for contributing to decentralized votes and consensus via the tea DAO. Tokens allocated to “Ecosystem & Governance” should be distributed as Proof of Contribution rewards, staking rewards, and other types of developer-centric incentives.
 
-Roughly 26% of the maximum token supply should be allocated to the “Protocol Development” to ensure the sustainability and continued evolution of the tea Protocol. Roughly 20% should be earmarked for “Early Supporters & Advisors” while the remaining 4% should be allocated to support marketplace liquidity once a token generation event occurs.
+Roughly 18.6% of the maximum token supply should be allocated to the “Protocol Development” to ensure the sustainability and continued evolution of the tea Protocol. Roughly 12.7% should be earmarked for “Early Supporters & Advisors”. Roughly 11.0% should be earmarked for a Private sale,  3.0% for a public sale, while the remaining 3.2% should be allocated to support marketplace liquidity once a token generation event occurs.
 
 Detailed Tokenomics, including a comprehensive Token Distribution and Emissions schedule will be the subject of a dedicated paper.
 
@@ -311,7 +311,7 @@ The dreams and efforts of open-source developers have built the innovation that 
 
 ## Future Work and Potential Community Efforts
 
-As the tea system matures, we foresee the community deciding and contributing to alterations and extensions of the tea system through governance. Below are some ideas that we believe may inspire some, however we do not guarantee any future performance.&#x20;
+As the tea system matures, we foresee the community deciding and contributing to alterations and extensions of the tea system through governance. Below are some ideas that we believe may inspire some, however we do not guarantee any future performance.
 
 ### tea Wholesalers
 
@@ -347,7 +347,7 @@ This white paper would not exist without the support and dedication of many teao
 
 | Term     | Definition                                                                                                                                                                                        |
 | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Leaf     | The smallest denomination of the TEA token. A leaf corresponds to one one-hundred-millionth (10^−8^) of a tea.                                                                                    |
+| Leaf     | The smallest denomination of the TEA token. A leaf corresponds to one quintillionth (10^−18) of a tea.                                                                                            |
 | Slashing | The action of penalizing stakers in response to behavior contrary to the protocol rules.                                                                                                          |
 | Staking  | The action of locking TEA tokens to support your claim and receive rewards (or penalties) based on the consensus on the validity of your claim.                                                   |
 | stTEA    | Non-transferrable “staked TEA” token or “stTEA” received by network participants for each token staked at a 1:1 ratio. stTEA can be utilised to participate in the governance of the tea Protocol |
