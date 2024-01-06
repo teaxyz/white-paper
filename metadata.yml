@@ -1,27 +1,30 @@
-title: 오픈소스 생태계 보상을 위한 탈중앙화 프로토콜
- 개요: >
-  모든 오픈소스 소프트웨어를 위한 개방적이고, 공개적이며, 안정적인 레지스트리를 만들면
-  프로젝트가 이 불규칙한 정보를 수집하는 제 3자에 의존하지 않는 상태로,
-  불규칙한 데이터를 수백 개의 개별 ( 혹은 중복되거나 ) 시스템으로 만드는 제 3 자에게
-  (제 3자에게 의존하지 않는채로 독립적으로 릴리스를 게시할 수 있습니다. 패키지 관리자는 릴리스를 다음과 같은 위치로 게시합니다.
-  비잔틴 내결함성 블록체인(Byzantine fault-tolerant blockchain)을 기반으로 하는 탈중앙화 레지스트리에 릴리스를 게시하여
-  단일 오류 소스를 제거하고, 변경 불가능한 릴리스를 제공하며, 커뮤니티가 오픈 소스 영역을 관리할 수 있도록 합니다.
-  커뮤니티가 오픈소스 생태계의 각 지역을 관리할 수 있으며, 
-  오픈소스 생태계의 영역을 관리할 수 있도록 합니다.
+title: A Decentralized Protocol for Remunerating the Open-Source Ecosystem
+abstract: >
+  Creating an open, public and stable registry for all open-source software
+  would empower projects to publish releases independently rather than rely on
+  third parties who assemble this irregular data into hundreds of separate
+  (and duplicated) systems. Package maintainers will publish their releases to
+  a decentralized registry powered by a Byzantine fault-tolerant blockchain to
+  eliminate single sources of failure, provide immutable releases, and allow
+  communities to govern their regions of the open-source ecosystem,
+  independent of external agendas.
   
-  Tea 인센티브는 네트워크 참여자들이 오픈소스 패키지에 대해
-  참여자가 자신이 이용하거나 보호하고자 하는 패키지에 대해 그에 따른 가치에 대해 스테이킹을 함으로써 오픈소스 유지보수를 장려합니다.
-  Tea 프로토콜의 그래프는 변경 불가능한 패키지 등록을 제공하며, 종속성 요구 사항, 패키지 신뢰성, 오라클등을 통해
-  Tea 보상 알고리즘을 알려줍니다. 체계적으로 설계된 보상 인플레이션이 모든 패키지에 분배됩니다.
-  보안 또는 개발 문제가 발견되면 개발자는 해당 패키지에 대한 근거를 바탕으로 문제에 대해 클레임을 제기할 수 있으며,
-  이는 그 패키지가 슬래싱될 수 있습니다. 오픈소스 커뮤니티의 구성원은 패키지의 품질 문제를 검토할 수 있습니다.
-  Tea 프로토콜은 위와 같은 클레임에 검토에 대응할 수 있으며, 비례적인 슬래싱 이벤트를 시행하여 이러한 리뷰에 대응할 수 있습니다..
+  tea incentivizes the maintenance of open-source by allowing network
+  participants to stake value against the packages they depend on and want to
+  secure. The tea protocol’s graph provides immutable package registration,
+  dependency requirements, package authenticity, and usage oracles to inform
+  the tea remuneration algorithm. Systematic inflation is distributed to all
+  packages based on that algorithm. If security or development issues are
+  found, developers can make claims supported by evidence against the package,
+  and slashing may occur. Members of the open-source community can review
+  packages for quality issues, and the protocol can respond to these reviews
+  by enacting proportional slashing events.
 
-저자:
+author:
 - Max Howell
 - Timothy Lewis
 - Thomas Borrel
-레퍼런스:
+references:
 - id: sources
   url: https://github.com/teaxyz/white-paper
 - id: cc
