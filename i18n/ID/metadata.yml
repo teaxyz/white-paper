@@ -76,6 +76,9 @@ header-includes:
 - \setlength{\headheight}{5\baselineskip}
 - \pagestyle{fancy}
 - \fancyfoot[LE,RO]{© 2022 tea.inc.}
-lang: ID
+lang: id
 dir: ltr
-translator: Hiff145
+header-includes:
+  - \fancyfoot[L]{v1.0.6+id}
+translator:
+  - Ilham Gumilar
