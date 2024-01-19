@@ -1,4 +1,4 @@
-# Table of contents
+# Isi kandungan
 
-* [README](README.md)
-* [white-paper](white-paper.md)
+* [BACASAYA](README.md)
+* [kertas-putih](white-paper.md)
