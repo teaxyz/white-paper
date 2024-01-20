@@ -1,22 +1,22 @@
-title: A Decentralized Protocol for Remunerating the Open-Source Ecosystem
+title: Un protocolo descentralizado para remunerar el ecosistema de código abierto
 abstract: >
-  Creating an open, public and stable registry for all open-source software
-  would empower projects to publish releases independently rather than rely on
-  third parties who assemble this irregular data into hundreds of separate
-  (and duplicated) systems. Package maintainers will publish their releases to
-  a decentralized registry powered by a Byzantine fault-tolerant blockchain to
-  eliminate single sources of failure, provide immutable releases, and allow
-  communities to govern their regions of the open-source ecosystem,
-  independent of external agendas.
+ Crear un registro abierto, público y estable para todo el software de código abierto.
+   permitiría a los proyectos publicar lanzamientos de forma independiente en lugar de depender de
+   terceros que reúnen estos datos irregulares en cientos de archivos separados
+   (y duplicados). Los mantenedores de paquetes publicarán sus lanzamientos en
+   un registro descentralizado impulsado por una cadena de bloques bizantina tolerante a fallas para
+   eliminar fuentes únicas de falla, proporcionar versiones inmutables y permitir
+   comunidades para gobernar sus regiones del ecosistema de código abierto,
+   independiente de agendas externas.
   
-  tea incentivizes the maintenance of open-source by allowing network
-  participants to stake value against the packages they depend on and want to
-  secure. The tea protocol’s graph provides immutable package registration,
-  dependency requirements, package authenticity, and usage oracles to inform
-  the tea remuneration algorithm. Systematic inflation is distributed to all
-  packages based on that algorithm. If security or development issues are
-  found, developers can make claims supported by evidence against the package,
-  and slashing may occur. Members of the open-source community can review
+  El té incentiva el mantenimiento del código abierto al permitir que la red
+   participantes para apostar valor frente a los paquetes de los que dependen y desean
+   seguro. El gráfico del protocolo del té proporciona un registro de paquetes inmutable,
+   requisitos de dependencia, autenticidad del paquete y oráculos de uso para informar
+   el algoritmo de remuneración del té. La inflación sistemática se distribuye a todos.
+   paquetes basados en ese algoritmo. Si hay problemas de seguridad o desarrollo
+   encontrado, los desarrolladores pueden hacer afirmaciones respaldadas por pruebas contra el paquete,
+   y pueden producirse cortes. Los miembros de la comunidad de código abierto pueden revisar
   packages for quality issues, and the protocol can respond to these reviews
   by enacting proportional slashing events.
 
@@ -24,7 +24,7 @@ author:
 - Max Howell
 - Timothy Lewis
 - Thomas Borrel
-references:
+referencias:
 - id: sources
   url: https://github.com/teaxyz/white-paper
 - id: cc
