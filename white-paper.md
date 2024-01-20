@@ -56,11 +56,11 @@ Un desarrollador de software que crea una aplicación necesita cuatro cosas: un 
 
 ### The Package Manager
 
-The package manager knows what open-source software a package or application depends upon to function, from the top of the tower to its base. Each project, along with every packaged version, meticulously documents all essential components and their corresponding versions.
+El administrador de paquetes sabe de qué software de código abierto depende un paquete o aplicación para funcionar, desde la cima de la torre hasta su base. Cada proyecto, junto con cada versión empaquetada, documenta meticulosamente todos los componentes esenciales y sus versiones correspondientes.
 
-It knows that the top of the tower carefully selects its dependencies, and that careful selection continues down. The package manager is uniquely placed in the developer tool stack to enable automated and precise value distribution based on actual real-world contribution.
+Sabe que la cima de la torre selecciona cuidadosamente sus dependencias, y que esa cuidadosa selección continúa hacia abajo. El administrador de paquetes ocupa una ubicación única en la pila de herramientas del desarrollador para permitir una distribución de valor automatizada y precisa basada en la contribución real del mundo real.
 
-We propose an immutable decentralized registry designed to distribute value based on the tea Protocol’s unique “Proof of Contribution”, an algorithm that determines each project’s contribution and impact to the system’s utility and health. Value can enter the graph at apex points—such as essential libraries—and be distributed to the dependencies of those packages and their dependencies recursively since the registry knows the entire open-source graph.
+Proponemos un registro descentralizado inmutable diseñado para distribuir valor basado en la "Prueba de Contribución" única del Protocolo del té, un algoritmo que determina la contribución y el impacto de cada proyecto en la utilidad y la salud del sistema. El valor puede ingresar al gráfico en puntos vértices, como bibliotecas esenciales, y distribuirse a las dependencias de esos paquetes y sus dependencias de forma recursiva, ya que el registro conoce todo el gráfico de código abierto..
 
 Additionally, we believe that the information provided by the protocol’s Proof of Contribution must be available for developers to assess whether they can trust a project and its author. This information may be based on reputation, community kudos, data retrieved from decentralized identity ("[DID](https://www.w3.org/TR/did-core/)") systems, other package managers, or incentive mechanisms that potentially rely on network participants putting value at risk.
 
