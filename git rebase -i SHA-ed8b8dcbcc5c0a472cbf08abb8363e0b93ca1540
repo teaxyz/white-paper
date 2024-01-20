@@ -1,0 +1,554 @@
+[33mcommit ed8b8dcbcc5c0a472cbf08abb8363e0b93ca1540[m[33m ([m[1;36mHEAD -> [m[1;32mmainTea[m[33m, [m[1;31morigin/whitepaper[m[33m, [m[1;31morigin/mainTea[m[33m, [m[1;32mwhitepaper[m[33m)[m
+Author: Palcomtech <ilhambrosnan@gmail.com>
+Date:   Sat Jan 20 06:44:19 2024 +0700
+
+    add/update Malay translation
+
+[33mcommit 95d04db7139d633ddea11be974d64c9abdbf0ccf[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Author: TB <thomas.borrel@gmail.com>
+Date:   Mon Dec 18 12:55:58 2023 -0500
+
+    Update README.md
+    
+    Update version to 2.1.0
+
+[33mcommit de973f4667a77dda15f92897e9d67f6bff0ef9dc[m
+Author: Thomas Borrel <tb@tea-association.org>
+Date:   Mon Dec 18 17:54:41 2023 +0000
+
+    GITBOOK-Update to white paper version 2.0
+
+[33mcommit 36c10747eef8fb204e6c4ff37dfd506247cb719d[m
+Merge: ff0450c b4498bf
+Author: TB <thomas.borrel@gmail.com>
+Date:   Thu Nov 2 12:44:14 2023 -0400
+
+    Merge pull request #108 from teaxyz/typo
+    
+    Fix Foundatio[n
+
+[33mcommit b4498bff143d63ed9e8d8c8881214d9503cd2f62[m
+Author: Max Howell <mxcl@me.com>
+Date:   Wed Nov 1 12:06:12 2023 -0400
+
+    Fix Foundatio[n
+
+[33mcommit ff0450c8608ed22c0ae45176e42f8b3c941cd8ba[m
+Author: Thomas Borrel <tb@tea-association.org>
+Date:   Tue Oct 31 19:18:45 2023 +0000
+
+    GITBOOK-Update to white paper version 2.0
+
+[33mcommit 46b1b6eb2d3bfa99dd4c785c7e05025a3257ac31[m
+Author: lucas <lucas@pkgx.dev>
+Date:   Tue Oct 3 21:09:50 2023 +0000
+
+    GITBOOK-Update to white paper version 2.0
+
+[33mcommit 33a6ed7aa19ac09881ddb8095ba19097ad432961[m
+Author: lucas <lucas@pkgx.dev>
+Date:   Tue Oct 3 20:21:47 2023 +0000
+
+    GITBOOK-Update to white paper version 2.0
+
+[33mcommit 0c1db818a069a98c37fa7b7dd3daa79dc16d7d3e[m
+Author: Max Howell <mxcl@me.com>
+Date:   Mon Oct 2 07:43:20 2023 -0400
+
+    fix discussions link
+    
+    * change main header
+    * gardening
+
+[33mcommit 1fb3d2e1dad5bbf2e368bce892241de90fb3343f[m
+Author: Tea <marketing@tea.xyz>
+Date:   Sun Oct 1 01:26:16 2023 +0000
+
+    GITBOOK-Update to white paper version 2.0
+
+[33mcommit ffbe64d63d04532613628a7ab011297a8757591c[m
+Author: Tea <marketing@tea.xyz>
+Date:   Sun Oct 1 00:16:02 2023 +0000
+
+    GITBOOK-Update to white paper version 2.0
+
+[33mcommit 2435652818e0185a70b0a6f0f5bacb00a980454e[m
+Author: marketing <marketing@tea.xyz>
+Date:   Sat Sep 30 23:59:19 2023 +0000
+
+    GITBOOK-Update to white paper version 2.0
+
+[33mcommit 1d18ed985194a054085560b56cac3a24514a96a9[m
+Merge: 3e6e476 ca9dfdc
+Author: Chris Waters <57810339+Xercesblu3@users.noreply.github.com>
+Date:   Tue Oct 11 13:21:16 2022 -0400
+
+    Merge pull request #76 from ArionThinker/i18/uk-(fix)
+    
+    Add Ukrainian translation
+
+[33mcommit 3e6e47660cad5674aceec802bfa400952207569a[m
+Merge: ccf5fe7 abf5f29
+Author: Chris Waters <57810339+Xercesblu3@users.noreply.github.com>
+Date:   Tue Oct 11 13:20:55 2022 -0400
+
+    Merge pull request #84 from Keithbm1/i18n/bg
+    
+    Add Bulgarian translation
+
+[33mcommit ccf5fe7e23d754218678260d53b3a3d6809082ac[m
+Merge: e934fa3 32b674f
+Author: Chris Waters <57810339+Xercesblu3@users.noreply.github.com>
+Date:   Tue Oct 11 13:20:47 2022 -0400
+
+    Merge pull request #91 from ArionThinker/i18/ru
+    
+    [RU]: translation
+
+[33mcommit ca9dfdc554721604d133041503f1873ea1543b7e[m
+Merge: 475b7af e934fa3
+Author: Marc Seitz <marc@mfts.io>
+Date:   Mon Oct 10 19:07:30 2022 -0400
+
+    Merge branch 'main' into i18/uk-(fix)
+
+[33mcommit abf5f29369f99f9f05c1726bbae71bce25939dae[m
+Merge: c647aff e934fa3
+Author: Marc Seitz <marc@mfts.io>
+Date:   Mon Oct 10 19:06:03 2022 -0400
+
+    Merge branch 'main' into i18n/bg
+
+[33mcommit 32b674fac540628c2793a1d4de2fcfb8f67659c3[m
+Merge: b15d6a5 e934fa3
+Author: Marc Seitz <marc@mfts.io>
+Date:   Mon Oct 10 14:25:15 2022 -0400
+
+    Merge branch 'main' into i18/ru
+
+[33mcommit e934fa328988201d57667126e3a47588213cd5b0[m
+Author: Max Howell <mxcl@me.com>
+Date:   Fri Oct 7 15:00:27 2022 -0400
+
+    Fix white-paper.md link
+
+[33mcommit f2e6de65dca78a64fafcac6e1eaf701fd880ee96[m
+Merge: 1f03c31 048a901
+Author: Chris Waters <57810339+Xercesblu3@users.noreply.github.com>
+Date:   Fri Oct 7 13:53:02 2022 -0400
+
+    Merge pull request #94 from mfts/fix/remove-pilcrow-from-abstract
+    
+    fix: add pipes to paragraphs for proper separation
+
+[33mcommit 1f03c31335fa5682cb6f068f4cfe7af76590d5ac[m
+Merge: 17cc262 b6e72c6
+Author: Chris Waters <57810339+Xercesblu3@users.noreply.github.com>
+Date:   Fri Oct 7 13:42:50 2022 -0400
+
+    Merge pull request #92 from mfts/feat/add-cjk-support
+    
+    feat: add cjk support
+
+[33mcommit 048a901646cd0cdc984ab62d81e380be4ae08d17[m
+Author: Marc Seitz <marc@mfts.io>
+Date:   Fri Oct 7 12:04:45 2022 -0400
+
+    fix: add folded style line breaks
+
+[33mcommit b6e72c631a141df31b19ebd2bbcc52e53a7ded14[m
+Author: Marc Seitz <marc@mfts.io>
+Date:   Fri Oct 7 11:37:39 2022 -0400
+
+    chore: refactor texlive install scripts
+
+[33mcommit f079488d50f26768d70b487fd4596950c001829f[m
+Author: Marc Seitz <marc@mfts.io>
+Date:   Fri Oct 7 10:28:48 2022 -0400
+
+    fix: add pipes to paragraphs for proper separation
+
+[33mcommit 01e6ca776182da507862ec276f1150e3162a9267[m
+Author: Marc Seitz <marc@mfts.io>
+Date:   Fri Oct 7 07:51:40 2022 -0400
+
+    docs: update instructions for CJK languages
+
+[33mcommit a65afaba0d25ebd7e1226d0f256d783c75629b53[m
+Author: Marc Seitz <marc@mfts.io>
+Date:   Fri Oct 7 07:51:11 2022 -0400
+
+    chore: remove mscorefonts
+    
+    no longer needed as we switch to Noto Serif
+
+[33mcommit 6ede5a06834ee689a63555ddaa9ac70e3ebe3cfa[m
+Author: Marc Seitz <marc@mfts.io>
+Date:   Thu Oct 6 17:20:26 2022 -0400
+
+    fix: add xecjk package
+
+[33mcommit 8637b5247b61270049f2c36f6b41a5055afcd1e6[m
+Author: Marc Seitz <marc@mfts.io>
+Date:   Thu Oct 6 17:01:15 2022 -0400
+
+    chore: move cjkmainfont setting to metadata file
+
+[33mcommit e04b99a4b295880c2d418fd8d6b2ca97afbd18c4[m
+Author: Marc Seitz <marc@mfts.io>
+Date:   Thu Oct 6 16:39:46 2022 -0400
+
+    fix: add missing header packages
+
+[33mcommit 62c7ff60b9791ad4f1416970d9b7121737141c9e[m
+Author: Marc Seitz <marc@mfts.io>
+Date:   Thu Oct 6 16:13:17 2022 -0400
+
+    fix: add missing line separater
+
+[33mcommit ca651b4d5adfab4289baf0f7a4c02a087ef70920[m
+Author: lovecity08 <89055336+lovecity08@users.noreply.github.com>
+Date:   Wed Sep 21 21:28:24 2022 +0800
+
+    Update i18n/zh/metadata.yml
+    
+    Co-authored-by: Marc Seitz <4049052+mfts@users.noreply.github.com>
+
+[33mcommit 0957d26afddef15c928b61fd6e64f5891caa26eb[m
+Author: Jacob Heider <jacob@tea.xyz>
+Date:   Tue Sep 20 13:26:38 2022 -0400
+
+    Restore original white-paper.md
+
+[33mcommit ca57f25f51c7e92e2370dbed43d98fe464a3dfa9[m
+Author: Jacob Heider <jacob@tea.xyz>
+Date:   Mon Sep 19 16:16:08 2022 -0400
+
+    mv to i18n/zh
+
+[33mcommit bf2cb6396f7b6cadd1fdd39e70baa91a61efdf4b[m
+Author: lovecity08 <89055336+lovecity08@users.noreply.github.com>
+Date:   Thu Sep 1 15:44:03 2022 +0800
+
+    Update and rename white-paper.md to white-paper-zh.md
+
+[33mcommit 8233d480d687e0d00ad8185a8788bd6456006231[m
+Author: Marc Seitz <marc@mfts.io>
+Date:   Thu Oct 6 15:18:45 2022 -0400
+
+    feat: change font to Noto and add CJK variant
+
+[33mcommit 5311600e8303075a7943084ac39275008b8921fe[m
+Author: Marc Seitz <marc@mfts.io>
+Date:   Thu Oct 6 15:18:20 2022 -0400
+
+    feat: add noto font packages to GHA
+
+[33mcommit 17cc2628c18e1984210fd7134c48215053ad0531[m
+Author: Jacob Heider <jacob@tea.xyz>
+Date:   Thu Oct 6 10:32:41 2022 -0400
+
+    trigger CD
+
+[33mcommit 475b7af9ee851a59b9107713d2b76a0ba1cc3ae5[m
+Merge: 64c77ba 240a24b
+Author: Jacob Heider <jacob@tea.xyz>
+Date:   Tue Oct 4 14:35:35 2022 -0400
+
+    Merge branch 'main' into i18/uk-(fix)
+
+[33mcommit b15d6a512042064f563b75c7b82f123065f39516[m
+Merge: 3a17942 240a24b
+Author: Jacob Heider <jacob@tea.xyz>
+Date:   Tue Oct 4 14:35:19 2022 -0400
+
+    Merge branch 'main' into i18/ru
+
+[33mcommit c647aff2ac7b261f4b5b028d281bdd46a174ccb5[m
+Merge: 8b25258 240a24b
+Author: Jacob Heider <jacob@tea.xyz>
+Date:   Tue Oct 4 14:26:17 2022 -0400
+
+    Merge branch 'main' into i18n/bg
+
+[33mcommit 240a24ba06930d9d0ca3ee2f705c11afa8795960[m
+Author: Jacob Heider <jacob@tea.xyz>
+Date:   Tue Oct 4 14:01:42 2022 -0400
+
+    GHA took `brew` out of the PATH
+
+[33mcommit 8b25258a303a12ac6b06c713de31a6659138b4e1[m
+Merge: 40a1887 8a13168
+Author: Jacob Heider <jacob@tea.xyz>
+Date:   Tue Oct 4 14:18:21 2022 -0400
+
+    Merge branch 'main' into i18n/bg
+
+[33mcommit 8a1316839937bdc6083cec479e5ee6d5dcde7f69[m
+Author: Jacob Heider <jacob@tea.xyz>
+Date:   Tue Oct 4 14:01:42 2022 -0400
+
+    GHA took `brew` out of the PATH
+
+[33mcommit 40a18870543341292d761b56c838e230d5d45777[m
+Merge: 8013076 8799259
+Author: Jacob Heider <jacob@tea.xyz>
+Date:   Tue Oct 4 14:03:11 2022 -0400
+
+    Merge branch 'main' into i18n/bg
+
+[33mcommit 8799259146b4c243459a0e80c3b5cb55fe338f80[m
+Author: Jacob Heider <jacob@tea.xyz>
+Date:   Tue Oct 4 14:01:42 2022 -0400
+
+    GHA took `brew` out of the PATH
+
+[33mcommit 3a1794252b18fa6cc359c09996ea2521d577f168[m
+Author: Marc Seitz <4049052+mfts@users.noreply.github.com>
+Date:   Tue Oct 4 10:31:58 2022 -0400
+
+    update metadata file with translator, direction, footer, language tags
+
+[33mcommit 64c77ba71ac2c2db577510955665e66b22b1d346[m
+Author: Marc Seitz <marc@mfts.io>
+Date:   Tue Oct 4 10:29:32 2022 -0400
+
+    add missing version footer
+
+[33mcommit e046f97b7f5f30c43929933b6cdf487217805a32[m
+Author: Marc Seitz <marc@mfts.io>
+Date:   Tue Oct 4 10:29:16 2022 -0400
+
+    fix: path to images
+
+[33mcommit c9b65384690da27cf5303e64029356ce6dd4a9fb[m
+Merge: 6b7a2f2 13ada08
+Author: Chris Waters <57810339+Xercesblu3@users.noreply.github.com>
+Date:   Tue Oct 4 10:27:32 2022 -0400
+
+    Merge pull request #85 from MarcosJCarbonell/white-paper-1-de
+    
+    [DE]: translation
+
+[33mcommit 66d33d0ce3c055f3685ebbd22824772e28ac6455[m
+Merge: 6693eb7 6b7a2f2
+Author: Marc Seitz <marc@mfts.io>
+Date:   Tue Oct 4 10:24:30 2022 -0400
+
+    Merge branch 'main' into i18/uk-(fix)
+
+[33mcommit 0fc230017c9fee3a1989dde078119a325f66dc50[m
+Author: Marc Seitz <marc@mfts.io>
+Date:   Tue Oct 4 10:15:36 2022 -0400
+
+    fix: path to images
+
+[33mcommit 3e2e04d4ed1cb7f706bb9c3b7de9b965c2285cf0[m
+Merge: adfd50c 6b7a2f2
+Author: Marc Seitz <marc@mfts.io>
+Date:   Tue Oct 4 10:10:43 2022 -0400
+
+    Merge branch 'main' into pr/91
+
+[33mcommit 8013076ceb5b130fef4a86e3745d892ca67f39f1[m
+Merge: 6f903c9 6b7a2f2
+Author: Marc Seitz <marc@mfts.io>
+Date:   Tue Oct 4 10:06:07 2022 -0400
+
+    Merge branch 'main' into i18n/bg
+
+[33mcommit 6f903c9080fb40ba4ab210bcb7508cc2bb46423d[m
+Author: Keithbm1 <plrudie1972@gmail.com>
+Date:   Tue Sep 27 11:27:09 2022 +0000
+
+    add Bulgarian translation
+
+[33mcommit e246a7ef5ee38a4cbd1527d7f69bddda0e04a9b6[m
+Author: Keithbm1 <plrudie1972@gmail.com>
+Date:   Tue Sep 27 11:19:59 2022 +0000
+
+    add Bulgarian translation
+
+[33mcommit adfd50c03c5403feccf00ed44ed606b62728be90[m
+Author: Andrew <51118083+ArionThinker@users.noreply.github.com>
+Date:   Mon Sep 26 21:06:43 2022 +0300
+
+    Update white-paper.md
+
+[33mcommit d97adb8cb74e072de5a4b936d845c7e9fb1166f7[m
+Author: Andrew <51118083+ArionThinker@users.noreply.github.com>
+Date:   Mon Sep 26 21:06:08 2022 +0300
+
+    Update white-paper.md
+
+[33mcommit 1b9de3a79d45c425d827ee936a36123f47bcc08d[m
+Author: Andrew <51118083+ArionThinker@users.noreply.github.com>
+Date:   Mon Sep 26 20:35:58 2022 +0300
+
+    Create metadata.yml
+
+[33mcommit 15937b5d1290cf0f622ec265488e6d0dbdf52ae4[m
+Author: Andrew <51118083+ArionThinker@users.noreply.github.com>
+Date:   Mon Sep 26 20:32:48 2022 +0300
+
+    Create white-paper.md
+
+[33mcommit db24e3bbe2cb4fe99ccc458954d6adb52375c813[m
+Author: Keithbm1 <plrudie1972@gmail.com>
+Date:   Mon Sep 26 15:21:17 2022 +0000
+
+    add Bulgarian translation
+
+[33mcommit 6693eb77cb11beceb4694be214aafcffe5c6c719[m
+Author: Andrew <51118083+ArionThinker@users.noreply.github.com>
+Date:   Mon Sep 26 17:11:56 2022 +0300
+
+    Update white-paper.md
+
+[33mcommit e3e02fbaacc2cf2c8eca739bb447eab960e83eee[m
+Author: Andrew <51118083+ArionThinker@users.noreply.github.com>
+Date:   Mon Sep 26 17:10:41 2022 +0300
+
+    Update white-paper.md
+
+[33mcommit 208bd6da8abf630187eed7318d62a67543376643[m
+Author: Andrew <51118083+ArionThinker@users.noreply.github.com>
+Date:   Mon Sep 26 17:08:38 2022 +0300
+
+    Update white-paper.md
+
+[33mcommit aaa970cce70ca3b5e96858c5f0e824cb171b5644[m
+Author: Andrew <51118083+ArionThinker@users.noreply.github.com>
+Date:   Mon Sep 26 17:04:59 2022 +0300
+
+    Update white-paper.md
+
+[33mcommit 6b7a2f2a3b820c6c8bab8a50525a356c6c378143[m
+Author: Jacob Heider <jacob@tea.xyz>
+Date:   Wed Sep 21 17:27:46 2022 -0400
+
+    Additional template steps
+
+[33mcommit 9ea0d9d1757cbaeb4e4f757a19262e72440268fe[m
+Author: Keithbm1 <plrudie1972@gmail.com>
+Date:   Fri Sep 23 14:09:01 2022 +0000
+
+    add Bulgarian translation
+
+[33mcommit 46878a27a026464d804aac7bae1e6ce430b6ff85[m
+Author: Keithbm1 <plrudie1972@gmail.com>
+Date:   Fri Sep 23 13:13:18 2022 +0000
+
+    add Bulgarian translation
+
+[33mcommit 6e268bc39e3b1f1fd8746e1f90df89ac704715ff[m
+Merge: f0cfe88 21f7661
+Author: Chris Waters <57810339+Xercesblu3@users.noreply.github.com>
+Date:   Thu Sep 22 18:56:27 2022 -0400
+
+    Merge pull request #86 from mfts/fix/indonesian-translation
+    
+    Fix: minor improvements to the visualization of the Indonesian pdf
+
+[33mcommit 13ada08a4a9dfec7c83ede72f624a8bd520dfa1c[m
+Author: Marc Seitz <marc@mfts.io>
+Date:   Thu Sep 22 23:47:21 2022 +0200
+
+    fix: latex command misspellings & missing markdown newline
+
+[33mcommit fdaf6461e52338e79c02039a3891d12610cde481[m
+Author: Marc Seitz <marc@mfts.io>
+Date:   Thu Sep 22 23:18:55 2022 +0200
+
+    add original white-paper.md back
+
+[33mcommit 77c0dc441b7ce50c73d64e9ae37f9d2e71a7d268[m
+Author: Keithbm1 <plrudie1972@gmail.com>
+Date:   Thu Sep 22 12:49:50 2022 +0000
+
+    add Bulgarian translation
+
+[33mcommit 708e032d3dab5bb3dc1f170b18d3fe9a45d09bb7[m
+Author: Keithbm1 <plrudie1972@gmail.com>
+Date:   Thu Sep 22 12:30:11 2022 +0000
+
+    add Bulgarian translation
+
+[33mcommit f0cfe8889bee18e0f4f2f7bd350a0d245a9ab9c6[m
+Author: Jacob Heider <jacob@tea.xyz>
+Date:   Wed Sep 21 18:58:03 2022 -0400
+
+    Push translations without release
+
+[33mcommit 21f766113779411432f3f3d2b647db8aa6928437[m
+Author: Marc Seitz <marc@mfts.io>
+Date:   Wed Sep 21 23:24:34 2022 +0200
+
+    fix: add missing line break to properly show heading
+
+[33mcommit 9bf4724c0ad25b526342135ccf8eab31b4cd3fad[m
+Author: Marc Seitz <marc@mfts.io>
+Date:   Wed Sep 21 23:24:09 2022 +0200
+
+    fix: latex command translated by accident
+
+[33mcommit 792b9efbbc21e6b31e44a7732fd9d3d9473c70c1[m
+Author: Jacob Heider <jacob@tea.xyz>
+Date:   Wed Sep 21 16:01:37 2022 -0400
+
+    Release Indonesian translation
+
+[33mcommit 43a2290fa7a70ae2c86fef5758e0163c8ab66318[m
+Merge: 40a6130 41b15ae
+Author: Chris Waters <57810339+Xercesblu3@users.noreply.github.com>
+Date:   Wed Sep 21 15:57:45 2022 -0400
+
+    Merge pull request #75 from civiel024/i18n/id
+    
+    add indonesia translation
+
+[33mcommit 41b15ae9ae019d063f8f1a1331bc2358c6979265[m
+Author: civiel <89271223+civiel024@users.noreply.github.com>
+Date:   Wed Sep 21 23:36:44 2022 +0700
+
+    Update metadata.yml
+
+[33mcommit 0fd0ff103df2b13d4420bf26c4d51efff65bd63a[m
+Author: Keithbm1 <plrudie1972@gmail.com>
+Date:   Wed Sep 21 10:45:14 2022 +0000
+
+    add Bulgarian translation
+
+[33mcommit 1be5afc2b1dd08b3d9e7328cb4754289ef607f08[m
+Author: civiel <89271223+civiel024@users.noreply.github.com>
+Date:   Wed Sep 21 10:08:52 2022 +0700
+
+    Update white-paper.md
+
+[33mcommit 53cf9dd43ee9e48665b5e183bf533e9897096c1e[m
+Merge: c0da0ae fd95193
+Author: MarcosJosé <112657831+MarcosJCarbonell@users.noreply.github.com>
+Date:   Tue Sep 20 16:44:50 2022 -0300
+
+    Merge pull request #2 from mfts/feat/improvements
+    
+    add `de` folder and translated metadata.yml
+
+[33mcommit fd95193a5d8a70981d73b3e91587d313ee3a7d97[m
+Author: Marc Seitz <marc@mfts.io>
+Date:   Tue Sep 20 20:09:48 2022 +0200
+
+    add `de` folder and translated metadata.yml
+
+[33mcommit aa31ae609dab79b50fab39ab86632eef39e8a6be[m
+Author: civiel <89271223+civiel024@users.noreply.github.com>
+Date:   Tue Sep 20 21:03:57 2022 +0700
+
+    Update metadata.yml
+
+[33mcommit 5c7f5911cac5a9dfae29d40c665c153f75d53c4c[m
+Merge: 325c686 40a6130
+Author: Jacob Heider <jacob@tea.xyz>
+Date:   Mon Sep 19 17:59:08 2022 -0400
+
+    Merge branch 'main' into i18/uk-(fix)
