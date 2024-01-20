@@ -1,9 +1,9 @@
-# tea white-paper 2.1.0
+# kertas putih tea 2.1.0
 
-The tea white paper is a [semantically versioned](https://semver.org),
-[Markdown](https://daringfireball.net/projects/markdown/) document.
-New releases are deployed to Gitbook.
+Kertas putih teh ialah [versi semantik](https://semver.org),
+[Markdown](https://daringfireball.net/projects/markdown/) dokumen.
+Keluaran baharu dikerahkan untuk Gitbook.
 
-## Contributing
+## Menyumbang
 
-If you have general feedback, please open a [discussion](../../discussions) thread.
+Jika anda mempunyai maklum balas umum, sila buka urutan [perbincangan](../../discussions).

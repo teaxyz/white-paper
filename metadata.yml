@@ -1,24 +1,24 @@
-title: A Decentralized Protocol for Remunerating the Open-Source Ecosystem
-abstract: >
-  Creating an open, public and stable registry for all open-source software
-  would empower projects to publish releases independently rather than rely on
-  third parties who assemble this irregular data into hundreds of separate
-  (and duplicated) systems. Package maintainers will publish their releases to
-  a decentralized registry powered by a Byzantine fault-tolerant blockchain to
-  eliminate single sources of failure, provide immutable releases, and allow
-  communities to govern their regions of the open-source ecosystem,
-  independent of external agendas.
+tajuk: Protokol Terdesentralisasi untuk Mengimbuhkan Ekosistem Sumber Terbuka
+abstrak: >
+   Mencipta pendaftaran terbuka, awam dan stabil untuk semua perisian sumber terbuka
+   akan memperkasakan projek untuk menerbitkan keluaran secara bebas dan bukannya bergantung kepada
+   pihak ketiga yang mengumpulkan data tidak teratur ini menjadi ratusan yang berasingan
+   (dan pendua) sistem. Penyelenggara pakej akan menerbitkan keluaran mereka kepada
+   pendaftaran terdesentralisasi yang dikuasakan oleh blok toleransi kesalahan Byzantine kepada
+   menghapuskan sumber tunggal kegagalan, menyediakan keluaran tidak berubah, dan membenarkan
+   komuniti untuk mentadbir kawasan ekosistem sumber terbuka mereka,
+   bebas daripada agenda luar.
   
-  tea incentivizes the maintenance of open-source by allowing network
-  participants to stake value against the packages they depend on and want to
-  secure. The tea protocol’s graph provides immutable package registration,
-  dependency requirements, package authenticity, and usage oracles to inform
-  the tea remuneration algorithm. Systematic inflation is distributed to all
-  packages based on that algorithm. If security or development issues are
-  found, developers can make claims supported by evidence against the package,
-  and slashing may occur. Members of the open-source community can review
-  packages for quality issues, and the protocol can respond to these reviews
-  by enacting proportional slashing events.
+   teh memberi insentif kepada penyelenggaraan sumber terbuka dengan membenarkan rangkaian
+   peserta untuk mempertaruhkan nilai terhadap pakej yang mereka bergantung dan mahu
+   selamat. Graf protokol teh menyediakan pendaftaran pakej tidak berubah,
+   keperluan pergantungan, ketulenan pakej, dan oracle penggunaan untuk dimaklumkan
+   algoritma imbuhan teh. Inflasi sistematik diagihkan kepada semua
+   pakej berdasarkan algoritma itu. Jika isu keselamatan atau pembangunan adalah
+   didapati, pembangun boleh membuat tuntutan yang disokong oleh bukti terhadap pakej,
+   dan pemotongan mungkin berlaku. Ahli komuniti sumber terbuka boleh menyemak
+   pakej untuk isu kualiti dan protokol boleh membalas ulasan ini
+   dengan menggubal acara pemotongan berkadar.
 
 author:
 - Max Howell
