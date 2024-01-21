@@ -17,8 +17,8 @@ abstract: >
    paquetes basados en ese algoritmo. Si hay problemas de seguridad o desarrollo
    encontrado, los desarrolladores pueden hacer afirmaciones respaldadas por pruebas contra el paquete,
    y pueden producirse cortes. Los miembros de la comunidad de código abierto pueden revisar
-  packages for quality issues, and the protocol can respond to these reviews
-  by enacting proportional slashing events.
+  paquetes para problemas de calidad, y el protocolo puede responder a estas revisiones
+   mediante la promulgación de eventos de reducción proporcional.
 
 author:
 - Max Howell
