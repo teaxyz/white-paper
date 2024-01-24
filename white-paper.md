@@ -285,7 +285,7 @@ TEA tokens will also be utilized to support packages and secure the software sup
 
 It’s recommended that a 10 billion maximum token supply be distributed across all members of the tea community as described below:
 
-<figure><img src=".gitbook/assets/Token Allocation-Updated.svg" alt=""><figcaption><p>Figure 3 - Token distribution of maximum supply</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Token Allocation-Updated.svg"{: style="background-color: white;"} alt=""><figcaption><p>Figure 3 - Token distribution of maximum supply</p></figcaption></figure>
 
 Roughly 51.4% of the maximum token supply should be allocated to “Ecosystem & Governance”, which includes incentives for open-source projects to onboard and maintain their codebase as well as rewards for contributing to decentralized votes and consensus via the tea DAO. Tokens allocated to “Ecosystem & Governance” should be distributed as Proof of Contribution rewards, staking rewards, and other types of developer-centric incentives.
 
