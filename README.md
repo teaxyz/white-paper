@@ -1,3 +1,6 @@
+
+[![Discord](https://badgen.net/badge/icon/discord?icon=discord&label)](https://discord.com/invite/tea-906608167901876256)
+
 # tea white-paper 2.1.0
 
 The tea white paper is a [semantically versioned](https://semver.org),
