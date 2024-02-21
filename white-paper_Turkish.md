@@ -278,41 +278,41 @@ Ayrıntılı Tokenomics, kapsamlı bir Token Dağıtımı ve Emisyonlar takvimi 
 
 Önerilen tea Protokolü için yönetişim çerçevesi, gelişimi, sürdürülebilirliği ve yaygın kabulü için hayati öneme sahiptir. TEA tokenı sahibi aktif katılımcıların, belirli paket yöneticilerine destek verme önceliği, yeni protokol özellikleri tanıtma veya kullanıcı ve paket itibarına dış etkenlerin etkisini ayarlama gibi kritik parametre değişiklikleri önerme ve oy kullanma yetkisini içerir. Oyların stTEA token sahipliği ve bireysel itibara göre ağırlıklı olması, kararların sisteme sahip ve katkılarını kanıtlamış olanlar tarafından alınmasını sağlar.
 
-tea sistemi evrildikçe, yönetişim, ilerleyici merkezsizleşme ve optimizasyonunda hayati bir rol oynayacaktır. Başlangıçta, yönetişim basit bir yapıyla başlayacak ve zamanla ekosistemin artan karmaşıklığını karşılamak için genişleyecektir. Belirli sistem parametreleri, yönetişimden muaf olabilir veya saldırı yüzeyini minimize etmek için nadiren değişikliklere tabi tutulabilir.
+Tea sistemi evrildikçe, yönetişim, ilerleyici merkezsizleşme ve optimizasyonunda hayati bir rol oynayacaktır. Başlangıçta, yönetişim basit bir yapıyla başlayacak ve zamanla ekosistemin artan karmaşıklığını karşılamak için genişleyecektir. Belirli sistem parametreleri, yönetişimden muaf olabilir veya saldırı yüzeyini minimize etmek için nadiren değişikliklere tabi tutulabilir.
 
 Ayrıca, tea Protokolü, üçüncü taraf genişletilebilirliğini kolaylaştırmak üzere tasarlanmıştır, bu da geliştiricilerin protokolün üstünde uzantılar oluşturmasına ve yenilik yapmasına olanak tanır. Bu açıklık, işbirliğini ve yaratıcılığı teşvik eder, topluluğun ekosistemin büyümesine ve evrimine katkıda bulunmasını sağlar. Ayrıca, diğer paket yöneticilerinin de protokolle entegre olma fırsatı olabilir, böylece protokolün erişim ve etkisini genişletir.
 
 Geleceğe bakıldığında, tea topluluğu, yönetişim kararları ve topluluk odaklı çabalar aracılığıyla protokolün geleceğini şekillendirmede kilit bir rol oynayacaktır. Belirli fikirler ve öneriler ortaya çıkabilir, ancak protokolün nihai yönü, katılımcıların kolektif çabaları ve vizyonu tarafından belirlenecektir.
 
-###Üçüncü Taraf Genişletilebilirliği
+### Üçüncü Taraf Genişletilebilirliği
 
 Açık kaynak topluluklarının uzun süredir beklenen desteğini ateşlemek için ilk araçları oluştururken, misyonumuzun bir parçasının üçüncü tarafların genel araç setini genişletebilmesini sağlamak olduğuna inanıyoruz. Protokole uzantılar oluşturmak için altyapı sağlamanın yanı sıra, açık kaynak geliştiricilerin desteğini ileriye taşımak ve yenilik yapmak için yeni yollar sunan uzantılar oluşturmak üzere geliştiricilere olanak sağlamak da dahil olmak üzere, planlarımız diğer paket yöneticilerinin protokole katkıda bulunma potansiyelini içermektedir.
 
 Açık kaynak geliştiricilerin hayalleri ve çabaları, günlük yaşamımızı destekleyen inovasyonu inşa etmiştir. tea Protokolü tarafından önerilen yeni kullanımları ve uzantıları keşfetmek için sabırsızlanıyoruz.
 
-###Gelecek Çalışmalar ve Potansiyel Topluluk Çabaları
+### Gelecek Çalışmalar ve Potansiyel Topluluk Çabaları
 
 tea sistemi olgunlaştıkça, topluluğun yönetişim aracılığıyla tea sisteminin değişikliklerini ve uzantılarını belirlemesi ve katkıda bulunması beklenmektedir. Aşağıda, bazı fikirlerin bazılarını ilham verebileceğine inandığımız fikirler var, ancak gelecekteki performansı garanti etmiyoruz.
 
-###Tea Toptancıları
+### Tea Toptancıları
 
 Açık kaynak yazılım toplulukları dinamik ve sürekli olarak yenilik yapmaya ve değer sunmaya çalışmaktadır. Bu özveri ve fedakarlık, sürekli olarak yeni yazılım ve paketlerin oluşturulmasına yol açar, her biri bağımlılıkları çeker. Bu nedenle, bağımlılıklar haritasının sürekli olarak evrim geçirmesini, dolayısıyla staking oranı ve ödüllerin sık sık değişmesini bekliyoruz. Gelecekte, tea topluluğu, her projenin staking oranını dinamik olarak izlemek ve proje destekçilerinin TEA tokenlarını kendi kriterlerine dayanarak nasıl stakedeceklerini yeniden dengelemek için tasarlanmış bir sistem geliştirmeyi önerme potansiyeline sahip olabilir.
 
-###Paket Transferinde Telif Ücretleri
+### Paket Transferinde Telif Ücretleri
 
 Paket yöneticilerinin ödül akışını bir veya daha fazla geliştiriciye devretmeye karar verebileceğini kabul ediyoruz. Bu tür bir transferin yönetişi, paket yöneticisi ve ortaklarının kararıyla, tea'nın müdahalesiz olmalıdır. Bu tür bir transferin tam veya kısmi olabilmesi için araçlar sağlanmalıdır (belki de ödüllerin sadece bir veya daha fazla geliştiriciye yönlendirilmesi, geri kalan ödüllerin ise orijinal paket yöneticisine akması), ve staking ödüllerinin tek bir ağ katılımcısı tarafından kontrol edilen tek bir hesap üzerinden akması, birden fazla ağ katılımcısı tarafından kontrol edilen hesaplar arasında otomatik olarak veya statik veya dinamik oranlar kullanılarak birden fazla hesaba dağıtılması gerekmektedir.
 
-###Birden Fazla Yönetici Arasındaki Ödül Dağıtımı
+### Birden Fazla Yönetici Arasındaki Ödül Dağıtımı
 
 Bir paketin bakımı bir veya daha fazla geliştirici ekibine dayanabilir. Ödüllerin akması başlamadan önce, ekipler arasındaki değerin dağıtımını otomatikleştirmeleri gerekmektedir. Dağıtımın nasıl gerçekleşeceği, katkıda bulunanları ve nasıl ödüllendirileceklerini en iyi değerlendirebilecekleri için, tamamen yöneticiler tarafından belirlenmelidir.
 
 Bunu başarmak için, her ekip (veya ekipler) kendi merkezi olmayan özerk kuruluşunu (DAO) kurabilir ve dağıtımı otomatikleştirebilir veya tüm DAO üyelerinin oyları gibi dış faktörlere dayalı olarak yeterli değer dağıtımını belirlemek için daha karmaşık sistemler kurabilir.
 
-###Paket "Fork"larının İşlenmesi
+### Paket "Fork"larının İşlenmesi
 
 Fork'ların temel ve genellikle az kullanılmış olduğunu düşünüyoruz. Fork'lar, işlevsellik, performans, güvenlik ve hatta ilgi açısından rekabet eden paketler geliştirmek için etkili bir araç olabilir. Ne kadar yararlı olursa olsun, fork'lar orijinal çabalara saygı duymalıdır. Gelecekteki çalışmalar veya potansiyel katkılarla, tea topluluğu, fork'ların açıklanmasını gerektirecek sistemleri geliştirebilir, hatta bir proje kaydedildiğinde tespit edilebilir. tea taster'ları tarafından ortaya çıkarılan açıklanmamış fork'lar, fork'ün hazinesinin bir kısmının kesilmesine, orijinal paket yöneticisine aktarılmasına veya fork'u ortaya çıkaran tea taster'larına gönderilmesine neden olabilir.
 
-###Çalışma Zamanı ve Derleme Bağımlılıkları
+### Çalışma Zamanı ve Derleme Bağımlılıkları
 
 Tea, Başlangıçta, Proof of Contribution ödüllerini dağıtırken derleme bağımlılıklarını çalışma zamanı bağımlılıklarından ayırt etmeyebilir. Ancak, tea topluluğu bu ayrımı yapmanın önemli olduğuna inanıyorsa, topluluk, her bağımlılığın kritikliğini ve onların bağımlı oldukları paketlerin bireysel değerine katkısını hesaba katan ödül dağıtım algoritmasını geliştirmek için önerilerde bulunabilir. Bu öneriler, topluluğun kararına göre oylanacak ve uygulanacaktır.
 
