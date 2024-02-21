@@ -1,0 +1,18 @@
+Bir OSS Projesinin Kaydedilmesi
+Projeniz kaydolduktan sonra çay topluluğu içinde görünür olacak ve potansiyel destekçilerin, katkıda bulunanların ve kullanıcıların ilgisini çekecektir. Ayrıca, değerine göre size ödüller kazandırabilecek ve çay topluluğunun diğer üyelerinden güvenlik açıkları raporları alabilecek projenizin kullanımını ve etkisini de takip edebilirsiniz . Projenizi çay protokolüne kaydetmeniz, açık kaynaklı yazılımın sürdürülebilirliğine ve bütünlüğüne olan bağlılığınızı gösterir.
+Neden bir OSS Projesine kaydolmalısınız?
+OSS projenizi çay protokolüne kaydetmenin birçok avantajı vardır. Çay topluluğu içinde görünürlük kazanmanıza , potansiyel katkıda bulunanları ve kullanıcıları çekmenize ve projenizin kullanımını ve etkisini izlemenize olanak tanır. Bu veriler projenizin değerine göre ödüller kazanmak için kullanılabilir. Ayrıca projenizi çay protokolüne kaydetmek, güvenlik araştırmacılarını güvenlik açıklarını etik ve sorumlu bir şekilde açıklamaya teşvik eder.
+Çay protokolü , bir projenin açık kaynak ekosistemindeki kullanımını veya bağımlılarını ölçen teaRank  tanıtıyor . Bir projenin teaRank'i , projenin tüm açık kaynak yazılım ekosistemi üzerindeki etkisini değerlendiren  algoritması kullanılarak hesaplanır .
+Protokol, projenizin teaRank'ına bağlı olarak günlük olarak dağıtılacak ödül sayısını belirler. Projenize bağlı olarak daha fazla (saygın) açık kaynaklı yazılımla elde edilen daha yüksek teaRank, daha fazla ödülle sonuçlanır. Ancak ödül kazanmak yalnızca teaRank ile sınırlı değildir. Projeler aynı zamanda TEA'larını kendilerine yatıran topluluk üyelerinden de ödüller kazanabilir. Topluluk üyeleri projenize ÇAYlarını yatırdıklarında, projenize olan inançlarını ve desteklerini gösterirler ve staking ödüllerinin bir kısmını projenizin hazinesine dağıtarak projenizi ek teşviklerle güçlendirirler.
+Bir projeye nasıl kayıt olunur?
+Protokole bir OSS projesi kaydetmek için çay Teşvikli Testnet başlatıldığında şu adımları izlemeniz gerekir:
+Çay web uygulamasını ziyaret edin ve çay protokolü hesabınıza giriş yapın .
+"OSS Projelerim" bölümüne gidin.
+Projenin adını sağlayın.
+
+Paket yöneticisini ve URL'sini kontrol ederek bunun doğru proje olup olmadığını bir kez daha kontrol ettiğinizden emin olun.
+Katkıda bulunanları eklemeye karar verebileceğiniz projenizin anayasa yapılandırma ekranına devam edin. Yeterli çoğunluk kuralları, herhangi bir hazine ödemesini, herhangi bir hazine mevduatını onaylamak, güvenlik açığı raporlarını yönetmek, oylamayı yönetmek vb. için gereken minimum katkıda bulunan sayısını tanımlar.
+Daha sonra, bu projenin sahipliğini göstermek için bir çekme isteğini (PR) birleştirmeniz gerekecektir. Projenizin anayasa dosyasını indirmeniz ve dosyayı manuel olarak projenizin deposuna aktarıp birleştirmeniz gerekecektir.
+
+Kaydetmeye çalıştığınız projenin bakımcılarından biri olarak durumunuzu onaylamak için bu dosyayı depoya eklemeniz gerekir.
+Dosya birleştirildikten sonra Tea, anayasa dosyasını sık sık kontrol edecek ve dosya depoda bulunduğunda projenin hazinesini (zincir üzerindeki hesap) konuşlandıracak. Projenizin zincirdeki adresini proje ayrıntıları sayfasında bulabilirsiniz.
