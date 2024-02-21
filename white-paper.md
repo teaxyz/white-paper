@@ -98,7 +98,7 @@ At tea, we believe that the lack of visibility and incentives has impeded the ev
 
 ### Proof of Contribution
 
-In this white paper, we propose “Proof of Contribution”, a novel consensus mechanism designed to quantify the impact of all projects across all open-source systems.
+In this white paper, we propose “Proof of Contribution”, a novel consensus mechanism designed to quantify the impact of all projects across all open-source systems.To briefly explain the consensus mechanism 'A consensus mechanism is a protocol or system that enables multiple nodes or participants in a distributed network to agree on the validity of transactions or data. It ensures that all nodes in the network reach an agreement or consensus regarding the current state of the network, even in the presence of faulty or malicious actors. Consensus mechanisms are commonly used in blockchain networks to validate and confirm transactions, ensuring the integrity and security of the decentralized system.'
 
 Proof of Contribution assigns a dynamic score, referred to as a project’s teaRank, based on each open-source project’s orientation within, and utilization from the broader open-source ecosystem over time.
 
