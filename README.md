@@ -1,4 +1,4 @@
-# Libro bianco sul tè 2.1.0
+# tea libro-bianco 2.1.0
 
 Il libro bianco sul tè è un documento [semanticamente versionato](https://semver.org),
 [Markdown](https://daringfireball.net/projects/markdown/).
