@@ -2,7 +2,7 @@
 
 The tea white paper is a [semantically versioned](https://semver.org),
 [Markdown](https://daringfireball.net/projects/markdown/) document.
-New releases are deployed to Gitbook.
+New releases are deployed to Gitbook..
 
 ## Contributing
 
