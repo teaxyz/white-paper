@@ -2,7 +2,7 @@
 description: Version 2.1.0
 ---
 
-# white-paper
+# White-Paper
 
 ## A Decentralized Protocol for Open-Source Developers to Capture the Value They Create
 
