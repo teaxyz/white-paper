@@ -1,0 +1,11 @@
+
+# https://tea.xyz/what-is-this-file
+---
+version: 1.0.0
+nick: Dtractus
+projectName: Tea
+website: https://tea.xyz/
+github: https://github.com/dtractus
+codeOwners:
+  - '0x84Ba5f2e5aC855E9B732B8e8748C441fD5C54086'
+quorum: 1
