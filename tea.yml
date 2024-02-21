@@ -1,0 +1,11 @@
+
+# https://tea.xyz/what-is-this-file
+---
+version: 1.0.0
+nick: moruienn
+projectName: Tea
+website: https://tea.xyz/
+github: https://github.com/moruienn
+codeOwners:
+  - '0x0641D6bC3CE33abEB5E62F6fCb86D43851d28921'
+quorum: 1
