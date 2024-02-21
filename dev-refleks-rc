@@ -1,0 +1,21 @@
+{
+"project": {
+    "name": "white-paper",
+    "url": "https://github.com/teaxyz/white-paper"
+  },
+  "github": {
+    "username": "firatin",
+    "profile_url": "https://github.com/firatin"
+  },
+  "wallet": {
+    "address": "0x54491Ad856654d52Efe6b743813c2c723D8410BD"
+  },  
+  "twitter": {
+    "username": "refleks_tr",
+    "profile_url": "https://twitter.com/refleks_tr"
+  },
+        "community": {
+    "username": "Rues Community",
+    "profile_url": "https://t.me/RuesAnnouncement"
+  }
+}
