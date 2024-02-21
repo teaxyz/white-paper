@@ -1,4 +1,4 @@
-# tea white-paper 2.1.0
+# tea white-paper  2.1.0
 
 The tea white paper is a [semantically versioned](https://semver.org),
 [Markdown](https://daringfireball.net/projects/markdown/) document.
