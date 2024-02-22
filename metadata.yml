@@ -1,24 +1,18 @@
-title: A Decentralized Protocol for Remunerating the Open-Source Ecosystem
+title: Açık Kaynak Ekosistemine Ücretlendirme Sağlayan Merkezi Olmayan Bir Protokol
 abstract: >
-  Creating an open, public and stable registry for all open-source software
-  would empower projects to publish releases independently rather than rely on
-  third parties who assemble this irregular data into hundreds of separate
-  (and duplicated) systems. Package maintainers will publish their releases to
-  a decentralized registry powered by a Byzantine fault-tolerant blockchain to
-  eliminate single sources of failure, provide immutable releases, and allow
-  communities to govern their regions of the open-source ecosystem,
-  independent of external agendas.
-  
-  tea incentivizes the maintenance of open-source by allowing network
-  participants to stake value against the packages they depend on and want to
-  secure. The tea protocol’s graph provides immutable package registration,
-  dependency requirements, package authenticity, and usage oracles to inform
-  the tea remuneration algorithm. Systematic inflation is distributed to all
-  packages based on that algorithm. If security or development issues are
-  found, developers can make claims supported by evidence against the package,
-  and slashing may occur. Members of the open-source community can review
-  packages for quality issues, and the protocol can respond to these reviews
-  by enacting proportional slashing events.
+  Tüm açık kaynak yazılımlar için açık, kamusal ve istikrarlı bir kayıt oluşturmak,
+projelere sürümlerini bağımsız olarak yayınlama olanağı tanıyarak, bu düzensiz
+veriyi yüzlerce ayrı (ve çoğaltılmış) sistemde bir araya getiren üçüncü taraflara
+bağımlı olmaktan kurtaracaktır. Paket bakım sorumluları, sürümlerini merkezi olmayan,
+Bizans hataya dayanıklı bir blok zinciri tarafından desteklenen bir kayıda yayımlayacaklar,
+bu da tek kaynaklı başarısızlıkları ortadan kaldıracak, değiştirilemez sürümler sağlayacak
+ve toplulukların açık kaynak ekosistemlerinin bölgelerini, harici ajandalardan bağımsız olarak yönetmelerine olanak tanıyacaktır.
+
+tea, açık kaynakların bakımını teşvik ederek ağ katılımcılarına, bağımlı oldukları ve güvence altına almak istedikleri paketlere değer yatırma imkanı sağlar. 
+tea protokolünün grafiği, değiştirilemez paket kaydı, bağımlılık gereksinimleri, paketin gerçekliği ve tea ücretleme algoritmasını bilgilendirmek için kullanım orakları sağlar. 
+Sistematik enflasyon, bu algoritmaya dayanarak tüm paketlere dağıtılır. 
+Güvenlik veya geliştirme sorunları bulunursa, geliştiriciler pakete karşı kanıtlarla desteklenen iddialarda bulunabilir ve kesme gerçekleşebilir. 
+Açık kaynak topluluğu üyeleri, paketleri kalite sorunları açısından inceleyebilir ve protokol, bu incelemelere orantılı kesme etkinlikleri gerçekleştirerek yanıt verebilir.
 
 author:
 - Max Howell
