@@ -8,3 +8,6 @@ New releases are deployed to Gitbook.
 
 If you have general feedback, please open a [discussion](../../discussions) thread.
 
+# SH3RLY13 
+> [!NOTE]
+> CUP OF TEA -- CHEERS
