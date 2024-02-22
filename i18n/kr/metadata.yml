@@ -1,0 +1,76 @@
+title: 오픈소스 생태계 보상을 위한 탈중앙화 프로토콜
+ 개요: >
+  모든 오픈소스 소프트웨어를 위한 개방적이고, 공개적이며, 안정적인 레지스트리를 만들면
+  프로젝트가 이 불규칙한 정보를 수집하는 제 3자에 의존하지 않는 상태로,
+  불규칙한 데이터를 수백 개의 개별 ( 혹은 중복되거나 ) 시스템으로 만드는 제 3 자에게
+  (제 3자에게 의존하지 않는채로 독립적으로 릴리스를 게시할 수 있습니다. 패키지 관리자는 릴리스를 다음과 같은 위치로 게시합니다.
+  비잔틴 내결함성 블록체인(Byzantine fault-tolerant blockchain)을 기반으로 하는 탈중앙화 레지스트리에 릴리스를 게시하여
+  단일 오류 소스를 제거하고, 변경 불가능한 릴리스를 제공하며, 커뮤니티가 오픈 소스 영역을 관리할 수 있도록 합니다.
+  커뮤니티가 오픈소스 생태계의 각 지역을 관리할 수 있으며, 
+  오픈소스 생태계의 영역을 관리할 수 있도록 합니다.
+
+  Tea 인센티브는 네트워크 참여자들이 오픈소스 패키지에 대해
+  참여자가 자신이 이용하거나 보호하고자 하는 패키지에 대해 그에 따른 가치에 대해 스테이킹을 함으로써 오픈소스 유지보수를 장려합니다.
+  Tea 프로토콜의 그래프는 변경 불가능한 패키지 등록을 제공하며, 종속성 요구 사항, 패키지 신뢰성, 오라클등을 통해
+  Tea 보상 알고리즘을 알려줍니다. 체계적으로 설계된 보상 인플레이션이 모든 패키지에 분배됩니다.
+  보안 또는 개발 문제가 발견되면 개발자는 해당 패키지에 대한 근거를 바탕으로 문제에 대해 클레임을 제기할 수 있으며,
+  이는 그 패키지가 슬래싱될 수 있습니다. 오픈소스 커뮤니티의 구성원은 패키지의 품질 문제를 검토할 수 있습니다.
+  Tea 프로토콜은 위와 같은 클레임에 검토에 대응할 수 있으며, 비례적인 슬래싱 이벤트를 시행하여 이러한 리뷰에 대응할 수 있습니다..
+
+
+  저자:
+- Max Howell
+- Timothy Lewis
+- Thomas Borrel
+references:
+- id: sources
+  url: https://github.com/teaxyz/white-paper
+- id: cc
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+- id: nist
+  url: https://nvd.nist.gov/vuln/detail/CVE-2021-44228
+- id: reuters
+  url: https://www.reuters.com/article/usa-cyber-vulnerability-idCNL1N2SY2PA
+- id: twitter
+  url: https://twitter.com/yazicivo/status/1469349956880408583
+- id: w3
+  url: https://www.w3.org/TR/did-core/
+- id: theregister
+  url: https://www.theregister.com/2016/03/23/npm_left_pad_chaos/
+- id: fossa
+  url: https://fossa.com/blog/npm-packages-colors-faker-corrupted/
+- id: lunasec
+  url: https://www.lunasec.io/docs/blog/node-ipc-protestware/
+- id: github
+  url: https://github.com/dominictarr/event-stream/issues/116
+- id: zdnet
+  url: https://www.zdnet.com/article/open-source-software-how-many-bugs-are-hidden-there-on-purpose/
+- id: threatpost
+  url: https://threatpost.com/backdoor-found-in-utility-for-linux/147581/
+- id: fbi
+  url: https://www.fbi.gov/news/stories/phantom-secure-takedown-031618
+- id: europol
+  url: https://www.europol.europa.eu/media-press/newsroom/news/800-criminals-arrested-in-biggest-ever-law-enforcement-operation-against-encrypted-communication
+- id: medium
+  url: https://medium.com/intrinsic-blog/compromised-npm-package-event-stream-d47d08605502
+- id: semver
+  url: https://semver.org/
+- id: npmjsCrossenv
+  url: https://blog.npmjs.org/post/163723642530/crossenv-malware-on-the-npm-registry.html
+- id: npmjsLodash
+  url: https://www.npmjs.com/package/lodash
+- id: npmjsChalk
+  url: https://www.npmjs.com/package/chalk
+- id: npmjsLogFourjs
+  url: https://www.npmjs.com/package/log4js/
+- id: arxiv
+  url: https://arxiv.org/abs/1207.2617/
+- id: web3
+  url: https://research.web3.foundation/en/latest/polkadot/overview/2-token-economics.html
+header-includes:
+- \usepackage{fancyhdr,ragged2e}
+- \lhead{\parbox[t]{0.5\textwidth}{\RaggedRight\rightmark\strut}}
+- \rhead{\parbox[t]{0.5\textwidth}{\RaggedLeft\leftmark\strut}}
+- \setlength{\headheight}{5\baselineskip}
+- \pagestyle{fancy}
+- \fancyfoot[LE,RO]{© 2022 tea.inc.}
