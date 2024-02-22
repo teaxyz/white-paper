@@ -1,0 +1,5 @@
+#https://docs.tea.xyz/tea/i-want-to.../learn-about-teas-decentralized-protocol
+version: 1.0.0
+codeOwners:
+  - '0x62626d70981E215d254CAA9598aB8dc73b4603BE'
+quorum: 1
