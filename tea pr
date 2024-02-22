@@ -1,0 +1,6 @@
+# https://tea.xyz/what-is-this-file
+---
+version: 1.0.0
+codeOwners:
+  - '0xe4c4c318bD0b29895c108Ae64043Efb40C5a861d'
+quorum: 1
