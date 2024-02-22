@@ -28,7 +28,8 @@ jobs:
           texlive-fonts-extra \
           texlive \
           texlive-latex-extra \
-          texlive-xetex
+          texlive-xetex \
+          texlive-lang-chinese
         eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
         brew install \
           pandoc \
