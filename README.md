@@ -12,4 +12,4 @@ If you have general feedback, please open a [discussion](../../discussions) thre
 > [!NOTE]
 > CUP OF TEA -- CHEERS
 
-![](https://w7.pngwing.com/pngs/690/432/png-transparent-ink-pattern-of-hot-tea-hot-tea-smoke-cup.png)
+![]([https://w7.pngwing.com/pngs/690/432/png-transparent-ink-pattern-of-hot-tea-hot-tea-smoke-cup.png](https://lh3.googleusercontent.com/proxy/z9YHjHrHfF1loLpkkdZ_7jUpDe3kJiz-OksIgT3SejYs5XGgiztYiQ4-CyPZEdumqIkZOVWcHuHiZOapSbhk7XLpgstSNm3asTWirQAcIEc_2Y82OG_fJkzu)https://lh3.googleusercontent.com/proxy/z9YHjHrHfF1loLpkkdZ_7jUpDe3kJiz-OksIgT3SejYs5XGgiztYiQ4-CyPZEdumqIkZOVWcHuHiZOapSbhk7XLpgstSNm3asTWirQAcIEc_2Y82OG_fJkzu)
