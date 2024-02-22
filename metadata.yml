@@ -24,6 +24,7 @@ author:
 - Max Howell
 - Timothy Lewis
 - Thomas Borrel
+
 references:
 - id: sources
   url: https://github.com/teaxyz/white-paper
@@ -69,6 +70,7 @@ references:
   url: https://arxiv.org/abs/1207.2617/
 - id: web3
   url: https://research.web3.foundation/en/latest/polkadot/overview/2-token-economics.html
+  
 header-includes:
 - \usepackage{fancyhdr,ragged2e}
 - \lhead{\parbox[t]{0.5\textwidth}{\RaggedRight\rightmark\strut}}
