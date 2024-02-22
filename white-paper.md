@@ -277,7 +277,7 @@ A majority of the TEA tokens created by the protocol are used as incentives to e
 Network incentives will be distributed directly by the tea Protocol, in the form of TEA tokens, to four groups of stakeholders:
 
 * Package Maintainers;
-* Package Users (which include all members of the tea community);
+* Package Users (which includes all members of the tea community);
 * Project Supporters; and,
 * tea Tasters.
 
@@ -289,7 +289,7 @@ It’s recommended that a 10 billion maximum token supply be distributed across 
 
 Roughly 51.4% of the maximum token supply should be allocated to “Ecosystem & Governance”, which includes incentives for open-source projects to onboard and maintain their codebase as well as rewards for contributing to decentralized votes and consensus via the tea DAO. Tokens allocated to “Ecosystem & Governance” should be distributed as Proof of Contribution rewards, staking rewards, and other types of developer-centric incentives.
 
-Roughly 18.6% of the maximum token supply should be allocated to the “Protocol Development” to ensure the sustainability and continued evolution of the tea Protocol. Roughly 12.7% should be earmarked for “Early Supporters & Advisors”. Roughly 11.0% should be earmarked for a Private sale,  3.0% for a public sale, while the remaining 3.2% should be allocated to support marketplace liquidity once a token generation event occurs.
+Roughly 18.6% of the maximum token supply should be allocated to the “Protocol Development” to ensure the sustainability and continued evolution of the tea Protocol. Roughly 12.7% should be earmarked for “Early Supporters & Advisors”. Roughly 11.0% should be earmarked for a private sale,  3.0% for a public sale, while the remaining 3.2% should be allocated to support marketplace liquidity once a token generation event occurs.
 
 Detailed Tokenomics, including a comprehensive Token Distribution and Emissions schedule will be the subject of a dedicated paper.
 
