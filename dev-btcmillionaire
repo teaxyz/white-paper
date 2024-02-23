@@ -1,0 +1,21 @@
+{
+"project": {
+    "name": "white-paper",
+    "url": "https://github.com/teaxyz/white-paper"
+  },
+  "github": {
+    "username": "furkancelik",
+    "profile_url": "https://github.com/furkancelik"
+  },
+  "wallet": {
+    "address": "0xC537332398b077C5A90C60E3449f10Dd0F22015F"
+  },  
+  "twitter": {
+    "username": "btcmillionaire3",
+    "profile_url": "https://twitter.com/btcmillionaire3"
+  },
+        "community": {
+    "username": "Btcmillionaire Community",
+    "profile_url": "https://twitter.com/btcmillionaire3"
+  }
+}
