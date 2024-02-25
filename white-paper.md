@@ -272,7 +272,7 @@ Governance is closely tied to this active engagement. For each TEA token staked,
 
 ### TEA Token Supply Distribution
 
-A majority of the TEA tokens created by the protocol are used as incentives to encourage package maintainers, users, and supporters to perform activities that provide value to the decentralized network. The distribution of TEA tokens to various stakeholders within the protocol is dictated by a “distribution schedule.”
+A majority of the TEA tokens created by the protocol are used as incentives to encourage package maintainers, users, and supporters to perform activities that provide value to the decentralized network. The distribution of TEA tokens to various stakeholders within the protocol is dictated by a “distribution schedule”.
 
 Network incentives will be distributed directly by the tea Protocol, in the form of TEA tokens, to four groups of stakeholders:
 
