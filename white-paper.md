@@ -17,7 +17,7 @@ A system in which open-source developers could receive rewards commensurate with
 
 ## Disclaimer
 
-The information set out in this white paper is of a preliminary nature. Consequently, neither the authors nor any of their respective affiliates assume any responsibility that the information set out herein is final or correct and each of the foregoing disclaims, to the fullest extent permitted by applicable law, any and all liability whether arising in tort, contract or otherwise in respect of this white paper. Neither this white paper nor anything contained herein shall form the basis of or be relied on in connection with or act as an inducement to enter into any contract or commitment whatsoever.
+The information set out in this white paper is of a preliminary nature. Consequently, neither the authors nor any of their respective affiliates assumes any responsibility that the information set out herein is final or correct and each of the foregoing disclaims, to the fullest extent permitted by applicable law, any and all liability whether arising in tort, contract or otherwise in respect of this white paper. Neither this white paper nor anything contained herein shall form the basis of or be relied on in connection with or act as an inducement to enter into any contract or commitment whatsoever.
 
 Nothing in this white paper constitutes an offer to sell or a solicitation to purchase any tokens discussed herein. In any event, were this white paper to be deemed to be such an offer or solicitation, no such offer or solicitation is intended or conveyed by this white paper in any jurisdiction where it is unlawful to do so, where such an offer or solicitation would require a license or registration, or where such an offer or solicitation is subject to restrictions. In particular, any tokens discussed herein have not been, and, as of the date of issuance of this white paper, are not intended to be, registered under the securities or similar laws of any jurisdiction, whether or not such jurisdiction considers such tokens to be a security or similar instrument and may not be offered or sold in any jurisdiction where to do so would constitute a violation of the relevant laws of such jurisdiction. Do not purchase any tokens unless you’re prepared to lose the entire purchase price. It is a high-risk purchase and you are unlikely to be protected if something goes wrong.
 
@@ -277,7 +277,7 @@ A majority of the TEA tokens created by the protocol are used as incentives to e
 Network incentives will be distributed directly by the tea Protocol, in the form of TEA tokens, to four groups of stakeholders:
 
 * Package Maintainers;
-* Package Users (which include all members of the tea community);
+* Package Users (which includes all members of the tea community);
 * Project Supporters; and,
 * tea Tasters.
 
@@ -289,7 +289,7 @@ It’s recommended that a 10 billion maximum token supply be distributed across 
 
 Roughly 51.4% of the maximum token supply should be allocated to “Ecosystem & Governance”, which includes incentives for open-source projects to onboard and maintain their codebase as well as rewards for contributing to decentralized votes and consensus via the tea DAO. Tokens allocated to “Ecosystem & Governance” should be distributed as Proof of Contribution rewards, staking rewards, and other types of developer-centric incentives.
 
-Roughly 18.6% of the maximum token supply should be allocated to the “Protocol Development” to ensure the sustainability and continued evolution of the tea Protocol. Roughly 12.7% should be earmarked for “Early Supporters & Advisors”. Roughly 11.0% should be earmarked for a Private sale,  3.0% for a public sale, while the remaining 3.2% should be allocated to support marketplace liquidity once a token generation event occurs.
+Roughly 18.6% of the maximum token supply should be allocated to the “Protocol Development” to ensure the sustainability and continued evolution of the tea Protocol. Roughly 12.7% should be earmarked for “Early Supporters & Advisors”. Roughly 11.0% should be earmarked for a private sale,  3.0% for a public sale, while the remaining 3.2% should be allocated to support marketplace liquidity once a token generation event occurs.
 
 Detailed Tokenomics, including a comprehensive Token Distribution and Emissions schedule will be the subject of a dedicated paper.
 
