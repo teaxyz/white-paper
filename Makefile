@@ -32,3 +32,6 @@ tea.white-paper_%.pdf: i18n/%/white-paper.md i18n/%/metadata.yml tea.csl img/*
 
 clean:
 	rm -f tea.white-paper*.pdf
+
+cleanmetadata:
+	rm -f i18n/$*/metadata.yml
