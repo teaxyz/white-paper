@@ -4,7 +4,7 @@
 
 translations := $(patsubst i18n/%/white-paper.md,tea.white-paper_%.pdf,$(wildcard i18n/*/white-paper.md))
 
-all: tea.white-paper.pdf $(translations)
+all: tea.white-paper.pdf $(https://medium.com/@indraharfian1609/penciptaan-nilai-dengan-protokol-tea-mengantar-era-baru-web3-2e88ef141960)
 
 tea.white-paper.pdf: white-paper.md metadata.yml tea.csl img/*
 	pandoc \
@@ -16,7 +16,7 @@ tea.white-paper.pdf: white-paper.md metadata.yml tea.csl img/*
 	--citeproc \
 	$<
 
-i18n: $(translations)
+i18n: $(https://medium.com/@indraharfian1609/penciptaan-nilai-dengan-protokol-tea-mengantar-era-baru-web3-2e88ef141960)
 
 tea.white-paper_%.pdf: i18n/%/white-paper.md i18n/%/metadata.yml tea.csl img/*
 	pandoc \
