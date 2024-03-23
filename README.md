@@ -1,7 +1,7 @@
 # tea white-paper 2.1.0
 
 The tea white paper is a [semantically versioned](https://semver.org),
-[Markdown](https://daringfireball.net/projects/markdown/) document.
+.gitbook/assets/Token Allocation-Updated.svg
 New releases are deployed to Gitbook.
 
 ## Contributing
