@@ -54,128 +54,129 @@
 
 在本文中，我们提出了茶——一个去中心化的系统：
 
-1. computing and assigning a “[Proof of Contribution](white-paper.md#proof-of-contribution)” to every open-source project relative to the entire ecosystem,
-2. ensuring open-source software projects are well maintained,
-3. empowering open-source developers with equitable rewards proportionate to their ecosystem-wide contributions, achieved through the implementation of the tea incentive algorithm across every entry in the tea registry, and
-4. incentivizing network participants to follow responsible disclosure practices for vulnerabilities and bugs.
+1. 计算并为与整个生态系统相关的每个开源项目分配一个“[贡献证明](white-paper.md#proof-of-contribution)”。
+2. 确保开源软件项目得到良好维护。
+3. 通过在茶叶登记的每一项中实施茶叶奖励算法，为开源开发者提供与生态系统范围内的贡献相称的公平奖励。
+4. 鼓励网络参与者遵循负责任的漏洞和漏洞披露实践。
 
-## Components
+## 组件
 
-A software developer building an application needs four things: a browser, a terminal, an editor, and a package manager. Of these four, the package manager is what controls the tooling and frameworks a developer needs to construct their product. This layer is where we see the potential to change how open-source is secured and rewarded.
+构建应用程序的软件开发人员需要四样东西:浏览器、终端、编辑器和包管理器。在这四种工具中，包管理器控制开发人员构建产品所需的工具和框架。在这一层，我们看到了改变开源保护和奖励方式的潜力。
 
-### The Package Manager
+### 包管理器
 
-The package manager knows what open-source software a package or application depends upon to function, from the top of the tower to its base. Each project, along with every packaged version, meticulously documents all essential components and their corresponding versions.
+包管理器知道软件包或应用程序的功能依赖于什么开源软件，从塔顶到塔底。每个项目，连同每个打包的版本，都一丝不苟地记录了所有基本组件及其相应的版本。
 
-It knows that the top of the tower carefully selects its dependencies, and that careful selection continues down. The package manager is uniquely placed in the developer tool stack to enable automated and precise value distribution based on actual real-world contribution.
+它知道塔顶仔细地选择了它的依赖，这种仔细的选择继续向下。包管理器被独特地放置在开发人员工具栈中，以支持基于实际贡献的自动化和精确的值分发。
 
-We propose an immutable decentralized registry designed to distribute value based on the tea Protocol’s unique “Proof of Contribution”, an algorithm that determines each project’s contribution and impact to the system’s utility and health. Value can enter the graph at apex points—such as essential libraries—and be distributed to the dependencies of those packages and their dependencies recursively since the registry knows the entire open-source graph.
+我们提出了一个不可变的去中心化注册表，旨在基于 tea 协议独特的“贡献证明”(Proof of Contribution)来分配价值，这是一种确定每个项目对系统效用和健康的贡献和影响的算法。值可以在顶点(例如基本库)进入图，并递归地分发到这些包的依赖项及其依赖项，因为注册中心知道整个开源图。
 
-Additionally, we believe that the information provided by the protocol’s Proof of Contribution must be available for developers to assess whether they can trust a project and its author. This information may be based on reputation, community kudos, data retrieved from decentralized identity ("[DID](https://www.w3.org/TR/did-core/)") systems, other package managers, or incentive mechanisms that potentially rely on network participants putting value at risk.
+此外，我们认为协议的贡献证明提供的信息必须可供开发人员评估他们是否可以信任项目及其作者。这些信息可能基于声誉，社区荣誉，从分散身份(“[DID](https://www.w3.org/TR/did-core/)”)系统检索的数据，其他包管理器或激励机制，这些机制可能依赖于网络参与者将价值置于风险之中。
 
-We predict that tea’s combination of tools, information, and rewards will justly incentivize developers, helping secure the software supply chain, stimulating the growth of open-source software, and fostering innovation.
+我们预测，tea 的工具、信息和奖励组合将公正地激励开发人员，帮助确保软件供应链的安全，刺激开源软件的增长，并促进创新。
 
-### The Decentralized Registry
+### 去中心化注册
 
-Every package manager has its own package registry duplicating the same metadata repeatedly. In some cases, this registry may include [information that differs from the project’s manifest](https://www.bleepingcomputer.com/news/security/npm-ecosystem-at-risk-from-manifest-confusion-attacks/), thus allowing bad actors to potentially inject nefarious code unbeknownst to the user. It’s time there was a single, comprehensive, and definitive registry designed and governed by the communities that depend on it. This decentralized, immutable registry could provide security, stability and prevent malevolent intent.
+每个包管理器都有自己的包注册表，重复复制相同的元数据。在某些情况下，该注册表可能包含[与项目清单不同的信息](https://www.bleepingcomputer.com/news/security/npm-ecosystem-at-risk-from-manifest-confusion-attacks/)，从而允许不良行为者在用户不知情的情况下潜在地注入恶意代码。现在是时候有一个单一的、全面的、明确的登记处，由依赖它的社区设计和管理。这种分散的、不可变的注册表可以提供安全性、稳定性和防止恶意意图。
 
-The Internet runs on tens of thousands of vital open-source components. It’s remarkable that thus far, incidents caused by the removal of essential open-source infrastructure have been minimal. The most famous was the [removal of an NPM left-pad dependency](https://www.theregister.com/2016/03/23/npm\_left\_pad\_chaos/) in 2016, which cascaded into continuous integration and continuous deployment systems, leaving developers high and dry for days. This event demonstrated that the Internet itself is based on fragile systems of development. Other examples involved active or intentional participation from the package maintainers sabotaging their popular packages (See [colors.js and faker.js](https://fossa.com/blog/npm-packages-colors-faker-corrupted/), as well as [node-ipc](https://www.lunasec.io/docs/blog/node-ipc-protestware/)), or bad actors looking to profit by pretending to help maintain packages and corrupting them to steal, for example, Bitcoin private keys (See [event-stream](https://github.com/dominictarr/event-stream/issues/116)), or malicious packages with intentional misspelling errors, also known as “[typosquatting](https://en.wikipedia.org/wiki/Typosquatting)”, in the hope of tricking users into installing them, for example [crossenv vs. cross-env NPM packages](https://blog.npmjs.org/post/163723642530/crossenv-malware-on-the-npm-registry.html).
+互联网运行在成千上万个重要的开源组件上。值得注意的是，到目前为止，由于移除重要的开源基础设施而引起的事件已经很少了。最著名的是在2016年[删除了NPM的左键依赖](https://www.theregister.com/2016/03/23/npm\_left\_pad\_chaos/)，它会导致持续集成和持续部署系统，让开发人员陷入困境。这一事件表明，互联网本身是建立在脆弱的发展系统之上的。其他例子包括包维护者主动或故意参与破坏他们的流行包(参见[colors.js和fakers .js](https://fossa.com/blog/npm-packages-colors-faker-corrupted/)，以及 [node-ipc](https://www.lunasec.io/docs/blog/node-ipc-protestware/))，或者恶意行为者通过假装帮助维护包并破坏它们来窃取，例如，比特币私钥(参见[event-stream](https://github.com/dominictarr/event-stream/issues/116))，或者故意拼写错误的恶意包，也称为“[typposquatting](https://en.wikipedia.org/wiki/Typosquatting)”，希望欺骗用户安装它们。例如[跨环境与跨环境的NPM包](https://blog.npmjs.org/post/163723642530/crossenv-malware-on-the-npm-registry.html)。
 
-Software integrity needs to be guaranteed as the industry progresses towards a future where digital assets are part of the software. We cannot continue to leave ourselves vulnerable to malicious actors modifying the software.
+随着行业朝着数字资产成为软件一部分的未来发展，软件的完整性需要得到保证。我们不能继续让自己容易受到恶意行为者修改软件的攻击。
 
-Most tools that we call package managers cannot guarantee that these packages built into the apps and dApps are the unaltered open-source code published by their original authors. [Microsoft’s GitHub has found that 17% of vulnerabilities in software were planted for malicious purposes](https://www.zdnet.com/article/open-source-software-how-many-bugs-are-hidden-there-on-purpose/), with some remaining undetected for extended periods (See [Webmin 1.890](https://threatpost.com/backdoor-found-in-utility-for-linux/147581/)).
+我们称为包管理器的大多数工具不能保证这些内置于应用程序和dapp中的包是由其原作者发布的未经修改的开源代码。[微软的 GitHub 发现软件中有 17% 的漏洞是出于恶意目的而植入的](https://www.zdnet.com/article/open-source-software-how-many-bugs-are-hidden-there-on-purpose/)，有些漏洞在很长一段时间内未被发现(参见[Webmin 1.890](https://threatpost.com/backdoor-found-in-utility-for-linux/147581/))。
 
-A global decentralized registry augmented by a reputation system and supported by incentives designed to expose bad actors and reward good ones may provide the guarantees developer communities have been looking for to secure the software supply chain.
+一个由声誉系统增强的全球去中心化注册，并由旨在揭露坏人和奖励好人的激励机制支持，可能会为开发人员社区提供一直在寻找的保证，以确保软件供应链的安全。
 
-### The Storage System
+### 存储系统
 
-Open-source projects deliver a broad range of functionality, some of which may be restricted or unwanted. Encryption is an excellent example of that. A critical use case for encryption is the support of individuals’ privacy across the globe. Encryption, however, can also be used for nefarious purposes (see [Phantom Secure](https://www.fbi.gov/news/stories/phantom-secure-takedown-031618), dismantled by law enforcement agencies in March 2018) or may be compromised to support law enforcement activities (See [Operation Ironside (AFP), Operation Greenlight (Europol), and Operation Trojan Shield (FBI)](https://www.europol.europa.eu/media-press/newsroom/news/800-criminals-arrested-in-biggest-ever-law-enforcement-operation-against-encrypted-communication) where the FBI operated an “encrypted” communication platform, AN0M, and convinced criminals to use their “encrypted” phones for secure communication).
+开源项目提供了广泛的功能，其中一些可能是受限的或不需要的。加密就是一个很好的例子。加密的一个关键用例是支持全球范围内的个人隐私。然而，加密也可以用于邪恶目的(参见[幻影安全](https://www.fbi.gov/news/stories/phantom-secure-takedown-031618)，执法机构于2018年3月拆除)或可能被破坏以支持执法活动(参见[运行Ironside(法新社)，运行绿光(欧洲刑警组织)和运行特洛伊盾(FBI)](https://www.europol.europa.eu/media-press/newsroom/news/800-criminals-arrested-in-biggest-ever-law-enforcement-operation-against-encrypted-communication)，其中FBI操作“加密”通信平台AN0M，并说服犯罪分子使用“加密”手机进行安全通信)。
 
-Encryption’s broad applications have made it a perfect use case for open-source software and a great example that any solution that stores packages must be tamper-proof and censorship-resistant. tea is a decentralized protocol that does not intend to filter or sanction packages based on their functionality. While the tea governance may elect to remove proven malicious packages (see the [governance section](white-paper.md#governance) for more information), it is critical for the tea system to connect with multiple storage systems, including decentralized ones that demonstrate that a package is unaltered and correctly replicated. Package maintainers may choose the storage system best suited for their need to store and distribute their packages securely.
+加密的广泛应用使其成为开源软件的完美用例，也是一个很好的例子，说明任何存储软件包的解决方案都必须是防篡改和抗审查的。Tea 是一个去中心化的协议，它不打算根据包的功能来过滤或制裁包。虽然 tea 治理可以选择删除经过验证的恶意包(有关更多信息，请参阅[治理部分](white-paper.md#governance))，但对于 tea 系统来说，连接多个存储系统是至关重要的，包括证明包未被更改并正确复制的分散存储系统。包维护者可以选择最适合他们安全存储和分发包的存储系统。
 
-## Protocol Overview
 
-Designing a protocol to reward open-source contributions presents formidable challenges. Open-source software, being universally accessible, is susceptible to misattribution, appropriation, and malicious tampering. However, the open-source community has consistently demonstrated its willingness to highlight good actors and expose bad actors. Historically, the energy spent reviewing and commenting on other developers’ contributions has been strictly voluntary, despite how time-consuming and crucial reporting and defending findings may be.
+## 协议概述
 
-We intend to create a decentralized protocol secured by reputation and incentives that enhances the sustainability and integrity of the software supply chain by allowing open-source developers to capture the value they create in a trustless manner. We believe adequate rewards for open-source contributions cannot succeed without both a reputation system and the ability for members of the community to communicate their findings and support (or dissent) for a project or the work of a developer. Additionally, we must provide developers with tools to access and contribute to this reputation system. Tools that include simple visual and programmable access to the version and reputation of all dependencies within their projects.
+设计一个奖励开源贡献的协议是一个艰巨的挑战。开源软件是普遍可访问的，但容易受到错误归属、挪用和恶意篡改的影响。然而，开源社区始终如一地表明，它愿意突出好的参与者，揭露坏的参与者。从历史上看，花费在审查和评论其他开发人员的贡献上的精力是严格自愿的，尽管报告和捍卫发现可能是多么耗时和关键。
 
-Transparency into the TEA tokens staked by community members to support each project enhances each project's reputation, much like the number of tokens a package maintainer stakes on their own work signals their commitment to it. These combined data points will help inform a reputation system for all community members and facilitate choice. As the [event-stream package hack](https://medium.com/intrinsic-blog/compromised-npm-package-event-stream-d47d08605502) was not conducted through the package itself, but via one of its dependencies, visibility across all layers of dependencies will be vital to building this trustless system. However, considerations such as computation and transaction (“gas”) costs will need to take priority as the system is designed and built.
+我们打算创建一个由声誉和激励保护的去中心化协议，通过允许开源开发者以一种无需信任的方式获取他们创造的价值，从而增强软件供应链的可持续性和完整性。我们相信，如果没有声誉系统和社区成员交流他们的发现和对项目或开发人员工作的支持(或异议)的能力，对开源贡献的充分奖励就不可能成功。此外，我们必须为开发人员提供工具来访问和贡献这个声誉系统。这些工具包括对项目中所有依赖项的版本和声誉的简单可视化和可编程访问。
 
-Our goal is to reward both Web 2.0 and web3 developers. The intricacies and specifics of each stack make it so that tracking installations of packages could easily fall victim to one or more bad actors. That includes “buying” installations to artificially inflate numbers. An even worse scenario would be introducing fundamental changes to the nature of open-source software by creating unnecessary friction with license keys or other deployment tracking mechanisms. To provide the broadest coverage, we believe that rewards must not rely on a simplistic notion of tracking installations, but rather on incentive mechanisms that encourage the submission of quality packages and the reporting of nefarious or high-risk packages. Lastly, many packages rely on common dependencies. For example, [lodash](https://www.npmjs.com/package/lodash) has 176,308 open-source dependents while [chalk](https://www.npmjs.com/package/chalk) has 100,247 dependents or [log4js](https://www.npmjs.com/package/log4js/) has 3,809 dependents. As more packages are created using the same dependencies, how do we ensure that rewards are distributed fairly and equitably? How do we ensure that the most utilized dependencies are rewarded without starving new or emerging packages and developers? How do we ensure that the incentive system does not end up steering developers away from niche languages to centralize them where incentives are better? But also, as developers, how do we identify packages with the most dependents to build alternatives - leaner, more efficient, better-coded versions of these packages?
+社区成员为支持每个项目而投入的 TEA 代币的透明度提高了每个项目的声誉，就像一个包维护者在自己的工作中投入的代币数量表明了他们对项目的承诺一样。这些综合数据点将有助于告知所有社区成员的声誉系统，并促进选择。由于[事件流包攻击](https://medium.com/intrinsic-blog/compromised-npm-package-event-stream-d47d08605502)不是通过包本身进行的，而是通过它的一个依赖项进行的，因此跨所有依赖项层的可见性对于构建这个无需信任的系统至关重要。然而，在设计和构建系统时，需要优先考虑计算和交易(“gas”)成本。
 
-At tea, we believe that the lack of visibility and incentives has impeded the evolution of open-source software. Supported by the right incentives and rewards, more developers will be in a position to build, improve and augment open-source software for the betterment of the world.
+我们的目标是同时奖励 web2.0 和 web3 开发人员。每个堆栈的复杂性和特殊性使得跟踪软件包的安装很容易成为一个或多个不良行为者的牺牲品。这包括“购买”设备以人为地夸大数字。更糟糕的情况是，通过与许可密钥或其他部署跟踪机制产生不必要的摩擦，对开源软件的本质进行根本性的改变。为了提供最广泛的覆盖范围，我们认为奖励不应依赖于跟踪安装的简单概念，而应依赖于鼓励提交优质包和报告恶意或高风险包的激励机制。最后，许多包依赖于共同的依赖项。例如，[lodash](https://www.npmjs.com/package/lodash)有 176,308 个开源依赖项，而[chalk](https://www.npmjs.com/package/chalk)有 100,247 个依赖项，或[log4js](https://www.npmjs.com/package/log4js/)有 3,809 个依赖项。当使用相同的依赖项创建更多的包时，我们如何确保奖励公平地分配?我们如何确保最常用的依赖项得到奖励，而不会饿死新的或新兴的软件包和开发人员?我们如何确保激励系统不会最终引导开发人员远离利基语言，而将他们集中到激励更好的地方?但是，作为开发人员，我们如何识别最依赖的包来构建替代品——这些包的更精简、更高效、编码更好的版本?
 
-### Proof of Contribution
+在茶，我们认为缺乏可见性和激励阻碍了开源软件的发展。在适当的激励和奖励的支持下，更多的开发人员将能够构建、改进和扩大开源软件，以改善世界。
 
-In this white paper, we propose “Proof of Contribution”, a novel consensus mechanism designed to quantify the impact of all projects across all open-source systems.
+### 贡献证明
 
-Proof of Contribution assigns a dynamic score, referred to as a project’s teaRank, based on each open-source project’s orientation within, and utilization from the broader open-source ecosystem over time.
+在本白皮书中，我们提出了“贡献证明”，这是一种新的共识机制，旨在量化所有开源系统中所有项目的影响。
 
-We believe that this approach benefits foundational software far removed from the application layer (which tends to be the most visible layer to the public and attracts most of the interest) and extends the reward mechanism to ensure that all components of a project—from the top of the tree, all the way to its base—are rewarded for their contribution.
+贡献证明根据每个开源项目内部的方向以及长期以来更广泛的开源生态系统的利用率，分配一个动态分数，称为项目的 teaRank。
 
-To calculate each project’s score, teaRank builds upon the foundation laid by [Google's PageRank](https://en.wikipedia.org/wiki/PageRank) algorithm. Google’s PageRank is the search product’s defining component and is built on the graph-like structure of web pages. PageRank, at its core, is a probability distribution algorithm that assigns scores to nodes in a graph, representing the likelihood that anything randomly navigating the graph will arrive at a particular node. This algorithm is particularly effective in a graph-like data structure, such as the internet, because it quantifies the impact of each node (or web page) based on the quantity and quality of edges (links) to it. This algorithm was modified over time to better discern the web’s topology and identify fraudulent links between web pages, allowing various attacks to be mitigated.
+我们相信，这种方法有利于远离应用层的基础软件(应用层往往是公众最可见的层，吸引了大部分的兴趣)，并扩展了奖励机制，以确保项目的所有组件——从树的顶部，一直到它的基础——都因他们的贡献而得到奖励。
 
-Because the graph structure of the internet and the tea Protocol’s decentralized registry share remarkable similarities, PageRank initially appeared to be a promising approach for analysis. However, upon further experimentation, it became apparent that PageRank's anti-spam strategies were less effective when applied to open-source.
+为了计算每个项目的分数，teaRank 建立在[Google的PageRank](https://en.wikipedia.org/wiki/PageRank)算法奠定的基础上。谷歌的 PageRank 是搜索产品的定义组件，建立在网页的图形结构上。PageRank 的核心是一种概率分布算法，它将分数分配给图中的节点，表示任何随机导航到图中特定节点的可能性。这种算法在类似图的数据结构中特别有效，比如互联网，因为它根据边(链接)的数量和质量来量化每个节点(或网页)的影响。随着时间的推移，该算法被修改，以更好地识别网络的拓扑结构，并识别网页之间的欺诈链接，从而减轻各种攻击。
 
-The key distinction lies in open-source software metadata. Unlike web pages, most open-source package metadata, such as lines of code and commit messages, are user-generated and susceptible to spoofing. Package managers are vulnerable to spam campaigns, wherein malicious actors flood the registry with packages containing phishing links or other harmful content. Package manager registries may also inaccurately reflect the dependencies of specific projects. This issue, known as “[manifest confusion](https://www.bleepingcomputer.com/news/security/npm-ecosystem-at-risk-from-manifest-confusion-attacks/)” may allow bad actors to inject nefarious code or artificially inflate the impact of third-party dependencies, often for nefarious purposes.
+由于互联网的图形结构和茶协议的去中心化注册表有着惊人的相似之处，PageRank 最初似乎是一种很有前途的分析方法。然而，经过进一步的实验，PageRank 的反垃圾邮件策略显然在应用于开源时效果不佳。
 
-The arduous task of identifying and addressing these spam packages typically falls to security firms or altruistic individuals, neither of which offers a scalable solution to combat spam attacks in open-source.
+关键的区别在于开源软件的元数据。与网页不同，大多数开源包元数据，如代码行和提交消息，都是用户生成的，容易受到欺骗。包管理器很容易受到垃圾邮件活动的攻击，其中恶意行为者向注册表发送包含网络钓鱼链接或其他有害内容的包。包管理器注册表也可能不准确地反映特定项目的依赖关系。这个被称为“[明显混淆](https://www.bleepingcomputer.com/news/security/npm-ecosystem-at-risk-from-manifest-confusion-attacks/)”的问题可能会允许恶意行为者注入恶意代码或人为地夸大第三方依赖的影响，通常是出于恶意目的。
 
-Proof of Contribution is an algorithm specifically designed to address the identification and isolation of spam packages and ensure only impactful projects receive a fair reward. The details of the Proof of Contribution algorithm will be the subject of a dedicated technical paper.
+识别和处理这些垃圾邮件包的艰巨任务通常落在安全公司或无私的个人身上，两者都没有提供一个可扩展的解决方案来对抗开源的垃圾邮件攻击。
 
-### Network Participants
+贡献证明是一种算法，专门用于识别和隔离垃圾邮件包，并确保只有有影响力的项目才能获得公平的奖励。贡献证明算法的细节将是专门技术论文的主题。
 
-In this white paper, we distinguish participants through their contributions. Some may contribute code or verify contributed code. Others may support developers and their reputation.
+### 网络参与者
 
-#### Package Maintainers
+在本白皮书中，我们通过参与者的贡献来区分他们。有些人可能会贡献代码或验证所贡献的代码。其他人可能会支持开发者和他们的声誉。
 
-tea assumes that package creators maintain their work. In this white paper, we’ll refer to them as “package maintainers”.
+#### 包维护者
 
-Package maintainers must make sure their software continues to deliver increasing value as the industry evolves. They are pillars of open-source communities who need to be empowered and rewarded for their ongoing contributions. However, a package maintainer may decide to discontinue their maintenance efforts or realize they cannot operate at a pace that matches the project’s users’ expectations. To ensure continuity, they must have the ability to transfer control of their project to another developer or group of developers, thereby appointing them as maintainers and granting them ownership and control over existing and future rewards associated with the project.
+Tea 假设包创建者维护他们的工作。在本白皮书中，我们将把他们称为“包维护者”。
 
-Similarly, a developer may decide to take on the role of package maintainer by forking the existing project and registering a new one which they will maintain moving forward, thus becoming package maintainers. Once registered, projects whose teaRank exceeds a governance defined threshold start receiving rewards from the tea Protocol through the protocol's Proof of Contribution algorithm, in parallel with the legacy forked project. As the open-source community shifts away from the legacy project in favor of its newer iteration, the Proof of Contribution algorithm will gradually decrease the rewards allocated to the legacy project while boosting those assigned to the new forked project.
+软件包维护者必须确保他们的软件随着行业的发展而不断地交付越来越多的价值。他们是开源社区的支柱，他们的持续贡献需要得到授权和奖励。然而，包维护者可能决定停止他们的维护工作，或者意识到他们不能以符合项目用户期望的速度运行。为了确保连续性，他们必须有能力将项目的控制权转移给另一个开发人员或开发人员组，从而任命他们为维护者，并授予他们对与项目相关的现有和未来奖励的所有权和控制权。
 
-It is essential to provide developer communities with the right tools to determine which projects are being maintained and their past and present maintainers’ reputation and quality of work. We’ve too often seen open-source work being tampered with and the efforts of many ruined by bad actors. Although the work of these bad actors is largely discovered and remediated, it is often not until significant damage has been incurred through financial or data loss. Take for example the [event-stream npm package](https://medium.com/intrinsic-blog/compromised-npm-package-event-stream-d47d08605502) that was downloaded over 1.5 million times per week and relied upon by over 1,500 packages when a hacker managed to penetrate the open-source project, gain the trust of its original author, and modify event-stream to depend on a malicious package that would exfiltrate bitcoin wallet credentials to a third-party server. Although tools may help detect some of these attacks, they cannot always be relied upon, which creates an entire community dependent upon each other’s diligence and willingness to share their findings.
+似地，开发人员可能决定承担包维护者的角色，通过将现有项目分叉并注册一个他们将继续维护的新项目，从而成为包维护者。一旦注册，其teaRank超过治理定义阈值的项目开始通过协议的贡献证明算法从tea协议获得奖励，与遗留分叉项目并行。随着开源社区从遗留项目转向更新的迭代，贡献证明算法将逐渐减少分配给遗留项目的奖励，同时增加分配给新分叉项目的奖励。
 
-We propose introducing incentives via the TEA token described in the "[TEA token](white-paper.md#tea-token)" section, to encourage open-source communities to report their findings constructively, so package maintainers can address them before they are exploited.
+必须为开发人员社区提供正确的工具，以确定哪些项目正在维护，以及它们过去和现在的维护者的声誉和工作质量。我们经常看到开源工作被篡改，许多人的努力被坏人破坏。尽管这些不良行为者的工作在很大程度上是被发现和补救的，但通常要等到经济或数据损失造成重大损害时才会发现。以每周下载超过 150 万次的[event-stream npm包](https://medium.com/intrinsic-blog/compromised-npm-package-event-stream-d47d08605502)为例，当黑客设法渗透到开源项目中，获得原作者的信任，并修改事件流，使其依赖于将比特币钱包凭证泄露到第三方服务器的恶意包时，超过1500个包依赖于此。尽管工具可以帮助检测这些攻击中的一些，但它们并不总是可靠的，这就创建了一个依赖于彼此的勤奋和分享发现的意愿的整个社区。
 
-#### Package Users and tea community members
+我们建议通过“[TEA token](white-paper.md#tea-token)”一节中描述的 TEA 代币引入激励措施，以鼓励开源社区建设性地报告他们的发现，以便软件包维护者可以在它们被利用之前解决它们。
 
-“Package users” are software developers focused on solving a specific problem. They often look in the open-source community for the tools they need to experiment quickly and iterate at little to no cost, directly benefiting from the work of package maintainers.
+#### 包的使用者和茶社区成员
 
-With more than 10 million packages accessible across the top 30 package managers, the absence of universal value attribution to open-source projects can transform the selection of secure and efficient packages for development into a high-risk and daunting endeavor. With no discernible means to attribute and measure value, how do package users efficiently select secure packages for their development?
+“包的使用者”是专注于解决特定问题的软件开发人员。他们经常在开源社区中寻找他们需要的工具，以快速实验和迭代，几乎没有成本，直接受益于包维护者的工作。
 
-We believe that the tea Protocol’s Proof of Contribution algorithm combined with other incentives can provide package users with the information they need to select the foundation of their own project quickly and thoughtfully.
+在前 30 个包管理器中有超过 1000 万个可访问的包，缺乏对开源项目的普遍价值归属可以将安全高效的开发包的选择转变为高风险和令人生畏的努力。由于没有可识别的方法来定义和度量价值，包用户如何有效地为他们的开发选择安全的包?
 
-#### Project Supporters
+我们相信，tea 协议的贡献证明算法与其他激励措施相结合，可以为包用户提供他们需要的信息，以便快速周到地选择自己项目的基础。
 
-In Web 2.0 and web3, a subset of package users, often called “sponsors”, has chosen to support package maintainers through donations or other forms of remuneration; however, this has rarely been the case.
+#### 项目的支持者
 
-These “project supporters” are organizations or open-source project users who use open-source software to build their commercial products, philanthropists looking to support the ecosystem, or entrepreneurs looking to fund teams to develop components of a larger system.
+在 Web 2.0 和 web3 中，软件包用户的一个子集，通常被称为“赞助者”，选择通过捐赠或其他形式的报酬来支持软件包维护者。然而，这种情况很少出现。
 
-tea proposes to extend the communities of open-source project supporters to the entire tea community, whether organizations, developers, users, or tech enthusiasts. tea’s goal is to implement decentralized incentive mechanisms through unique use cases of the TEA token for any member of the tea community to contribute to the perpetual sustainability and continuous growth of open-source. Project supporters are free to decide which projects or package maintainers they want to support based on their work, beliefs, or any criteria and metric that would influence their decision. Additionally, project supporters are free to decide how they want to support these projects.
+这些“项目支持者”是使用开源软件构建其商业产品的组织或开源项目用户，希望支持生态系统的慈善家，或者希望资助团队开发更大系统组件的企业家。
 
-Sponsorship can be an effective system to support open-source development; however, these sponsorships do not typically extend to all dependencies. This limitation benefits favorites and gets in the way of innovation and software building. To strive as the foundation of software development, open-source must empower all developers, whether beginners or experts, across all layers in the tower.
+Tea 建议将开源项目支持者社区扩展到整个茶社区，无论是组织、开发人员、用户还是技术爱好者。Tea 的目标是通过 TEA 代币的独特用例，为茶社区的任何成员实施去中心化激励机制，为开源的永久可持续性和持续增长做出贡献。项目支持者可以根据他们的工作、信念或任何影响他们决定的标准和度量来自由地决定他们想要支持哪个项目或包维护者。此外，项目支持者可以自由决定他们想要如何支持这些项目。
 
-To bolster the sustainability and integrity of the software supply chain and enable open-source developers to capture the value they create, tea aims to establish mechanisms where support benefits all aspects of a project. Support from backers will cascade through a project's dependencies, from the top to the base of the tree. This implicitly places trust in the package maintainer's ability to make informed choices about their stack, thus enhancing their reputation.
+赞助可以成为支持开源开发的有效系统。然而，这些赞助通常不会扩展到所有依赖项。这种限制有利于偏爱者，但阻碍了创新和软件构建。为了努力成为软件开发的基础，开源必须赋予所有开发人员权力，无论是初学者还是专家，跨越各个层次。
+
+为了支持软件供应链的可持续性和完整性，并使开源开发者能够获得他们创造的价值，tea 的目标是建立支持有利于项目所有方面的机制。来自支持者的支持将贯穿项目的依赖关系，从树的顶部到底部。这隐含地信任了包维护者对他们的堆栈做出明智选择的能力，从而提高了他们的声誉。
 
 <figure><img src=".gitbook/assets/figure-2.png" alt=""><figcaption><p>Figure 2 - Rewards distribution across dependencies</p></figcaption></figure>
 
-#### tea Tasters
+#### 品茶师
 
-As new projects or new versions of existing projects are released, the validity of the work needs to be provably demonstrated. This information is critical for package users to decide if they can trust the package and its maintainers. Within the tea Protocol, this function is provided by the “tea tasters”.
+当新项目或现有项目的新版本发布时，需要证明工作的有效性。这些信息对于包用户决定他们是否可以信任包及其维护者至关重要。在茶礼仪中，这个功能是由“品茶师”提供的。
 
-tea tasters, typically, are experienced software developers willing to dedicate some of their time to check the claims associated with a package (functionality, security, [semantic versioning](https://semver.org/), license accuracy, etc.) and stake both their reputation and TEA tokens to demonstrate the outcome of their research and support their reviews. In the tea Protocol, “staking your tea” is the process of locking TEA tokens to support your reviews, potentially earning rewards or facing penalties based on the consensus about the quality of your reviews. tea tasters also have the option to report bugs or vulnerabilities to package managers confidentially. Valid reports result in rewards from the project's treasury, while invalid reports lead to the forfeiture of the tea taster's stake. Lastly, if package maintainers ignore these reported issues, it triggers penalties, or “slashing”, for the project's treasury.
+品茶师通常是经验丰富的软件开发人员，他们愿意花一些时间来检查与包相关的声明(功能、安全性、[语义版本控制](https://semver.org/)、许可证准确性等)，并将他们的声誉和 tea 代币押在一起，以展示他们的研究结果并支持他们的评论。在茶协议中，“下注你的茶”是锁定 tea 代币以支持你的评论的过程，可能会获得奖励或面临基于对你的评论质量的共识的惩罚。品茶者还可以选择秘密地向包管理器报告错误或漏洞。有效的报告导致项目资金的奖励，而无效的报告导致品茶者的股份被没收。最后，如果包维护者忽略了这些报告的问题，它将触发对项目资金的惩罚或“削减”。
 
-Like project supporters, tea tasters can influence a project and package maintainer’s reputation; however, their impact is more significant given their role in validating a project’s security, functionality, and quality. tea tasters will also need to build their reputation to support their claims. The quality of their work and the TEA tokens they put at risk as they stake their reviews combined with other external data sources will build each tea taster’s reputation, bringing more value to their work. See the "[Package & Package Maintainer Reputation](white-paper.md#package-and-package-maintainer-reputation)" section for more details on the mechanisms used to influence a project and package maintainer’s reputation.
+像项目支持者一样，品茶师可以影响项目和包维护者的声誉。然而，考虑到它们在验证项目的安全性、功能和质量方面的作用，它们的影响更为重要。品茶师也需要建立自己的声誉来支持他们的主张。他们的工作质量和他们所冒的风险，因为他们将他们的评论与其他外部数据源相结合，将建立每个品茶者的声誉，为他们的工作带来更多价值。请参阅“[Package & Package维护者声誉](white-paper.md#package-and-package-maintainer-reputation)”一节，了解用于影响项目和包维护者声誉的机制的更多细节。
 
-### Project Registration and Proof of Contribution Rewards
+### 项目注册和贡献奖励证明
 
-The registration of a project release requires multiple transactions to occur atomically. Specifically:
+一个项目发布的注册需要多个事务自动发生。具体地说:
 
-* The package maintainer must register the project with the decentralized registry,
-* The tea Protocol must instantiate a project treasury owned, controlled, and configured by the package maintainers according to the rules defined by the package maintainers, and
-* The tea Protocol must register the treasury’s unique name with the Ethereum Naming Service, or ENS, thus simplifying all user interactions with the treasury.
+* 包维护者必须在去中心化注册中心注册项目。
+* tea 协议必须实例化一个由包维护者根据包维护者定义的规则拥有、控制和配置的项目库。
+* tea 协议必须在以太坊命名服务(ENS)中注册国库的唯一名称，从而简化用户与国库的所有交互。
 
 Failure of any one of the operations will result in the protocol reverting to its previous state.
 
