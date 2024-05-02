@@ -164,8 +164,8 @@ Like project supporters, tea tasters can influence a project and package maintai
 
 The registration of a project release requires multiple transactions to occur atomically. Specifically:
 
-* The package maintainer must register the project with the decentralized registry,
-* The tea Protocol must instantiate a project treasury owned, controlled, and configured by the package maintainers according to the rules defined by the package maintainers, and
+* The package maintainer must register the project with the decentralized registry.
+* The tea Protocol must instantiate a project treasury owned, controlled, and configured by the package maintainers according to the rules defined by the package maintainers.
 * The tea Protocol must register the treasury’s unique name with the Ethereum Naming Service, or ENS, thus simplifying all user interactions with the treasury.
 
 Failure of any one of the operations will result in the protocol reverting to its previous state.
