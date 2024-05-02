@@ -6,17 +6,17 @@
 
 ## 一个去中心化的协议，让开源开发者捕捉他们创造的价值
 
-* Max Howell
-* Thomas Borrel
-* Timothy Lewis
-* Troy Wong
+- Max Howell
+- Thomas Borrel
+- Timothy Lewis
+- Troy Wong
 
 ## 摘要
 
 一个开源开发者可以根据其贡献获得相应奖励的系统将提高软件供应链的可持续性和完整性。
 通过制定一项权力下放计划，结合名誉和激励措施，可以促进累积价值回报等开源开发者对未来公共效益数据库的维护，从而推动创新和增长开源生态系统内部。
 包维护者将注册他们的项目到一个由容忍拜占庭式错误的区块链驱动注册表中。该协议采用独特的“贡献测试”算法来确定每个项目对系统可用性和健康状态的贡献与影响。
-登记领取赏金项目协议TEA适配于相应贡献，并通过stake投保者、受益声誉系统等项目选择使社区治理开源生态系统地域化，无论外部议程如何。
+登记领取赏金项目协议 TEA 适配于相应贡献，并通过 stake 投保者、受益声誉系统等项目选择使社区治理开源生态系统地域化，无论外部议程如何。
 该协议鼓励参与者维护开源，并允许注册项目并遵守网络规则以获取奖励，并为自身及所属项目建立声誉做出贡献。
 如果发现安全或开发问题，开发人员可能会针对该包提出有证据支持的声明，并可能引起斜杠事件。
 成员可以检查包装品质问题，协议可通过执行相应斜杠事件来响应这些检查。
@@ -33,18 +33,16 @@
 
 ## 前言
 
-现代互联网主要由开源项目构建，这一情况从一开始就存在。开源项目通过全球开发者社区的协作开发和维护，其源代码库被作为公共产品可供任何人使用。在过去80年中（被普遍认为是自由和开放源码软件的先驱，始于1953年），创新精神已经将开源软件从利基技术爱好者转变为广泛应用的基础设施。尽管开源软件至关重要，但那些创建和维护源代码库作为公共服务的开发者并没有因其作为创新者和维护者所做出的巨大贡献而获得相应奖励。
+现代互联网主要由开源项目构建，这一情况从一开始就存在。开源项目通过全球开发者社区的协作开发和维护，其源代码库被作为公共产品可供任何人使用。在过去 80 年中（被普遍认为是自由和开放源码软件的先驱，始于 1953 年），创新精神已经将开源软件从利基技术爱好者转变为广泛应用的基础设施。尽管开源软件至关重要，但那些创建和维护源代码库作为公共服务的开发者并没有因其作为创新者和维护者所做出的巨大贡献而获得相应奖励。
 
 企业软件已经成为一个价值数十亿美元的产业，它是建立在开源基础之上的。然而，对于无私地维护自身基础设施的个人来说，几乎没有任何价值积累。尽管开源软件已经创造了巨额利润，但其主要作为一种公共服务被创建和维护，并且缺乏可行的方式让开发人员捕获他们所创造的价值。
 
 我们认为，仅依靠世界上一小部分工程师出于利他主义而维持开源软件，限制了现代互联网的潜力。开源是一项充满热情的工作，但常因缺乏对主要维护者的重大激励而受到阻碍。开源开发人员必须在提供体面薪酬的日常工作和维护企业软件之间做出选择。缺乏激励将导致真正有价值的项目无法实现其潜力，同时其他项目也会因在软件生命周期中缺乏维护而遭受安全问题。为了充分发挥整个开源社区的潜力，我们需要一种全民参与评估项目“公平价值”的方法，并确保开源开发者能够捕获创造价值并促进资本流入该社区的基本原则不改变如何发展和使用开源。
 
+公司常采用开源商业模式，直接从善意开发人员的工作中获得收入，并依赖他们在出现错误时进行纠正。开放源码库为企业提供即插即用的核心功能；然而，软件漏洞可能给基于开源构建的应用程序带来巨大风险。一个很好的例子是最近发生的涉及 Log4j 的重大安全漏洞的事件，Log4j 是一个来自 [Apache 软件基金会](https://www.apache.org/) 的包，在企业和政府使用的许多商业软件和服务中都发现了它。2021 年 11 月，一名为[阿里巴巴集团控股有限公司](https://www.alibabagroup.com/)工作的安全研究员报告了一个漏洞[CVE-2021-44228](https://nvd.nist.gov/vuln/detail/CVE-2021-44228)，该漏洞获得了 Apache 软件基金会可能的最高分。 [Tenable](https://www.tenable.com/) 首席执行官兼美国计算机应急响应小组(US-CERT)创始主任阿米特·约兰(Amit Yoran)将此漏洞描述为“[过去十年中最大、最关键的一个漏洞](https://www.reuters.com/article/usa-cyber-vulnerability-idCNL1N2SY2PA)”。
+恐慌随之而来，维护这一方案的少数志愿者因失败而受到公开抨击。在以谦逊的公平请求解决了愤怒之后，系统得到了修补。企业和政府最终意识到，Log4j 这个被广泛的关键系统使用了 20 年的软件包，是由一些没有报酬的志愿者维护的，这些无名英雄不顾[行业的滥用](https://twitter.com/yazicivo/status/1469349956880408583)挺身而出，不知疲倦地努力解决漏洞。
 
-
-公司常采用开源商业模式，直接从善意开发人员的工作中获得收入，并依赖他们在出现错误时进行纠正。开放源码库为企业提供即插即用的核心功能；然而，软件漏洞可能给基于开源构建的应用程序带来巨大风险。一个很好的例子是最近发生的涉及Log4j的重大安全漏洞的事件，Log4j是一个来自 [Apache软件基金会](https://www.apache.org/) 的包，在企业和政府使用的许多商业软件和服务中都发现了它。2021年11月，一名为[阿里巴巴集团控股有限公司](https://www.alibabagroup.com/)工作的安全研究员报告了一个漏洞[CVE-2021-44228](https://nvd.nist.gov/vuln/detail/CVE-2021-44228)，该漏洞获得了Apache软件基金会可能的最高分。 [Tenable](https://www.tenable.com/) 首席执行官兼美国计算机应急响应小组(US-CERT)创始主任阿米特·约兰(Amit Yoran)将此漏洞描述为“[过去十年中最大、最关键的一个漏洞](https://www.reuters.com/article/usa-cyber-vulnerability-idCNL1N2SY2PA)”。
-恐慌随之而来，维护这一方案的少数志愿者因失败而受到公开抨击。在以谦逊的公平请求解决了愤怒之后，系统得到了修补。企业和政府最终意识到，Log4j这个被广泛的关键系统使用了20年的软件包，是由一些没有报酬的志愿者维护的，这些无名英雄不顾[行业的滥用](https://twitter.com/yazicivo/status/1469349956880408583)挺身而出，不知疲倦地努力解决漏洞。
-
-遗憾的是，Log4j远不是唯一的例子。core-js作为每个Node.js应用程序的基础，每周下载量为3000万次，但它也几乎没有资金，这可能迫使它的主要维护者离开项目，甚至将[许可证更改为闭源](https://www.thestack.technology/core-js-maintainer-denis-pusharev-license-broke-angry/)。最近，几名比特币核心开发者辞职，理由之一是他们的决定得不到经济补偿。
+遗憾的是，Log4j 远不是唯一的例子。core-js 作为每个 Node.js 应用程序的基础，每周下载量为 3000 万次，但它也几乎没有资金，这可能迫使它的主要维护者离开项目，甚至将[许可证更改为闭源](https://www.thestack.technology/core-js-maintainer-denis-pusharev-license-broke-angry/)。最近，几名比特币核心开发者辞职，理由之一是他们的决定得不到经济补偿。
 
 <figure><img src=".gitbook/assets/xkcd-dependency (1).png" alt=""><figcaption><p>Figura 1 - Dependencia - Fuente:<a href="https://xkcd.com/2347/">https://xkcd.com/2347/</a></p></figcaption></figure>
 
@@ -79,20 +77,19 @@
 
 每个包管理器都有自己的包注册表，重复复制相同的元数据。在某些情况下，该注册表可能包含[与项目清单不同的信息](https://www.bleepingcomputer.com/news/security/npm-ecosystem-at-risk-from-manifest-confusion-attacks/)，从而允许不良行为者在用户不知情的情况下潜在地注入恶意代码。现在是时候有一个单一的、全面的、明确的登记处，由依赖它的社区设计和管理。这种分散的、不可变的注册表可以提供安全性、稳定性和防止恶意意图。
 
-互联网运行在成千上万个重要的开源组件上。值得注意的是，到目前为止，由于移除重要的开源基础设施而引起的事件已经很少了。最著名的是在2016年[删除了NPM的左键依赖](https://www.theregister.com/2016/03/23/npm\_left\_pad\_chaos/)，它会导致持续集成和持续部署系统，让开发人员陷入困境。这一事件表明，互联网本身是建立在脆弱的发展系统之上的。其他例子包括包维护者主动或故意参与破坏他们的流行包(参见[colors.js和fakers .js](https://fossa.com/blog/npm-packages-colors-faker-corrupted/)，以及 [node-ipc](https://www.lunasec.io/docs/blog/node-ipc-protestware/))，或者恶意行为者通过假装帮助维护包并破坏它们来窃取，例如，比特币私钥(参见[event-stream](https://github.com/dominictarr/event-stream/issues/116))，或者故意拼写错误的恶意包，也称为“[typposquatting](https://en.wikipedia.org/wiki/Typosquatting)”，希望欺骗用户安装它们。例如[跨环境与跨环境的NPM包](https://blog.npmjs.org/post/163723642530/crossenv-malware-on-the-npm-registry.html)。
+互联网运行在成千上万个重要的开源组件上。值得注意的是，到目前为止，由于移除重要的开源基础设施而引起的事件已经很少了。最著名的是在 2016 年[删除了 NPM 的左键依赖](https://www.theregister.com/2016/03/23/npm_left_pad_chaos/)，它会导致持续集成和持续部署系统，让开发人员陷入困境。这一事件表明，互联网本身是建立在脆弱的发展系统之上的。其他例子包括包维护者主动或故意参与破坏他们的流行包(参见[colors.js 和 fakers .js](https://fossa.com/blog/npm-packages-colors-faker-corrupted/)，以及 [node-ipc](https://www.lunasec.io/docs/blog/node-ipc-protestware/))，或者恶意行为者通过假装帮助维护包并破坏它们来窃取，例如，比特币私钥(参见[event-stream](https://github.com/dominictarr/event-stream/issues/116))，或者故意拼写错误的恶意包，也称为“[typposquatting](https://en.wikipedia.org/wiki/Typosquatting)”，希望欺骗用户安装它们。例如[跨环境与跨环境的 NPM 包](https://blog.npmjs.org/post/163723642530/crossenv-malware-on-the-npm-registry.html)。
 
 随着行业朝着数字资产成为软件一部分的未来发展，软件的完整性需要得到保证。我们不能继续让自己容易受到恶意行为者修改软件的攻击。
 
-我们称为包管理器的大多数工具不能保证这些内置于应用程序和dapp中的包是由其原作者发布的未经修改的开源代码。[微软的 GitHub 发现软件中有 17% 的漏洞是出于恶意目的而植入的](https://www.zdnet.com/article/open-source-software-how-many-bugs-are-hidden-there-on-purpose/)，有些漏洞在很长一段时间内未被发现(参见[Webmin 1.890](https://threatpost.com/backdoor-found-in-utility-for-linux/147581/))。
+我们称为包管理器的大多数工具不能保证这些内置于应用程序和 dapp 中的包是由其原作者发布的未经修改的开源代码。[微软的 GitHub 发现软件中有 17% 的漏洞是出于恶意目的而植入的](https://www.zdnet.com/article/open-source-software-how-many-bugs-are-hidden-there-on-purpose/)，有些漏洞在很长一段时间内未被发现(参见[Webmin 1.890](https://threatpost.com/backdoor-found-in-utility-for-linux/147581/))。
 
 一个由声誉系统增强的全球去中心化注册，并由旨在揭露坏人和奖励好人的激励机制支持，可能会为开发人员社区提供一直在寻找的保证，以确保软件供应链的安全。
 
 ### 存储系统
 
-开源项目提供了广泛的功能，其中一些可能是受限的或不需要的。加密就是一个很好的例子。加密的一个关键用例是支持全球范围内的个人隐私。然而，加密也可以用于邪恶目的(参见[幻影安全](https://www.fbi.gov/news/stories/phantom-secure-takedown-031618)，执法机构于2018年3月拆除)或可能被破坏以支持执法活动(参见[运行Ironside(法新社)，运行绿光(欧洲刑警组织)和运行特洛伊盾(FBI)](https://www.europol.europa.eu/media-press/newsroom/news/800-criminals-arrested-in-biggest-ever-law-enforcement-operation-against-encrypted-communication)，其中FBI操作“加密”通信平台AN0M，并说服犯罪分子使用“加密”手机进行安全通信)。
+开源项目提供了广泛的功能，其中一些可能是受限的或不需要的。加密就是一个很好的例子。加密的一个关键用例是支持全球范围内的个人隐私。然而，加密也可以用于邪恶目的(参见[幻影安全](https://www.fbi.gov/news/stories/phantom-secure-takedown-031618)，执法机构于 2018 年 3 月拆除)或可能被破坏以支持执法活动(参见[运行 Ironside(法新社)，运行绿光(欧洲刑警组织)和运行特洛伊盾(FBI)](https://www.europol.europa.eu/media-press/newsroom/news/800-criminals-arrested-in-biggest-ever-law-enforcement-operation-against-encrypted-communication)，其中 FBI 操作“加密”通信平台 AN0M，并说服犯罪分子使用“加密”手机进行安全通信)。
 
 加密的广泛应用使其成为开源软件的完美用例，也是一个很好的例子，说明任何存储软件包的解决方案都必须是防篡改和抗审查的。Tea 是一个去中心化的协议，它不打算根据包的功能来过滤或制裁包。虽然 tea 治理可以选择删除经过验证的恶意包(有关更多信息，请参阅[治理部分](white-paper.md#governance))，但对于 tea 系统来说，连接多个存储系统是至关重要的，包括证明包未被更改并正确复制的分散存储系统。包维护者可以选择最适合他们安全存储和分发包的存储系统。
-
 
 ## 协议概述
 
@@ -114,7 +111,7 @@
 
 我们相信，这种方法有利于远离应用层的基础软件(应用层往往是公众最可见的层，吸引了大部分的兴趣)，并扩展了奖励机制，以确保项目的所有组件——从树的顶部，一直到它的基础——都因他们的贡献而得到奖励。
 
-为了计算每个项目的分数，teaRank 建立在[Google的PageRank](https://en.wikipedia.org/wiki/PageRank)算法奠定的基础上。谷歌的 PageRank 是搜索产品的定义组件，建立在网页的图形结构上。PageRank 的核心是一种概率分布算法，它将分数分配给图中的节点，表示任何随机导航到图中特定节点的可能性。这种算法在类似图的数据结构中特别有效，比如互联网，因为它根据边(链接)的数量和质量来量化每个节点(或网页)的影响。随着时间的推移，该算法被修改，以更好地识别网络的拓扑结构，并识别网页之间的欺诈链接，从而减轻各种攻击。
+为了计算每个项目的分数，teaRank 建立在[Google 的 PageRank](https://en.wikipedia.org/wiki/PageRank)算法奠定的基础上。谷歌的 PageRank 是搜索产品的定义组件，建立在网页的图形结构上。PageRank 的核心是一种概率分布算法，它将分数分配给图中的节点，表示任何随机导航到图中特定节点的可能性。这种算法在类似图的数据结构中特别有效，比如互联网，因为它根据边(链接)的数量和质量来量化每个节点(或网页)的影响。随着时间的推移，该算法被修改，以更好地识别网络的拓扑结构，并识别网页之间的欺诈链接，从而减轻各种攻击。
 
 由于互联网的图形结构和茶协议的去中心化注册表有着惊人的相似之处，PageRank 最初似乎是一种很有前途的分析方法。然而，经过进一步的实验，PageRank 的反垃圾邮件策略显然在应用于开源时效果不佳。
 
@@ -134,9 +131,9 @@ Tea 假设包创建者维护他们的工作。在本白皮书中，我们将把�
 
 软件包维护者必须确保他们的软件随着行业的发展而不断地交付越来越多的价值。他们是开源社区的支柱，他们的持续贡献需要得到授权和奖励。然而，包维护者可能决定停止他们的维护工作，或者意识到他们不能以符合项目用户期望的速度运行。为了确保连续性，他们必须有能力将项目的控制权转移给另一个开发人员或开发人员组，从而任命他们为维护者，并授予他们对与项目相关的现有和未来奖励的所有权和控制权。
 
-似地，开发人员可能决定承担包维护者的角色，通过将现有项目分叉并注册一个他们将继续维护的新项目，从而成为包维护者。一旦注册，其teaRank超过治理定义阈值的项目开始通过协议的贡献证明算法从tea协议获得奖励，与遗留分叉项目并行。随着开源社区从遗留项目转向更新的迭代，贡献证明算法将逐渐减少分配给遗留项目的奖励，同时增加分配给新分叉项目的奖励。
+似地，开发人员可能决定承担包维护者的角色，通过将现有项目分叉并注册一个他们将继续维护的新项目，从而成为包维护者。一旦注册，其 teaRank 超过治理定义阈值的项目开始通过协议的贡献证明算法从 tea 协议获得奖励，与遗留分叉项目并行。随着开源社区从遗留项目转向更新的迭代，贡献证明算法将逐渐减少分配给遗留项目的奖励，同时增加分配给新分叉项目的奖励。
 
-必须为开发人员社区提供正确的工具，以确定哪些项目正在维护，以及它们过去和现在的维护者的声誉和工作质量。我们经常看到开源工作被篡改，许多人的努力被坏人破坏。尽管这些不良行为者的工作在很大程度上是被发现和补救的，但通常要等到经济或数据损失造成重大损害时才会发现。以每周下载超过 150 万次的[event-stream npm包](https://medium.com/intrinsic-blog/compromised-npm-package-event-stream-d47d08605502)为例，当黑客设法渗透到开源项目中，获得原作者的信任，并修改事件流，使其依赖于将比特币钱包凭证泄露到第三方服务器的恶意包时，超过1500个包依赖于此。尽管工具可以帮助检测这些攻击中的一些，但它们并不总是可靠的，这就创建了一个依赖于彼此的勤奋和分享发现的意愿的整个社区。
+必须为开发人员社区提供正确的工具，以确定哪些项目正在维护，以及它们过去和现在的维护者的声誉和工作质量。我们经常看到开源工作被篡改，许多人的努力被坏人破坏。尽管这些不良行为者的工作在很大程度上是被发现和补救的，但通常要等到经济或数据损失造成重大损害时才会发现。以每周下载超过 150 万次的[event-stream npm 包](https://medium.com/intrinsic-blog/compromised-npm-package-event-stream-d47d08605502)为例，当黑客设法渗透到开源项目中，获得原作者的信任，并修改事件流，使其依赖于将比特币钱包凭证泄露到第三方服务器的恶意包时，超过 1500 个包依赖于此。尽管工具可以帮助检测这些攻击中的一些，但它们并不总是可靠的，这就创建了一个依赖于彼此的勤奋和分享发现的意愿的整个社区。
 
 我们建议通过“[TEA token](white-paper.md#tea-token)”一节中描述的 TEA 代币引入激励措施，以鼓励开源社区建设性地报告他们的发现，以便软件包维护者可以在它们被利用之前解决它们。
 
@@ -168,202 +165,202 @@ Tea 建议将开源项目支持者社区扩展到整个茶社区，无论是组�
 
 品茶师通常是经验丰富的软件开发人员，他们愿意花一些时间来检查与包相关的声明(功能、安全性、[语义版本控制](https://semver.org/)、许可证准确性等)，并将他们的声誉和 tea 代币押在一起，以展示他们的研究结果并支持他们的评论。在茶协议中，“下注你的茶”是锁定 tea 代币以支持你的评论的过程，可能会获得奖励或面临基于对你的评论质量的共识的惩罚。品茶者还可以选择秘密地向包管理器报告错误或漏洞。有效的报告导致项目资金的奖励，而无效的报告导致品茶者的股份被没收。最后，如果包维护者忽略了这些报告的问题，它将触发对项目资金的惩罚或“削减”。
 
-像项目支持者一样，品茶师可以影响项目和包维护者的声誉。然而，考虑到它们在验证项目的安全性、功能和质量方面的作用，它们的影响更为重要。品茶师也需要建立自己的声誉来支持他们的主张。他们的工作质量和他们所冒的风险，因为他们将他们的评论与其他外部数据源相结合，将建立每个品茶者的声誉，为他们的工作带来更多价值。请参阅“[Package & Package维护者声誉](white-paper.md#package-and-package-maintainer-reputation)”一节，了解用于影响项目和包维护者声誉的机制的更多细节。
+像项目支持者一样，品茶师可以影响项目和包维护者的声誉。然而，考虑到它们在验证项目的安全性、功能和质量方面的作用，它们的影响更为重要。品茶师也需要建立自己的声誉来支持他们的主张。他们的工作质量和他们所冒的风险，因为他们将他们的评论与其他外部数据源相结合，将建立每个品茶者的声誉，为他们的工作带来更多价值。请参阅“[Package & Package 维护者声誉](white-paper.md#%E5%8C%85%26%E5%8C%85%E7%BB%B4%E6%8A%A4%E8%80%85%E7%9A%84%E5%A3%B0%E8%AA%89)”一节，了解用于影响项目和包维护者声誉的机制的更多细节。
 
 ### 项目注册和贡献奖励证明
 
 一个项目发布的注册需要多个事务自动发生。具体地说:
 
-* 包维护者必须在去中心化注册中心注册项目。
-* tea 协议必须实例化一个由包维护者根据包维护者定义的规则拥有、控制和配置的项目库。
-* tea 协议必须在以太坊命名服务(ENS)中注册国库的唯一名称，从而简化用户与国库的所有交互。
+- 包维护者必须在去中心化注册中心注册项目。
+- tea 协议必须实例化一个由包维护者根据包维护者定义的规则拥有、控制和配置的项目库。
+- tea 协议必须在以太坊命名服务(ENS)中注册国库的唯一名称，从而简化用户与国库的所有交互。
 
-Failure of any one of the operations will result in the protocol reverting to its previous state.
+任何一个操作的失败都将导致协议恢复到之前的状态。
 
-Upon successful registration of a project with a teaRank surpassing a governance-defined threshold, the tea Protocol initiates the distribution of Proof of Contribution rewards to the project's treasury. We suggest distributing these rewards following a predetermined curve from a predefined pool of tokens controlled by the tea Protocol and allocated from the TEA tokens total supply.
+当一个项目成功注册到一个超过治理定义阈值的 teaRank 时，tea 协 议启动向项目库分配贡献证明奖励。我们建议按照由 tea 协议控制的预定义代币池中的预定曲线分配这些奖励，并从 tea 代币总供应量中分配。
 
-Package maintainers are required to bolster their project's reputation and trustworthiness by consistently staking a portion of the Proof of Contribution rewards received by the project's treasury. For each token staked, network participants will receive a non-transferrable “staked TEA”, or stTEA, at a 1:1 ratio, to participate in the governance of the tea Protocol. In line with the protocol's rules, these staked rewards, and their corresponding stTEA, may be subject to reduction (“slashing”) or redistribution if package maintainers fail to address bugs or vulnerabilities.
+软件包维护者需要通过持续地将项目资金库收到的贡献证明奖励的一部分作为赌注来支持其项目的声誉和可信度。对于每个代币，网络参与者将以 1:1 的比例获得不可转让的“有价值的 TEA”或 stTEA，以参与茶叶协议的治理。根据协议的规则，如果包维护者未能解决错误或漏洞，这些赌注奖励及其相应的 stTEA 可能会减少(“削减”)或重新分配。
 
-Lastly, failure to maintain the minimum staked treasury ratio defined in the governance rules will result in the suspension of Proof of Contribution reward distribution to the project. Instead, these rewards will be redistributed among compliant projects.
+最后，未能保持治理规则中定义的最小股权资金比率将导致项目的贡献证明奖励分配暂停。相反，这些奖励将在符合要求的项目中重新分配。
 
-### Package & Package Maintainer Reputation
+### 包&包维护者的声誉
 
-A reputation system that relies solely on the author’s economic contribution does not provide sufficient user protection and can be subject to Sybil attacks, where a single individual creates multiple representations of themselves to leave a large volume of positive reviews on their work, tricking users into believing their work was reviewed and approved of by many.
+仅依赖于作者经济贡献的声誉系统不能提供足够的用户保护，并且可能受到 Sybil 攻击，即单个人创建自己的多个表示，以留下大量对其工作的积极评论，欺骗用户相信他们的工作得到了许多人的审查和批准。
 
-Several methodologies are available to prevent Sybil attacks, some of which are described by Nitish Balachandran and Sugata Sanyal in “[A Review of Techniques to Mitigate Sybil Attacks](https://arxiv.org/abs/1207.2617/)”. As tea is a decentralized protocol, using a trust certification system that relies on a centralized certificate issuance authority would be contrary to its core. We propose to focus on decentralized approaches to Sybil attack mitigation and, more specifically, on methodologies that rely on a large group of network participants incentivized to assess and publicly represent the reputation of each package and its maintainer.
+有几种方法可用于防止 Sybil 攻击，其中一些方法由 Nitish Balachandran 和 Sugata Sanyal 在“[缓解 Sybil 攻击的技术回顾](https://arxiv.org/abs/1207.2617/)”中描述。由于 tea 是一个去中心化的协议，使用依赖于中心化证书颁发机构的信任认证系统将违背其核心。我们建议将重点放在分散的 Sybil 攻击缓解方法上，更具体地说，是依赖于一大批网络参与者来评估和公开代表每个包及其维护者的声誉的方法。
 
-Similar to the production of blocks on a proof-of-stake blockchain, where non-producing nodes can validate the work of others and, when necessary, highlight a violation of the rules of the network, leading to a penalization of the bad actor through slashing (destruction of a portion of their stake), we propose a system whereby third-parties, such as tea tasters, would be able to review packages produced by package maintainers and be incentivized to behave in the best interest of the open-source software community and its users, as well as recognize good behavior and penalize bad behavior. This system must be both Sybil-resistant and prevent large token holders from materially influencing the protocol or the reputation of specific packages. We believe this approach to be more aligned with open-source, providing a more fertile substrate to foster adoption and trust, and ultimately facilitate the growth of tea.
+类似于权益证明区块链上的区块生产，非生产节点可以验证其他人的工作，并在必要时突出违反网络规则的行为，从而通过削减(破坏其部分股权)来惩罚不良行为者，我们提出了一个系统，其中第三方，如品茶师，能够审查由软件包维护者制作的软件包，并被激励为开源软件社区及其用户的最佳利益行事，以及识别好的行为和惩罚坏的行为。该系统必须既能抵抗 sybil，又能防止大型代币持有者对协议或特定包的声誉产生实质性影响。我们相信这种方法更符合开源，提供了一个更肥沃的基础来促进采用和信任，并最终促进茶的发展。
 
-Additionally, as the reputation of any member of the tea community reaches key milestones, they may be granted access to elevated parts of the protocol.
+此外，当茶社区的任何成员的声誉达到关键里程碑时，他们可能被授予访问协议的提升部分。
 
-### Package Review by Third Parties
+### 第三方审核包
 
-The review of packages by third parties is an essential component of reputation building and the security of the software supply chain. However, third-party reviews come with their own set of unique threats including the aforementioned Sybil attacks.
+第三方对软件包的审查是建立声誉和确保软件供应链安全的重要组成部分。然而，第三方审查也有自己的一套独特的威胁，包括前面提到的 Sybil 攻击。
 
-Blockchain technology, and more explicitly staking, offers a unique opportunity for tea to tackle this challenge. Although wallet addresses may be available in infinite quantities, this is not the case with TEA tokens, whose total supply is expected to be 10 billion. Additionally, each action performed by developers, such as submitting, verifying, or staking packages, will contribute to their reputation, thus creating a unique profile each developer can use to both contribute to the tea community and participate in tea’s governance.
+区块链技术，以及更明确的赌注，为茶叶解决这一挑战提供了一个独特的机会。虽然钱包地址可能无限多，但 TEA 代币并非如此，其总供应量预计为 100 亿。此外，开发人员执行的每个操作，例如提交、验证或打包包，都将有助于他们的声誉，从而创建一个独特的配置文件，每个开发人员都可以使用它来为茶社区做出贡献并参与茶的治理。
 
-By requiring third-party reviewers to stake TEA tokens and incur the risk of losing a portion of their stake should they turn out to behave against the interest of the network or be a bad actor, third parties can provide additional credence to a package and receive a reward, in the form of TEA tokens.
+通过要求第三方审查员持有 TEA 代币，并承担失去部分股权的风险，如果他们的行为违背了网络的利益或成为一个不良行为者，第三方可以为一个包提供额外的凭证，并以 TEA 代币的形式获得奖励。
 
-We also propose extending the reputation system to the third parties who perform the independent verification of packages—the tea tasters. The completion of a positive review will require two operations to occur atomically:
+我们还建议将信誉系统扩展到对包装进行独立验证的第三方——品茶师。完成一个积极的审查将需要自动执行两个操作:
 
-* The submission of the code review, signed by the tea taster and publicly accessible to all members of the community, along with
-* The act of staking the package, to substantiate their review.
+- 提交代码审查，由品茶师签名，并向社区的所有成员公开访问。
+- 用木桩固定包裹的行为，以证实他们的审查。
 
-The completion of a negative review that includes one or more critical vulnerabilities will require the tea tasters to first contact the package maintainer using a messaging protocol to notify them of the vulnerability and allow them to address the issue in a timely fashion. Upon expiry of the governance-defined period allocated to the package maintainer to address their vulnerability or as the corrected package becomes available, the same messaging protocol will be used to notify users and testers of this package (including dependents) that a vulnerability has been identified, and hopefully addressed, so they know to update their application or dependencies. To disincentivize wasting developers’ time, communication between the tea tasters and package maintainers will require the tea tasters to stake TEA tokens.
+完成包含一个或多个关键漏洞的负面审查将要求品茶师首先使用消息传递协议与包维护者联系，通知他们存在漏洞，并允许他们及时解决问题。在分配给包维护者以解决其漏洞的治理定义的期限到期时，或者当纠正的包变得可用时，将使用相同的消息传递协议来通知该包(包括依赖项)的用户和测试人员，漏洞已经被识别出来，并且有希望得到解决，因此他们知道更新他们的应用程序或依赖项。为了防止浪费开发人员的时间，品茶员和包维护者之间的通信将要求品茶师下注 tea 令牌。
 
-Upon completing both operations, the tea tasters will receive an NFT as evidence of their work on the specific package and package version. The accumulation of NFTs combined with the staking ratio of each of the packages reviewed and information extracted from external systems will inform a tea taster’s reputation. As their reputation reaches key milestones, tea tasters may earn access to elevated parts of the protocol or accelerated rewards from the protocol, as decided by the tea governance.
+在完成这两项操作后，品茶师将收到一份 NFT，作为他们在特定包装和包装版本上工作的证据。NFT 的积累，加上每个包装的比例和从外部系统中提取的信息，将告知品茶者的声誉。当他们的声誉达到关键里程碑时，品茶者可以获得协议的提升部分或协议的加速奖励，这由茶治理决定。
 
-### Outdated or Corrupt Packages
+### 过期或损坏的软件包
 
-tea’s mission is to enhance the sustainability and integrity of the software supply chain by allowing open-source developers to capture the value they create; however, rewards must be commensurate with the efforts deployed by package maintainers and tea tasters. Under-maintained, outdated, or corrupted packages are clear indications of package maintainers not living up to the community’s expectations or not delivering on the trust and support impressed upon them through the staking of packages. Another manifestation of outdated packages may be the continued use of a legacy language or legacy version of multi-version languages. Packages remaining outdated or corrupt for too long indicate that tea tasters need to review package maintainers’ work regularly and consistently.
+Tea 的使命是通过允许开源开发者获取他们创造的价值来增强软件供应链的可持续性和完整性。然而，回报必须与包装维护人员和品茶者所付出的努力相称。维护不足、过时或损坏的包清楚地表明，包维护者没有达到社区的期望，或者没有交付信任和支持，这些都是通过包的担保给他们留下的印象。过时软件包的另一种表现形式可能是继续使用遗留语言或多版本语言的遗留版本。包过期或损坏的时间太长表明品茶师需要定期和一致地检查包维护者的工作。
 
-tea tasters play a pivotal role in open-source communities, as their reviews and associated claims can influence package users, either guiding them towards or away from specific packages. To ensure that reviews can be trusted on an ongoing basis, we propose a mechanism whereby reviews posted by tea tasters must be associated with staked TEA tokens. Outdated or corrupted packages may see a portion of their treasury slashed, while another portion is sent to the tea taster who first recognized the lack of maintenance of any package.
+品茶师在开源社区中扮演着关键的角色，因为他们的评论和相关声明可以影响包用户，引导他们使用或远离特定的包。为了确保评论能够持续可信，我们提出了一种机制，即品茶者发布的评论必须与有赌注的 tea 代币相关联。过时或损坏的包装可能会被削减一部分资金，而另一部分则被送到第一个发现任何包装缺乏维护的品茶师那里。
 
-As packages gain in popularity and usage, with more applications and potentially mission-critical systems depending on them, we must incentivize developers to discreetly report flaws to the package maintainer and encourage package maintainers to address such flaws before they can be exploited. Consequently, we propose that any negative review which outlines a flaw such as a zero-day vulnerability or the use of an outdated dependency and remains open beyond a grace period defined by governance should be considered a failure on the part of the package maintainer and be subject to the same penalties with the first tea taster to report the flaw receiving a portion of the slashed tokens.
+随着包的流行和使用，越来越多的应用程序和潜在的关键任务系统依赖于它们，我们必须激励开发人员谨慎地向包维护者报告缺陷，并鼓励包维护者在漏洞被利用之前解决这些缺陷。因此，我们建议，任何概述缺陷(如零日漏洞或使用过时依赖项)并在治理定义的宽限期之外保持开放的负面审查都应被视为包维护者的失败，并受到与第一个品茶师相同的惩罚，以报告收到部分削减代币的缺陷。
 
-The same can be said for package supporters who staked their reputation and TEA tokens on the work of delinquent package maintainers and received rewards for it. As they failed to identify the lack of maintenance or elected to continue to support the package regardless, we propose that all slashing activities extend to the supporters of the package.
+同样的道理也适用于包的支持者，他们把自己的声誉和 TEA 代币押在了拖欠的包维护者的工作上，并因此获得了奖励。由于他们没有发现缺乏维护或选择继续支持一揽子计划，我们建议所有削减活动都延伸到一揽子计划的支持者。
 
-Distribution to all tea tasters could be based on the age of their review and the number of TEA tokens they staked for their review.
+分发给所有品茶师可以基于他们评论的年龄和他们为他们的评论下注的 tea 代币的数量。
 
-## TEA Token
+## TEA 代币
 
-TEA is a cryptographic token which serves as the access key to certain parts and designated features of the tea Protocol.
+TEA 是一个加密代币，作为 TEA 协议某些部分和指定功能的访问密钥。
 
-Holders of TEA token have the ability to:
+TEA 代币的持有者有能力:
 
-* Register their packages;
-* Support packages by staking TEA tokens to specific packages;
-* Contribute to the security of the software supply chain by challenging packages and conducting reviews to report bugs and/or vulnerabilities.
+- 登记他们的包裹。
+- 通过将 TEA 代币押注到特定的软件包来支持软件包。
+- 通过挑战软件包和进行审查以报告错误和/或漏洞，为软件供应链的安全做出贡献。
 
-As discussed, the tea Protocol unlocks the open-source economy and creates value for builders, maintainers, and end-users of enterprise software. Ultimately, the value captured by the tea Protocol accrues back to token holders as the community scales, creating a feedback loop that further incentivizes participation.
+如前所述，tea 协议解锁了开源经济，并为企业软件的构建者、维护者和最终用户创造了价值。最终，随着社区规模的扩大，茶叶协议所获得的价值会回馈给代币持有者，从而形成一个反馈循环，进一步激励参与。
 
-### Rewarding Open-Source Developers
+### 奖励开源开发者
 
-We expect tea’s Proof of Contribution and staking mechanisms to foster the growth of open-source by empowering its participants with the resources they need to pursue their passion unencumbered.
+我们希望 tea 的贡献证明和赌注机制能够通过赋予参与者所需的资源来促进开源的发展，使他们能够不受阻碍地追求自己的激情。
 
-As outlined in "[Project Registration and Proof of Contribution Rewards](white-paper.md#project-registration-and-proof-of-contribution-rewards)", projects registered with the tea Protocol and with a teaRank that surpasses a governance-defined threshold will receive Proof of Contribution rewards in the form of TEA tokens from the tea Protocol. This distribution will persist as long as the package complies with the rules of the protocol. Specifically, the package will have to maintain a teaRank above the governance defined threshold and package maintainers will have to contribute to their project’s reputation and trustworthiness by continuously staking a portion of the Proof of Contribution rewards received by the project’s treasury. Failure to comply with these rules will result in the suspension of the distribution of Proof of Contribution rewards and the redistribution of future rewards among compliant projects.
+正如“[项目注册和贡献奖励证明](white-paper.md#project-registration-and-proof-of-contribution-rewards)”中概述的那样，使用 tea 协议注册的项目和超过治理定义的阈值的 teaRank 将获得 tea 协议中以 tea 令牌形式的贡献奖励证明。只要包符合协议的规则，这个发行版就会持续存在。具体来说，包必须保持一个高于治理定义阈值的 teaRank，包维护者必须通过不断地将项目资金收到的贡献证明奖励的一部分作为投资，来为他们的项目的声誉和可信度做出贡献。不遵守这些规则将导致暂停分配贡献证明奖励和在合规项目之间重新分配未来奖励。
 
-Dependencies can significantly affect the reliability and security of a package, and the absence of registration for a package's dependencies should be seen as a potential risk. Package maintainers, being both validators and users of these dependencies, are in a prime position to connect with the maintainers of those dependencies. They can encourage them to register their projects with tea, thus making them subject to oversight by tea tasters and eligible for associated rewards. To encourage this community-wide engagement aimed at enhancing the reputation system, we recommend that any package with dependencies that are not registered with the tea Protocol see a fraction of its Proof of Contribution rewards burnt. This burn would be proportional to the number and contribution, quantified in teaRank, of each unregistered dependency, and continue as long as these dependencies remain unregistered.
+依赖关系会极大地影响包的可靠性和安全性，没有注册包的依赖关系应该被视为一种潜在的风险。作为这些依赖项的验证者和用户，包维护者处于与这些依赖项的维护者联系的最佳位置。他们可以鼓励他们用茶来注册他们的项目，从而使他们受到品茶师的监督，并有资格获得相关奖励。为了鼓励这种旨在增强声誉系统的社区参与，我们建议任何没有在 tea 协议中注册的依赖项包，其贡献证明奖励的一小部分都会被烧掉。这种消耗将与每个未注册依赖项的数量和贡献成正比，并在 teaRank 中量化，只要这些依赖项保持未注册，这种消耗就会持续下去。
 
-Numerous cases have demonstrated that strong incentives can entice malicious actors to compromise open-source software. Most of the Internet’s critical infrastructure is running on open-source, and the race to find exploits and other vulnerabilities is on. At tea, we believe that package maintainers are not the ones that should be blamed (although they often are).
+大量案例表明，强大的激励机制可以诱使恶意行为者破坏开源软件。大多数互联网的关键基础设施都在开源上运行，寻找漏洞和其他漏洞的竞赛正在进行。实际上，我们认为软件包维护者不应该受到指责(尽管他们经常受到指责)。
 
-The tea Protocol's incentives address this issue by ensuring a fair and equitable distribution of incentives. A package like lodash with over 176k dependents is a pillar of open-source development, and its maintainers deserve to be rewarded proportionally. However, a reward system built solely on the number of dependents would prevent innovators from disrupting these monopolies unless they are sufficiently funded by third parties or have already accumulated enough resources to self-fund. This approach would likely lead to a shrinking number of contributors, resulting in the polar opposite of what tea is about.
+《茶叶议定书》的激励措施通过确保公平公正地分配激励措施来解决这一问题。像 lodash 这样拥有超过 17.6 万个依赖项的软件包是开源开发的支柱，它的维护者应该得到相应的奖励。然而，一个完全建立在依赖者数量上的奖励制度会阻止创新者打破这些垄断，除非他们得到了第三方的足够资助，或者已经积累了足够的资源来自筹资金。这种方法可能会导致贡献者数量的减少，从而导致与茶的本质截然相反的结果。
 
-To address this limitation and empower every TEA token holder with the ability to support package maintainers, we also recommend that a governance-defined fraction of all staking rewards received by all network participants be directed towards the treasury of the staked package, along with its dependencies.
+为了解决这一限制，并赋予每个 TEA 令牌持有者支持包维护者的能力，我们还建议将所有网络参与者收到的所有权益奖励的治理定义的一部分，直接用于权益包的库，以及它的依赖项。
 
-### Staking to Secure the Software Supply Chain
+### 押注确保软件供应链的安全
 
-Staking can be an effective methodology to support a decentralized reputation system. However, to facilitate the security of the software supply chain, the tea incentive distribution system must carefully consider the staking ratio of each package and adjust each package’s incentive accordingly.
+赌注可以是一种有效的方法来支持分散的声誉系统。然而，为了保证软件供应链的安全，茶叶激励分配系统必须仔细考虑每包的股权比例，并相应地调整每包的激励。
 
-To reduce the risk of a small number of packages used as dependencies across many applications collecting most staking rewards, we recommend the implementation of an optimum staking ratio, similar to the approach described in the [research produced by the web3 Foundation](https://research.web3.foundation/Polkadot/overview/token-economics).
+为了减少在许多应用程序中作为依赖项使用的少量包的风险，我们建议实现最佳的赌注比例，类似于[由 web3 基金会产生的研究](https://research.web3.foundation/Polkadot/overview/token-economics)中描述的方法。
 
-When a package exceeds the governance-defined optimum staking ratio, the total amount of staking rewards allocated to the package will remain fixed, regardless of the number of TEA tokens staked to the package. This measure, designed to de-incentivize package supporters and tea tasters from further staking highly staked packages, will result in a linear decrease of the staking rewards received by each package supporter.
+当一个包超过治理定义的最佳下注比例时，分配给该包的下注奖励总额将保持固定，而与该包下注的 TEA 令牌数量无关。这一措施旨在减少包装支持者和品茶者对高赌注包装的进一步下注，将导致每个包装支持者收到的下注奖励线性减少。
 
-A curve-based approach, such as the one described in the web3 Foundation’s research would slow down the reduction of the staking rewards pool allocated to the package, thus continuing to take away from lesser staked packages and introducing negative externalities by granting more influence on large token holders over the distribution of the staking rewards pool.
+基于曲线的方法，例如 web3 基金会的研究中描述的方法，将减缓分配给包的赌注奖励池的减少，从而继续从较小的赌注包中抽走，并通过赋予大型代币持有者对赌注奖励池分配的更大影响力来引入负外部性。
 
-The recommended linear design should allow lesser staked packages to become more attractive to both package supporters and tea tasters. It may also incentivize experienced developers to build alternatives to highly-staked packages, creating an opportunity for the tea community to balance supporting existing software and promoting innovation. In its initial design, the staking ratio will be calculated using the circulating supply. The tea community may alter this design to improve the system’s scalability further.
+推荐的线性设计应该允许较少的赌注包装变得更有吸引力的包装支持者和品茶师。它还可以激励有经验的开发人员构建高风险软件包的替代方案，为茶社区创造一个平衡支持现有软件和促进创新的机会。在其初始设计中，将使用循环供应来计算加注比。茶社区可能会改变这种设计，以进一步提高系统的可扩展性。
 
-Just as good actors need to be rewarded; bad actors need to be identified and penalized. Open-source software provides many opportunities for bad actors to create pain points and reputational risks for an entire community of developers. From the misappropriation of work to the alteration and redistribution of software packages, or the injection of nefarious code, the war between good and bad actors goes on, often with well-funded bad actors who see the contamination of open-source packages as an opportunity to benefit financially. The downside has been relatively minimal, with packages potentially banned from digital shelves or subjected to a poor reputation.
+就像好的演员需要得到奖励一样。不良行为者需要被识别和惩罚。开源软件为不良行为者提供了许多机会，为整个开发人员社区创造痛点和声誉风险。从滥用工作成果到修改和重新分发软件包，或者注入恶意代码，好人和坏人之间的战争仍在继续，通常是资金充足的坏人将开源软件包的污染视为谋取经济利益的机会。负面影响相对较小，这些包装可能会被禁止上架，或者名声不佳。
 
-To directly address malicious actors and intensify the repercussions for actions contrary to the open-source, we recommend implementing the slashing mechanism detailed in the “[Package Review by Third Parties](white-paper.md#package-review-by-third-parties)” and “[Outdated or Corrupt Packages](white-paper.md#outdated-or-corrupt-packages)” sections.
+为了直接解决恶意行为者并加强对违反开源行为的影响，我们建议实现“[第三方包审查](white-paper.md#package-review-by-third-parties)”和“[过时或损坏的包](white-paper.md#outdated-or-corrupt-packages)”部分中详细介绍的削减机制。
 
-As tea tasters evaluate and analyze the code in newly submitted packages, we suggest tea tasters receive the tools and incentives to pinpoint and highlight nefarious code so
+当品茶师评估和分析新提交的包中的代码时，我们建议品茶者获得工具和奖励，以查明并突出显示恶意代码：
 
-* package users can be made aware of the risks, and
-* package maintainers and package supporters are penalized for submitting or supporting nefarious code.
+- 包用户可以意识到风险。
+- 包维护者和包支持者会因提交或支持恶意代码而受到处罚。
 
-To that extent, for all evidenced negative reviews performed per the network rules and which have been addressed by the package maintainer within the governance defined period, the package maintainer should not incur any penalty contrary to the package supporters or the tea tasters who provided a positive review of the package in question.
+在这种程度上，对于所有根据网络规则执行的负面评论，并且包维护者已经在治理定义的期间内处理了这些负面评论，包维护者不应该受到任何与包支持者或对有问题的包提供积极评论的品茶者相反的惩罚。
 
-For negative reviews performed per the network rules and that the package maintainer has not addressed within the governance-defined period, a fraction of the TEA tokens staked by the project’s treasury, the package supporters, and previous tea tasters will be slashed and sent to the tea taster who identified the bug or vulnerability. Another fraction will be locked into an insurance pool controlled by the tea governance. The tea governance will establish policies and rules in close collaboration with the community to distribute the pool’s contents to those affected by vulnerabilities. The protocol will distribute a third fraction of the slashed TEA tokens across all tea tasters who contributed to the negative review.
+对于按照网络规则执行的负面评论，以及包维护者没有在治理定义的期限内解决的问题，项目资金、包支持者和以前的试茶者所持有的一小部分 TEA 代币将被削减，并发送给识别错误或漏洞的试茶者。另一部分将被锁定在茶治理控制的保险池中。茶治理将与社区密切合作，制定政策和规则，将池中的内容分发给受脆弱性影响的人。该协议将把被削减的 TEA 代币的三分之一分发给所有参与负面评论的品茶师。
 
-Staking and slashing are vital components of the tea Protocol's incentive and penalty system. Package maintainers are required to stake a portion of their project's treasury, ensuring they have a substantial stake at risk in case they neglect to address bugs or vulnerabilities. Package users, supporters, and tea tasters can also stake TEA tokens to contribute to a package or package maintainer's reputation and actively participate in the protocol to uphold the software supply chain's sustainability and integrity.
+押注和削减是《茶叶议定书》奖惩制度的重要组成部分。包维护者被要求拿出一部分项目资金，以确保他们在忽视处理 bug 或漏洞的情况下有相当大的风险。软件包用户、支持者和品茶者也可以下注 TEA 代币，为软件包或软件包维护者的声誉做出贡献，并积极参与协议，以维护软件供应链的可持续性和完整性。
 
-Governance is closely tied to this active engagement. For each TEA token staked, participants receive non-transferrable "staked TEA" (stTEA) at a 1:1 ratio, enabling them to participate in the governance of the tea Protocol. Staked rewards and their corresponding stTEA tokens may face reduction (slashing) or redistribution if the protocol rules are not followed, reinforcing accountability within the ecosystem.
+治理与这种积极参与密切相关。对于每个押注的 TEA 代币，参与者以 1:1 的比例接收不可转让的“押注 TEA”(stTEA)，使他们能够参与茶叶协议的治理。如果不遵守协议规则，权益奖励及其相应的 stTEA 令牌可能面临减少(削减)或重新分配，从而加强生态系统内的问责制。
 
-### TEA Token Supply Distribution
+### TEA 代币供应分布
 
-A majority of the TEA tokens created by the protocol are used as incentives to encourage package maintainers, users, and supporters to perform activities that provide value to the decentralized network. The distribution of TEA tokens to various stakeholders within the protocol is dictated by a “distribution schedule”.
+该协议创建的大多数 TEA 令牌被用作激励措施，以鼓励软件包维护者、用户和支持者执行为去中心化网络提供价值的活动。将 TEA 令牌分发给协议内的各种利益相关者是由“分发时间表”决定的。
 
-Network incentives will be distributed directly by the tea Protocol, in the form of TEA tokens, to four groups of stakeholders:
+网络奖励将通过 tea 协议以 tea 代币的形式直接分配给四组利益相关者:
 
-* Package Maintainers;
-* Package Users (which include all members of the tea community);
-* Project Supporters; and,
-* tea Tasters.
+- 包维护者
+- 包的使用者(包括茶社区的所有成员)
+- 项目支持者
+- 品茶师
 
-TEA tokens will also be utilized to support packages and secure the software supply chain through staking, including the right to challenge a package by conducting a review and reporting bugs or vulnerabilities, reward the open-source developers of registered projects, and participate in the governance of the tea Protocol.
+TEA 代币还将用于支持软件包并通过下注来保护软件供应链，包括通过审查和报告错误或漏洞来挑战软件包的权利，奖励注册项目的开源开发人员，并参与 TEA 协议的治理。
 
-It’s recommended that a 10 billion maximum token supply be distributed across all members of the tea community as described below:
+建议在茶社区的所有成员中分配 100 亿的最大代币供应量，如下所述:
 
 <figure><img src=".gitbook/assets/Token Allocation-Updated.svg" alt=""><figcaption><p>Figure 3 - Token distribution of maximum supply</p></figcaption></figure>
 
-Roughly 51.4% of the maximum token supply should be allocated to “Ecosystem & Governance”, which includes incentives for open-source projects to onboard and maintain their codebase as well as rewards for contributing to decentralized votes and consensus via the tea DAO. Tokens allocated to “Ecosystem & Governance” should be distributed as Proof of Contribution rewards, staking rewards, and other types of developer-centric incentives.
+最大代币供应量的大约 51.4% 应分配给“生态系统与治理”，其中包括激励开源项目加入并维护其代码库，以及通过茶 DAO 为分散投票和共识做出贡献的奖励。分配给“生态系统和治理”的代币应该作为贡献证明奖励、赌注奖励和其他类型的以开发者为中心的激励来分发。
 
-Roughly 18.6% of the maximum token supply should be allocated to the “Protocol Development” to ensure the sustainability and continued evolution of the tea Protocol. Roughly 12.7% should be earmarked for “Early Supporters & Advisors”. Roughly 11.0% should be earmarked for a Private sale,  3.0% for a public sale, while the remaining 3.2% should be allocated to support marketplace liquidity once a token generation event occurs.
+最大代币供应量的大约 18.6% 应分配给“协议开发”，以确保茶协议的可持续性和持续发展。大约 12.7% 的资金应该专门用于“早期支持者和顾问”。大约 11.0% 应指定用于私人销售，3.0% 用于公开销售，而剩余的 3.2% 应分配用于支持一旦代币生成事件发生的市场流动性。
 
-Detailed Tokenomics, including a comprehensive Token Distribution and Emissions schedule will be the subject of a dedicated paper.
+详细的代币经济学，包括全面的代币分发和排放时间表，将是一篇专门论文的主题。
 
-## Governance
+## 治理
 
-Governance is critical to the development, sustainability, and adoption of any distributed system.
+治理对于任何分布式系统的开发、可持续性和采用都是至关重要的。
 
-We propose that the tea Protocol incorporates governance mechanisms that enable active contributors who have staked TEA tokens to propose and vote on non-financial critical parameter changes. The voting process would be weighted by stTEA token ownership and individual reputation.
+我们建议 tea 协议纳入治理机制，使持有 tea 代币的活跃贡献者能够就非金融关键参数更改提出建议和投票。投票过程将由 stTEA 代币所有权和个人声誉加权。
 
-Protocol parameters could include the priority to support specific package managers or introduce new protocol features or functions, as well as the impact of external factors on user and package reputation. This functionality will ensure that critical parameters can evolve and be optimized over time by active members of the tea community. We anticipate governance will launch with a simple structure and progressively expand as the tea system matures, facilitating adoption and ensuring progressive decentralization.
+协议参数可能包括支持特定包管理器或引入新协议特性或功能的优先级，以及外部因素对用户和包声誉的影响。这一功能将确保关键参数可以随着时间的推移，由茶社区的活跃成员发展和优化。我们预计治理将以简单的结构开始，并随着茶系统的成熟而逐步扩大，促进采用并确保逐步去中心化。
 
-Some system parameters may not be subject to governance or support high frequency changes to reduce the attack surface represented by governance. A progressive transition of parameters to open, decentralized governance will ensure the stability and predictability of the system.
+某些系统参数可能不受治理的约束，或者不支持高频率的更改，以减少治理所代表的攻击面。将参数逐步过渡到开放、分散的治理将确保系统的稳定性和可预测性。
 
-## Third-Party Extensibility
+## 第三方可扩展性
 
-As we build the initial tools to ignite the long-overdue support of the open-source communities, we believe part of our mission is to ensure that third parties can extend the overall toolset. In addition to providing the infrastructure for developers to build extensions to the protocol, including new ways to innovate and further the support of open-source developers, our plans include the potential for other package managers to contribute to the protocol.
+当我们构建最初的工具来点燃开源社区期待已久的支持时，我们相信我们的部分使命是确保第三方可以扩展整个工具集。除了为开发人员提供构建协议扩展的基础设施(包括创新和进一步支持开源开发人员的新方法)之外，我们的计划还包括其他包管理器为协议做出贡献的可能性。
 
-The dreams and efforts of open-source developers have built the innovation that supports our everyday life. We look forward to discovering the new uses and extensions for the tea Protocol proposed by the tea community.
+开源开发者的梦想和努力造就了支持我们日常生活的创新。我们期待着发现茶界提出的茶协议的新用途和扩展。
 
-## Future Work and Potential Community Efforts
+## 未来的工作和潜在的社区努力
 
-As the tea system matures, we foresee the community deciding and contributing to alterations and extensions of the tea system through governance. Below are some ideas that we believe may inspire some, however we do not guarantee any future performance.
+随着茶系统的成熟，我们预计社区将通过治理来决定和促进茶系统的改变和扩展。以下是一些想法，我们相信可能会启发一些，但我们不保证任何未来的表现。
 
-### tea Wholesalers
+### 茶叶批发商
 
-Open-source software communities are vibrant and constantly looking to innovate and deliver value. This dedication and altruism lead to the constant building of new software and packages, each one pulling dependencies. As a result, we anticipate the dependencies map to evolve constantly, leading to frequent changes to the staking ratio and rewards. In the future, the tea community may propose the development of a system designed to dynamically monitor the staking ratio for each project and rebalance how project supporters stake their TEA tokens based on their own criteria.
+开源软件社区充满活力，不断寻求创新和交付价值。这种奉献和利他主义导致了新软件和软件包的不断构建，每个软件包都需要依赖。因此，我们预期依赖关系映射会不断地演化，从而导致投资比例和回报的频繁变化。未来，茶社区可能会提出开发一个系统，旨在动态监控每个项目的权益比例，并根据自己的标准重新平衡项目支持者如何权益他们的 tea 代币。
 
-### Royalties on Package Transfer
+### 包装转让特许权使用费
 
-We recognize that package maintainers may decide to transfer their rewards stream to one or more developers. The governance of such transfer must remain the decision of the package maintainer and their partners, with no interference from tea. Tools will need to be provided for such transfer to be total or partial (perhaps through only a portion of the rewards being redirected to one or more developers, while the remaining rewards continue to flow to the original package maintainer) and for the staking rewards to flow through a single account controlled by a single network participant, multiple network participants, or automatically distributed across multiple accounts using static or dynamic ratios.
+我们认识到软件包维护者可能决定将他们的奖励流转移给一个或多个开发人员。这种转移的治理必须仍然是一揽子计划维护者及其合作伙伴的决定，不受茶的干扰。将需要提供工具来实现这种全部或部分的转移(可能通过只有一部分奖励被重定向到一个或多个开发人员，而剩余的奖励继续流向原始包维护者)，并且为赌注奖励通过由单个网络参与者控制的单个帐户流动，多个网络参与者，或者使用静态或动态比率在多个帐户之间自动分配。
 
-### Rewards Distribution Across Multiple Maintainers
+### 奖励分布在多个维护者之间
 
-The maintenance of a package can rely on the work of one more team of developers. Before rewards start to flow, teams should consider automating the distribution of value amongst themselves. How the distribution occurs must be decided by the maintainers themselves, as they are in the best position to evaluate who contributed and how they should be rewarded.
+一个包的维护可以依赖于另一个开发团队的工作。在奖励开始流动之前，团队应该考虑在他们之间自动分配价值。如何分发必须由维护者自己决定，因为他们处于评估谁做出了贡献以及他们应该如何获得奖励的最佳位置。
 
-To accomplish that, each team (or teams) could set up their own decentralized autonomous organization ([DAO](https://ethereum.org/en/dao/)) and either automate the distribution or deploy more complex systems to determine the adequate value distribution based on external factors such as a vote from all DAO members, or time-based distributions based on continuous contribution, successful completion of bounties, etc.
+为了实现这一目标，每个团队(或多个团队)可以建立自己的去中心化自治组织([DAO](https://ethereum.org/en/dao/))，并自动分配或部署更复杂的系统，以确定基于外部因素的适当价值分配，例如所有 DAO 成员的投票，或基于持续贡献的基于时间的分配，成功完成奖励等。
 
-### Handling Package “Forks”
+### 处理包的分叉
 
-We believe that forks are essential and largely under-utilized. Forks can be an effective tool for developing packages that compete in functionality, performance, security, and even attention. As useful as they may be, forks must recognize the original efforts. Through future work or potential contributions, the tea community may enhance the system to require forks to be declared, perhaps even detected when a project is registered. Undeclared forks revealed by tea tasters may result in a portion of the fork’s treasury’s stake being slashed, transferred to the original package maintainer, or sent to the tea tasters who revealed the fork.
+我们认为，分叉是必不可少的，但在很大程度上没有得到充分利用。对于开发在功能、性能、安全性甚至关注度方面都具有竞争力的包来说，fork 是一种有效的工具。尽管它们可能很有用，但分支必须承认原始的努力。通过未来的工作或潜在的贡献，茶社区可能会增强系统，要求声明分叉，甚至可能在项目注册时检测到分叉。品茶师发现的未申报的叉子可能会导致叉子的一部分资金被削减，转移到原来的包装维护人员那里，或者被送到透露叉子的品茶师那里。
 
-### Runtime vs. Build Dependencies
+### 运行时与构建依赖关系
 
-tea may not distinguish build dependencies from runtime dependencies when distributing Proof of Contribution rewards at launch. However, provided the tea community feels strongly about making such a distinction, the tea community may propose enhancements to the rewards distribution algorithm to account for the criticality of each dependency and their contribution to the individual value of the packages that depend upon them. These proposals would be voted upon and implemented based on the community’s decision.
+在发布时分发贡献证明奖励时，tea 可能无法区分构建依赖项和运行时依赖项。然而，如果茶社区强烈希望做出这样的区分，茶社区可能会提出改进奖励分配算法，以考虑每个依赖项的重要性以及它们对依赖于它们的软件包的个人价值的贡献。这些建议将根据社区的决定进行表决和实施。
 
-### Usage-based Rewards
+### 基于使用奖励
 
-As more applications are built using projects registered with tea, the community may augment the reward algorithm so that allocation may be influenced by external attested datasets such as usage. This update to the rewards mechanism could allow for a higher allocation of TEA token rewards to flow towards packages with the highest usage while still respecting the constraints of the staking ratio described in the TEA token section. Package maintainers could use a similar approach to distribute rewards across their dependencies based on the transparent logic of their choice. Note that all information used to affect the distribution of rewards across packages and dependencies in the tea system will need to be provably reliable.
+随着越来越多的应用程序使用在 tea 注册的项目构建，社区可能会增强奖励算法，以便分配可能受到外部认证数据集(如使用率)的影响。对奖励机制的更新可以允许更高的 TEA 令牌奖励分配流向使用率最高的包，同时仍然尊重 TEA 令牌部分中描述的权益比率的约束。包维护者可以使用类似的方法，根据他们选择的透明逻辑，跨依赖项分发奖励。注意，所有用于影响跨包和茶叶系统中的依赖关系的奖励分配的信息都需要是可靠的。
 
-## Acknowledgments
+## 致谢
 
-This white paper would not exist without the support and dedication of many teaophiles. The authors would like to acknowledge Jacob Heider, Jadid Khan, Josh Kruger, and Shane Molidor for their contribution to the tokenomics, Sanchit Ram for his contribution to the teaRank algorithm, and the many discrete individuals who volunteered their time to provide feedback on the contents of this document.
+这份白皮书的出版离不开广大茶友的支持和奉献。作者要感谢 Jacob Heider, Jadid Khan, Josh Kruger 和 Shane Molidor 对代币经济学的贡献，Sanchit Ram 对 teaRank 算法的贡献，以及许多自愿花时间对本文内容提供反馈的个人。
 
-## Glossary of Terms
+## 术语表
 
-| Term     | Definition                                                                                                                                                                                        |
-| -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Leaf     | The smallest denomination of the TEA token. A leaf corresponds to one quintillionth (10^−18) of a tea.                                                                                            |
-| Slashing | The action of penalizing stakers in response to behavior contrary to the protocol rules.                                                                                                          |
-| Staking  | The action of locking TEA tokens to support your claim and receive rewards (or penalties) based on the consensus on the validity of your claim.                                                   |
-| stTEA    | Non-transferrable “staked TEA” token or “stTEA” received by network participants for each token staked at a 1:1 ratio. stTEA can be utilised to participate in the governance of the tea Protocol |
-| teaRank  | Dynamic impact score assigned to each project by the protocol’s “Proof of Contribution” algorithm.                                                                                                |
+| 术语                  | 释义                                                                                                          |
+| --------------------- | ------------------------------------------------------------------------------------------------------------- |
+| 叶子（Leaf）          | TEA 令牌的最小面额。一片叶子相当于一杯茶的五分之一(10^−18)。                                                  |
+| 惩罚/削减（Slashing） | 对违反协议的行为进行惩罚的行为                                                                                |
+| 押注                  | 锁定 TEA 代币以支持您的索赔并根据对索赔有效性的共识获得奖励(或惩罚)的行为。                                   |
+| stTEA                 | 不可转让的“押注 TEA”代币或“stTEA”，由网络参与者以 1:1 的比例获得每个代币。可以利用 stTEA 参与茶叶议定书的治理 |
+| teaRank               | 根据协议的“贡献证明”算法分配给每个项目的动态影响评分。                                                        |
 
-## References
+## 参考文献
 
 1. [https://creativecommons.org/licenses/by-sa/4.0/](https://creativecommons.org/licenses/by-sa/4.0/)
 2. [https://archive.org/details/historyofmodernc00ceru](https://archive.org/details/historyofmodernc00ceru)
@@ -373,7 +370,7 @@ This white paper would not exist without the support and dedication of many teao
 6. [https://www.thestack.technology/core-js-maintainer-denis-pusharev-license-broke-angry/](https://www.thestack.technology/core-js-maintainer-denis-pusharev-license-broke-angry/)
 7. [https://www.w3.org/TR/did-core/](https://www.w3.org/TR/did-core/)
 8. [https://www.bleepingcomputer.com/news/security/npm-ecosystem-at-risk-from-manifest-confusion-attacks/](https://www.bleepingcomputer.com/news/security/npm-ecosystem-at-risk-from-manifest-confusion-attacks/)
-9. [https://www.theregister.com/2016/03/23/npm\_left\_pad\_chaos/](https://www.theregister.com/2016/03/23/npm\_left\_pad\_chaos/)
+9. [https://www.theregister.com/2016/03/23/npm_left_pad_chaos/](https://www.theregister.com/2016/03/23/npm_left_pad_chaos/)
 10. [https://fossa.com/blog/npm-packages-colors-faker-corrupted/](https://fossa.com/blog/npm-packages-colors-faker-corrupted/)
 11. [https://www.lunasec.io/docs/blog/node-ipc-protestware/](https://www.lunasec.io/docs/blog/node-ipc-protestware/)
 12. [https://github.com/dominictarr/event-stream/issues/116](https://github.com/dominictarr/event-stream/issues/116)
@@ -391,4 +388,3 @@ This white paper would not exist without the support and dedication of many teao
 24. [https://semver.org/](https://semver.org/)
 25. [https://arxiv.org/abs/1207.2617](https://arxiv.org/abs/1207.2617)
 26. [https://research.web3.foundation/Polkadot/overview/token-economics](https://research.web3.foundation/Polkadot/overview/token-economics)
-
