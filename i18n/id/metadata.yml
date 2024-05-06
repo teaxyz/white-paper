@@ -1,0 +1,83 @@
+title: Protokol Terdesentralisasi untuk Memberi Imbalan pada Ekosistem Sumber Terbuka
+abstract: >
+  Menciptakan sebuah registri yang terbuka, publik, dan stabil untuk semua perangkat lunak sumber terbuka
+  akan memberdayakan proyek untuk mempublikasikan rilis secara mandiri daripada bergantung pada
+  pihak ketiga yang mengumpulkan data yang tidak teratur ini ke dalam ratusan
+  (dan digandakan) yang terpisah-pisah. Pengelola paket akan mempublikasikan rilis mereka ke
+  registri terdesentralisasi yang didukung oleh blockchain yang toleran terhadap kesalahan Bizantium untuk
+  menghilangkan sumber kegagalan tunggal, menyediakan rilis yang tidak dapat diubah, dan memungkinkan
+  komunitas untuk mengatur wilayah mereka dari ekosistem sumber terbuka,
+  terlepas dari agenda eksternal.
+  
+  tea memberikan insentif untuk pemeliharaan open-source dengan mengizinkan jaringan
+  peserta jaringan untuk mempertaruhkan nilai terhadap paket yang mereka andalkan dan ingin
+  aman. Grafik protokol tea menyediakan pendaftaran paket yang tidak dapat diubah,
+  persyaratan ketergantungan, keaslian paket, dan oracle penggunaan untuk menginformasikan
+  algoritma remunerasi tea. Inflasi sistematis didistribusikan ke semua
+  paket berdasarkan algoritma tersebut. Jika ada masalah keamanan atau pengembangan
+  ditemukan, pengembang dapat membuat klaim yang didukung oleh bukti terhadap paket tersebut,
+  dan pemotongan dapat terjadi. Anggota komunitas sumber terbuka dapat meninjau
+  paket untuk masalah kualitas, dan protokol dapat merespons tinjauan ini
+  dengan memberlakukan peristiwa pemotongan secara proporsional.
+
+author:
+- Max Howell
+- Timothy Lewis
+- Thomas Borrel
+references:
+- id: sources
+  url: https://github.com/teaxyz/white-paper
+- id: cc
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+- id: nist
+  url: https://nvd.nist.gov/vuln/detail/CVE-2021-44228
+- id: reuters
+  url: https://www.reuters.com/article/usa-cyber-vulnerability-idCNL1N2SY2PA
+- id: twitter
+  url: https://twitter.com/yazicivo/status/1469349956880408583
+- id: w3
+  url: https://www.w3.org/TR/did-core/
+- id: theregister
+  url: https://www.theregister.com/2016/03/23/npm_left_pad_chaos/
+- id: fossa
+  url: https://fossa.com/blog/npm-packages-colors-faker-corrupted/
+- id: lunasec
+  url: https://www.lunasec.io/docs/blog/node-ipc-protestware/
+- id: github
+  url: https://github.com/dominictarr/event-stream/issues/116
+- id: zdnet
+  url: https://www.zdnet.com/article/open-source-software-how-many-bugs-are-hidden-there-on-purpose/
+- id: threatpost
+  url: https://threatpost.com/backdoor-found-in-utility-for-linux/147581/
+- id: fbi
+  url: https://www.fbi.gov/news/stories/phantom-secure-takedown-031618
+- id: europol
+  url: https://www.europol.europa.eu/media-press/newsroom/news/800-criminals-arrested-in-biggest-ever-law-enforcement-operation-against-encrypted-communication
+- id: medium
+  url: https://medium.com/intrinsic-blog/compromised-npm-package-event-stream-d47d08605502
+- id: semver
+  url: https://semver.org/
+- id: npmjsCrossenv
+  url: https://blog.npmjs.org/post/163723642530/crossenv-malware-on-the-npm-registry.html
+- id: npmjsLodash
+  url: https://www.npmjs.com/package/lodash
+- id: npmjsChalk
+  url: https://www.npmjs.com/package/chalk
+- id: npmjsLogFourjs
+  url: https://www.npmjs.com/package/log4js/
+- id: arxiv
+  url: https://arxiv.org/abs/1207.2617/
+- id: web3
+  url: https://research.web3.foundation/en/latest/polkadot/overview/2-token-economics.html
+header-includes:
+- \usepackage{fancyhdr,ragged2e}
+- \lhead{\parbox[t]{0.5\textwidth}{\RaggedRight\rightmark\strut}}
+- \rhead{\parbox[t]{0.5\textwidth}{\RaggedLeft\leftmark\strut}}
+- \setlength{\headheight}{5\baselineskip}
+- \pagestyle{fancy}
+- \fancyfoot[LE,RO]{© 2022 tea.inc.}
+- \fancyfoot[L]{v${1.0.5}+${id}}
+lang: id
+dir: ltr
+translator:
+  - Ilham Gumilar
