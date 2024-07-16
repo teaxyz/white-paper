@@ -27,7 +27,7 @@ This paper is available under the [Creative Commons Attribution-ShareAlike 4.0 I
 
 ## Introduction
 
-The modern-day Internet is predominantly composed of open-source projects and has been since its inception. Open-source projects are developed and maintained via collaboration amongst global developer communities, and their codebases are made available for anyone to utilize as a public good. In the past 71 years (it is [generally believed](https://archive.org/details/historyofmodernc00ceru) that the first example of free and open-source software was released in 1953), open-source software has evolved from the product of niche technology hobbyists to the infrastructure upon which all innovation has been built. Despite the importance of open-source software, the developers that create and maintain the codebase as a public utility receive no fungible rewards for their immense contribution as innovators and maintainers.
+The modern-day Internet is predominantly composed of open-source projects and has been since its inception. Open-source projects are developed and maintained via collaboration amongst global developer communities, and their codebases are made available for anyone to utilize as a public good. In the past 71 years (it is [generally believed](https://archive.org/details/historyofmodernc00ceru) that the first example of free and open-source software was released in 1953), open-source software has evolved from the product of niche technology hobbyists to the infrastructure upon which all innovation has been built. Despite the importance of open-source software, the developers who create and maintain the codebase as a public utility receive no fungible rewards for their immense contribution as innovators and maintainers.
 
 Enterprise software, which has grown into a multi-billion dollar industry, is built on the foundation laid by open-source. Yet there is almost no value accrual back to the individuals who thanklessly maintain its very underpinnings. And while fortunes have been made from it, open-source software is mainly created and maintained as a public utility with no viable means for developers to capture the value they create.
 
@@ -307,7 +307,7 @@ Some system parameters may not be subject to governance or support high frequenc
 
 As we build the initial tools to ignite the long-overdue support of the open-source communities, we believe part of our mission is to ensure that third parties can extend the overall toolset. In addition to providing the infrastructure for developers to build extensions to the protocol, including new ways to innovate and further the support of open-source developers, our plans include the potential for other package managers to contribute to the protocol.
 
-The dreams and efforts of open-source developers have built the innovation that supports our everyday life. We look forward to discovering the new uses and extensions for the tea Protocol proposed by the tea community.
+The dreams and efforts of open-source developers have built the innovation that supports our everyday lives. We look forward to discovering the new uses and extensions for the tea Protocol proposed by the tea community.
 
 ## Future Work and Potential Community Efforts
 
