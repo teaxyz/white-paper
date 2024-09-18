@@ -7,7 +7,7 @@ description: Version 2.1.0
 ## A Decentralized Protocol for Open-Source Developers to Capture the Value They Create
 
 * [Max Howell](https://github.com/mxcl)
-* Thomas Borrel
+* [Thomas Borrel](https://github.com/thomas-borrel)
 * Timothy Lewis
 * Troy Wong
 
