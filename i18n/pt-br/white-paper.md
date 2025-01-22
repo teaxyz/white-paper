@@ -56,7 +56,7 @@ $\parskip=0pt plus 1pt$
 
 [^1]: Fonte: @nist
 [^2]: Fonte: @reuters
-[^3]: Fonte: @twitter
+[^3]: Fonte: @x
 
 
 # Componentes

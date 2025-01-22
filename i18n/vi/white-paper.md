@@ -54,7 +54,7 @@ $\parskip=0pt plus 1pt$
 
 [^1]: Nguồn: @nist
 [^2]: Nguồn: @reuters
-[^3]: Nguồn: @twitter
+[^3]: Nguồn: @x
 
 
 # Các thành phần
