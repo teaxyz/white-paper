@@ -7,9 +7,7 @@ description: Version 2.1.0
 ## A Decentralized Protocol for Open-Source Developers to Capture the Value They Create
 
 * Max Howell
-* Thomas Borrel
 * Timothy Lewis
-* Troy Wong
 
 ## Abstract
 
@@ -70,7 +68,7 @@ We predict that tea’s combination of tools, information, and rewards will just
 
 Every package manager has its own package registry duplicating the same metadata repeatedly. In some cases, this registry may include [information that differs from the project’s manifest](https://www.bleepingcomputer.com/news/security/npm-ecosystem-at-risk-from-manifest-confusion-attacks/), thus allowing bad actors to potentially inject nefarious code unbeknownst to the user. It’s time there was a single, comprehensive, and definitive registry designed and governed by the communities that depend on it. This decentralized, immutable registry could provide security, stability and prevent malevolent intent.
 
-The Internet runs on tens of thousands of vital open-source components. It’s remarkable that thus far, incidents caused by the removal of essential open-source infrastructure have been minimal. The most famous was the [removal of an NPM left-pad dependency](https://www.theregister.com/2016/03/23/npm\_left\_pad\_chaos/) in 2016, which cascaded into continuous integration and continuous deployment systems, leaving developers high and dry for days. This event demonstrated that the Internet itself is based on fragile systems of development. Other examples involved active or intentional participation from the package maintainers sabotaging their popular packages (See [colors.js and faker.js](https://fossa.com/blog/npm-packages-colors-faker-corrupted/), as well as [node-ipc](https://www.lunasec.io/docs/blog/node-ipc-protestware/)), or bad actors looking to profit by pretending to help maintain packages and corrupting them to steal, for example, Bitcoin private keys (See [event-stream](https://github.com/dominictarr/event-stream/issues/116)), or malicious packages with intentional misspelling errors, also known as “[typosquatting](https://en.wikipedia.org/wiki/Typosquatting)”, in the hope of tricking users into installing them, for example [crossenv vs. cross-env NPM packages](https://blog.npmjs.org/post/163723642530/crossenv-malware-on-the-npm-registry.html).
+The Internet runs on tens of thousands of vital open-source components. It’s remarkable that thus far, incidents caused by the removal of essential open-source infrastructure have been minimal. The most famous was the [removal of an NPM left-pad dependency](https://www.theregister.com/2016/03/23/npm_left_pad_chaos/) in 2016, which cascaded into continuous integration and continuous deployment systems, leaving developers high and dry for days. This event demonstrated that the Internet itself is based on fragile systems of development. Other examples involved active or intentional participation from the package maintainers sabotaging their popular packages (See [colors.js and faker.js](https://fossa.com/blog/npm-packages-colors-faker-corrupted/), as well as [node-ipc](https://www.lunasec.io/docs/blog/node-ipc-protestware/)), or bad actors looking to profit by pretending to help maintain packages and corrupting them to steal, for example, Bitcoin private keys (See [event-stream](https://github.com/dominictarr/event-stream/issues/116)), or malicious packages with intentional misspelling errors, also known as “[typosquatting](https://en.wikipedia.org/wiki/Typosquatting)”, in the hope of tricking users into installing them, for example [crossenv vs. cross-env NPM packages](https://blog.npmjs.org/post/163723642530/crossenv-malware-on-the-npm-registry.html).
 
 Software integrity needs to be guaranteed as the industry progresses towards a future where digital assets are part of the software. We cannot continue to leave ourselves vulnerable to malicious actors modifying the software.
 
@@ -289,7 +287,7 @@ It’s recommended that a 10 billion maximum token supply be distributed across 
 
 Roughly 51.4% of the maximum token supply should be allocated to “Ecosystem & Governance”, which includes incentives for open-source projects to onboard and maintain their codebase as well as rewards for contributing to decentralized votes and consensus via the tea DAO. Tokens allocated to “Ecosystem & Governance” should be distributed as Proof of Contribution rewards, staking rewards, and other types of developer-centric incentives.
 
-Roughly 18.6% of the maximum token supply should be allocated to the “Protocol Development” to ensure the sustainability and continued evolution of the tea Protocol. Roughly 12.7% should be earmarked for “Early Supporters & Advisors”. Roughly 11.0% should be earmarked for a Private sale,  3.0% for a public sale, while the remaining 3.2% should be allocated to support marketplace liquidity once a token generation event occurs.
+Roughly 18.6% of the maximum token supply should be allocated to the “Protocol Development” to ensure the sustainability and continued evolution of the tea Protocol. Roughly 12.7% should be earmarked for “Early Supporters & Advisors”. Roughly 11.0% should be earmarked for a Private sale, 3.0% for a public sale, while the remaining 3.2% should be allocated to support marketplace liquidity once a token generation event occurs.
 
 Detailed Tokenomics, including a comprehensive Token Distribution and Emissions schedule will be the subject of a dedicated paper.
 
@@ -363,7 +361,7 @@ This white paper would not exist without the support and dedication of many teao
 6. [https://www.thestack.technology/core-js-maintainer-denis-pusharev-license-broke-angry/](https://www.thestack.technology/core-js-maintainer-denis-pusharev-license-broke-angry/)
 7. [https://www.w3.org/TR/did-core/](https://www.w3.org/TR/did-core/)
 8. [https://www.bleepingcomputer.com/news/security/npm-ecosystem-at-risk-from-manifest-confusion-attacks/](https://www.bleepingcomputer.com/news/security/npm-ecosystem-at-risk-from-manifest-confusion-attacks/)
-9. [https://www.theregister.com/2016/03/23/npm\_left\_pad\_chaos/](https://www.theregister.com/2016/03/23/npm\_left\_pad\_chaos/)
+9. [https://www.theregister.com/2016/03/23/npm\_left\_pad\_chaos/](https://www.theregister.com/2016/03/23/npm_left_pad_chaos/)
 10. [https://fossa.com/blog/npm-packages-colors-faker-corrupted/](https://fossa.com/blog/npm-packages-colors-faker-corrupted/)
 11. [https://www.lunasec.io/docs/blog/node-ipc-protestware/](https://www.lunasec.io/docs/blog/node-ipc-protestware/)
 12. [https://github.com/dominictarr/event-stream/issues/116](https://github.com/dominictarr/event-stream/issues/116)
