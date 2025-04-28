@@ -1,7 +1,7 @@
 # Isenção de responsabilidade
 
 As informações apresentadas no presente livro branco são de caráter preliminar.
-Consequentemente, nem os autores nem qualquer uma dos seus respectivos afiliados assumem qualquer responsabilidade de que as informações aqui estabelecidas sejam finais ou corretas e cada uma das anteriores renuncia,
+Consequentemente, nem os autores nem qualquer uma das seus respectivos afiliados assumem qualquer responsabilidade de que as informações aqui estabelecidas sejam finais ou corretas e cada uma das anteriores renuncia,
 na medida máxima permitida pela lei aplicável, toda e qualquer responsabilidade decorrente de ato ilícito, contrato ou de outra forma em relação a este livro branco.
 Nem este livro branco nem qualquer coisa aqui contida devem constituir a base ou ser invocados em conexão com ou agir como um incentivo para celebrar qualquer contrato ou compromisso de qualquer natureza.
 
@@ -36,11 +36,11 @@ O pânico se instaurou e os poucos voluntários que mantinham esse pacote foram 
 Após abordar a indignação com um humilde pedido de Justiça, os sistemas foram corrigidos.
 Empresas e governos eventualmente perceberam que o Log4j, um pacote usado por uma ampla gama de sistemas críticos por duas décadas, era mantido por alguns voluntários não remunerados, os mesmos heróis desconhecidos que entraram em ação apesar do abuso da indústria[^3] e trabalharam incansavelmente para resolver a vulnerabilidade.
 
-Infelizmente, o Log4j está longe de ser o único exemplo.
+Infelizmente, o Log4j não é o único exemplo
 O core-js é baixado 30 milhões de vezes por semana como base de cada aplicativo Node.js, mas também recebe pouquíssimo financiamento.
 Recentemente, vários desenvolvedores principais do Bitcoin Core renunciaram, citando, entre outras razões, a *falta de compensação financeira* por suas decisões.
 
-Houveram múltiplas tentativas de fornecer estruturas de incentivo, geralmente envolvendo patrocínio e sistemas de recompensa.
+Houve múltiplas tentativas de fornecer estruturas de incentivo, geralmente envolvendo patrocínio e sistemas de recompensa.
 O patrocínio torna possível para consumidores de código aberto doarem para os projetos que favorecem.
 No entanto, imagine o código aberto como uma torre de tijolos onde as camadas inferiores são há muito esquecidas, mas ainda mantidas por engenheiros dedicados e utilizadas por ainda mais desenvolvedores.
 Apenas projetos no topo da torre são normalmente conhecidos e recebem patrocínio.
@@ -56,7 +56,7 @@ $\parskip=0pt plus 1pt$
 
 [^1]: Fonte: @nist
 [^2]: Fonte: @reuters
-[^3]: Fonte: @twitter
+[^3]: Fonte: @x
 
 
 # Componentes
@@ -114,7 +114,7 @@ Um registro descentralizado, complementado por um sistema de reputação e apoia
 [^10]: Fonte: @threatpost
 
 
-## O sistema de Amarzenamento
+## O sistema de Armazenamento
 
 Pacotes de código aberto oferecem uma ampla gama de funcionalidades, algumas das quais podem ser restritas ou indesejadas.
 A criptografia é um excelente exemplo disso.
@@ -243,7 +243,7 @@ A submissão de um lançamento de pacote requer múltiplas transações para oco
 Especificamente, o mantenedor do pacote deve:
 
 * Registrar o pacote (e sua versão semântica) no registro descentralizado.
-* Fazer upload do pacote no sistema de armazenamento descentralizado para resiliência, resitência à censura e facilidade de distribuição.
+* Fazer upload do pacote no sistema de armazenamento descentralizado para resiliência, resistência à censura e facilidade de distribuição.
 * Contribuir para a reputação e confiabilidade do pacote 'infundindo' tokens tea.
 
 O fracasso de qualquer uma das três operações resultará no protocolo revertendo para seu estado anterior, eliminando assim qualquer evidência da submissão.
@@ -266,7 +266,7 @@ Ao fazer isso, cada uma de suas dependências pode ser mapeada e, se suas depend
 
 
 Na @fig:dep-analysis, a submissão do pacote A aciona uma análise das dependências de tempo de execução 1 até n e das dependências de compilação 1 até n, enquanto as dependências de tempo de execução 1.1 até 1.n e as dependências de compilação 1.1 até 1.n foram analisadas quando o pacote B foi submetido.
-Aplicaremos a mesma metodologia para a distribuição de incentivos, já que os tokens infundidos são distribuídos entre todas as dependências, infundindo recursivamente os pacotes listados como dependências (ver @fig:steeping-rewards).
+Aplicaremos a mesma metodologia para a distribuição de incentivos, já que os tokens infundidos são distribuídos entre todas as dependências, infundindo de forma recursiva os pacotes listados como dependências (ver @fig:steeping-rewards).
 
 ![A distribuição das recompensas de infusão entre as dependências.](img/figure-2.svg){#fig:steeping-rewards}
 
@@ -390,7 +390,7 @@ Podemos ajustar ainda mais a implementação e suas variáveis com base nos resu
 
 À medida que um pacote se aproxima de uma taxa de "infusão" ideal definida pela governança, sua proporção de recompensas de "infusão" diminuirá progressivamente.
 Quando um pacote excede sua taxa de "infusão" ideal, a proporção de recompensas de "infusão" diminuirá acentuadamente para desincentivar os apoiadores do pacote e os tasters de deixar ainda mais pacotes altamente infundidos.
-Esse design poderia tornar pacotes menos infundidos mais atraentes tanto para apoiadores quanto para tasters.
+Esse design poderia tornar pacotes com menos infusão mais atraentes tanto para apoiadores quanto para tasters.
 Também pode incentivar desenvolvedores experientes a criar alternativas para pacotes altamente infundidos, criando uma oportunidade para a comunidade tea equilibrar o suporte ao software existente e promover a inovação.
 A taxa de "infusão" será calculada usando o suprimento circulante em seu design inicial.
 A comunidade tea pode alterar esse design para aprimorar ainda mais a escalabilidade do sistema.
@@ -500,7 +500,7 @@ Uma transição progressiva dos parâmetros para uma governança aberta e descen
 
 Enquanto construímos as ferramentas iniciais para impulsionar o suporte há muito esperado das comunidades de código aberto, acreditamos que parte de nossa missão é garantir que terceiros possam expandir o conjunto de ferramentas como um todo.
 Além de fornecer a infraestrutura para os desenvolvedores criarem extensões para o protocolo, incluindo novas formas de inovar e ampliar o apoio aos desenvolvedores de código aberto, nossos planos incluem o potencial para outros gerenciadores de pacotes contribuírem para o protocolo.
-Os sonhos e esforços dos desenvolvedores de código aberto construíram a inovação que sustenta nossa vida cotidiana.
+Os sonhos e esforços dos desenvolvedores de código aberto impulsionaram a inovação que sustenta nossa vida cotidiana.
 Estamos ansiosos para descobrir os novos usos e extensões para o tea propostos pela comunidade tea.
 
 
@@ -522,7 +522,7 @@ A governança dessa transferência deve permanecer na decisão do mantenedor do 
 Ferramentas serão necessárias para que essa transferência seja total ou parcial (talvez através de apenas uma parte das recompensas de infusão sendo redirecionada para um ou mais desenvolvedores, enquanto as recompensas restantes continuam a fluir para o mantenedor original do pacote)
 e para que as recompensas de infusão fluam por meio de uma única conta controlada por um único participante da rede, vários participantes da rede ou sejam distribuídas automaticamente entre várias contas usando proporções estáticas ou dinâmicas.
 
-## Distribuição de Recompensas Entre Múltiplos Mantenedores
+## Distribuição de Recompensas entre Múltiplos Mantenedores
 
 A manutenção de um pacote pode depender do trabalho de uma ou mais equipes de desenvolvedores.
 Antes que as recompensas de infusão comecem a fluir, as equipes devem considerar automatizar a distribuição das recompensas de infusão entre si.
@@ -534,7 +534,7 @@ Para realizar isso, cada equipe (ou equipes) poderia criar sua própria organiza
 Acreditamos que "forks" são essenciais e amplamente subutilizados.
 "Forks" podem ser uma ferramenta eficaz para desenvolver pacotes que competem em funcionalidade, desempenho, segurança e até mesmo atenção.
 Por mais úteis que possam ser, os "forks" devem reconhecer os esforços originais.
-Através de trabalho futuro ou contribuições potenciais, a comunidade tea pode aprimorar o sistema para exigir que os "forks" sejam declarados, talvez até detectados quando um pacote é submetido.
+Por meio de trabalho futuro ou contribuições potenciais, a comunidade tea pode aprimorar o sistema para exigir que os "forks" sejam declarados, talvez até detectados quando um pacote é submetido.
 "Forks" não declarados revelados por tea tasters podem resultar em uma parte dos tokens infundidos sendo cortados, transferidos para o mantenedor original do pacote e enviados aos tea tasters que revelaram o "fork"
 
 ## Dependências de Tempo de Compilação vs. Dependências de Tempo de Execução
