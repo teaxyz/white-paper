@@ -43,9 +43,9 @@ At tea, we’ve seen too many open-source projects suffering from these failed a
 
 In this paper, we propose tea — a decentralized system for
 
-1. computing and assigning a “[Proof of Contribution](white-paper.md#proof-of-contribution)” to every open-source project relative to the entire ecosystem,
-2. ensuring open-source software projects are well maintained,
-3. empowering open-source developers with equitable rewards proportionate to their ecosystem-wide contributions, achieved through the implementation of the tea incentive algorithm across every entry in the tea registry, and
+1. computing and assigning a “[Proof of Contribution](white-paper.md#proof-of-contribution)” to every open-source project relative to the entire ecosystem.
+2. ensuring open-source software projects are well maintained.
+3. empowering open-source developers with equitable rewards proportionate to their ecosystem-wide contributions, achieved through the implementation of the tea incentive algorithm across every entry in the tea registry.
 4. incentivizing network participants to follow responsible disclosure practices for vulnerabilities and bugs.
 
 ## Components
